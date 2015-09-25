@@ -3,6 +3,7 @@ BORIS user guide
 ****************
 
 .. contents::
+   :depth: 2
 
 Legal
 =====
@@ -697,7 +698,7 @@ You can activate the frame-by-frame mode by selecting the *Allow the frame-by-fr
 Example for Microsoft-Windows:
 
 
-C:\Users\User\ffmpeg\ffmpeg.exe
+``C:\Users\User\ffmpeg\ffmpeg.exe``
 
 
 
