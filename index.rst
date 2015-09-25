@@ -537,7 +537,7 @@ Coding maps
 ===========
 
 
-Coding maps are a bitmap images with user-defined clickable areas. BORIS allows creating a coding map using the *Map creator* tool (*Tools* > *Map creator*). Clickable areas may correspond to specific features that can be meaningful for the behavioral coding. Facial expression is the case we thought to when developing this function.
+A coding map is a bitmap image with user-defined clickable areas. BORIS allows creating a coding map using the **Map creator** tool (**Tools** > **Map creator**). Clickable areas may correspond to specific modifiers that can be meaningful for the behavioral coding. Facial expression is the case we thought to when developing this function.
 
 
 
@@ -573,7 +573,7 @@ The drawing tool allows defining a irregular polygon (a plane shape with straigh
 does not have all sides equal and all angles equal) by clicking to determine subsequent vertices. 
 It can be convex or concave. Straight sides must not cross each other. Once selected an area can be 
 deleted using the **Delete area** button. When an area is closed and its name has been defined in 
-the **Area code** field, it can be saved by using the *Save area* button.
+the **Area code** field, it can be saved by using the **Save area** button.
 The areas can partially overlap each other. See the **Using a Coding map** section for more details.
 Once all areas are added the entire map can be saved using the **Save map** option menu 
 (**Map creator** > **Save map**). The map is now saved in its own file (.boris_map) which is not part of the BORIS project. 
