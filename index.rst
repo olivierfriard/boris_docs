@@ -2,8 +2,15 @@
 BORIS user guide
 ****************
 
+
+.. image:: logo_boris_500px.png
+
+
 .. contents::
    :depth: 2
+
+
+
 
 Legal
 =====
