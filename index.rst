@@ -327,8 +327,8 @@ When looking at the BORIS main window, the window title bar shows the **Observat
 The media (the first in the queue) will be loaded in the media player and paused. 
 
 
-Media controls are available in the upper left toolbar. 
--------------------------------------------------------
+Media controls are available in the upper left toolbar
+------------------------------------------------------
 
 .. image:: toolbar.png
    :alt: Media control toolbar
@@ -370,8 +370,8 @@ The media can be controlled by special keyboard keys:
 * **ESC**: switch between VLC and frame-by-frame mode
 
 
-*Ethogram* widget in the main window 
-------------------------------------
+**Ethogram** widget in the main window
+----------------------------------------
 
 
 .. image:: main_window_ethogram.png
@@ -384,7 +384,7 @@ The **Ethogram** widget provide the user with the list of behaviors defined in t
 
  
 **Subjects** widget in the main window
--------------------------------------
+---------------------------------------
 
 .. image:: main_window_subjects.png
    :alt: Subjects list widget in main window
@@ -407,8 +407,8 @@ The **Media player** widget has two controls: the media position (horizontal sli
 
 
 
-**Events** widget in the main window 
------------------------------------
+**Events** widget in the main window
+-------------------------------------
 
 
 .. image:: main_window_events.png
@@ -429,8 +429,13 @@ The **Events** widget shows all the recorded behaviors with the following parame
 A double-click on a row will reposition the media player to the moment of the corresponding event.
 See **Time offset for video/audio reposition** in Preferences window to customize the time offset for media repositioning.
 
+
+
+
 Record an event
 ---------------
+
+
 
 Once ready to begin your coding, you can start the media player using the **Play** button (or the Space bar).
 The behaviors can be recorded using the keyboard with the predefined keys (or by double-clicking the correspond rows in the **Ethogram** widget). 
@@ -468,9 +473,9 @@ The *Observations* > *Add event* menu option allows adding a new event by specif
 
 
 
-
 Frame-by-frame mode
--------------------
+--------------------
+
 
 .. note:: The frame-by-frame mode must be turned on in the Preferences window (**File** > **Preferences** > **Frame-by-frame mode**).
     See Frame-by-frame mode preferences for details.
@@ -511,7 +516,7 @@ To return in the VLC mode press again the frame-by-frame button in the toolbar.
 
 
 Docking
--------
+--------
 
 All widgets, including the media player can be undocked from the main window and positioned where you prefer (e.g. they can be on the same desktop over one or two screens).
 
@@ -553,6 +558,7 @@ If the size of your bitmap image is bigger than 512 x 512 pixels BORIS will resi
 Adding areas to a coding map
 ............................
 
+
 To create clickable areas on a coding map, you have to click on the **New area** button and enter 
 an **Area code** in the edit box. The new area can now be defined by clicking on the image. 
 The drawing tool allows defining a irregular polygon (a plane shape with straight sides, which 
@@ -586,6 +592,7 @@ Analysis
 
 Time budget
 ------------
+
 
 The **Analyze** > **Time budget** menu option shows the time budget for the events of one or more observations. 
 You must first select the subjects and behaviors you want to include in the time budget analysis:
@@ -674,7 +681,7 @@ General preferences
 
 
 Frame-by-frame mode
--------------------
+--------------------
 
 .. image:: preferences2.png
    :alt: Preferences frame-by-frame tab
