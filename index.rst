@@ -223,6 +223,8 @@ existing BORIS project using the **Import Subjects from a BORIS project**.
 
 
 
+.. _independent variables:
+
 Define the Independent variables
 --------------------------------
 
@@ -284,8 +286,9 @@ Remove an observation
 Create a new observation
 ========================
 
-To create a new observation you must first link:#create-a-new-project-with-boris[create a new project] 
-or link:BORIS-v.-2-user-guide#open-an-existing-project-with-boris[open an existing project].
+To create a new observation you must first `Create a new project with BORIS`_
+or `Open an existing project with BORIS`_.
+
 
 Clicking on **Observations** > **New observation** will show the **New observation** window.
 
@@ -298,12 +301,12 @@ This window allow adding various observation data:
 
 * a mandatory **Observation id** (must be unique across all observations);
 * **Date**, which will be automatically set on the current date and time, but you can alternatively set this info on your media date and time, or whatever you prefer. 
-* **Description**, which can host all the relevant information about your observation(s), but can be also left empty.
-* **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project). See the **Independent variables** section for details.
+* **Description**, which can host all the relevant information about your observation, but can be also left empty.
+* **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project). See the  `independent variables`_ section for details.
 * **Time offset**. BORIS allow specifying a time offset that can be added or subtracted from the media timecode.
 
 
-You can then choose between the *Media tab* and the **Live tab**.
+You can then choose between the **Media tab** and the **Live tab**.
 Use the **Media tab** to code pre-recorded media (videos or audios) and the **Live tab** to code live observations.
 
 
@@ -314,14 +317,28 @@ Media tab
 
 .. image:: new_observation_playlist.png
    :alt: Playlist
-   :width: 1200px
+   :width: 60%
 
-In the **Media tab** there are two playlists. In the **Media file paths** playlist you can add one or more media files using the **Add media** button. 
+In the **Media tab** there are two playlists. In the **Media file paths** playlist you can add one or more media files using the **Add media** button.
+The media will be played for few seconds in order to extract media parameters like media length and the number of frames by second (to enable the frame-by-frame mode).
+
+.. note:: If the media length and/or the number of frames by second are not available and if FFmpeg is available, BORIS will ask you for an accurate analysis of the selected media (duration about 1 minute).
+
+
 The **Remove media** button can be used to remove the selected media files.
-All the media types reported at http://www.videolan.org/vlc/features.html can be played in BORIS.
-The media queued in the *Media file paths* will be played sequentially. This means that an event occurring at time _t~x~_ in the media file queued as second (e.g. second_video.mp4) in the playlist will be scored as happening at time _t~1~_+_t~x~_ (where t1 is the duration of the first media file, e.g. first_video.mp4).
 
-BORIS also allows simultaneous playback of two media recorded independently (e.g. videos recorded from different points in a room; or a video and an audio recording of the same observation). The videos to be played simultaneously can be loaded in the *Media file paths for second player* playlist. In this case only one video per playlist is accepted. 
+
+All the media types reported at http://www.videolan.org/vlc/features.html can be played in BORIS.
+The media queued in the *Media file paths* will be played sequentially.
+This means that an event occurring at time t\ :sub:`x`\  in the media file queued as second (e.g. second_video.mp4)
+in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media file, e.g. first_video.mp4).
+
+BORIS also allows simultaneous playback of two media recorded independently
+(e.g. videos recorded from different points in a room; or a video and an audio recording of the same observation).
+The videos to be played simultaneously can be loaded in the **Media file paths for second player** playlist.
+In this case only one video per playlist is accepted.
+If the two media are not synchronised you can specify a time offset for the second player.
+
 
 Click OK to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window. 
 
@@ -351,15 +368,15 @@ Key to the symbols:
 
 * **Rewind** reset your media at the beginning
 
-* **Fast backward** jumps for n seconds backward in your media (See link:BORIS-v.-2-user-guide#preferences[Preferences] to set n)
+* **Fast backward** jumps for n seconds backward in your media (See `general preferences`_ to set n)
 
-* **Fast forward** jumps for n seconds forward in your media (See link:BORIS-v.-2-user-guide#preferences[Preferences] to set n)
+* **Fast forward** jumps for n seconds forward in your media (See `general preferences`_ to set n)
 
 * **Set the playback at speed 1x**
 
-* **Increase playback speed** (See link:BORIS-v.-2-user-guide#preferences[Preferences] to set the step value)
+* **Increase playback speed** (See `general preferences`_ to set the step value)
 
-* **Decrease playback speed** (See link:BORIS-v.-2-user-guide#preferences[Preferences] to set the step value)
+* **Decrease playback speed** (See `general preferences`_ to set the step value)
 
 * **Jump to the previous media file**
 
@@ -386,7 +403,10 @@ The media can be controlled by special keyboard keys:
    :alt: Ethogram widget in main window
    :width: 80%
 
-The **Ethogram** widget provide the user with the list of behaviors defined in the **Ethogram**. It can be used to record an event by double clicking on the corresponding row. The **Key** column indicates the keyboard key assigned to each behavior (if any). Pressing a key will record the corresponding behavior (that will appear in the *Events* widget). 
+The **Ethogram** widget provide the user with the list of behaviors defined in the **Ethogram**.
+It can be used to record an event by double clicking on the corresponding row.
+The **Key** column indicates the keyboard key assigned to each behavior (if any).
+Pressing a key will record the corresponding behavior (that will appear in the *Events* widget). 
 
 
 
@@ -398,7 +418,9 @@ The **Ethogram** widget provide the user with the list of behaviors defined in t
    :alt: Subjects list widget in main window
    :width: 60%
 
-The *Subjects* widget provide the user with the list of subjects defined in the **Subject** tab in the **Project** window. It can be used to add information about the focal subject on the recorded behaviors by double clicking on the corresponding row. When a subject is selected his/her name appears above the media player. The *Key* column indicates the keyboard key assigned to each subject (if any).
+The **Subjects** widget provide the user with the list of subjects defined in the **Subject** tab in the **Project** window.
+It can be used to add information about the focal subject on the recorded behaviors by double clicking on the corresponding row.
+When a subject is selected his/her name appears above the media player. The **Key** column indicates the keyboard key assigned to each subject (if any).
 
 
 
@@ -410,7 +432,9 @@ The *Subjects* widget provide the user with the list of subjects defined in the 
    :alt: Media player in main window
    :width: 1200px
 
-The **Media player** widget has two controls: the media position (horizontal slide bar) and the audio volume (vertical slide bar) provide the user with the list of subjects defined in the *Subject* tab in the *Project* window. The horizontal slide bar can be used to navigate the media file.
+The **Media player** widget has two controls: the media position (horizontal slide bar) and the audio volume (vertical slide bar)
+provide the user with the list of subjects defined in the **Subject** tab in the **Project** window.
+The horizontal slide bar can be used to navigate the media file.
 
 
 
@@ -434,8 +458,11 @@ The **Events** widget shows all the recorded behaviors with the following parame
 * **modifier**, indicates the modifier(s) that was(ere) selected (if any);
 * **comment**, is an open field where the user can add notes.
 
+A tracking cursor (red triangle) will show the current event. This cursor can be positioned above the current event,
+see `tracking cursor position`_ option in Preferences window.
+
 A double-click on a row will reposition the media player to the moment of the corresponding event.
-See **Time offset for video/audio reposition** in Preferences window to customize the time offset for media repositioning.
+See `Time offset for media reposition`_ in Preferences window to customize the time offset for media repositioning.
 
 
 
@@ -537,8 +564,10 @@ Coding maps
 ===========
 
 
-A coding map is a bitmap image with user-defined clickable areas. BORIS allows creating a coding map using the **Map creator** tool (**Tools** > **Map creator**). Clickable areas may correspond to specific modifiers that can be meaningful for the behavioral coding. Facial expression is the case we thought to when developing this function.
-
+A coding map is a bitmap image with user-defined clickable areas.
+BORIS allows creating a coding map using the **Map creator** tool (**Tools** > **Map creator**).
+Clickable areas may correspond to specific modifiers that can be meaningful for the behavioral coding.
+Facial expression is the case we thought to when developing this function.
 
 
 Creating a coding map
@@ -577,7 +606,7 @@ the **Area code** field, it can be saved by using the **Save area** button.
 The areas can partially overlap each other. See the **Using a Coding map** section for more details.
 Once all areas are added the entire map can be saved using the **Save map** option menu 
 (**Map creator** > **Save map**). The map is now saved in its own file (.boris_map) which is not part of the BORIS project. 
-A map can be edited at anytime by opening the map file from the *Open map* menu option (**Map creator** > **Open map**).
+A map can be edited at anytime by opening the map file from the **Open map** menu option (**Map creator** > **Open map**).
 
 
 
@@ -607,7 +636,7 @@ You must first select the subjects and behaviors you want to include in the time
 
 .. image:: time_budget_parameters.png
    :alt: Time budget
-   :width: 60%
+   :width: 40%
 
 
 You can choose to select or not the behavior modifiers (if any) and to exclude behaviors without coded events.
@@ -616,8 +645,12 @@ You can choose to select or not the behavior modifiers (if any) and to exclude b
    :alt: Time budget
    :width: 80%
 
+
+The percent of total time will be calculated (if available). The total time is intended as the total media length.
+
 The time budget results can be exported in various formats: TSV, CSV for plain text file or Microsoft Excel (XLS), 
 Open Document Spreadsheet (ODS) in order to be further analyzed.
+
 
 
 
@@ -652,6 +685,7 @@ You can customize BORIS using the Preferences window (**File** > **Preferences**
 
 
 
+.. _general preferences:
 
 General preferences
 -------------------
@@ -667,6 +701,8 @@ General preferences
 **Fast forward/backward speed (seconds)**
     This option allows the user to customize the amount of time for "jumping" forward or backward in media.
 
+.. _Time offset for media reposition:
+
 **Time offset for media reposition (seconds)**
     This value indicates the time offset for repositioning the media after double-click on a row event of the *Events* table.
     'for example -4 seconds indicates that after a double-click the media will be repositioned 4 seconds before the recorded event.'
@@ -681,11 +717,16 @@ General preferences
     Activate a sound signal after every keypress event
     
 **Embed media player**
-    This option allows the user to detach from the main window or embed the media player in the main window. +
+    This option allows the user to detach from the main window or embed the media player in the main window. 
     On Mac OS X the media player can not be detached from main window.
 
 **Alert if focal subject is not set**
     If this option is activated BORIS will show an alert box if no focal subject is selected
+
+.. _tracking cursor position:
+
+**Tracking cursor above current event**
+    Check this box to position the tracking cursor above the current event in events list table.
 
 
 Frame-by-frame mode
@@ -707,7 +748,7 @@ Example for Microsoft-Windows:
 
 ``C:\Users\User\ffmpeg\ffmpeg.exe``
 
-
+.. important:: Do not use **avconv** in place of ffmpeg!
 
 **FFmpeg cache directory**
     This indicates the directory that will be used as image cache for frame-by-frame mode.
