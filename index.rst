@@ -6,6 +6,8 @@ BORIS user guide
 .. image:: logo_boris_500px.png
 
 
+version 2.61
+
 .. contents::
    :depth: 2
 
@@ -27,7 +29,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 `GNU General Public License <http://www.gnu.org/copyleft/gpl.html>`_ for more details.
 
 
-Install BORIS 
+Install BORIS
 =============
 
 BORIS can be installed following instructions on the BORIS site at `download page <http://penelope.unito.it/boris?page=download>`_
@@ -41,7 +43,7 @@ the `VLC Media Player <http://www.videolan.org/vlc>`_    from the VideoLAN Organ
 
 The frame-by-frame mode requires the open source FFmpeg multimedia framework. This framework can be installed for Linux,
 Microsoft(TM)-Windows(R) and Mac OS X from https://www.ffmpeg.org.
- 
+
 .. important:: Do not use **avconv** in place of ffmpeg!
 
 
@@ -53,9 +55,9 @@ Start BORIS following instructions on the BORIS site.
 When launching BORIS for the first time it may take some time to show up. Please be patient!
 
 
-.. warning:: On Mac OS X 10.9, launching can be stopped according to the **Security & Privacy** settings of your computer. 
-   They can be changed opening **System Preferences...** > **Security & Privacy** > **General** and 
-   selecting the option **Anywhere** in the frame **Allow apps downloaded from**. Alternatively you can repeat the 
+.. warning:: On Mac OS X 10.9, launching can be stopped according to the **Security & Privacy** settings of your computer.
+   They can be changed opening **System Preferences...** > **Security & Privacy** > **General** and
+   selecting the option **Anywhere** in the frame **Allow apps downloaded from**. Alternatively you can repeat the
    operation right-clicking on the BORIS icon and then clicking **Open** in the following two dialog boxes.
 
 
@@ -65,17 +67,17 @@ When launching BORIS for the first time it may take some time to show up. Please
 Create a new project with BORIS
 ===============================
 
-A BORIS project file is a container for all information related to a set of observations as the ethogram, the independent variables, and the subjects. 
+A BORIS project file is a container for all information related to a set of observations as the ethogram, the independent variables, and the subjects.
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
 
 
 
 To create a new project, under the menu **File** , select **New project**.
-You can determine your project name by writing in the **Project name** field in the **Information** tab. Once the project will be saved, 
+You can determine your project name by writing in the **Project name** field in the **Information** tab. Once the project will be saved,
 the **Project file path** will show the full path to your project file.
-**Date** will automatically set on the current date and time, but you can alternatively set this info on your media date and time, 
-or whatever you prefer. **Description** can host all the relevant information about your project, can be also left empty. 
-**Time format** can be alternatively set to **seconds** or to **hh:mm:ss.mss**. This choice can be changed at anytime 
+**Date** will automatically set on the current date and time, but you can alternatively set this info on your media date and time,
+or whatever you prefer. **Description** can host all the relevant information about your project, can be also left empty.
+**Time format** can be alternatively set to **seconds** or to **hh:mm:ss.mss**. This choice can be changed at anytime
 under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > **Default project time format**.
 
 
@@ -103,15 +105,15 @@ Switching to the **Ethogram** tab, you can alternatively:
 Set your ethogram from scratch
 ..............................
 
-Clicking on the **Add behavior** button you can add a new row in the *Ethogram* table and behavior type will be automatically set to **Point event**. 
-You can switch between **State event** and *Point event* at your convenience from the **Behavior type** column. You can also add a **Coding map** to 
-either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; see the "Coding map" section for details). 
+Clicking on the **Add behavior** button you can add a new row in the *Ethogram* table and behavior type will be automatically set to **Point event**.
+You can switch between **State event** and *Point event* at your convenience from the **Behavior type** column. You can also add a **Coding map** to
+either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; see the "Coding map" section for details).
 
-An existing behavior can be duplicated using the **Clone behavior** button. Its code have then to be changed. On a selected behavior, click on 
-the **Remove behavior** button to remove. The **Remove all behaviors** button will clear the **Ethogram** table. Both the above-mentioned operations 
+An existing behavior can be duplicated using the **Clone behavior** button. Its code have then to be changed. On a selected behavior, click on
+the **Remove behavior** button to remove. The **Remove all behaviors** button will clear the **Ethogram** table. Both the above-mentioned operations
 must be confirmed when prompted.
 
-Behavioral codes (**Code** column) can be sorted alphabetically by checking the **Alphabetical order** checkbox. Alternatively they can be sorted 
+Behavioral codes (**Code** column) can be sorted alphabetically by checking the **Alphabetical order** checkbox. Alternatively they can be sorted
 manually by using the **Move up** and **Move down** buttons.
 
 
@@ -122,24 +124,24 @@ manually by using the **Move up** and **Move down** buttons.
 Set keys and codes
 ~~~~~~~~~~~~~~~~~~
 
-For each behavior you have to set a keyboard key (**Key** column) that will be then used to code the behavioral events. 
-You can choose whether you want to set a unique key for each behavior or use the same key for more than one behavior. 
-In the case you set the same key for more than a behavior, BORIS will pause your coding and ask which of the behavior 
+For each behavior you have to set a keyboard key (**Key** column) that will be then used to code the behavioral events.
+You can choose whether you want to set a unique key for each behavior or use the same key for more than one behavior.
+In the case you set the same key for more than a behavior, BORIS will pause your coding and ask which of the behavior
 you want to record. The keys are case-insensitive.
 
 
 .. important:: Do not use the / and * keys! They are reserved for the frame-by-frame mode.
 
 
-In the **Code** column, you have to add a unique code for each behavior. Duplicated codes are not accepted and 
-BORIS will warn in red about duplicates on the bottom left of the *Ethogram* tab. The code can be an alphanumeric 
-string (which must not include the pipe character **|** ). 
+In the **Code** column, you have to add a unique code for each behavior. Duplicated codes are not accepted and
+BORIS will warn in red about duplicates on the bottom left of the *Ethogram* tab. The code can be an alphanumeric
+string (which must not include the pipe character **|** ).
 
-The **Description** of your behavior is optional. The **Description** column can be useful to add information 
-about a specific behavior, its characteristics (e.g. to standardise observation between different users) or to 
+The **Description** of your behavior is optional. The **Description** column can be useful to add information
+about a specific behavior, its characteristics (e.g. to standardise observation between different users) or to
 refer to external information (e.g. reference to a previous ethogram).
 
-The following three columns (**Modifiers**, **Exclusion**, **Coding map**) cannot be edited from the **Ethogram** table. 
+The following three columns (**Modifiers**, **Exclusion**, **Coding map**) cannot be edited from the **Ethogram** table.
 
 
 
@@ -149,10 +151,10 @@ The following three columns (**Modifiers**, **Exclusion**, **Coding map**) canno
 Set the modifiers
 ~~~~~~~~~~~~~~~~~
 
-A modifier can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached 
-(e.g. "play" may have "solitary" or "social" as modifiers). The use of modifiers can be convenient to significantly 
-reduce the number of keys and simplify the behavioral coding. In BORIS modifiers can also be added in different modifier 
-sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and another (#2) for "sisters"]. In the case of 
+A modifier can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached
+(e.g. "play" may have "solitary" or "social" as modifiers). The use of modifiers can be convenient to significantly
+reduce the number of keys and simplify the behavioral coding. In BORIS modifiers can also be added in different modifier
+sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and another (#2) for "sisters"]. In the case of
 using sets of modifiers, you can attach one modifier for each set.
 
 .. image:: modifiers-1.6.png
@@ -160,34 +162,56 @@ using sets of modifiers, you can attach one modifier for each set.
    :alt: modifiers configuration
 
 
-To add a modifier, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to. 
-When the **Modifiers** window is open you can add and remove sets using the buttons **Add set of modifiers** and **Remove set of modifiers**. 
-Within a set of modifiers, you can add and remove modifiers using the *Modifier* field and clicking on the "right-arrow" button (to add) and 
-the **Remove modifier** button (to remove). The selected modifier can be edited using the left-arrow button. The **Keyboard code** box can be 
-used to set a key for the modifier. Click *OK* to save modifiers in the **Ethogram** table.
+To add a modifier, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
+When the **Modifiers** window is open you can add and/or remove sets using the buttons **Add set of modifiers** and **Remove set of modifiers**.
+Within a set of modifiers, you can add and remove modifiers using the **Modifier** field and clicking on the **right-arrow** button (to add) and
+the **Remove modifier** button (to remove). The selected modifier can be edited using the left-arrow button. The **Key code** box can be
+used to set a key for the modifier. Click **OK** to save modifiers in the **Ethogram** table.
 
 
 
 Set the exclusion matrix
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The occurrence of a **State event** can exclude the occurrence of another state event. This can be set using the **Behaviors exclusion matrix** window, which can be 
-opened clicking on the **Exclusion matrix** button. Mutually exclusive behavior may be selected by checking on the corresponding cell in the automatically-generated 
+The occurrence of an event (State or Point) can exclude the occurrence of a state event.
+This can be set using the **Behaviors exclusion matrix** window, which can be
+opened clicking on the **Exclusion matrix** button.
+BORIS will ask for including **Point events** or not and a new **Exclusion matrix** window will open.
+
+Exclusive behavior may be selected by checking on the corresponding cell in the automatically-generated
 matrix. We suggest to work on the **Exclusion matrix** when all the behaviors have been added to your ethogram.
 
+For example, for the following ethogram:
+
+
+.. image:: exclusion_matrix0.png
+   :width: 80%
+   :alt: Ethogram window
+
+
+The **Exclusion matrix** could be:
+
+
 .. image:: exclusion_matrix.png
-   :width: 100%
+   :width: 40%
    :alt: Exclusion matrix window
 
 
+
+* the behavior **a** (Point event) will exclude the behavior **c** (State event) but not **d** (State event)
+* the behavior **b** (Point event) will exclude the behavior **d** but not **c**
+* the behavior **d** (State event) will exclude the behavior **c**
+
+
+During the observation, the excluding event will stop all the current excluded state events one millisecond before the occurence of the event.
 
 
 Import a coding scheme from an existing project
 ...............................................
 
 
-Behaviors within an ethogram can be imported from an existing BORIS project (.boris) using the **Import behaviours from a BORIS project** button. 
-BORIS will ask to select a BORIS project file and whether imported behaviors should replace or be appended to the **Ethogram** table. 
+Behaviors within an ethogram can be imported from an existing BORIS project (.boris) using the **Import behaviours from a BORIS project** button.
+BORIS will ask to select a BORIS project file and whether imported behaviors should replace or be appended to the **Ethogram** table.
 Imported behaviors will retain all the previously defined behavior parameters (namely Behavior type, Key, Code, Description, Modifiers and Exclusion information).
 
 
@@ -196,8 +220,8 @@ Import an ethogram from a JWatcher global definition file (.gdf).
 .................................................................
 
 
-Behaviors can also be imported from a JWatcher global definition file (.gdf) using the **Import behaviours from JWatcher** button. 
-BORIS will ask to select a JWatcher file (.gdf) and whether imported behaviors should replace or be appended to the **Ethogram** table. 
+Behaviors can also be imported from a JWatcher global definition file (.gdf) using the **Import behaviours from JWatcher** button.
+BORIS will ask to select a JWatcher file (.gdf) and whether imported behaviors should replace or be appended to the **Ethogram** table.
 Behavior type and exclusion information for the behaviours imported from JWatcher have to be redefined.
 
 
@@ -212,13 +236,13 @@ Define the subjects
    :alt: Subjects definition
 
 
-BORIS allow coding behaviors for different subjects within a single observation. 
-The **Subject** table allows specifying subjects using a **Key** (e.g. the "K" on your keyboard), **Subject name** (e.g. "Kanzi"), 
-**Description** (e.g. male, born October 28 - 1980). In this case, pressing "K" will set "Kanzi" as the focal subject 
-of the behavioural coding. Pressing "K" again will deselect "Kanzi" and set to "no focal subject". 
-The definition of one or more subjects is not mandatory. Addition, removal and sorting of the subjects follows the same 
-logic of the *Ethogram* table (see **Set your ethogram from scratch** for info). The subjects can also be imported from an 
-existing BORIS project using the **Import Subjects from a BORIS project**. 
+BORIS allow coding behaviors for different subjects within a single observation.
+The **Subject** table allows specifying subjects using a **Key** (e.g. the "K" on your keyboard), **Subject name** (e.g. "Kanzi"),
+**Description** (e.g. male, born October 28 - 1980). In this case, pressing "K" will set "Kanzi" as the focal subject
+of the behavioural coding. Pressing "K" again will deselect "Kanzi" and set to "no focal subject".
+The definition of one or more subjects is not mandatory. Addition, removal and sorting of the subjects follows the same
+logic of the *Ethogram* table (see **Set your ethogram from scratch** for info). The subjects can also be imported from an
+existing BORIS project using the **Import Subjects from a BORIS project**.
 
 
 
@@ -233,14 +257,14 @@ Define the Independent variables
    :width: 100%
 
 
-BORIS allows adding information about the observation using **Independent variables**. 
-This can be used to specify factors that may influence the behaviors (e.g. group 
-composition, temperature, weather conditions) but will not change during a single 
-observation within a project. Each *Independent variable* can be defined by **Label** (e.g. weather), 
-**Description** (e.g. weather conditions), **Type** (e.g. **text** for weather condition "sunny", **numeric** for temperatures). 
-A value for each **Independent variable** will be requested when creating a new observation. 
-Addition, removal and sorting of the independent variables follows the same logic of the **Ethogram** table 
-(see **Set your ethogram from scratch** for info). 
+BORIS allows adding information about the observation using **Independent variables**.
+This can be used to specify factors that may influence the behaviors (e.g. group
+composition, temperature, weather conditions) but will not change during a single
+observation within a project. Each *Independent variable* can be defined by **Label** (e.g. weather),
+**Description** (e.g. weather conditions), **Type** (e.g. **text** for weather condition "sunny", **numeric** for temperatures).
+A value for each **Independent variable** will be requested when creating a new observation.
+Addition, removal and sorting of the independent variables follows the same logic of the **Ethogram** table
+(see **Set your ethogram from scratch** for info).
 The independent variables can also be imported from an existing BORIS project using the **Import Variables from a BORIS project**.
 
 
@@ -250,18 +274,18 @@ Observations' tab
 -----------------
 
 
-The **Observations** table in BORIS shows information about all the previous observations within a project. 
-A selected "Observation" can be removed using the "Remove observation" button (you will be prompted for confirmation). 
-This operation cannot be undone and deleted observations cannot be recovered once the project is saved. 
+The **Observations** table in BORIS shows information about all the previous observations within a project.
+A selected "Observation" can be removed using the "Remove observation" button (you will be prompted for confirmation).
+This operation cannot be undone and deleted observations cannot be recovered once the project is saved.
 The **Observations** table shows four columns **id** **Date** **Description** **Media**.
 
 
 Open an existing project with BORIS
 ===================================
 
-To open an existing BORIS project, under the menu **File** , select **Open project**. 
-A BORIS project file is a container for all information related to a set of observations as the ethogram, 
-the independent variables, and the subjects. BORIS allows creating an unlimited number of projects but 
+To open an existing BORIS project, under the menu **File** , select **Open project**.
+A BORIS project file is a container for all information related to a set of observations as the ethogram,
+the independent variables, and the subjects. BORIS allows creating an unlimited number of projects but
 only one project can be opened at a time.
 
 
@@ -300,7 +324,7 @@ Clicking on **Observations** > **New observation** will show the **New observati
 This window allow adding various observation data:
 
 * a mandatory **Observation id** (must be unique across all observations);
-* **Date**, which will be automatically set on the current date and time, but you can alternatively set this info on your media date and time, or whatever you prefer. 
+* **Date**, which will be automatically set on the current date and time, but you can alternatively set this info on your media date and time, or whatever you prefer.
 * **Description**, which can host all the relevant information about your observation, but can be also left empty.
 * **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project). See the  `independent variables`_ section for details.
 * **Time offset**. BORIS allow specifying a time offset that can be added or subtracted from the media timecode.
@@ -340,7 +364,7 @@ In this case only one video per playlist is accepted.
 If the two media are not synchronised you can specify a time offset for the second player.
 
 
-Click OK to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window. 
+Click OK to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
 
 
 
@@ -348,8 +372,8 @@ Click OK to start coding. The **Observation** window will be closed and you'll b
 Coding your media
 =================
 
-When looking at the BORIS main window, the window title bar shows the **Observation id** - **Project name** - **BORIS**. 
-The media (the first in the queue) will be loaded in the media player and paused. 
+When looking at the BORIS main window, the window title bar shows the **Observation id** - **Project name** - **BORIS**.
+The media (the first in the queue) will be loaded in the media player and paused.
 
 
 Media controls are available in the upper left toolbar
@@ -360,7 +384,7 @@ Media controls are available in the upper left toolbar
    :width: 80%
 
 
-Key to the symbols: 
+Key to the symbols:
 
 * **Play**
 
@@ -406,11 +430,11 @@ The media can be controlled by special keyboard keys:
 The **Ethogram** widget provide the user with the list of behaviors defined in the **Ethogram**.
 It can be used to record an event by double clicking on the corresponding row.
 The **Key** column indicates the keyboard key assigned to each behavior (if any).
-Pressing a key will record the corresponding behavior (that will appear in the *Events* widget). 
+Pressing a key will record the corresponding behavior (that will appear in the *Events* widget).
 
 
 
- 
+
 **Subjects** widget in the main window
 ---------------------------------------
 
@@ -449,7 +473,7 @@ The horizontal slide bar can be used to navigate the media file.
 
 
 
-The **Events** widget shows all the recorded behaviors with the following parameters (columns): 
+The **Events** widget shows all the recorded behaviors with the following parameters (columns):
 
 * **time**, the time at which the event occurred;
 * **subject**, the focal subject (if any);
@@ -473,7 +497,7 @@ Record an event
 
 
 Once ready to begin your coding, you can start the media player using the **Play** button (or the Space bar).
-The behaviors can be recorded using the keyboard with the predefined keys (or by double-clicking the correspond rows in the **Ethogram** widget). 
+The behaviors can be recorded using the keyboard with the predefined keys (or by double-clicking the corresponding row in the **Ethogram** table).
 
 
 .. image:: ethogram_subjects_widgets.png
@@ -481,22 +505,25 @@ The behaviors can be recorded using the keyboard with the predefined keys (or by
    :width: 60%
 
 
-If the pressed key defines a single event, the corresponding event will be recorded in the *Events* widget.
+If the pressed key defines a single event, the corresponding event will be recorded in the **Events** table.
 In the case you have specified the same key for two (or more) events (e.g. key A in the figure below),
- BORIS will prompt you for the desired behavior.
+BORIS will prompt you for the desired behavior.
 
 
 .. image:: ask_for_code.png
    :alt: Ask for modifiers
-   :width: 50%
+   :width: 40%
 
 
 
-In the case you have specified modifiers, BORIS will prompt you for the desired modifier(s) if any (e.g. key H in the figure below).
+In the case you have specified modifiers, BORIS will prompt you for the desired modifier(s) if any (e.g. **ball** or **opponent** in the figure below).
+You can select the correct one using the mouse or the keyboard ( **b** key or **o** key)
 
 .. image:: ask_for_modifiers.png
    :alt: Ask for modifiers
-   :width: 50%
+   :width: 40%
+
+
 
 
 
@@ -577,10 +604,10 @@ Creating a coding map
 Loading a bitmap for a coding map
 .................................
 
-To create a new coding map, launch the **Map creator** tool (**Tools** > **Map creator**). 
-The BORIS main window will be replaced by the **Map creator** window. Click on **Map creator** > **New Map** and 
-enter a name for the new map in the edit box. You have to load a bitmap image (JPEG or PNG) using the **Load bitmap** button. 
-The loaded image will be displayed. 
+To create a new coding map, launch the **Map creator** tool (**Tools** > **Map creator**).
+The BORIS main window will be replaced by the **Map creator** window. Click on **Map creator** > **New Map** and
+enter a name for the new map in the edit box. You have to load a bitmap image (JPEG or PNG) using the **Load bitmap** button.
+The loaded image will be displayed.
 
 
 .. image:: coding_map.png
@@ -588,7 +615,7 @@ The loaded image will be displayed.
    :width: 80%
 
 
-If the size of your bitmap image is bigger than 512 x 512 pixels BORIS will resize it to 
+If the size of your bitmap image is bigger than 512 x 512 pixels BORIS will resize it to
 512 x 512 keeping the aspect ratio and store the resized version in the coding map file.
 
 
@@ -596,16 +623,16 @@ Adding areas to a coding map
 ............................
 
 
-To create clickable areas on a coding map, you have to click on the **New area** button and enter 
-an **Area code** in the edit box. The new area can now be defined by clicking on the image. 
-The drawing tool allows defining a irregular polygon (a plane shape with straight sides, which 
-does not have all sides equal and all angles equal) by clicking to determine subsequent vertices. 
-It can be convex or concave. Straight sides must not cross each other. Once selected an area can be 
-deleted using the **Delete area** button. When an area is closed and its name has been defined in 
+To create clickable areas on a coding map, you have to click on the **New area** button and enter
+an **Area code** in the edit box. The new area can now be defined by clicking on the image.
+The drawing tool allows defining a irregular polygon (a plane shape with straight sides, which
+does not have all sides equal and all angles equal) by clicking to determine subsequent vertices.
+It can be convex or concave. Straight sides must not cross each other. Once selected an area can be
+deleted using the **Delete area** button. When an area is closed and its name has been defined in
 the **Area code** field, it can be saved by using the **Save area** button.
 The areas can partially overlap each other. See the **Using a Coding map** section for more details.
-Once all areas are added the entire map can be saved using the **Save map** option menu 
-(**Map creator** > **Save map**). The map is now saved in its own file (.boris_map) which is not part of the BORIS project. 
+Once all areas are added the entire map can be saved using the **Save map** option menu
+(**Map creator** > **Save map**). The map is now saved in its own file (.boris_map) which is not part of the BORIS project.
 A map can be edited at anytime by opening the map file from the **Open map** menu option (**Map creator** > **Open map**).
 
 
@@ -615,10 +642,10 @@ A map can be edited at anytime by opening the map file from the **Open map** men
 Adding a coding map to your project
 ....................................
 
-Creating a Coding map is not automatically adding the map to your project. 
-The Coding map have to be added to your project by selecting the corresponding **Behavior type** 
-(**Point event with coding map**, **State event with coding map**). BORIS will ask to select the 
-file name containing the coding map (.boris_map) and load the coding map in the project. 
+Creating a Coding map is not automatically adding the map to your project.
+The Coding map have to be added to your project by selecting the corresponding **Behavior type**
+(**Point event with coding map**, **State event with coding map**). BORIS will ask to select the
+file name containing the coding map (.boris_map) and load the coding map in the project.
 The coding map name will appear in the **Coding map** column and will be saved in the BORIS project file.
 
 NOTE: If you later modify your coding map you must reload the new version in your BORIS project.
@@ -631,7 +658,7 @@ Time budget
 ------------
 
 
-The **Analyze** > **Time budget** menu option shows the time budget for the events of one or more observations. 
+The **Analyze** > **Time budget** menu option shows the time budget for the events of one or more observations.
 You must first select the subjects and behaviors you want to include in the time budget analysis:
 
 .. image:: time_budget_parameters.png
@@ -648,8 +675,8 @@ You can choose to select or not the behavior modifiers (if any) and to exclude b
 
 The percent of total time will be calculated (if available). The total time is intended as the total media length.
 
-The time budget results can be exported in various formats: TSV, CSV for plain text file or Microsoft Excel (XLS), 
-Open Document Spreadsheet (ODS) in order to be further analyzed.
+The time budget results can be saved in various formats for further analysis: TSV, CSV for plain text file or Microsoft Excel (XLS),
+Open Document Spreadsheet (ODS).
 
 
 
@@ -671,7 +698,7 @@ You can choose to select or not the behavior modifiers (if any) and to exclude b
    :alt: plot
    :width: 60%
 
-The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic 
+The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic
 (SVG, PDF, EPS, PS)  (SVG can be edited with Inkscape for example).
 
 
@@ -711,13 +738,13 @@ General preferences
     This value indicate how much the speed will be increased or decreased after pressing the *change playback speed* buttons.
 
 **Automatic backup every (minutes)**
-   if set BORIS will save your project automatically every n minutes. 0 indicate no automatic backup. 
-   
+   if set BORIS will save your project automatically every n minutes. 0 indicate no automatic backup.
+
 **Play sound when a key is pressed**
     Activate a sound signal after every keypress event
-    
+
 **Embed media player**
-    This option allows the user to detach from the main window or embed the media player in the main window. 
+    This option allows the user to detach from the main window or embed the media player in the main window.
     On Mac OS X the media player can not be detached from main window.
 
 **Alert if focal subject is not set**
@@ -752,8 +779,7 @@ Example for Microsoft-Windows:
 
 **FFmpeg cache directory**
     This indicates the directory that will be used as image cache for frame-by-frame mode.
-If you do not specify a path, BORIS will use the default temporary directory of your system.
-
+    If you do not specify a path, BORIS will use the default temporary directory of your system.
 
 **FFmpeg cache directory max size**
     Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
