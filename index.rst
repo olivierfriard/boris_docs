@@ -61,10 +61,10 @@ When launching BORIS for the first time it may take some time to show up. Please
    operation right-clicking on the BORIS icon and then clicking **Open** in the following two dialog boxes.
 
 
-.. warning:: On Microsoft-Windows, launching can be stopped by a **Security warning**: *The publisher can not be verified. ARe you sure you want to run this software?*  Click the **Run** button to launch BORIS.
+.. warning:: On Microsoft-Windows, launching can be stopped by a **Security warning**: *The publisher can not be verified. Are you sure you want to run this software?*  Click the **Run** button to launch BORIS.
 
 
-The first time you will launch BORIS, BORIS will ask you to automatically check for new version. Internet access is required for this feature.
+At the first launch, BORIS will ask you to allow the automatically check for new version. Internet access is required for this feature. If you choose **Yes** BORIS will check for new version about every 15 days.
 
 
 Create a new project with BORIS
