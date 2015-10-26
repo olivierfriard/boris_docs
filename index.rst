@@ -66,8 +66,7 @@ When launching BORIS for the first time it may take some time to show up. Please
 
 At the first launch, BORIS will ask you to allow the automatically check for new version. Internet access is required for this feature.
 If you choose **Yes** BORIS will check for new version about every 15 days.
-This option can be changed on the **Preferences** window.
-`general preferences`_
+This option can be changed on the **Preferences** window (See `general preferences`_)
 
 
 Create a new project with BORIS
