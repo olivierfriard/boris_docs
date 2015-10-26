@@ -6,7 +6,7 @@ BORIS user guide
 .. image:: logo_boris_500px.png
 
 
-version 2.61
+version 2.62
 
 .. contents::
    :depth: 2
@@ -51,7 +51,7 @@ Microsoft(TM)-Windows(R) and Mac OS X from https://www.ffmpeg.org.
 Launch BORIS
 ============
 
-Start BORIS following instructions on the BORIS site.
+Start BORIS by clicking on its icon. For launching BORIS from sources see the BORIS web site.
 When launching BORIS for the first time it may take some time to show up. Please be patient!
 
 
@@ -61,7 +61,10 @@ When launching BORIS for the first time it may take some time to show up. Please
    operation right-clicking on the BORIS icon and then clicking **Open** in the following two dialog boxes.
 
 
+.. warning:: On Microsoft-Windows, launching can be stopped by a **Security warning**: *The publisher can not be verified. ARe you sure you want to run this software?*  Click the **Run** button to launch BORIS.
 
+
+The first time you will launch BORIS, BORIS will ask you to automatically check for new version. Internet access is required for this feature.
 
 
 Create a new project with BORIS
