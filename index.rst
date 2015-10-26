@@ -761,7 +761,7 @@ General preferences
     Check this box to position the tracking cursor above the current event in events list table.
 
 **Check for new version**
-    Check for new version on BORIS web site every 15 days
+    Check for new version on BORIS web site every 15 days (internet access required)
 
 
 Frame-by-frame mode

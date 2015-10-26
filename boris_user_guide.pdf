@@ -536,7 +536,7 @@ endobj
 << /Outlines 139 0 R /PageLabels 200 0 R /PageMode /UseNone /Pages 179 0 R /Type /Catalog >>
 endobj
 138 0 obj
-<< /Author () /CreationDate (D:20151026155557-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate (D:20151026163012-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title (BORIS user guide) >>
 endobj
 139 0 obj
@@ -3642,7 +3642,7 @@ Q
 endstream
 endobj
 199 0 obj
-<< /Length 3194 >>
+<< /Length 3223 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -3654,7 +3654,7 @@ q
 1 0 0 1 20 0 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Check for new version on BORIS web site every 15 days) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Check for new version on BORIS web site every 15 days \(internet access required\)) Tj T* ET
 Q
 Q
 q
@@ -4066,34 +4066,34 @@ xref
 0003508785 00000 n
 0003510540 00000 n
 0003515569 00000 n
-0003518821 00000 n
-0003519079 00000 n
-0003519117 00000 n
-0003519155 00000 n
-0003519193 00000 n
-0003519231 00000 n
-0003519269 00000 n
-0003519307 00000 n
-0003519345 00000 n
-0003519383 00000 n
-0003519421 00000 n
-0003519460 00000 n
-0003519499 00000 n
-0003519538 00000 n
-0003519577 00000 n
-0003519616 00000 n
-0003519655 00000 n
-0003519694 00000 n
-0003519733 00000 n
-0003519772 00000 n
-0003519811 00000 n
+0003518850 00000 n
+0003519108 00000 n
+0003519146 00000 n
+0003519184 00000 n
+0003519222 00000 n
+0003519260 00000 n
+0003519298 00000 n
+0003519336 00000 n
+0003519374 00000 n
+0003519412 00000 n
+0003519450 00000 n
+0003519489 00000 n
+0003519528 00000 n
+0003519567 00000 n
+0003519606 00000 n
+0003519645 00000 n
+0003519684 00000 n
+0003519723 00000 n
+0003519762 00000 n
+0003519801 00000 n
+0003519840 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(.\277d#\203\)i\031]\036\240\200\371?\214\217) (.\277d#\203\)i\031]\036\240\200\371?\214\217)]
+ [(\270W\274\012Y\021\261#\000P\335\217\254\002\204\315) (\270W\274\012Y\021\261#\000P\335\217\254\002\204\315)]
  /Info 138 0 R /Root 137 0 R /Size 221 >>
 startxref
-3519850
+3519879
 %%EOF
 %BeginExifToolUpdate
 137 0 obj
@@ -4109,7 +4109,7 @@ endobj
 138 0 obj
 <<
 /Author (Olivier Friard - Marco Gamba)
-/CreationDate (D:20151026155557-01'00')
+/CreationDate (D:20151026163012-01'00')
 /Creator (\(unspecified\))
 /Keywords ()
 /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -4179,19 +4179,19 @@ xref
 0 1
 0000000000 65535 f
 137 2
-0003524565 00000 n
-0003524703 00000 n
+0003524610 00000 n
+0003524748 00000 n
 221 1
-0003524964 00000 n
+0003525009 00000 n
 trailer
 <<
-/ID [ (.\277d#\203\)i\031]\036\240\200\371?\214\217) (/\277d#\203\)i\031]\036\240\200\371?\214\217) ]
+/ID [ (\270W\274\012Y\021\261#\000P\335\217\254\002\204\315) (]270W\274\012Y\021\261#\000P\335\217\254\002\204\315) ]
 /Info 138 0 R
 /Root 137 0 R
 /Size 222
-/Prev 3519850
+/Prev 3519879
 >>
-%EndExifToolUpdate 3524543
+%EndExifToolUpdate 3524588
 startxref
-3528173
+3528218
 %%EOF
