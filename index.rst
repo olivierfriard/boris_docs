@@ -725,7 +725,7 @@ General preferences
 
 .. image:: preferences1.png
    :alt: Preferences first tab
-   :width: 60%
+   :width: 80%
 
 **Default project time format**
     This option allows the user to choose the format for displaying time in the project. Please note that time is internally always saved in seconds with a precision of 3 decimal digits
