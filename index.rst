@@ -642,7 +642,7 @@ deleted using the **Delete area** button. When an area is closed and its name ha
 the **Area code** field, it can be saved by using the **Save area** button.
 The areas can partially overlap each other. See the **Using a Coding map** section for more details.
 Once all areas are added the entire map can be saved using the **Save map** option menu
-(**Map creator** > **Save map**). The map is now saved in its own file (.boris_map) which is not part of the BORIS project.
+(**Map creator** > **Save map**). The map is now saved in its own file (.boris_map) which is NOT part of the BORIS project.
 A map can be edited at anytime by opening the map file from the **Open map** menu option (**Map creator** > **Open map**).
 
 

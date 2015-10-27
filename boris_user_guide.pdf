@@ -536,7 +536,7 @@ endobj
 << /Outlines 139 0 R /PageLabels 200 0 R /PageMode /UseNone /Pages 179 0 R /Type /Catalog >>
 endobj
 138 0 obj
-<< /Author () /CreationDate (D:20151027120153-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate (D:20151027120345-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title (BORIS user guide) >>
 endobj
 139 0 obj
@@ -3274,7 +3274,7 @@ Q
 q
 1 0 0 1 62.69291 158.2556 cm
 q
-BT 1 0 0 1 0 122 Tm .537988 Tw 12 TL /F1 10 Tf 0 0 0 rg (To create clickable areas on a coding map, you have to click on the ) Tj /F2 10 Tf (New area ) Tj /F1 10 Tf (button and enter an ) Tj /F2 10 Tf (Area) Tj T* 0 Tw .288988 Tw (code ) Tj /F1 10 Tf (in the edit box. The new area can now be defined by clicking on the image. The drawing tool allows) Tj T* 0 Tw .166654 Tw (defining a irregular polygon \(a plane shape with straight sides, which does not have all sides equal and all) Tj T* 0 Tw .978651 Tw (angles equal\) by clicking to determine subsequent vertices. It can be convex or concave. Straight sides) Tj T* 0 Tw .257209 Tw (must not cross each other. Once selected an area can be deleted using the ) Tj /F2 10 Tf (Delete area ) Tj /F1 10 Tf (button. When an) Tj T* 0 Tw .644274 Tw (area is closed and its name has been defined in the ) Tj /F2 10 Tf (Area code ) Tj /F1 10 Tf (field, it can be saved by using the ) Tj /F2 10 Tf (Save) Tj T* 0 Tw .733516 Tw (area ) Tj /F1 10 Tf (button. The areas can partially overlap each other. See the ) Tj /F2 10 Tf (Using a Coding map ) Tj /F1 10 Tf (section for more) Tj T* 0 Tw .968876 Tw (details. Once all areas are added the entire map can be saved using the ) Tj /F2 10 Tf (Save map ) Tj /F1 10 Tf (option menu \() Tj /F2 10 Tf (Map) Tj T* 0 Tw .665988 Tw (creator) Tj /F1 10 Tf ( > ) Tj /F2 10 Tf (Save map) Tj /F1 10 Tf (\). The map is now saved in its own file \(.boris_map\) which is not part of the BORIS) Tj T* 0 Tw .655777 Tw (project. A map can be edited at anytime by opening the map file from the ) Tj /F2 10 Tf (Open map ) Tj /F1 10 Tf (menu option \() Tj /F2 10 Tf (Map) Tj T* 0 Tw (creator) Tj /F1 10 Tf ( > ) Tj /F2 10 Tf (Open map) Tj /F1 10 Tf (\).) Tj T* ET
+BT 1 0 0 1 0 122 Tm .537988 Tw 12 TL /F1 10 Tf 0 0 0 rg (To create clickable areas on a coding map, you have to click on the ) Tj /F2 10 Tf (New area ) Tj /F1 10 Tf (button and enter an ) Tj /F2 10 Tf (Area) Tj T* 0 Tw .288988 Tw (code ) Tj /F1 10 Tf (in the edit box. The new area can now be defined by clicking on the image. The drawing tool allows) Tj T* 0 Tw .166654 Tw (defining a irregular polygon \(a plane shape with straight sides, which does not have all sides equal and all) Tj T* 0 Tw .978651 Tw (angles equal\) by clicking to determine subsequent vertices. It can be convex or concave. Straight sides) Tj T* 0 Tw .257209 Tw (must not cross each other. Once selected an area can be deleted using the ) Tj /F2 10 Tf (Delete area ) Tj /F1 10 Tf (button. When an) Tj T* 0 Tw .644274 Tw (area is closed and its name has been defined in the ) Tj /F2 10 Tf (Area code ) Tj /F1 10 Tf (field, it can be saved by using the ) Tj /F2 10 Tf (Save) Tj T* 0 Tw .733516 Tw (area ) Tj /F1 10 Tf (button. The areas can partially overlap each other. See the ) Tj /F2 10 Tf (Using a Coding map ) Tj /F1 10 Tf (section for more) Tj T* 0 Tw .968876 Tw (details. Once all areas are added the entire map can be saved using the ) Tj /F2 10 Tf (Save map ) Tj /F1 10 Tf (option menu \() Tj /F2 10 Tf (Map) Tj T* 0 Tw .305488 Tw (creator) Tj /F1 10 Tf ( > ) Tj /F2 10 Tf (Save map) Tj /F1 10 Tf (\). The map is now saved in its own file \(.boris_map\) which is NOT part of the BORIS) Tj T* 0 Tw .655777 Tw (project. A map can be edited at anytime by opening the map file from the ) Tj /F2 10 Tf (Open map ) Tj /F1 10 Tf (menu option \() Tj /F2 10 Tf (Map) Tj T* 0 Tw (creator) Tj /F1 10 Tf ( > ) Tj /F2 10 Tf (Open map) Tj /F1 10 Tf (\).) Tj T* ET
 Q
 Q
  
@@ -4096,7 +4096,7 @@ xref
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(\324:\310"Dz\372L\2537Y\236\(\355nK) (\324:\310"Dz\372L\2537Y\236\(\355nK)]
+ [(\306\314z\030]\356\243\212\301\361\2251;tk\300) (\306\314z\030]\356\243\212\301\361\2251;tk\300)]
  /Info 138 0 R /Root 137 0 R /Size 221 >>
 startxref
 3519403
@@ -4115,7 +4115,7 @@ endobj
 138 0 obj
 <<
 /Author (Olivier Friard - Marco Gamba)
-/CreationDate (D:20151027120153-01'00')
+/CreationDate (D:20151027120345-01'00')
 /Creator (\(unspecified\))
 /Keywords ()
 /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -4185,19 +4185,19 @@ xref
 0 1
 0000000000 65535 f
 137 2
-0003524100 00000 n
-0003524238 00000 n
+0003524122 00000 n
+0003524260 00000 n
 221 1
-0003524499 00000 n
+0003524521 00000 n
 trailer
 <<
-/ID [ (\324:\310"Dz\372L\2537Y\236\(\355nK) (]324:\310"Dz\372L\2537Y\236\(\355nK) ]
+/ID [ (\306\314z\030]\356\243\212\301\361\2251;tk\300) (]306\314z\030]\356\243\212\301\361\2251;tk\300) ]
 /Info 138 0 R
 /Root 137 0 R
 /Size 222
 /Prev 3519403
 >>
-%EndExifToolUpdate 3524078
+%EndExifToolUpdate 3524100
 startxref
-3527708
+3527730
 %%EOF
