@@ -550,9 +550,9 @@ Frame-by-frame mode
 You can switch to frame-by-frame mode using the button in the toolbar:
 
 
-.. image:: frame-by-frame_button.png
+.. image:: frame-by-frame_button_on_toolbar.png
    :alt: frame-by-frame_button
-   :width: 120px
+   :width: 50%
 
 
 The video will stop playing and the user will visualize the video frame by frame.
