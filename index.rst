@@ -547,7 +547,7 @@ Frame-by-frame mode
 .. note:: The frame-by-frame mode must be turned on in the Preferences window (**File** > **Preferences** > **Frame-by-frame mode**).
     See Frame-by-frame mode preferences for details.
 
-You can switch to frame-by-frame mode using the button in the toolbar:
+You can switch between play and frame-by-frame modes using the dedicated button in the toolbar:
 
 
 .. image:: frame-by-frame_button_on_toolbar.png
@@ -555,10 +555,12 @@ You can switch to frame-by-frame mode using the button in the toolbar:
    :width: 50%
 
 
-The video will stop playing and the user will visualize the video frame by frame.
+In frame-by-frame mode the video will stop playing and the user will visualize the video frame by frame.
 
 
 The navigation between frames is done using keyboard special keys:
+
+
 **For the both modes** (VLC and frame-by-frame):
 
 * **Page Up** key: switch to the next media
@@ -568,7 +570,7 @@ The navigation between frames is done using keyboard special keys:
 * **ESC**: switch between VLC and frame-by-frame mode
 
 
-Only for the frame-by-frame mode:
+**Only for the frame-by-frame mode**:
 
 * **Left arrow** key: go to the previous frame
 * **Right arrow** key: go to the next frame
