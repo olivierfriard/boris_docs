@@ -587,7 +587,8 @@ To return in the VLC mode press again the frame-by-frame button in the toolbar.
 Docking
 --------
 
-All widgets, including the media player can be undocked from the main window and positioned where you prefer (e.g. they can be on the same desktop over one or two screens).
+All elements, including the media player can be undocked from the main window and positioned where you prefer
+ (e.g. they can be on the same desktop over one or two screens).
 
 .. image:: open_observation_dw.png
    :alt: Undocked widgets
