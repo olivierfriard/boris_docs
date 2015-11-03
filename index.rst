@@ -47,6 +47,7 @@ Microsoft(TM)-Windows(R) and Mac OS X from https://www.ffmpeg.org.
 .. important:: Do not use **avconv** in place of ffmpeg!
 
 
+If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://penelope.unito.it/boris?page=download>`_ from the BORIS site.
 
 Launch BORIS
 ============
