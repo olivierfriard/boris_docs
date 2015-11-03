@@ -700,13 +700,13 @@ You must first select the subjects and behaviors you want to include in the plot
 
 .. image:: time_budget_parameters.png
    :alt: Time budget
-   :width: 60%
+   :width: 50%
 
 You can choose to select or not the behavior modifiers (if any) and to exclude behaviors without coded events.
 
 .. image:: plot_events.png
    :alt: plot
-   :width: 60%
+   :width: 90%
 
 The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic
 (SVG, PDF, EPS, PS)  (SVG can be edited with Inkscape for example).
