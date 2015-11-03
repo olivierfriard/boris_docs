@@ -235,7 +235,7 @@ endobj
 << /A << /S /URI /Type /Action /URI (http://penelope.unito.it/boris?page=download) >> /Border [ 0 0 0 ] /Rect [ 368.8051 406.7736 494.9733 418.7736 ] /Subtype /Link /Type /Annot >>
 endobj
 75 0 obj
-<< /A << /S /URI /Type /Action /URI (https://www.virtualbox.org/) >> /Border [ 0 0 0 ] /Rect [ 209.9629 394.7736 255.5329 406.7736 ] /Subtype /Link /Type /Annot >>
+<< /A << /S /URI /Type /Action /URI (https://www.virtualbox.org/) >> /Border [ 0 0 0 ] /Rect [ 261.6529 394.7736 307.2229 406.7736 ] /Subtype /Link /Type /Annot >>
 endobj
 76 0 obj
 << /Annots [ 67 0 R 68 0 R 69 0 R 70 0 R 72 0 R 74 0 R 75 0 R ] /Contents 183 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 181 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
@@ -542,7 +542,7 @@ endobj
 << /Outlines 141 0 R /PageLabels 202 0 R /PageMode /UseNone /Pages 181 0 R /Type /Catalog >>
 endobj
 140 0 obj
-<< /Author () /CreationDate (D:20151103125829-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate (D:20151103125854-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title (BORIS user guide) >>
 endobj
 141 0 obj
@@ -1138,7 +1138,7 @@ Q
 endstream
 endobj
 183 0 obj
-<< /Length 5912 >>
+<< /Length 5925 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1237,7 +1237,7 @@ Q
 q
 1 0 0 1 62.69291 394.0236 cm
 q
-BT 1 0 0 1 0 14 Tm .929398 Tw 12 TL /F1 10 Tf 0 0 0 rg (If you want to try BORIS without installing it you can download the ) Tj 0 0 .501961 rg (VirtualBox virtual appliance ) Tj 0 0 0 rg (from the) Tj T* 0 Tw (BORIS site. You must first install ) Tj 0 0 .501961 rg (VirtualBox) Tj  T* ET
+BT 1 0 0 1 0 14 Tm .929398 Tw 12 TL /F1 10 Tf 0 0 0 rg (If you want to try BORIS without installing it you can download the ) Tj 0 0 .501961 rg (VirtualBox virtual appliance ) Tj 0 0 0 rg (from the) Tj T* 0 Tw (BORIS site. In this case you must first install ) Tj 0 0 .501961 rg (VirtualBox) Tj  T* ET
 Q
 Q
 q
@@ -4068,52 +4068,52 @@ xref
 0003465199 00000 n
 0003465414 00000 n
 0003473719 00000 n
-0003479689 00000 n
-0003483949 00000 n
-0003489767 00000 n
-0003492643 00000 n
-0003496423 00000 n
-0003501454 00000 n
-0003505912 00000 n
-0003510864 00000 n
-0003518136 00000 n
-0003519948 00000 n
-0003524170 00000 n
-0003527015 00000 n
-0003533220 00000 n
-0003535135 00000 n
-0003537561 00000 n
-0003540110 00000 n
-0003541572 00000 n
-0003546493 00000 n
-0003550172 00000 n
-0003550430 00000 n
-0003550468 00000 n
-0003550506 00000 n
-0003550544 00000 n
-0003550582 00000 n
-0003550620 00000 n
-0003550658 00000 n
-0003550696 00000 n
-0003550734 00000 n
-0003550772 00000 n
-0003550811 00000 n
-0003550850 00000 n
-0003550889 00000 n
-0003550928 00000 n
-0003550967 00000 n
-0003551006 00000 n
-0003551045 00000 n
-0003551084 00000 n
-0003551123 00000 n
-0003551162 00000 n
+0003479702 00000 n
+0003483962 00000 n
+0003489780 00000 n
+0003492656 00000 n
+0003496436 00000 n
+0003501467 00000 n
+0003505925 00000 n
+0003510877 00000 n
+0003518149 00000 n
+0003519961 00000 n
+0003524183 00000 n
+0003527028 00000 n
+0003533233 00000 n
+0003535148 00000 n
+0003537574 00000 n
+0003540123 00000 n
+0003541585 00000 n
+0003546506 00000 n
+0003550185 00000 n
+0003550443 00000 n
+0003550481 00000 n
+0003550519 00000 n
+0003550557 00000 n
+0003550595 00000 n
+0003550633 00000 n
+0003550671 00000 n
+0003550709 00000 n
+0003550747 00000 n
+0003550785 00000 n
+0003550824 00000 n
+0003550863 00000 n
+0003550902 00000 n
+0003550941 00000 n
+0003550980 00000 n
+0003551019 00000 n
+0003551058 00000 n
+0003551097 00000 n
+0003551136 00000 n
+0003551175 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(0\3055\350=\256\234\272\(\001\345\311O-\261\200) (0\3055\350=\256\234\272\(\001\345\311O-\261\200)]
+ [(\026i\212\335y&\365\\\277\260\223\312\233\034\250\317) (\026i\212\335y&\365\\\277\260\223\312\233\034\250\317)]
  /Info 140 0 R /Root 139 0 R /Size 223 >>
 startxref
-3551201
+3551214
 %%EOF
 %BeginExifToolUpdate
 139 0 obj
@@ -4129,7 +4129,7 @@ endobj
 140 0 obj
 <<
 /Author (Olivier Friard - Marco Gamba)
-/CreationDate (D:20151103125829-01'00')
+/CreationDate (D:20151103125854-01'00')
 /Creator (\(unspecified\))
 /Keywords ()
 /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -4199,19 +4199,19 @@ xref
 0 1
 0000000000 65535 f
 139 2
-0003555962 00000 n
-0003556100 00000 n
+0003555987 00000 n
+0003556125 00000 n
 223 1
-0003556361 00000 n
+0003556386 00000 n
 trailer
 <<
-/ID [ (0\3055\350=\256\234\272\(\001\345\311O-\261\200) (1\3055\350=\256\234\272\(\001\345\311O-\261\200) ]
+/ID [ (\026i\212\335y&\365\\\277\260\223\312\233\034\250\317) (]026i\212\335y&\365\\\277\260\223\312\233\034\250\317) ]
 /Info 140 0 R
 /Root 139 0 R
 /Size 224
-/Prev 3551201
+/Prev 3551214
 >>
-%EndExifToolUpdate 3555940
+%EndExifToolUpdate 3555965
 startxref
-3559570
+3559595
 %%EOF
