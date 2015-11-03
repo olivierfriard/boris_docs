@@ -706,7 +706,7 @@ You can choose to select or not the behavior modifiers (if any) and to exclude b
 
 .. image:: plot_events.png
    :alt: plot
-   :width: 90%
+   :width: 100%
 
 The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic
 (SVG, PDF, EPS, PS)  (SVG can be edited with Inkscape for example).
