@@ -694,7 +694,7 @@ Open Document Spreadsheet (ODS).
 Plot events
 -----------
 
-The **Analyze** > **Plot events** menu option plots the events from one or more observations by subject and behaviours along a time axis.
+The **Analyze** > **Plot events** menu option plots the events from one observation by subject and behaviours along a time axis.
 
 You must first select the subjects and behaviors you want to include in the plot:
 

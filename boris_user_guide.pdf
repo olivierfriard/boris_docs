@@ -536,7 +536,7 @@ endobj
 << /Outlines 139 0 R /PageLabels 200 0 R /PageMode /UseNone /Pages 179 0 R /Type /Catalog >>
 endobj
 138 0 obj
-<< /Author () /CreationDate (D:20151103103511-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate (D:20151103103811-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title (BORIS user guide) >>
 endobj
 139 0 obj
@@ -3353,7 +3353,7 @@ Q
 endstream
 endobj
 197 0 obj
-<< /Length 1703 >>
+<< /Length 1693 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -3372,7 +3372,7 @@ Q
 q
 1 0 0 1 62.69291 681.0236 cm
 q
-BT 1 0 0 1 0 14 Tm .618221 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F2 10 Tf (Analyze) Tj /F1 10 Tf ( > ) Tj /F2 10 Tf (Plot events ) Tj /F1 10 Tf (menu option plots the events from one or more observations by subject and) Tj T* 0 Tw (behaviours along a time axis.) Tj T* ET
+BT 1 0 0 1 0 14 Tm .06561 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F2 10 Tf (Analyze) Tj /F1 10 Tf ( > ) Tj /F2 10 Tf (Plot events ) Tj /F1 10 Tf (menu option plots the events from one observation by subject and behaviours) Tj T* 0 Tw (along a time axis.) Tj T* ET
 Q
 Q
 q
@@ -4070,36 +4070,36 @@ xref
 0003535733 00000 n
 0003538159 00000 n
 0003540706 00000 n
-0003542467 00000 n
-0003547496 00000 n
-0003550777 00000 n
-0003551035 00000 n
-0003551073 00000 n
-0003551111 00000 n
-0003551149 00000 n
-0003551187 00000 n
-0003551225 00000 n
-0003551263 00000 n
-0003551301 00000 n
-0003551339 00000 n
-0003551377 00000 n
-0003551416 00000 n
-0003551455 00000 n
-0003551494 00000 n
-0003551533 00000 n
-0003551572 00000 n
-0003551611 00000 n
-0003551650 00000 n
-0003551689 00000 n
-0003551728 00000 n
-0003551767 00000 n
+0003542457 00000 n
+0003547486 00000 n
+0003550767 00000 n
+0003551025 00000 n
+0003551063 00000 n
+0003551101 00000 n
+0003551139 00000 n
+0003551177 00000 n
+0003551215 00000 n
+0003551253 00000 n
+0003551291 00000 n
+0003551329 00000 n
+0003551367 00000 n
+0003551406 00000 n
+0003551445 00000 n
+0003551484 00000 n
+0003551523 00000 n
+0003551562 00000 n
+0003551601 00000 n
+0003551640 00000 n
+0003551679 00000 n
+0003551718 00000 n
+0003551757 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(k\262\347$\212\243\205\263Y\255\002\215\0050\012\214) (k\262\347$\212\243\205\263Y\255\002\215\0050\012\214)]
+ [(K\222\202*|\312\363\301e4\367\322\002\2444\013) (K\222\202*|\312\363\301e4\367\322\002\2444\013)]
  /Info 138 0 R /Root 137 0 R /Size 221 >>
 startxref
-3551806
+3551796
 %%EOF
 %BeginExifToolUpdate
 137 0 obj
@@ -4115,7 +4115,7 @@ endobj
 138 0 obj
 <<
 /Author (Olivier Friard - Marco Gamba)
-/CreationDate (D:20151103103511-01'00')
+/CreationDate (D:20151103103811-01'00')
 /Creator (\(unspecified\))
 /Keywords ()
 /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -4185,19 +4185,19 @@ xref
 0 1
 0000000000 65535 f
 137 2
-0003556537 00000 n
-0003556675 00000 n
+0003556515 00000 n
+0003556653 00000 n
 221 1
-0003556936 00000 n
+0003556914 00000 n
 trailer
 <<
-/ID [ (k\262\347$\212\243\205\263Y\255\002\215\0050\012\214) (l\262\347$\212\243\205\263Y\255\002\215\0050\012\214) ]
+/ID [ (K\222\202*|\312\363\301e4\367\322\002\2444\013) (L\222\202*|\312\363\301e4\367\322\002\2444\013) ]
 /Info 138 0 R
 /Root 137 0 R
 /Size 222
-/Prev 3551806
+/Prev 3551796
 >>
-%EndExifToolUpdate 3556515
+%EndExifToolUpdate 3556493
 startxref
-3560145
+3560123
 %%EOF
