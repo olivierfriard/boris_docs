@@ -48,6 +48,9 @@ Microsoft(TM)-Windows(R) and Mac OS X from https://www.ffmpeg.org.
 
 
 If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://penelope.unito.it/boris?page=download>`_ from the BORIS site.
+You must first install `VirtualBox <https://www.virtualbox.org/>`_
+
+
 
 Launch BORIS
 ============
