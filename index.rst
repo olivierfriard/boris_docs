@@ -776,6 +776,8 @@ General preferences
 FFmpeg framework
 ----------------
 
+The FFmpeg is required if you want to use the frame-by-frame mode or the spectrogram visualization.
+
 .. image:: preferences2.png
    :alt: Preferences FFmpeg framework tab
    :width: 60%
