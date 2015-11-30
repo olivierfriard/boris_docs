@@ -374,6 +374,8 @@ BORIS allow you to visualize the sound spectrogram during the media observation.
 Check the *Visualizale spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
 
 
+Simultaneous play
+.................
 
 BORIS also allows simultaneous playback of two media recorded independently
 (e.g. videos recorded from different points in a room; or a video and an audio recording of the same observation).
