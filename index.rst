@@ -773,8 +773,8 @@ General preferences
     Check for new version on BORIS web site every 15 days (internet access required)
 
 
-Frame-by-frame mode
---------------------
+FFmpeg framework
+----------------
 
 .. image:: preferences2.png
    :alt: Preferences frame-by-frame tab
