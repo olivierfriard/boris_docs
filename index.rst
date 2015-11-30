@@ -776,14 +776,14 @@ General preferences
 FFmpeg framework
 ----------------
 
-The FFmpeg is required if you want to use the frame-by-frame mode or the spectrogram visualization.
+The FFmpeg framework is required if you want to use the frame-by-frame mode or the spectrogram visualization.
 
 .. image:: preferences2.png
    :alt: Preferences FFmpeg framework tab
    :width: 60%
 
 
-You can activate the use of FFmpeg framework by selecting the *Allow use of ffmpeg* checkbox.
+You can activate the use of FFmpeg framework by selecting the *Allow use of ffmpeg program* checkbox.
 
 The ffmpeg executable program is part of the FFmepg framework.
 
@@ -800,7 +800,7 @@ Example for Microsoft-Windows:
 .. important:: Do not use **avconv** in place of ffmpeg!
 
 **FFmpeg cache directory**
-    This indicates the directory that will be used as image cache for frame-by-frame mode.
+    This indicates the directory that will be used as image cache for frame-by-frame mode and spectrogram visualization.
     If you do not specify a path, BORIS will use the default temporary directory of your system.
 
 **FFmpeg cache directory max size**
