@@ -384,7 +384,7 @@ The spectrogram visualization will be synchonized to the media position during t
 
 .. image:: spectro2.png
    :alt: spectrogram visualization
-   :width: 60%
+
 
 
 Simultaneous play
