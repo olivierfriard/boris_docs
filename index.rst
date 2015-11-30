@@ -355,7 +355,7 @@ Media tab
 In the **Media tab** there are two playlists. In the **Media file paths** playlist you can add one or more media files using the **Add media** button.
 The media will be played for few seconds in order to extract media parameters like media length and the number of frames by second (to enable the frame-by-frame mode).
 
-.. note:: If the media length and/or the number of frames by second are not available and if FFmpeg is available, BORIS will ask you for an accurate analysis of the selected media (duration about 1 minute).
+.. note:: If the media length and/or the number of frames by second are not available and if FFmpeg framework is available, BORIS will ask you for an accurate analysis of the selected media (duration about 1 minute).
 
 
 The **Remove media** button can be used to remove the selected media files.
@@ -365,6 +365,15 @@ All the media types reported at http://www.videolan.org/vlc/features.html can be
 The media queued in the *Media file paths* will be played sequentially.
 This means that an event occurring at time t\ :sub:`x`\  in the media file queued as second (e.g. second_video.mp4)
 in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media file, e.g. first_video.mp4).
+
+
+Spectrogram visualization
+.........................
+
+BORIS allow you to visualize the sound spectrogram during the media observation.
+Check the *Visualizale spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
+
+
 
 BORIS also allows simultaneous playback of two media recorded independently
 (e.g. videos recorded from different points in a room; or a video and an audio recording of the same observation).
