@@ -372,9 +372,19 @@ Spectrogram visualization
 
 BORIS allow you to visualize the sound spectrogram during the media observation.
 Activate the *Visualize spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
+
+.. image:: spectro1.png
+   :alt: spectrogram generation
+   :width: 60%
+
+
 The FFmpeg framework is required for this feature.
 
 The spectrogram visualization will be synchonized to the media position during the observation.
+
+.. image:: spectro2.png
+   :alt: spectrogram visualization
+   :width: 60%
 
 
 Simultaneous play
