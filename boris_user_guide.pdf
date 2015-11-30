@@ -540,7 +540,7 @@ endobj
 << /Outlines 141 0 R /PageLabels 203 0 R /PageMode /UseNone /Pages 181 0 R /Type /Catalog >>
 endobj
 140 0 obj
-<< /Author () /CreationDate (D:20151130153321-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+<< /Author () /CreationDate (D:20151130153556-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
   /Title (BORIS user guide) >>
 endobj
 141 0 obj
@@ -3681,7 +3681,7 @@ Q
 endstream
 endobj
 202 0 obj
-<< /Length 2951 >>
+<< /Length 3123 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -3700,49 +3700,56 @@ Q
 q
 1 0 0 1 62.69291 501.4299 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (You can activate the frame-by-frame mode by selecting the ) Tj /F3 10 Tf (Allow the frame-by-frame mode ) Tj /F1 10 Tf (checkbox.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (You can activate the use of FFmpeg framework by selecting the ) Tj /F3 10 Tf (Allow use of ffmpeg ) Tj /F1 10 Tf (checkbox.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 485.4299 cm
+1 0 0 1 62.69291 483.4299 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (FFmepg path) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The ffmpeg executable program is part of the FFmepg framework.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 446.4299 cm
+1 0 0 1 62.69291 467.4299 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Path for ffmpeg program) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 428.4299 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 26 Tm  T* ET
 q
 1 0 0 1 20 0 cm
 q
-BT 1 0 0 1 0 26 Tm 3.483059 Tw 12 TL /F1 10 Tf 0 0 0 rg (If the frame-by-frame mode is activated you must indicate where the ffmpeg \(ffmpeg.exe for) Tj T* 0 Tw .67686 Tw (Microsoft-Windows\) program can be found. If ffmpeg is in your path \(usually the case for Linux\) you) Tj T* 0 Tw (can indicate ) Tj /F2 10 Tf (ffmpeg ) Tj /F1 10 Tf (otherwise you must indicate the complete path to launch it.) Tj T* ET
+BT 1 0 0 1 0 26 Tm .274651 Tw 12 TL /F1 10 Tf 0 0 0 rg (If the use of ffmpeg program is activated you must indicate where the ffmpeg executable \(ffmpeg.exe) Tj T* 0 Tw 1.02881 Tw (for Microsoft-Windows\) can be found. If ffmpeg is in your path \(usually the case for Linux\) you can) Tj T* 0 Tw (indicate ) Tj /F2 10 Tf (ffmpeg ) Tj /F1 10 Tf (otherwise you must indicate the complete path to launch it.) Tj T* ET
 Q
 Q
 q
-Q
-Q
-q
-1 0 0 1 62.69291 428.4299 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Example for Microsoft-Windows:) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 410.4299 cm
 q
 0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Example for Microsoft-Windows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 392.4299 cm
+q
+0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F5 10 Tf 12 TL (C:\\Users\\User\\ffmpeg\\ffmpeg.exe) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 398.4299 cm
+1 0 0 1 62.69291 380.4299 cm
 Q
 q
-1 0 0 1 62.69291 327.4299 cm
+1 0 0 1 62.69291 309.4299 cm
 .960784 .960784 .862745 rg
 n 0 71 469.8898 -71 re f*
 0 0 0 rg
@@ -3773,17 +3780,17 @@ n 469.8898 0 m 469.8898 71 l S
 Q
 Q
 q
-1 0 0 1 62.69291 321.4299 cm
+1 0 0 1 62.69291 303.4299 cm
 Q
 q
-1 0 0 1 62.69291 305.4299 cm
+1 0 0 1 62.69291 287.4299 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (FFmpeg cache directory) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 278.4299 cm
+1 0 0 1 62.69291 260.4299 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 14 Tm  T* ET
@@ -3798,14 +3805,14 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 262.4299 cm
+1 0 0 1 62.69291 244.4299 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (FFmpeg cache directory max size) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 247.4299 cm
+1 0 0 1 62.69291 229.4299 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -4097,35 +4104,35 @@ xref
 0003545585 00000 n
 0003546681 00000 n
 0003551629 00000 n
-0003554638 00000 n
-0003554911 00000 n
-0003554949 00000 n
-0003554987 00000 n
-0003555025 00000 n
-0003555063 00000 n
-0003555101 00000 n
-0003555139 00000 n
-0003555177 00000 n
-0003555215 00000 n
-0003555253 00000 n
-0003555292 00000 n
-0003555331 00000 n
-0003555370 00000 n
-0003555409 00000 n
-0003555448 00000 n
-0003555487 00000 n
-0003555526 00000 n
-0003555565 00000 n
-0003555604 00000 n
-0003555643 00000 n
-0003555682 00000 n
+0003554810 00000 n
+0003555083 00000 n
+0003555121 00000 n
+0003555159 00000 n
+0003555197 00000 n
+0003555235 00000 n
+0003555273 00000 n
+0003555311 00000 n
+0003555349 00000 n
+0003555387 00000 n
+0003555425 00000 n
+0003555464 00000 n
+0003555503 00000 n
+0003555542 00000 n
+0003555581 00000 n
+0003555620 00000 n
+0003555659 00000 n
+0003555698 00000 n
+0003555737 00000 n
+0003555776 00000 n
+0003555815 00000 n
+0003555854 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(d\001\035\035920\372\342\033\326\220n\024\352_) (d\001\035\035920\372\342\033\326\220n\024\352_)]
+ [(>\012\013~\227\333e\244\227\241m\033\252\226\207s) (>\012\013~\227\333e\244\227\241m\033\252\226\207s)]
  /Info 140 0 R /Root 139 0 R /Size 225 >>
 startxref
-3555721
+3555893
 %%EOF
 %BeginExifToolUpdate
 139 0 obj
@@ -4141,7 +4148,7 @@ endobj
 140 0 obj
 <<
 /Author (Olivier Friard - Marco Gamba)
-/CreationDate (D:20151130153321-01'00')
+/CreationDate (D:20151130153556-01'00')
 /Creator (\(unspecified\))
 /Keywords ()
 /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -4211,19 +4218,19 @@ xref
 0 1
 0000000000 65535 f
 139 2
-0003560520 00000 n
-0003560658 00000 n
+0003560698 00000 n
+0003560836 00000 n
 225 1
-0003560919 00000 n
+0003561097 00000 n
 trailer
 <<
-/ID [ (d\001\035\035920\372\342\033\326\220n\024\352_) (e\001\035\035920\372\342\033\326\220n\024\352_) ]
+/ID [ (>\012\013~\227\333e\244\227\241m\033\252\226\207s) (?\012\013~\227\333e\244\227\241m\033\252\226\207s) ]
 /Info 140 0 R
 /Root 139 0 R
 /Size 226
-/Prev 3555721
+/Prev 3555893
 >>
-%EndExifToolUpdate 3560498
+%EndExifToolUpdate 3560676
 startxref
-3564128
+3564306
 %%EOF

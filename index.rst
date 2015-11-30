@@ -777,14 +777,17 @@ FFmpeg framework
 ----------------
 
 .. image:: preferences2.png
-   :alt: Preferences frame-by-frame tab
+   :alt: Preferences FFmpeg framework tab
    :width: 60%
 
 
-You can activate the frame-by-frame mode by selecting the *Allow the frame-by-frame mode* checkbox.
+You can activate the use of FFmpeg framework by selecting the *Allow use of ffmpeg* checkbox.
 
-**FFmepg path**
-    If the frame-by-frame mode is activated you must indicate where the ffmpeg (ffmpeg.exe for Microsoft-Windows) program can be found.
+The ffmpeg executable program is part of the FFmepg framework.
+
+
+**Path for ffmpeg program**
+    If the use of ffmpeg program is activated you must indicate where the ffmpeg executable (ffmpeg.exe for Microsoft-Windows) can be found.
     If ffmpeg is in your path (usually the case for Linux) you can indicate **ffmpeg** otherwise you must indicate the complete path to launch it.
 
 Example for Microsoft-Windows:
