@@ -829,3 +829,9 @@ Example for Microsoft-Windows:
 
 **FFmpeg cache directory max size**
     Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
+
+
+Acknowledgement
+===============
+
+The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and Laura Ozella for their precious help.
