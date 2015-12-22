@@ -355,6 +355,11 @@ Media tab
 In the **Media tab** there are two playlists. In the **Media file paths** playlist you can add one or more media files using the **Add media** button.
 The media will be played for few seconds in order to extract media parameters like media length and the number of frames by second (to enable the frame-by-frame mode).
 
+
+If you have to add various media files, you can  use the **Add all media from directory** button,
+ in this case all the media files found in the selected directory will be added in the playlist.
+
+
 .. note:: If the media length and/or the number of frames by second are not available and if FFmpeg framework is available, BORIS will ask you for an accurate analysis of the selected media (duration about 1 minute).
 
 
@@ -384,6 +389,17 @@ The spectrogram visualization will be synchonized to the media position during t
 
 .. image:: spectro2.png
    :alt: spectrogram visualization
+
+
+
+Close current behavior between videos
+.....................................
+
+If this option is selected BORIS will close all ongoing State events between successive media files.
+
+This option can be usefull if you have to code various short media files enqueued in the first player (for example the output of a Camera trap).
+
+
 
 
 
