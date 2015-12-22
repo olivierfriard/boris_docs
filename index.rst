@@ -6,7 +6,7 @@ BORIS user guide
 .. image:: logo_boris_500px.png
 
 
-version 2.7
+version 2.72
 
 .. contents::
    :depth: 2
