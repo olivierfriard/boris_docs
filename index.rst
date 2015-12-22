@@ -356,7 +356,7 @@ In the **Media tab** there are two playlists. In the **Media file paths** playli
 The media will be played for few seconds in order to extract media parameters like media length and the number of frames by second (to enable the frame-by-frame mode).
 
 
-If you have to add various media files, you can  use the **Add all media from directory** button,
+If you have to add various media files, you can use the **Add all media from directory** button,
  in this case all the media files found in the selected directory will be added in the playlist.
 
 
