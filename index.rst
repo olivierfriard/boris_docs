@@ -678,7 +678,7 @@ Example of SQL export::
     ("demo #1","2015-11-30 10:39:18","Subj #2","eat","meat","STATE",26.6,113.988,"","");
 
 
-* **Export events as behavioral strings*
+* **Export events as behavioral strings**
 
 Example::
 
