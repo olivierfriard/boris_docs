@@ -400,7 +400,7 @@ This option can be usefull if you have to code various short media files enqueue
 
 
 
-
+e
 
 Simultaneous play
 .................
@@ -637,6 +637,14 @@ All elements, including the media player can be undocked from the main window an
 
 .. image:: open_observation_dw.png
    :alt: Undocked widgets
+
+
+
+Exporting events data
+=====================
+
+The coded data (events) can be exported in various format (**Observations** > **Export ?**).
+
 
 
 
