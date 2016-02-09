@@ -899,6 +899,15 @@ The path for the ffmpeg executable program is displayed. From version 2.8 FFmpeg
 Various
 =======
 
+Citing BORIS
+------------
+
+If you have used BORIS for producing scientific publications, please cite::
+
+    Behavioral Observation Research Interactive Software (http://penelop.unito.it/boris)
+
+
+
 
 Docking
 -------
