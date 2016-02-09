@@ -670,12 +670,12 @@ Example of SQL export::
 
     INSERT INTO events (observation, date, subject, behavior, modifiers,
      event_type, start, stop, comment_start, comment_stop ) VALUES
-    ("demo #1","2015-11-30 10:39:18","Subject #1","jump","","POINT",116.588,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subject #1","jump","","POINT",118.988,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subject #1","eat","salad","STATE",4.3,10.0,"vvv",""),
-    ("demo #1","2015-11-30 10:39:18","Subject #2","jump","","POINT",120.863,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subject #2","jump","","POINT",122.438,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subject #2","eat","meat","STATE",26.6,113.988,"","");
+    ("demo #1","2015-11-30 10:39:18","Subj #1","jump","","POINT",116.588,0,"",""),
+    ("demo #1","2015-11-30 10:39:18","Subj #1","jump","","POINT",118.988,0,"",""),
+    ("demo #1","2015-11-30 10:39:18","Subj #1","eat","salad","STATE",4.3,10.0,"vvv",""),
+    ("demo #1","2015-11-30 10:39:18","Subj #2","jump","","POINT",120.863,0,"",""),
+    ("demo #1","2015-11-30 10:39:18","Subj #2","jump","","POINT",122.438,0,"",""),
+    ("demo #1","2015-11-30 10:39:18","Subj #2","eat","meat","STATE",26.6,113.988,"","");
 
 
 
