@@ -657,7 +657,7 @@ The coded events can be exported in various format (**Observations** > **Export 
 
 .. image:: export_aggregated_events.png
    :alt: example of aggregated and exported events in TSV format
-   :width: 60%
+   :width: 80%
 
 
 Example of SQL export::
