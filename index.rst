@@ -904,7 +904,7 @@ Citing BORIS
 
 If you have used BORIS for producing scientific publications, please cite::
 
-    Behavioral Observation Research Interactive Software (http://penelop.unito.it/boris)
+    Behavioral Observation Research Interactive Software (http://penelope.unito.it/boris)
 
 
 
