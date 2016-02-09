@@ -662,9 +662,13 @@ The coded events can be exported in various format (**Observations** > **Export 
 
 Example of SQL export::
 
-    CREATE TABLE events (id INTEGER PRIMARY KEY ASC, observation TEXT, date DATE, subject TEXT, behavior TEXT, modifiers TEXT, event_type TEXT, start FLOAT, stop FLOAT, comment_start TEXT, comment_stop TEXT);
+    CREATE TABLE events (id INTEGER PRIMARY KEY ASC, observation TEXT,
+                         date DATE, subject TEXT, behavior TEXT,
+                         modifiers TEXT, event_type TEXT, start FLOAT,
+                         stop FLOAT, comment_start TEXT,
+                         comment_stop TEXT);
 
-    INSERT INTO events ( observation, date, subject, behavior, modifiers,
+    INSERT INTO events (observation, date, subject, behavior, modifiers,
      event_type, start, stop, comment_start, comment_stop ) VALUES
     ("demo #1","2015-11-30 10:39:18","Subject #1","jump","","POINT",116.588,0,"",""),
     ("demo #1","2015-11-30 10:39:18","Subject #1","jump","","POINT",118.988,0,"",""),
