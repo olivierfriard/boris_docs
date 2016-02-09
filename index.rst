@@ -353,7 +353,7 @@ Media tab
    :width: 60%
 
 In the **Media tab** there are two playlists. In the **Media file paths** playlist you can add one or more media files using the **Add media** button.
-The media will be played for few seconds in order to extract media parameters like media length and the number of frames by second (to enable the frame-by-frame mode).
+Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), number of frames by second (FPS), video stream, audio stream  .
 
 
 If you have to add various media files, you can use the **Add all media from directory** button, in this case all the media files found in the selected directory will be added in the playlist.
