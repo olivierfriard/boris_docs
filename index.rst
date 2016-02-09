@@ -1,6 +1,6 @@
-****************
-BORIS user guide
-****************
+***********************************************************************
+Behavioral Observation Research Interactive Software (BORIS) user guide
+***********************************************************************
 
 
 .. image:: logo_boris_500px.png
