@@ -356,9 +356,6 @@ Information about the selected media file will be extracted and displayed in the
 If you have to add various media files, you can use the **Add all media from directory** button, in this case all the media files found in the selected directory will be added in the playlist.
 
 
-.. note:: If the media length and/or the number of frames by second are not available and if FFmpeg framework is available, BORIS will ask you for an accurate analysis of the selected media (duration about 1 minute).
-
-
 The **Remove media** button can be used to remove the selected media files.
 
 
@@ -378,8 +375,6 @@ Activate the *Visualize spectrogram* check box. BORIS will ask you to generate t
    :alt: spectrogram generation
    :width: 60%
 
-
-The FFmpeg framework is required for this feature.
 
 The spectrogram visualization will be synchonized to the media position during the observation.
 
@@ -582,10 +577,6 @@ The *Observations* > *Add event* menu option allows adding a new event by specif
 
 Frame-by-frame mode
 --------------------
-
-
-.. note:: The frame-by-frame mode must be turned on in the Preferences window (**File** > **Preferences** > **Frame-by-frame mode**).
-    See Frame-by-frame mode preferences for details.
 
 You can switch between play and frame-by-frame modes using the dedicated button in the toolbar:
 
