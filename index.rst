@@ -645,7 +645,7 @@ Exporting events data
 
 The coded events can be exported in various format (**Observations** > **Export ?**):
 
-* **Export events** exports the events of selected observations in TSV, XLS or ODS formats. This format i suitable for further analysis.
+* **Export events** exports the events of selected observations in TSV, XLS or ODS formats. These formats are suitable for further analysis.
 
 
 .. image:: export_events.png
@@ -653,9 +653,24 @@ The coded events can be exported in various format (**Observations** > **Export 
    :width: 60%
 
 
-* **Export aggregated events**
+* **Export aggregated events** in TSV or SQL formats. State events are paired and duration is available. The TSV format is suitable for further analysis. The SQL format is suitable to populate an SQL database.
+
+.. image:: export_aggregated_events.png
+   :alt: example of aggregated and exported events in TSV format
+   :width: 60%
 
 
+Example of SQL export::
+
+    CREATE TABLE events (id INTEGER PRIMARY KEY ASC, observation TEXT, date DATE, subject TEXT, behavior TEXT, modifiers TEXT, event_type TEXT, start FLOAT, stop FLOAT, comment_start TEXT, comment_stop TEXT);
+    BEGIN TRANSACTION;
+    INSERT INTO events ( observation, date, subject, behavior, modifiers, event_type, start, stop, comment_start, comment_stop ) VALUES ("demo #1","2015-11-30 10:39:18","Subject #1","jump","","POINT",116.588,0,"","");
+    INSERT INTO events ( observation, date, subject, behavior, modifiers, event_type, start, stop, comment_start, comment_stop ) VALUES ("demo #1","2015-11-30 10:39:18","Subject #1","jump","","POINT",118.988,0,"","");
+    INSERT INTO events ( observation, date, subject, behavior, modifiers, event_type, start, stop, comment_start, comment_stop ) VALUES ("demo #1","2015-11-30 10:39:18","Subject #1","eat","salad","STATE",4.3,10.0,"vvv","");
+    INSERT INTO events ( observation, date, subject, behavior, modifiers, event_type, start, stop, comment_start, comment_stop ) VALUES ("demo #1","2015-11-30 10:39:18","Subject #2","jump","","POINT",120.863,0,"","");
+    INSERT INTO events ( observation, date, subject, behavior, modifiers, event_type, start, stop, comment_start, comment_stop ) VALUES ("demo #1","2015-11-30 10:39:18","Subject #2","jump","","POINT",122.438,0,"","");
+    INSERT INTO events ( observation, date, subject, behavior, modifiers, event_type, start, stop, comment_start, comment_stop ) VALUES ("demo #1","2015-11-30 10:39:18","Subject #2","eat","meat","STATE",26.6,113.988,"","");
+    END TRANSACTION;
 
 
 Coding maps
