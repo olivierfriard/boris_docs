@@ -694,7 +694,38 @@ Example::
     eat|eat|jump|jump
 
 
+* **Export events as `Praat <http://www.fon.hum.uva.nl/praat/>`_ `TextGrid <http://www.fon.hum.uva.nl/praat/manual/TextGrid.html>`_
 
+Example::
+
+    File type = "ooTextFile"
+    Object class = "TextGrid"
+
+    xmin = 4.3
+    xmax = 113.988
+    tiers? <exists>
+    size = 2
+    item []:
+        item [1]:
+            class = "IntervalTier"
+            name = "Subject #1"
+            xmin = 4.3
+            xmax = 10.0
+            intervals: size = 1
+            intervals [1]:
+                xmin = 4.3
+                xmax = 10.0
+                text = "eat"
+        item [2]:
+            class = "IntervalTier"
+            name = "Subject #2"
+            xmin = 26.6
+            xmax = 113.988
+            intervals: size = 1
+            intervals [1]:
+                xmin = 26.6
+                xmax = 113.988
+                text = "eat"
 
 
 Coding maps
