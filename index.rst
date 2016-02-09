@@ -615,17 +615,6 @@ If you have a numeric keypad you can use the following keys in alternative:
 To return in the VLC mode press again the frame-by-frame button in the toolbar.
 
 
-Docking
---------
-
-
-All elements, including the media player can be undocked from the main window and positioned where you prefer
-(e.g. they can be on the same desktop over one or two screens).
-
-
-.. image:: open_observation_dw.png
-   :alt: Undocked widgets
-
 
 
 Exporting events data
@@ -905,6 +894,18 @@ The path for the ffmpeg executable program is displayed. From version 2.8 FFmpeg
 
 **FFmpeg cache directory max size**
     Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
+
+
+Docking
+=======
+
+
+All elements, including the media player can be undocked from the main window and positioned where you prefer
+(e.g. they can be on the same desktop over one or two screens).
+
+
+.. image:: open_observation_dw.png
+   :alt: Undocked widgets
 
 
 Acknowledgement
