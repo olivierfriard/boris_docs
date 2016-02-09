@@ -753,7 +753,7 @@ The loaded image will be displayed.
 
 .. image:: coding_map.png
    :alt: Coding map
-   :width: 80%
+   :width: 70%
 
 
 If the size of your bitmap image is bigger than 512 x 512 pixels BORIS will resize it to
