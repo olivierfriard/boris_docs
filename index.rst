@@ -645,12 +645,12 @@ Exporting events data
 
 The coded events can be exported in various format (**Observations** > **Export ?**):
 
-* **Export events** exports the events of selected observations in TSV, XLS or ODS formats. This format i ssuitable for further analysis.
+* **Export events** exports the events of selected observations in TSV, XLS or ODS formats. This format i suitable for further analysis.
 
 
 .. image:: export_events.png
    :alt: example of exported events in TSV format
-
+   :width: 60%
 
 
 * **Export aggregated events**
