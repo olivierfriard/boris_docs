@@ -17,7 +17,7 @@ version 2.8
 Legal
 =====
 
-Copyright 2012-2015 Olivier Friard - Marco Gamba
+Copyright 2012-2016 Olivier Friard - Marco Gamba
 
 **BORIS** is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
