@@ -896,9 +896,12 @@ The path for the ffmpeg executable program is displayed. From version 2.8 FFmpeg
     Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
 
 
-Docking
+Various
 =======
 
+
+Docking
+-------
 
 All elements, including the media player can be undocked from the main window and positioned where you prefer
 (e.g. they can be on the same desktop over one or two screens).
