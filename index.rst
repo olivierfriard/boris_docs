@@ -722,7 +722,7 @@ Click on **Tools** > **Geometric measurements** to activate the measurements. Th
 Setting the scale
 .................
 
-For distance and area measurements you can set a scale.
+For distance and area measurements you can set a scale in order to have results of measurements in a real unit (like centimeters, meters etc).
 1) measure a reference object (that have a known size) on the frame (with the distance tool. See next chapter for details) and set the pixel distance in the **Pixel** text box.
 2) Set the real size of the reference object in the **Reference** text box (must be a number without unit).
 
