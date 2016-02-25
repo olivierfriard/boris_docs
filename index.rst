@@ -721,18 +721,29 @@ Geometric measurements can be made in frame-by-frame mode. Distances, areas and 
 Distance measurements
 ......................
 
-First select the **Distance** radio button. Click the left mouse button on the frame bitmap to set the start of the segment that will be measured.
+Select the **Distance** radio button. Click the left mouse button on the frame bitmap to set the start of the segment that will be measured.
 A blue circle with a cross will be drawn.
 Click the right mouse button to set the end. A red circle with a cross will be drawn.
-The distance between the two selected points will be available in the text area of the **Measurements window**
+The distance between the two selected points will be available in the text area of the **Measurements window**.
 
 
 Area measurements
 .................
 
+Select the **Area** radio button. Click the left mouse button on the frame bitmap to set the area vertices.
+Blue circles with a cross will be drawn.
+Click the right mouse button to close the area.
+The area of the drawn polygon will be available in the text area of the **Measurements window**.
+
 
 Angle measurements
 ..................
+
+Select the **Angle** radio button. Click the left mouse button on the frame bitmap to set the angle vertex.
+A red circle with a cross will be drawn.
+Click the right mouse button to set the two segments. Blue circles with a cross will be drawn.
+The angle between the two drawn segments will be available in the text area of the **Measurements window**.
+
 
 
 Coding maps
