@@ -712,11 +712,11 @@ Geometric measurements
 ----------------------
 
 Geometric measurements can be made in frame-by-frame mode. Distances, areas and angles can be measured.
-Click on **Tools** > **Geometric measurements** to activate the measurements. The measuremnts window will be shown:
+Click on **Tools** > **Geometric measurements** to activate the measurements. The measurements window will be shown:
 
 .. image:: measurements_window.png
    :alt: measurements window
-   :width: 80%
+   :width: 60%
 
 
 Distance measurements
@@ -730,7 +730,7 @@ The distance between the two selected points will be available in the text area 
 
 .. image:: distance_measurement_screenshot.png
    :alt: distance measurement screenshot
-   :width: 80%
+   :width: 90%
 
 
 Area measurements
