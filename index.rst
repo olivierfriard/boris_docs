@@ -711,7 +711,22 @@ Tools
 Geometric measurements
 ----------------------
 
+Geometric measurements can be made in frame-by-frame mode. Distances, areas and angles can be measured. Click on **Tools** > **Geometric measurements** to activate the measurements module.
 
+.. image:: measurements_window.png
+   :alt: measurements window
+   :width: 80%
+
+Distance measurements
+......................
+
+
+Area measurements
+.................
+
+
+Angle measurements
+..................
 
 
 Coding maps
