@@ -758,6 +758,22 @@ The angle between the two drawn segments will be available in the text area of t
 
 
 
+Extract media file sequences
+----------------------------
+
+Sequences of media file corresponding to coded behaviors can be extracted from media file.
+1) Click on **Observations** > **Extract events from media files** option. 2) Choose the observation(s). 3) Select the events to be extracted.
+4) Select a destination directory that will contain the extracted media sequences. 5) Select a time offset (the default value is 0 seconds).
+The time offset will be substracted from the starting time of event and added to the stopping time. All the extracted sequences will be saved
+ in the selected directory followind the file name format:
+
+
+{observation id}_{player}_{subject}_{behavior}_{start time}-{stop time}
+
+
+
+
+
 Coding maps
 ===========
 
