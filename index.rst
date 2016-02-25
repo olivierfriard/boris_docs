@@ -392,8 +392,6 @@ This option can be usefull if you have to code various short media files enqueue
 
 
 
-e
-
 Simultaneous play
 .................
 
