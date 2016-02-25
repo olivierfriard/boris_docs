@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
 
 
-version 2.8
+version 2.9
 
 .. contents::
    :depth: 2
@@ -703,6 +703,15 @@ Example::
                 xmin = 26.6
                 xmax = 113.988
                 text = "eat"
+
+
+Tools
+=====
+
+Geometric measurements
+----------------------
+
+
 
 
 Coding maps
