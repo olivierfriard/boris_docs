@@ -723,7 +723,7 @@ Setting the scale
 .................
 
 For distance and area measurements you can set a scale.
-1) measure a reference object (that have a known size) on the frame (with the distance tool _see above_) and set the pixel distance in the **Pixel** text box.
+1) measure a reference object (that have a known size) on the frame (with the distance tool. See next chapter for details) and set the pixel distance in the **Pixel** text box.
 2) Set the real size of the reference object in the **Reference** text box (must be a number without unit).
 
 
