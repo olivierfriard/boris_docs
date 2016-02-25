@@ -717,8 +717,14 @@ Geometric measurements can be made in frame-by-frame mode. Distances, areas and 
    :alt: measurements window
    :width: 80%
 
+
 Distance measurements
 ......................
+
+First select the **Distance** radio button. Click the left mouse button on the frame bitmap to set the start of the segment that will be measured.
+A blue circle with a cross will be drawn.
+Click the right mouse button to set the end. A red circle with a cross will be drawn.
+The distance between the two selected points will be available in the text area of the **Measurements window**
 
 
 Area measurements
