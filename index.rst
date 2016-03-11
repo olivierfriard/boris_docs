@@ -590,7 +590,7 @@ You can switch between play and frame-by-frame modes using the dedicated button 
 
 .. image:: toolbar_frame-by-frame.png
    :alt: frame-by-frame_button
-   :width: 50%
+   :width: 60%
 
 
 In frame-by-frame mode the video will stop playing and the user will visualize the video frame by frame.
