@@ -596,7 +596,7 @@ You can switch between play and frame-by-frame modes using the dedicated button 
 In frame-by-frame mode the video will stop playing and the user will visualize the video frame by frame.
 
 
-The navigation between frames is done using keyboard special keys:
+You can move between frames by using the arrow keys in the toolbar (on the right) or by using keyboard special keys:
 
 
 **For the both modes** (VLC and frame-by-frame):
