@@ -414,8 +414,8 @@ When looking at the BORIS main window, the window title bar shows the **Observat
 The media (the first in the queue) will be loaded in the media player and paused.
 
 
-Media controls are available in the upper left toolbar
-------------------------------------------------------
+Media controls are available in the toolbar
+-------------------------------------------
 
 .. image:: toolbar.png
    :alt: Media control toolbar
@@ -444,9 +444,13 @@ Key to the symbols:
 
 * **Jump to the next media file**
 
-* **Take a snapshot** of the video
+* **Take a snapshot** of current video or frame
 
 * **Switch between VLC and frame-by-frame modes**
+
+* **Move on frame back**
+
+* **Move one frame forward**
 
 The media can be controlled by special keyboard keys:
 
