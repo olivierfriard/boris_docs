@@ -563,7 +563,7 @@ BORIS will prompt you for the desired behavior.
 
 
 
-In the case you have specified modifiers, BORIS will prompt you for the desired modifier(s) if any (e.g. **ball** or **opponent** in the figure below).
+In the case you have specified modifiers (one or more sets), BORIS will prompt you for the desired modifier(s) if any (e.g. **ball** or **opponent** in the figure below).
 You can select the correct one using the mouse or the keyboard ( **b** key or **o** key)
 
 .. image:: ask_for_modifiers.png
