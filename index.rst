@@ -588,7 +588,7 @@ Frame-by-frame mode
 You can switch between play and frame-by-frame modes using the dedicated button in the toolbar:
 
 
-.. image:: frame-by-frame_button_on_toolbar.png
+.. image:: toolbar_frame-by-frame.png
    :alt: frame-by-frame_button
    :width: 50%
 
