@@ -448,9 +448,14 @@ Key to the symbols:
 
 * **Switch between VLC and frame-by-frame modes**
 
+In frame-by-frame mode:
+
 * **Move on frame back**
 
 * **Move one frame forward**
+
+
+
 
 The media can be controlled by special keyboard keys:
 
