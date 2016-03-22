@@ -157,18 +157,20 @@ The following three columns (**Modifiers**, **Exclusion**, **Coding map**) canno
 Set the modifiers
 ~~~~~~~~~~~~~~~~~
 
-A modifier can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached
+Modifiers can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached
 (e.g. "play" may have "solitary" or "social" as modifiers). The use of modifiers can be convenient to significantly
 reduce the number of keys and simplify the behavioral coding. In BORIS modifiers can also be added in different modifier
 sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and another (#2) for "sisters"]. In the case of
 using sets of modifiers, you can attach one modifier for each set.
+
+To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
+
 
 .. image:: modifiers-1.6.png
    :width: 1200px
    :alt: modifiers configuration
 
 
-To add a modifier, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
 When the **Modifiers** window is open you can add and/or remove sets using the buttons **Add set of modifiers** and **Remove set of modifiers**.
 Within a set of modifiers, you can add and remove modifiers using the **Modifier** field and clicking on the **right-arrow** button (to add) and
 the **Remove modifier** button (to remove). The selected modifier can be edited using the left-arrow button. The **Key code** box can be
