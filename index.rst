@@ -180,6 +180,8 @@ The modifier position into the modifiers' set can be manually set using the **Mo
 
 The position of a modifiers' set can be customized  (using the **Move set left** and **Move set right** buttons)
 
+Modifiers can not contain the following characters: **(**, **)** and **|** (pipe).
+
 Click **OK** to save modifiers in the **Ethogram** table.
 
 
