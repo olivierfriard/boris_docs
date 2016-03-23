@@ -905,7 +905,7 @@ You can choose to select or not the behavior modifiers (if any) and to exclude b
    :width: 100%
 
 The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic
-(SVG, PDF, EPS, PS). The SVG format can be further edited with the (`Inkscape vector graphics editor <https://inkscape.org>`_).
+(SVG, PDF, EPS, PS). The SVG format can be further edited with the `Inkscape vector graphics editor <https://inkscape.org>`_.
 
 
 
