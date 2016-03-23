@@ -876,7 +876,7 @@ You can choose to select or not the behavior modifiers (if any) and to exclude b
 
 .. image:: time_budget.png
    :alt: Time budget
-   :width: 80%
+   :width: 100%
 
 
 The percent of total time will be calculated (if available). The total time is intended as the total media length.
