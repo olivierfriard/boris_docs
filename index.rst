@@ -251,14 +251,14 @@ The fields must be separated by TAB, comma (,) or semicolomn (;) and will be int
 
 * field #1: event type (point or state)
 * field #2: key
-* field #3: code
+* field #3: code (must be unique)
 * field #4: description (optional)
 
 All fields after the 4th will be ignored.
 
 
-BORIS will ask to select a JWatcher file (.gdf) and whether imported behaviors should replace or be appended to the **Ethogram** table.
-Behavior type and exclusion information for the behaviours imported from JWatcher have to be redefined.
+BORIS will ask to select a plain text file (.gdf) and whether imported behaviors should replace or be appended to the **Ethogram** table.
+The missing information for the behaviours imported from text file have to be redefined.
 
 
 
