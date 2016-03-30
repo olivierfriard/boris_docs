@@ -247,7 +247,7 @@ Import an ethogram from a plain text file
 
 
 Behaviors can be imported from a plain text file using the **Import from text file** button.
-Fields can be separaed by TAB, comma (,) or semicolomn (;) and will be interpreted as:
+The fields must be separated by TAB, comma (,) or semicolomn (;) and will be interpreted as:
 
 * field #1: event type (point or state)
 * field #2: key
