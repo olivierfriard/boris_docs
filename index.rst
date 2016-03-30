@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
 
 
-version 2.94
+version 2.95
 
 .. contents::
    :depth: 2
