@@ -260,7 +260,7 @@ The fields and will be interpreted as:
 All fields after the 4th will be ignored.
 
 
-BORIS will ask to select a plain text file (by default: \*.txt *.csv *.tsv) and whether imported behaviors should replace or be appended to the **Ethogram** table.
+BORIS will ask to select a plain text file (by default: \*.txt \*.csv \*.tsv) and whether imported behaviors should replace or be appended to the **Ethogram** table.
 The missing information for the behaviours imported from text file have to be redefined.
 
 
