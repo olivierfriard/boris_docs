@@ -250,7 +250,7 @@ Behaviors can be imported from a plain text file using the **Import from text fi
 The fields must be separated by TAB, comma (,) or semicolomn (;) and will be interpreted as:
 
 * field #1: event type (point or state)
-* field #2: key
+* field #2: key (case insensitive)
 * field #3: code (must be unique)
 * field #4: description (optional)
 
