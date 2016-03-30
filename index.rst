@@ -232,7 +232,7 @@ Imported behaviors will retain all the previously defined behavior parameters (n
 
 
 
-Import an ethogram from a JWatcher global definition file (.gdf).
+Import an ethogram from a JWatcher global definition file (.gdf)
 .................................................................
 
 
@@ -242,7 +242,7 @@ Behavior type and exclusion information for the behaviours imported from JWatche
 
 
 
-Import an ethogram from a plain text file.
+Import an ethogram from a plain text file
 ..........................................
 
 
