@@ -222,8 +222,8 @@ The **Exclusion matrix** could be:
 During the observation, the excluding event will stop all the current excluded state events one millisecond before the occurence of the event.
 
 
-Import a coding scheme from an existing project
-...............................................
+Import an ethogram from an existing project
+...........................................
 
 
 Behaviors within an ethogram can be imported from an existing BORIS project (.boris) using the **Import behaviours from a BORIS project** button.
