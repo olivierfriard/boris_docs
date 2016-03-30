@@ -236,10 +236,29 @@ Import an ethogram from a JWatcher global definition file (.gdf).
 .................................................................
 
 
-Behaviors can also be imported from a JWatcher global definition file (.gdf) using the **Import behaviours from JWatcher** button.
+Behaviors can be imported from a JWatcher global definition file (.gdf) using the **Import from JWatcher** button.
 BORIS will ask to select a JWatcher file (.gdf) and whether imported behaviors should replace or be appended to the **Ethogram** table.
 Behavior type and exclusion information for the behaviours imported from JWatcher have to be redefined.
 
+
+
+Import an ethogram from a plain text file.
+..........................................
+
+
+Behaviors can be imported from a plain text file using the **Import from text file** button.
+Fields can be separaed by TAB, comma (,) or semicolomn (;) and will be interpreted as:
+
+* field #1: event type (point or state)
+* field #2: key
+* field #3: code
+* field #4: description (optional)
+
+All fields after the 4th will be ignored.
+
+
+BORIS will ask to select a JWatcher file (.gdf) and whether imported behaviors should replace or be appended to the **Ethogram** table.
+Behavior type and exclusion information for the behaviours imported from JWatcher have to be redefined.
 
 
 
