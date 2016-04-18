@@ -936,7 +936,7 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 (SVG, PDF, EPS, PS). The SVG format can be further edited with the `Inkscape vector graphics editor <https://inkscape.org>`_.
 
 
-
+.. note:: If a STATE behavior has an odd number of coded events, BORIS will give you this error message: "The STATE behavior XXX is not paired"
 
 
 Preferences
