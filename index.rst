@@ -910,7 +910,7 @@ The percent of total time will be calculated (if available). The total time is i
 The time budget results can be saved in various formats for further analysis: TSV, CSV for plain text file or Microsoft Excel (XLS),
 Open Document Spreadsheet (ODS).
 
-NOTE: If a STATE behavior has an odd number of coded events, BORIS will give you this error message: "The STATE behavior XXX is not paired"
+.. note:: If a STATE behavior has an odd number of coded events, BORIS will give you this error message: "The STATE behavior XXX is not paired"
 
 
 
