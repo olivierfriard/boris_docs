@@ -33,7 +33,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 Install BORIS
 =============
 
-BORIS can be installed following instructions on the BORIS site at `download page <http://penelope.unito.it/boris?page=download>`_
+BORIS can be installed following instructions on the BORIS site at `download page <http://www.boris.unito.it/?page=download>`_
 
 Unless you use a full bundle version (available only for Microsoft-Windows) BORIS requires a **recent** version (>=2) of
 the `VLC Media Player <http://www.videolan.org/vlc>`_    from the VideoLAN Organization.
@@ -45,7 +45,7 @@ the `VLC Media Player <http://www.videolan.org/vlc>`_    from the VideoLAN Organ
 From version 2.8 the open source `FFmpeg multimedia framework <https://www.ffmpeg.org>`_ is included with BORIS.
 
 
-If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://penelope.unito.it/boris?page=download>`_ from the BORIS site.
+If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ from the BORIS site.
 In this case you must first install `VirtualBox <https://www.virtualbox.org/>`_
 
 
@@ -1020,7 +1020,7 @@ Citing BORIS
 
 If you have used BORIS for producing scientific publications, please cite::
 
-    Behavioral Observation Research Interactive Software (http://penelope.unito.it/boris)
+    Behavioral Observation Research Interactive Software (http://www.boris.unito.it)
 
 
 
