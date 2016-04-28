@@ -74,7 +74,8 @@ This option can be changed on the **Preferences** window (See `general preferenc
 Create a new project with BORIS
 ===============================
 
-A BORIS project file is a container for all information related to a set of observations as the ethogram, the independent variables, and the subjects.
+The BORIS project file is the container for all information related to the project. It contains the ethogram, the independent variables, the subjects and all observations data.
+The save menu option (File -> Save project) will save all this information. You can also activate the **automatic backup** feature (see **Preferences**).
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
 
 
