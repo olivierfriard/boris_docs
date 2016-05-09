@@ -349,7 +349,7 @@ In the following example observations are filtered: only observations containing
    :width: 100%
 
 
-Remove an observation
+Delete an observation
 =====================
 
 An observation can be deleted from the project using the following procedure:
