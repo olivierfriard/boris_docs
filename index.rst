@@ -12,7 +12,7 @@ version 2.97
 
 `BORIS twitter feed <https://twitter.com/BORIS_behav_obs>`_
 
-https://groups.google.com/forum/?hl=en#!forum/boris-behav-obs
+`BORIS Facebook page <https://groups.google.com/forum/?hl=en#!forum/boris-behav-obs>`_
 
 .. contents::
    :depth: 2
