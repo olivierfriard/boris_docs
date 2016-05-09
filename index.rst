@@ -352,8 +352,10 @@ In the following example observations are filtered: only observations containing
 Remove an observation
 =====================
 
+An observation can be deleted using the following procedure:
 **File** > **Edit project** > **Observation's tab** > **Select observation to remove** > **Remove observation** button
 
+Please note that the deletion is irreversible.
 
 
 
