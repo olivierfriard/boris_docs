@@ -389,6 +389,7 @@ You must then indicate if you want to make an observation based on pre-recorded 
 Live observation
 ----------------
 
+During the live observation BORIS will show you a timer that will be used for recording time for coded events.
 
 Choose the **Live tab**
 
@@ -396,9 +397,10 @@ Choose the **Live tab**
    :alt: New live observation
    :width: 100%
 
-During the live observation BORIS will show you a timer that will be used for recording time for coded events.
 
-You can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset you indicated and all the coded events will have the same time value.
+
+In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset you indicated and all the coded events will have the same time value.
+
 
 
 
