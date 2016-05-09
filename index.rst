@@ -8,9 +8,11 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 
 version 2.97
 
-http://www.boris.unito.it
+`www.boris.unito.it <http://www.boris.unito.it>`_
 
-`BORIS twitter feed <https://twitter.com/BORIS_behav_obs>`_ for more details.
+`BORIS twitter feed <https://twitter.com/BORIS_behav_obs>`_
+
+https://groups.google.com/forum/?hl=en#!forum/boris-behav-obs
 
 .. contents::
    :depth: 2
