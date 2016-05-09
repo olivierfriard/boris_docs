@@ -340,7 +340,7 @@ The **Observations** > **Observations list** will show you all the observations 
    :alt: Observations list
    :width: 100%
 
-The observations list can be filtered
+The observations list can be filtered selecting a field in the drop-list box.
 
 In the following example observations are filtered: only observations containing the **Bobo** subject are shown:
 
