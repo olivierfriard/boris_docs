@@ -1050,7 +1050,7 @@ Various
 Citing BORIS
 ------------
 
-If you have used BORIS for producing scientific publications, please cite::
+If you have used BORIS for publications, please cite::
 
 
     Olivier Friard and Marco Gamba
