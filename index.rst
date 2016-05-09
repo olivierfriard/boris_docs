@@ -10,9 +10,7 @@ version 2.97
 
 http://www.boris.unito.it
 
-https://twitter.com/BORIS_behav_obs
 
-https://www.facebook.com/BORIS-behav-obs-318697441616743/
 
 .. contents::
    :depth: 2
