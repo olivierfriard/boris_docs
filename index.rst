@@ -1063,9 +1063,11 @@ If you have used BORIS for publications, please cite::
 Bug reports and features request
 --------------------------------
 
-Send bug reports and features request by e-mail (see web site http://www.boris.unito.it) or by using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS).
+Please send bug reports and features request by e-mail (see web site http://www.boris.unito.it)
+ or by using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS).
 
-In case of bug report please verify that you are using tha last verison of BORIS and indicate your operationg system and its version.
+
+In case of bug report please verify that you are using tha last verison of BORIS and indicate your operating system and its version.
 You may also include the BORIS project that gave you an error.
 
 
