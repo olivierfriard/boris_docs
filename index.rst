@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
 
 
-version 2.96
+version 2.97
 
 .. contents::
    :depth: 2
@@ -335,6 +335,11 @@ Observations list
 =================
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
+
+.. image:: observations_list.png
+   :alt: Observations list
+   :width: 100%
+
 
 
 
