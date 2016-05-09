@@ -8,10 +8,12 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 
 version 2.97
 
+http://www.boris.unito.it
+
 .. contents::
    :depth: 2
 
-http://www.boris.unito.it
+
 
 
 Legal
