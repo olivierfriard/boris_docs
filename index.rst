@@ -10,9 +10,18 @@ version 2.97
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
 
+`BORIS GitHub repository <https://github.com/olivierfriard/BORIS>`_
+
 `BORIS twitter feed <https://twitter.com/BORIS_behav_obs>`_
 
-`BORIS Facebook page <https://groups.google.com/forum/?hl=en#!forum/boris-behav-obs>`_
+`BORIS discussion group <https://groups.google.com/forum/?hl=en#!forum/boris-behav-obs>`_
+
+`BORIS Facebook page <https://www.facebook.com/BORIS-behav-obs-318697441616743/>`_
+
+`BORIS Google+ <https://plus.google.com/u/0/107744013100136901033>`_
+
+
+
 
 .. contents::
    :depth: 2
