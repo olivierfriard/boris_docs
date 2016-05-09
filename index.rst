@@ -363,7 +363,7 @@ Clicking on **Observations** > **New observation** will show the **New observati
 
 .. image:: new_observation.png
    :alt: New observation window
-   :width: 70%
+   :width: 100%
 
 
 This window allow adding various observation data:
