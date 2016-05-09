@@ -10,7 +10,7 @@ version 2.97
 
 http://www.boris.unito.it
 
-
+`BORIS twitter feed <https://twitter.com/BORIS_behav_obs>`_ for more details.
 
 .. contents::
    :depth: 2
