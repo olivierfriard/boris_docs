@@ -1060,6 +1060,15 @@ If you have used BORIS for publications, please cite::
     DOI: 10.1111/2041-210X.12584
 
 
+Bug reports and features request
+--------------------------------
+
+Send bug reports and features request by e-mail (see web site www.boris.unito.it).
+
+In case of bug report please verify that you are using tha last verison of BORIS and indicate your operationg system and its version.
+You may also include the BORIS project that gave you an error.
+
+
 Docking
 -------
 
