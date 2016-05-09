@@ -340,7 +340,13 @@ The **Observations** > **Observations list** will show you all the observations 
    :alt: Observations list
    :width: 100%
 
+The observations list can be filtered
 
+Example of filter on subjects:
+
+.. image:: observations_list_filtered.png
+   :alt: Observations list
+   :width: 100%
 
 
 Remove an observation
