@@ -383,14 +383,25 @@ This window allow adding various observation data:
 * **Time offset**. BORIS allow specifying a time offset that can be added or subtracted from the media timecode.
 
 
-You can then choose between the **Media tab** and the **Live tab**.
-Use the **Media tab** to code pre-recorded media (videos or audios) and the **Live tab** to code live observations.
+You must then indicate if you want to make an observation based on pre-recorded media (audio / video) or a live observation.
 
 
+Live observation
+----------------
 
 
-Media tab
----------
+Choose the **Live tab**
+
+.. image:: live_observation.png
+   :alt: New live observation
+   :width: 100%
+
+
+Media based observation
+-----------------------
+
+Choose the **Media tab**
+
 
 .. image:: new_observation_playlist.png
    :alt: Playlist
