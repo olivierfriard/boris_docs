@@ -391,7 +391,7 @@ Live observation
 
 During the live observation BORIS will show you a timer that will be used for recording time for coded events.
 
-Choose the **Live tab**
+Choose the **Live tab** to make a live observation.
 
 .. image:: live_observation.png
    :alt: New live observation
@@ -407,7 +407,7 @@ In the above tab you can select a time for **Scan sampling** observation. In thi
 Media based observation
 -----------------------
 
-Choose the **Media tab**
+Choose the **Media tab** to make an obervation based on media.
 
 
 .. image:: new_observation_playlist.png
@@ -1052,9 +1052,11 @@ Citing BORIS
 
 If you have used BORIS for producing scientific publications, please cite::
 
-    Behavioral Observation Research Interactive Software (http://www.boris.unito.it)
 
-
+    Olivier Friard and Marco Gamba
+    BORIS: a free, versatile open-source event-logging software for video/audio coding and live observations
+    Methods in Ecology and Evolution
+    DOI: 10.1111/2041-210X.12584
 
 
 Docking
