@@ -8,7 +8,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 
 version 2.97
 
-`www.boris.unito.it <http://www.boris.unito.it>`_
+BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 `BORIS GitHub repository <https://github.com/olivierfriard/BORIS>`_
 
