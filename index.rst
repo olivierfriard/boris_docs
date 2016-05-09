@@ -342,7 +342,7 @@ The **Observations** > **Observations list** will show you all the observations 
 
 The observations list can be filtered
 
-Example of filter on subjects:
+In the following example observations are filtered: only observations containing the **Bobo** subject are shown:
 
 .. image:: observations_list_filtered.png
    :alt: Observations list
