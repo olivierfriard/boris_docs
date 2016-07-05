@@ -1114,6 +1114,14 @@ All elements, including the media player can be undocked from the main window an
    :alt: Undocked widgets
 
 
+Valid keys for triggering behavior
+----------------------------------
+
+* A
+* B
+* C
+
+
 Acknowledgement
 ===============
 
