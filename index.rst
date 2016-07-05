@@ -708,7 +708,10 @@ Exporting events data
 
 The coded events can be exported in various format (**Observations** > **Export ?**):
 
-* **Export events** exports the events of selected observations in TSV, XLS or ODS formats. These formats are suitable for further analysis.
+Export events
+-------------
+
+This function will export the events of selected observations in TSV, XLS or ODS formats. These formats are suitable for further analysis.
 
 
 .. image:: export_events.png
@@ -716,7 +719,15 @@ The coded events can be exported in various format (**Observations** > **Export 
    :width: 60%
 
 
-* **Export aggregated events** in TSV or SQL formats. State events are paired and duration is available. The TSV format is suitable for further analysis. The SQL format is suitable to populate an SQL database.
+Export aggregated events
+------------------------
+
+This function will export the events of the selected observations in TSV, CSV, XLS, ODS or SQL formats.
+The **State events** are paired and duration is available.
+The SQL format is suitable to populate an SQL database.
+
+The export format is selected with the extension of the file name.
+
 
 .. image:: export_aggregated_events.png
    :alt: example of aggregated and exported events in TSV format
@@ -1081,8 +1092,8 @@ Please send bug reports and features request by e-mail (see web site http://www.
  or by using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS).
 
 
-In case of bug report please verify that you are using tha last verison of BORIS and indicate your operating system and its version.
-You may also include the BORIS project that gave you an error.
+In case of bug report please verify that you are using the last version of BORIS and indicate your operating system, its version and the CPU architecture (32/64 bits).
+You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to any third party.
 
 
 Docking
