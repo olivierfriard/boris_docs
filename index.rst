@@ -729,7 +729,7 @@ The SQL format is suitable to populate an SQL database.
 The export format is selected with the extension of the file name.
 
 
-Example of tabular export::
+Example of tabular export
 
 .. image:: export_aggregated_events.png
    :alt: example of aggregated and exported events in TSV format
