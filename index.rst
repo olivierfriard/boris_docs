@@ -757,6 +757,8 @@ Example of SQL export::
 Export events as behavioral strings
 ------------------------------------
 
+Behavioral string can be used with the BSA service:
+`Behavioral Strings Analysis (BSA) <http://penelope.unito.it/bsapraat/>`_
 
 Example::
 
