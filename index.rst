@@ -1124,7 +1124,11 @@ The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and
 Valid keys for triggering behavior
 ----------------------------------
 
+BORIS will not make difference between lower case and upper case characters
+
+
 * keys from A to Z
 * keys from 0 to 9
 * function keys from F1 to F12
-* ! " £ $ % & / ( ) = ? ^
+* à é è ù ç
+* ! " £ $ % & / ( ) = ? ^ [ ] @ |
