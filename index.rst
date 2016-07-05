@@ -1114,15 +1114,17 @@ All elements, including the media player can be undocked from the main window an
    :alt: Undocked widgets
 
 
-Valid keys for triggering behavior
-----------------------------------
-
-* A
-* B
-* C
 
 
 Acknowledgement
 ===============
 
 The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and Laura Ozella for their precious help.
+
+Valid keys for triggering behavior
+----------------------------------
+
+* keys from A to Z
+* keys from 0 to 9
+* function keys from F1 to F12
+* ! " £ $ % & / ( ) = ? ^
