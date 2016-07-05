@@ -722,12 +722,14 @@ This function will export the events of selected observations in TSV, XLS or ODS
 Export aggregated events
 ------------------------
 
-This function will export the events of the selected observations in TSV, CSV, XLS, ODS or SQL formats.
+This function will export the events of the selected observations in tabular format (TSV, CSV, XLS, ODS) or SQL format.
 The **State events** are paired and duration is available.
 The SQL format is suitable to populate an SQL database.
 
 The export format is selected with the extension of the file name.
 
+
+Example of tabular export::
 
 .. image:: export_aggregated_events.png
    :alt: example of aggregated and exported events in TSV format
