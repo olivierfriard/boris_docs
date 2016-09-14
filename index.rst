@@ -116,7 +116,7 @@ Switching to the **Ethogram** tab, you can alternatively:
 * set your ethogram from scratch;
 * import an existing ethogram from another BORIS project;
 * import an ethogram from a JWatcher global definition file (.gdf).
-* import an ethogram from a plain text file `import ethogram from plain text file`_
+* `import an ethogram from a plain text file`_
 
 
 .. image:: ethogram.png
@@ -269,7 +269,7 @@ Behavior type and exclusion information for the behaviours imported from JWatche
 
 
 
-.. _import ethogram from plain text file:
+.. _import an ethogram from a plain text file:
 
 Import an ethogram from a plain text file
 ..........................................
