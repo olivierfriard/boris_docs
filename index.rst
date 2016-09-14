@@ -739,13 +739,12 @@ Export aggregated events
 This function will export the events of the selected observations in the following formats:
 
 * **tabular format** (TSV, CSV, XLS, ODS, HTML)
-* **SQL** format for populating a database
+* **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program  `<http://www2.gsu.edu/~psyrab/gseq>`_
 
 
 
 The **State events** are paired and duration is available.
-The **SQL** format is suitable to populate an SQL database.
 
 
 Example of tabular export
