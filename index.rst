@@ -143,7 +143,7 @@ Categories of behaviors
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Defining categories of behaviors can be usefull for the analysis of coded events (for example the time budget analysis).
-Click the **Behavioral categories** button and add a new category. Behaviors can then be included or not in a defined category.
+Click the **Behavioral categories** button and add a the categories of behaviors. Behaviors can then be included or not in a defined category.
 
 .. image:: behaviors_categories.png
    :scale: 60%
