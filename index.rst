@@ -276,17 +276,18 @@ Import an ethogram from a plain text file
 
 
 Behaviors can be imported from a plain text file using the **Import from text file** button.
-The fields must be separated by TAB, comma (,) or semicolomn (;). All plain text file rows must contain the same number of fields.
+The fields must be separated by TAB, comma (,) or semicolomn (;). All rows must contain the same number of fields.
 
 
-The fields and will be interpreted as:
+The fields will be interpreted as:
 
 * field #1: event type (point or state)
 * field #2: key (case insensitive)
 * field #3: code (must be unique)
-* field #4: description (optional)
+* field #4: behavior category (empty if no category)
+* field #5: description (optional)
 
-All fields after the 4th will be ignored.
+All fields after the 5th will be ignored.
 
 
 BORIS will ask to select a plain text file (by default: \*.txt \*.csv \*.tsv) and whether imported behaviors should replace or be appended to the **Ethogram** table.
