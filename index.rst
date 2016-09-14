@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 2.97**
+**version 2.993**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -128,7 +128,7 @@ Set your ethogram from scratch
 ..............................
 
 Clicking on the **Add behavior** button you can add a new row in the *Ethogram* table and behavior type will be automatically set to **Point event**.
-You can switch between **State event** and *Point event* at your convenience from the **Behavior type** column. You can also add a **Coding map** to
+You can switch between **State event** and **Point event** at your convenience from the **Behavior type** column. You can also add a **Coding map** to
 either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; see the "Coding map" section for details).
 
 An existing behavior can be duplicated using the **Clone behavior** button. Its code have then to be changed. On a selected behavior, click on
@@ -1130,5 +1130,5 @@ BORIS will not make difference between lower case and upper case characters
 * keys from A to Z
 * keys from 0 to 9
 * function keys from F1 to F12
-* à é è ù ç
-* ! " £ $ % & / ( ) = ? ^ [ ] @ |
+* à é è ù ì ç
+* ! " £ $ % & / ( ) = ? ^ [ ] @ | § ° #
