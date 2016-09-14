@@ -139,7 +139,15 @@ Behavioral codes (**Code** column) can be sorted alphabetically by checking the 
 manually by using the **Move up** and **Move down** buttons.
 
 
+Categories of behaviors
+~~~~~~~~~~~~~~~~~~~~~~~
 
+Defining categories of behaviors can be usefull for the analysis of coded events (for example the time budget analysis).
+Click the **Behavioral categories** button and add a new category.
+
+.. image:: behaviors_categories.png
+   :scale: 60%
+   :alt: Categories of behaviors
 
 
 
@@ -158,6 +166,8 @@ you want to record. The keys are case-insensitive.
 In the **Code** column, you have to add a unique code for each behavior. Duplicated codes are not accepted and
 BORIS will warn in red about duplicates on the bottom left of the *Ethogram* tab. The code can be an alphanumeric
 string (which must not include the pipe character **|** ).
+
+The **Category** column allow you to add the behavior to a predefined category.
 
 The **Description** of your behavior is optional. The **Description** column can be useful to add information
 about a specific behavior, its characteristics (e.g. to standardise observation between different users) or to
