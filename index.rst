@@ -740,7 +740,7 @@ This function will export the events of the selected observations in the followi
 
 * **tabular format** (TSV, CSV, XLS, ODS, HTML)
 * **SQL** format for populating a SQL database
-* **SDIS** format for analysis with the GSEQ program  `<http://www2.gsu.edu/~psyrab/gseq>`_
+* **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
 
 
 
