@@ -834,7 +834,7 @@ Tools
 Geometric measurements
 ----------------------
 
-Geometric measurements can be made in frame-by-frame mode. Distances, areas and angles can be measured.
+Geometric measurements can only be made in frame-by-frame mode. Distances, areas and angles can be measured.
 Click on **Tools** > **Geometric measurements** to activate the measurements. The **Measurements window** will be shown:
 
 .. image:: measurements_window.png
@@ -880,6 +880,12 @@ Select the **Angle** radio button. Click the left mouse button on the frame bitm
 A red circle with a cross will be drawn.
 Click the right mouse button to set the two segments. Blue circles with a cross will be drawn.
 The angle between the two drawn segments will be available in the text area of the **Measurements window**.
+
+
+Persistent measurements
+.......................
+
+If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all frames otherwise they will be deleted between frames.
 
 
 
