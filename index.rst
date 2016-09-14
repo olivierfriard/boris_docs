@@ -736,11 +736,16 @@ This function will export the events of selected observations in TSV, XLS or ODS
 Export aggregated events
 ------------------------
 
-This function will export the events of the selected observations in tabular format (TSV, CSV, XLS, ODS) or SQL format.
-The **State events** are paired and duration is available.
-The SQL format is suitable to populate an SQL database.
+This function will export the events of the selected observations in the following formats:
 
-The export format is selected with the extension of the file name.
+* **tabular format** (TSV, CSV, XLS, ODS, HTML)
+* **SQL** format for populating a database
+* **SDIS** format for analysis with the GSEQ program  <http://www2.gsu.edu/~psyrab/gseq>`_
+
+
+
+The **State events** are paired and duration is available.
+The **SQL** format is suitable to populate an SQL database.
 
 
 Example of tabular export
@@ -768,11 +773,12 @@ Example of SQL export::
     ("demo #1","2015-11-30 10:39:18","Subj #2","eat","meat","STATE",26.6,113.988,"","");
 
 
+
 Export events as behavioral strings
 ------------------------------------
 
 Behavioral string can be used with the BSA service:
-`Behavioral Strings Analysis (BSA) <http://penelope.unito.it/bsapraat/>`_
+`Behavioral Strings Analysis (BSA) <http://penelope.unito.it/bsa/>`_
 
 Example::
 
