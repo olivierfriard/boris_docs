@@ -116,6 +116,7 @@ Switching to the **Ethogram** tab, you can alternatively:
 * set your ethogram from scratch;
 * import an existing ethogram from another BORIS project;
 * import an ethogram from a JWatcher global definition file (.gdf).
+* import an ethogram from a plain text file
 
 
 .. image:: ethogram.png
@@ -167,7 +168,7 @@ In the **Code** column, you have to add a unique code for each behavior. Duplica
 BORIS will warn in red about duplicates on the bottom left of the *Ethogram* tab. The code can be an alphanumeric
 string (which must not include the pipe character **|** ).
 
-The **Category** column allow you to add the behavior to a predefined category.
+The **Category** column allow you to include the behavior to a predefined category.
 
 The **Description** of your behavior is optional. The **Description** column can be useful to add information
 about a specific behavior, its characteristics (e.g. to standardise observation between different users) or to
@@ -267,6 +268,8 @@ BORIS will ask to select a JWatcher file (.gdf) and whether imported behaviors s
 Behavior type and exclusion information for the behaviours imported from JWatcher have to be redefined.
 
 
+
+.. _import ethogram from plain text file:
 
 Import an ethogram from a plain text file
 ..........................................
