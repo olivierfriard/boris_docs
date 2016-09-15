@@ -363,7 +363,7 @@ The observations list can be filtered selecting a field in the drop-list box.
 
 In the following example observations are filtered: only observations containing the **Bobo** subject are shown:
 
-.. image:: observations_list_filtered.png
+.. image:: observations_list_filtered1.png
    :alt: Observations list
    :width: 100%
 
@@ -381,6 +381,8 @@ Please note that the deletion is irreversible.
 
 Create a new observation
 ========================
+
+A video tutorial about making an observation is available at `<https://www.youtube.com/watch?v=ef-d6WEc0po>`_
 
 To create a new observation you must first `Create a new project with BORIS`_
 or `Open an existing project with BORIS`_.
