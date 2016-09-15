@@ -987,6 +987,9 @@ Time budget
 
 The **Time budget** analysis can be done by behavior or by category of behaviors. Choose the option from the **Analysis** menu.
 
+The **Time budget** analysis can be done on one or more observations. If you select more than one observation you must then
+choose for a global time budget analysis that will contain all selected observations or a time budget analysis for every single observation.
+
 
 The **Analysis** > **Time budget** menu option shows the time budget for the events of one or more observations.
 You must first select the subjects and behaviors you want to include in the time budget analysis:
@@ -996,7 +999,7 @@ You must first select the subjects and behaviors you want to include in the time
    :width: 50%
 
 
-All behaviors can be selected or unselected by clicking on the Category.
+All behaviors can be selected or unselected by clicking on the Category (bold).
 
 You can choose to include or not the behavior modifiers in the Time budget analysis and to exclude behaviors without coded events.
 
