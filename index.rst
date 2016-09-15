@@ -83,7 +83,7 @@ The BORIS project file is the container for all information related to the proje
 The save menu option (File -> Save project) will save all this information. You can also activate the **automatic backup** feature (see **Preferences**).
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
 
-A video tutorial about creating a project is available at `https://www.youtube.com/watch?v=UGou4EVcLm0`_
+A video tutorial about creating a project is available at `<https://www.youtube.com/watch?v=UGou4EVcLm0>`_
 
 To create a new project, under the menu **File** , select **New project**.
 You can determine your project name by writing in the **Project name** field in the **Information** tab. Once the project will be saved,
