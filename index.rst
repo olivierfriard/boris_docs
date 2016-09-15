@@ -985,10 +985,10 @@ Analysis
 Time budget
 ------------
 
-The Tima budget analysis can be done by behavior or by category of behaviors. Choose the option from the **Analyze** menu.
+The **Time budget** analysis can be done by behavior or by category of behaviors. Choose the option from the **Analysis** menu.
 
 
-The **Analyze** > **Time budget** menu option shows the time budget for the events of one or more observations.
+The **Analysis** > **Time budget** menu option shows the time budget for the events of one or more observations.
 You must first select the subjects and behaviors you want to include in the time budget analysis:
 
 .. image:: time_budget_parameters.png
@@ -996,7 +996,9 @@ You must first select the subjects and behaviors you want to include in the time
    :width: 40%
 
 
-You can choose to select or not the behavior modifiers (if any) and to exclude behaviors without coded events.
+
+
+You can choose to include or not the behavior modifiers in the Time budget analysis and to exclude behaviors without coded events.
 
 .. image:: time_budget.png
    :alt: Time budget
