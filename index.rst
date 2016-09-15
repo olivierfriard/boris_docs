@@ -375,6 +375,8 @@ Observations can be filtered with **Independent variables** values:
    :width: 100%
 
 
+The observations list can be sorted using the **Sort order** dropdown list.
+
 
 Delete an observation
 =====================
