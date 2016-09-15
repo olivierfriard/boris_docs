@@ -321,7 +321,7 @@ This can be used to specify factors that may influence the behaviors (e.g. group
 composition, temperature, weather conditions) but will not change during a single
 observation within a project. Each independent variable can be defined by a **Label** (e.g. weather), a
 **Description** (e.g. weather conditions), a **Type** (*text*, *numeric* or *value from set*).
-The values of a set are defined in the **Set of values** column separating the values with a comma (**,**).
+The values of a set are defined in the **Set of values** column separating the available values with a comma (**,**).
 
 The values for the independent variables can be set when creating a new observation.
 Addition, removal and sorting of the independent variables follows the same logic of the **Ethogram** table
