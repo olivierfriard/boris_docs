@@ -992,11 +992,11 @@ The **Analysis** > **Time budget** menu option shows the time budget for the eve
 You must first select the subjects and behaviors you want to include in the time budget analysis:
 
 .. image:: time_budget_parameters.png
-   :alt: Time budget
-   :width: 40%
+   :alt: Select subject and behaviors for time budget analysis
+   :width: 50%
 
 
-
+All behaviors can be selected or unselected by clicking on the Category.
 
 You can choose to include or not the behavior modifiers in the Time budget analysis and to exclude behaviors without coded events.
 
