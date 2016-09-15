@@ -897,7 +897,7 @@ Sequences of media file corresponding to coded events can be extracted from medi
 1) Click on **Observations** > **Extract events from media files** option.
 2) Choose the observation(s).
 3) Select the events to be extracted.
-4) Select a destination directory that will contain the extracted media sequences.
+4) Select a destination directory that will contain the extracted sequences.
 5) Select a time offset (in seconds, the default value is 0).
 
 The time offset will be substracted from the starting time of event and added to the stopping time. All the extracted sequences will be saved
@@ -974,6 +974,8 @@ The coding map name will appear in the **Coding map** column and will be saved i
 NOTE: If you later modify your coding map you must reload the new version in your BORIS project.
 
 
+
+
 Analysis
 ========
 
@@ -982,6 +984,8 @@ Analysis
 
 Time budget
 ------------
+
+The Tima budget analysis can be done by behavior or by category of behaviors. Choose the option from the **Analyze** menu.
 
 
 The **Analyze** > **Time budget** menu option shows the time budget for the events of one or more observations.
