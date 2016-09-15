@@ -49,15 +49,6 @@ Install BORIS
 
 BORIS can be installed following instructions on the BORIS site at `download page <http://www.boris.unito.it/?page=download>`_
 
-Unless you use a full bundle version (available only for Microsoft-Windows) BORIS requires a **recent** version (>=2) of
-the `VLC Media Player <http://www.videolan.org/vlc>`_    from the VideoLAN Organization.
-
-
-*VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols.*
-
-
-From version 2.8 the open source `FFmpeg multimedia framework <https://www.ffmpeg.org>`_ is included with BORIS.
-
 
 If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ from the BORIS site.
 In this case you must first install `VirtualBox <https://www.virtualbox.org/>`_
@@ -1025,7 +1016,7 @@ Open Document Spreadsheet (ODS).
 Plot events
 -----------
 
-The **Analyze** > **Plot events** menu option plots the events from one observation by subject and behaviours along a time axis.
+The **Analysis** > **Plot events** menu option plots the events from one observation by subject and behaviours along a time axis.
 
 You must first select the subjects and behaviors you want to include in the plot:
 
@@ -1033,7 +1024,8 @@ You must first select the subjects and behaviors you want to include in the plot
    :alt: Time budget
    :width: 40%
 
-You can choose to select or not the behavior modifiers (if any) and to exclude behaviors without coded events.
+
+You can choose to include or not the behavior modifiers (if any) and to exclude behaviors without coded events.
 
 .. image:: plot_events.png
    :alt: plot
