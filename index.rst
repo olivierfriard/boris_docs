@@ -368,6 +368,8 @@ In the following example observations are filtered: only observations containing
    :width: 100%
 
 
+Observations can be filtered with **Independent variables** values:
+
 .. image:: observations_list_filtered2.png
    :alt: Observations list
    :width: 100%
