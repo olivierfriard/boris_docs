@@ -1000,8 +1000,12 @@ All behaviors can be selected or unselected by clicking on the Category.
 
 You can choose to include or not the behavior modifiers in the Time budget analysis and to exclude behaviors without coded events.
 
+The **Time budget ** can be restricted to a portion of the observation. Use the **Start time** and **End time** boxes to select strting time and ending time.
+
+
+
 .. image:: time_budget.png
-   :alt: Time budget
+   :alt: Results of the time budget analysis
    :width: 100%
 
 
