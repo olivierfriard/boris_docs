@@ -361,11 +361,17 @@ The **Observations** > **Observations list** will show you all the observations 
 
 The observations list can be filtered selecting a field in the drop-list box.
 
-In the following example observations are filtered: only observations containing the **Bobo** subject are shown:
+In the following example observations are filtered: only observations containing the **Seven** subject are shown:
 
 .. image:: observations_list_filtered1.png
    :alt: Observations list
    :width: 100%
+
+
+.. image:: observations_list_filtered2.png
+   :alt: Observations list
+   :width: 100%
+
 
 
 Delete an observation
