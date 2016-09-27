@@ -915,6 +915,16 @@ Persistent measurements
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all frames otherwise they will be deleted between frames.
 
 
+Coding pad
+----------
+
+During observation a coding pad containing the behaviors can be displayed (**Tools** > **Coding pad**).
+This **Coding pad** allows the user to code using a touch-screen or by clicking on the buttons.
+
+.. image:: coding_pad.png
+   :alt: Coding pad
+   :width: 90%
+
 
 Re-encoding video
 -----------------
