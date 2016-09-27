@@ -833,6 +833,28 @@ Example::
                 text = "eat"
 
 
+
+Extract sequences from media files
+----------------------------------
+
+Sequences of media file corresponding to coded events can be extracted from media files:
+
+1) Click on **Observations** > **Extract events from media files** option.
+2) Choose the observation(s).
+3) Select the events to be extracted.
+4) Select a destination directory that will contain the extracted sequences.
+5) Select a time offset (in seconds, the default value is 0).
+
+The time offset will be substracted from the starting time of event and added to the stopping time. All the extracted sequences will be saved
+in the selected directory followind the file name format:
+
+
+{observation id}_{player}_{subject}_{behavior}_{start time}-{stop time}
+
+
+
+
+
 Tools
 =====
 
@@ -893,23 +915,6 @@ Persistent measurements
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all frames otherwise they will be deleted between frames.
 
 
-
-Extract sequences from media files
-----------------------------------
-
-Sequences of media file corresponding to coded events can be extracted from media files:
-
-1) Click on **Observations** > **Extract events from media files** option.
-2) Choose the observation(s).
-3) Select the events to be extracted.
-4) Select a destination directory that will contain the extracted sequences.
-5) Select a time offset (in seconds, the default value is 0).
-
-The time offset will be substracted from the starting time of event and added to the stopping time. All the extracted sequences will be saved
-in the selected directory followind the file name format:
-
-
-{observation id}_{player}_{subject}_{behavior}_{start time}-{stop time}
 
 
 
