@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 2.993**
+**version 2.994**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -915,15 +915,20 @@ Persistent measurements
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all frames otherwise they will be deleted between frames.
 
 
+
+
 Coding pad
 ----------
 
-During observation a coding pad containing the behaviors can be displayed (**Tools** > **Coding pad**).
+During observation a coding pad containing the available behaviors can be displayed (**Tools** > **Coding pad**).
 This **Coding pad** allows the user to code using a touch-screen or by clicking on the buttons.
+When the **Coding pad** is diplayed you can continue to code using the keyboard.
 
 .. image:: coding_pad.png
    :alt: Coding pad
    :width: 90%
+
+
 
 
 Re-encoding video
