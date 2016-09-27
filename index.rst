@@ -919,12 +919,14 @@ If the **Measurements are persistent** checkbox is checked the measurement schem
 Re-encoding video
 -----------------
 
-BORIS can re-encode and resize video files in order to reduce the size of the files.
-The re-encoding and resizing operation are done with the embedded ffmpeg program with high quality parameters (bitrate 2000k).
+BORIS can re-encode and resize your video files in order to reduce the size of the files and have a smooth coding (specially with two video files playing together).
+The re-encoding and resizing operations are done with the embedded ffmpeg program with high quality parameters (bitrate 2000k).
 
 Select the files you want re-encode and resize and select the horizontal resolution in pixels (the default is 1024). The aspect ratio will be maintained.
 
 You can continue to use BORIS during the re-encoding/resizing operation.
+
+The re-encoded/resied video files are renamed by adding the re-encoded.avi extension to the original files.
 
 
 
