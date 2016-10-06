@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 2.994**
+**version 2.996**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -853,6 +853,21 @@ in the selected directory followind the file name format:
 
 
 
+Create transitions matrix
+-------------------------
+
+A transition matrix display the frequency (mormalized) of transitions.
+
+Example of transition matrix::
+
+	jump	walk	drink	groom
+jump	0.3	0.0	0.0	0.1
+walk	0.0	0.0	0.2	0.0
+drink	0.2	0.0	0.0	0.0
+groom	0.0	0.2	0.0	0.0
+
+In this matrix you can see that the **groom** behavior precede the **walk** behavior in 20% of the total transitions.
+
 
 
 Tools
@@ -931,8 +946,9 @@ When the **Coding pad** is diplayed you can continue to code using the keyboard.
 
 
 
-Re-encoding video
------------------
+Re-encoding and resizing a video file
+-------------------------------------
+
 
 BORIS can re-encode and resize your video files in order to reduce the size of the files and have a smooth coding (specially with two video files playing together).
 The re-encoding and resizing operations are done with the embedded ffmpeg program with high quality parameters (bitrate 2000k).
