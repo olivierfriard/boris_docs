@@ -866,7 +866,7 @@ Example of transition matrix::
     drink	0.2	0.0	0.0	0.0
     groom	0.0	0.2	0.0	0.0
 
-In this matrix you can see that the **groom** behavior precede the **walk** behavior in 20% of the total transitions.
+In this matrix you can see that the **groom** behavior precedes the **walk** behavior in 20% of the total transitions.
 
 
 
@@ -944,6 +944,16 @@ When the **Coding pad** is diplayed you can continue to code using the keyboard.
    :width: 90%
 
 
+Transition flow diagram
+-----------------------
+
+
+DOT script
+..........
+
+Choose one ore more transition matrix files and BORIS will create the relative DOT script file(s).
+
+The DOT script files can be used with Graphviz or WebGraphviz to generate flow diagram of transitions.
 
 
 Re-encoding and resizing a video file
