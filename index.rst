@@ -860,11 +860,11 @@ A transition matrix display the frequency (mormalized) of transitions.
 
 Example of transition matrix::
 
-	jump	walk	drink	groom
-jump	0.3	0.0	0.0	0.1
-walk	0.0	0.0	0.2	0.0
-drink	0.2	0.0	0.0	0.0
-groom	0.0	0.2	0.0	0.0
+        jump	walk	drink	groom
+    jump	0.3	0.0	0.0	0.1
+    walk	0.0	0.0	0.2	0.0
+    drink	0.2	0.0	0.0	0.0
+    groom	0.0	0.2	0.0	0.0
 
 In this matrix you can see that the **groom** behavior precede the **walk** behavior in 20% of the total transitions.
 
