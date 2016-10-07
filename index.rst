@@ -1076,7 +1076,7 @@ The Time budget analysis can be restricted to a portion of the observation. Use 
 
 The percent of total time will be calculated (if available). The total time is intended as the total media length.
 
-The time budget results can be saved in various formats for further analysis: TSV, CSV for plain text file or Microsoft Excel (XLS),
+The time budget results can be saved in various formats for further analysis: TSV, CSV for plain text file, HTML or Microsoft Excel (XLS),
 Open Document Spreadsheet (ODS).
 
 .. note:: If a STATE behavior has an odd number of coded events, BORIS will report "UNPAIRED" instead of results"
