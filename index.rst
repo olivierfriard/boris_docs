@@ -968,7 +968,7 @@ Flow diagram
 ............
 
 
-If `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) is installed (and the dot program available in the path) BORIS can generate flow diagram (PNG format)
+If `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) is installed on your system (and the dot program available in the path) BORIS can generate flow diagram (PNG format)
 from a transitions matrix file.
 
 **Tools > Transitions flow diagram > Create transitions flow diagram**
