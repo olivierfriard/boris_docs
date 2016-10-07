@@ -952,10 +952,24 @@ Transitions flow diagram
 DOT script (GraphViz language)
 ..............................
 
+**Tools > Transitions flow diagram > Create transitions DOT script**
+
 Choose one ore more transition matrix files and BORIS will create the relative DOT script file(s).
 
 The DOT script files can be used with `Graphviz <http://www.graphviz.org>`_ or `WebGraphviz <http://www.webgraphviz.com>`_
 to generate flow diagram of transitions.
+
+
+Flow diagram
+............
+
+**Tools > Transitions flow diagram > Create transitions flow diagram**
+
+If Graphviz (Graph Visualization Software) is installed (and the dot program available in the path) BORIS can generate flow diagram (PNG format)
+from a transitions matrix file.
+
+
+Choose one ore more transition matrix files and BORIS will create the relative flow diagram.
 
 
 
