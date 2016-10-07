@@ -975,7 +975,7 @@ from a transitions matrix file.
 
 Choose one ore more transition matrix files and BORIS will create the relative flow diagram.
 
-Example of transitions flow diagram:
+In the following example of transitions flow diagram, the fractions of the total number of transitions are displayed on the edges of the graph:
 
 
 .. image:: flow_diagram_graphviz.png
