@@ -956,7 +956,7 @@ DOT script (GraphViz language)
 
 Choose one ore more transition matrix files and BORIS will create the relative DOT script file(s).
 
-The DOT script files can be used with `Graphviz <http://www.graphviz.org>`_ or `WebGraphviz <http://www.webgraphviz.com>`_
+The DOT script files can be used with `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) or `WebGraphviz <http://www.webgraphviz.com>`_
 to generate flow diagram of transitions.
 
 
@@ -965,7 +965,7 @@ Flow diagram
 
 **Tools > Transitions flow diagram > Create transitions flow diagram**
 
-If Graphviz (Graph Visualization Software) is installed (and the dot program available in the path) BORIS can generate flow diagram (PNG format)
+If `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) is installed (and the dot program available in the path) BORIS can generate flow diagram (PNG format)
 from a transitions matrix file.
 
 
