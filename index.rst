@@ -949,7 +949,7 @@ Transitions flow diagram
 ------------------------
 
 
-DOT script (GraphViz language)
+DOT script (Graphviz language)
 ..............................
 
 **Tools > Transitions flow diagram > Create transitions DOT script**
@@ -962,17 +962,25 @@ to generate flow diagram of transitions.
 
 See `DOT (graph description language) <https://en.wikipedia.org/wiki/DOT_(graph_description_language)>`_ for details.
 
+
+
 Flow diagram
 ............
 
-**Tools > Transitions flow diagram > Create transitions flow diagram**
 
 If `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) is installed (and the dot program available in the path) BORIS can generate flow diagram (PNG format)
 from a transitions matrix file.
 
+**Tools > Transitions flow diagram > Create transitions flow diagram**
 
 Choose one ore more transition matrix files and BORIS will create the relative flow diagram.
 
+Example of transitions flow diagram:
+
+
+.. image:: flow_diagram_graphviz.png
+   :alt: Transitions flow diagram produced by Graphviz
+   :width: 50%
 
 
 Re-encoding and resizing a video file
@@ -986,7 +994,7 @@ Select the files you want re-encode and resize and select the horizontal resolut
 
 You can continue to use BORIS during the re-encoding/resizing operation.
 
-The re-encoded/resied video files are renamed by adding the re-encoded.avi extension to the original files.
+The re-encoded/resized video files are renamed by adding the re-encoded.avi extension to the original files.
 
 
 
