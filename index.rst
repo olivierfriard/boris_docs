@@ -944,16 +944,19 @@ When the **Coding pad** is diplayed you can continue to code using the keyboard.
    :width: 90%
 
 
-Transition flow diagram
------------------------
+
+Transitions flow diagram
+------------------------
 
 
-DOT script
-..........
+DOT script (GraphViz language)
+..............................
 
 Choose one ore more transition matrix files and BORIS will create the relative DOT script file(s).
 
-The DOT script files can be used with Graphviz or WebGraphviz to generate flow diagram of transitions.
+The DOT script files can be used with `Graphviz <http://www.graphviz.org>`_ or `WebGraphviz <http://www.webgraphviz.com>`_
+to generate flow diagram of transitions.
+
 
 
 Re-encoding and resizing a video file
