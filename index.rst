@@ -62,7 +62,7 @@ Start BORIS by clicking on its icon. For launching BORIS from sources see the BO
 When launching BORIS for the first time it may take some time to show up. Please be patient!
 
 
-.. warning:: On Mac OS X 10.9, launching can be stopped according to the **Security & Privacy** settings of your computer.
+.. warning:: On Mac OS X 10.9 and above, launching can be stopped according to the **Security & Privacy** settings of your computer.
    They can be changed opening **System Preferences...** > **Security & Privacy** > **General** and
    selecting the option **Anywhere** in the frame **Allow apps downloaded from**. Alternatively you can repeat the
    operation right-clicking on the BORIS icon and then clicking **Open** in the following two dialog boxes.
