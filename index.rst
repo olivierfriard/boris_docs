@@ -645,7 +645,7 @@ Record an event
 
 Once ready to begin your coding, you can start the media player using the **Play** button (or the Space bar).
 The behaviors can be recorded using the keyboard with the predefined keys, by double-clicking the corresponding row in the **Ethogram** table
- or by using the **Coding pad** (See `coding pad`_).
+or by using the **Coding pad** (See `coding pad`_).
 
 
 .. image:: ethogram_subjects_widgets.png
