@@ -354,44 +354,6 @@ Observations
 ============
 
 
-Observations list
------------------
-
-The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
-
-.. image:: observations_list.png
-   :alt: Observations list
-   :width: 100%
-
-The observations list can be filtered selecting a field in the drop-list box.
-
-In the following example observations are filtered: only observations containing the **Seven** subject are shown:
-
-.. image:: observations_list_filtered1.png
-   :alt: Observations list
-   :width: 100%
-
-
-Observations can be filtered with **Independent variables** values:
-
-.. image:: observations_list_filtered2.png
-   :alt: Observations list
-   :width: 100%
-
-
-The observations list can be sorted using the **Sort order** dropdown list.
-
-
-Delete an observation
----------------------
-
-An observation can be deleted from the project using the following procedure:
-**File** > **Edit project** > **Observation's tab** > **Select observation to remove** > **Remove observation** button
-
-Please note that the deletion is irreversible.
-
-
-
 
 Create a new observation
 ------------------------
@@ -504,6 +466,51 @@ If the two media are not synchronised you can specify a time offset for the seco
 
 Click OK to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
 
+
+
+Observations list
+-----------------
+
+The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
+
+.. image:: observations_list.png
+   :alt: Observations list
+   :width: 100%
+
+The observations list can be filtered selecting a field in the drop-list box.
+
+In the following example observations are filtered: only observations containing the **Seven** subject are shown:
+
+.. image:: observations_list_filtered1.png
+   :alt: Observations list
+   :width: 100%
+
+
+Observations can be filtered with **Independent variables** values:
+
+.. image:: observations_list_filtered2.png
+   :alt: Observations list
+   :width: 100%
+
+
+The observations list can be sorted using the **Sort order** dropdown list.
+
+
+Delete an observation
+---------------------
+
+An observation can be deleted from the project using the following procedure:
+**File** > **Edit project** > **Observation's tab** > **Select observation to remove** > **Remove observation** button
+
+Please note that the deletion is irreversible.
+
+
+Import observations from a project file
+----------------------------------------
+
+The **Observations** > **Import observations** option allows to import obserations from a BORIS project file into the current project.
+Choose the project file and then the observations to import. BORIS will check if observations with same id are already existing in the current project.
+BORIIS will also check if behaviors and/or subjects used in the imported observations are not defined in the current project.
 
 
 
