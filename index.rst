@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 2.996**
+**version 2.998**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -350,10 +350,12 @@ the independent variables, and the subjects. BORIS allows creating an unlimited 
 only one project can be opened at a time.
 
 
+Observations
+============
 
 
 Observations list
-=================
+-----------------
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
 
@@ -381,7 +383,7 @@ The observations list can be sorted using the **Sort order** dropdown list.
 
 
 Delete an observation
-=====================
+---------------------
 
 An observation can be deleted from the project using the following procedure:
 **File** > **Edit project** > **Observation's tab** > **Select observation to remove** > **Remove observation** button
@@ -392,7 +394,7 @@ Please note that the deletion is irreversible.
 
 
 Create a new observation
-========================
+------------------------
 
 A video tutorial about making an observation is available at `<https://www.youtube.com/watch?v=ef-d6WEc0po>`_
 
@@ -420,7 +422,7 @@ You must then indicate if you want to make an observation based on pre-recorded 
 
 
 Live observation
-----------------
+................
 
 During the live observation BORIS will show you a timer that will be used for recording time for coded events.
 
@@ -438,7 +440,7 @@ In the above tab you can select a time for **Scan sampling** observation. In thi
 
 
 Media based observation
------------------------
+.......................
 
 Choose the **Media tab** to make an obervation based on media.
 
@@ -464,7 +466,7 @@ in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\
 
 
 Spectrogram visualization
-.........................
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 BORIS allow you to visualize the sound spectrogram during the media observation.
 Activate the *Visualize spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
@@ -482,7 +484,7 @@ The spectrogram visualization will be synchonized to the media position during t
 
 
 Close current behavior between videos
-.....................................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If this option is selected BORIS will close all ongoing State events between successive media files.
 
@@ -491,7 +493,7 @@ This option can be usefull if you have to code various short media files enqueue
 
 
 Simultaneous play
-.................
+~~~~~~~~~~~~~~~~~
 
 BORIS also allows simultaneous playback of two media recorded independently
 (e.g. videos recorded from different points in a room; or a video and an audio recording of the same observation).
@@ -642,7 +644,8 @@ Record an event
 
 
 Once ready to begin your coding, you can start the media player using the **Play** button (or the Space bar).
-The behaviors can be recorded using the keyboard with the predefined keys (or by double-clicking the corresponding row in the **Ethogram** table).
+The behaviors can be recorded using the keyboard with the predefined keys, by double-clicking the corresponding row in the **Ethogram** table
+ or by using the **Coding pad** (See `coding pad`_).
 
 
 .. image:: ethogram_subjects_widgets.png
@@ -930,6 +933,8 @@ Persistent measurements
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all frames otherwise they will be deleted between frames.
 
 
+
+.. _coding pad:
 
 
 Coding pad
