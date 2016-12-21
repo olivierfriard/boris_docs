@@ -869,8 +869,9 @@ in the selected directory followind the file name format:
 Export transitions matrix
 -------------------------
 
+
 3 transitions matrix outputs are available: The matrix of frequencies of transitions, the matrix of frequencies of transition after each behavior
- and the matrix of number of transitions.
+and the matrix of number of transitions.
 
 
 Matrix of frequencies of transitions
