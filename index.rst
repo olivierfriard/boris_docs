@@ -896,6 +896,7 @@ In this matrix you can see that the **eat** behavior precedes the **sleep** beha
 Matrix of frequencies of transitions after behavior
 ...................................................
 
+
 This matrix contains the frequencies of transitions after each behavior.
 The sum of each row must be 1.
 
@@ -1051,6 +1052,29 @@ Flow diagram of frequencies of transitions
 .. image:: transitions_frequency.png
        :alt: Frequencies of transitions
        :width: 20%
+
+
+
+Flow diagram of frequencies of transitions after behavior
+..........................................................
+
+
+.. image:: transitions_frequency_after_behavior.png
+       :alt: Frequencies of transitions after behavior
+       :width: 20%
+
+
+
+Flow diagram of number of transitions
+.....................................
+
+.. image:: number_of_transitions.png
+       :alt: Frequencies of transitions after behavior
+       :width: 20%
+
+
+
+
 
 
 Re-encoding and resizing a video file
