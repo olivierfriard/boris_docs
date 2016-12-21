@@ -866,14 +866,17 @@ in the selected directory followind the file name format:
 
 
 
-Create transitions matrix
+Export transitions matrix
 -------------------------
 
-3 transitions matrix output are available: The matrix of frequencies of transitions, the matrix of frequencies of transition after each behavior
+3 transitions matrix outputs are available: The matrix of frequencies of transitions, the matrix of frequencies of transition after each behavior
  and the matrix of number of transitions.
 
 
-A transition matrix display the frequency (normalized) of transitions.
+Matrix of frequencies of transitions
+....................................
+
+This matrix contains the frequencies of total transitions.
 
 Example of transition matrix::
 
@@ -885,6 +888,21 @@ Example of transition matrix::
 
 In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of 0.2
  of the total number of transitions.
+
+
+
+Matrix of frequencies of transitions after behavior
+...................................................
+
+This matrix contains the frequencies of transitions after each behavior.
+
+
+
+Matrix of number of transisitons
+................................
+
+
+This matrix contains the number of transitions.
 
 
 
