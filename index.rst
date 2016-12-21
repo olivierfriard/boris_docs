@@ -880,14 +880,14 @@ This matrix contains the frequencies of total transitions.
 
 Example of transition matrix::
 
-        jump	walk	drink	groom
+            jump	walk	drink	groom
     jump	0.3	0.0	0.0	0.1
     walk	0.0	0.0	0.2	0.0
     drink	0.2	0.0	0.0	0.0
     groom	0.0	0.2	0.0	0.0
 
 
-In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of 0.2 of the total number of transitions.
+In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of **0.2** of the total number of transitions.
 
 
 
