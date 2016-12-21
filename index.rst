@@ -889,7 +889,7 @@ Example of frequencies of transitions matrix::
 
 
 
-In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of **0.2** of the total number of transitions.
+In this matrix you can see that the **eat** behavior precedes the **sleep** behavior with a frequency of **0.286** of the total number of transitions.
 
 
 
@@ -897,8 +897,17 @@ Matrix of frequencies of transitions after behavior
 ...................................................
 
 This matrix contains the frequencies of transitions after each behavior.
+The sum of each row must be 1
+
+Example::
+
+            eat    sleep     walk
+    eat     0.0    0.667    0.333
+    sleep   0.5	     0.0      0.5
+    walk    1.0      0.0      0.0
 
 
+In this example you can see that **sleep** follows **eat** with a frequency of **0.667** and **walk** follows with a frequency of **0.333**.
 
 Matrix of number of transisitons
 ................................
