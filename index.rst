@@ -76,6 +76,9 @@ If you choose **Yes** BORIS will check for new version about every 15 days.
 This option can be changed on the **Preferences** window (See `general preferences`_)
 
 
+You can launch BORIS from command line by specifying the project file to open as the first argument.
+
+
 Create a new project with BORIS
 ===============================
 
@@ -866,7 +869,11 @@ in the selected directory followind the file name format:
 Create transitions matrix
 -------------------------
 
-A transition matrix display the frequency (mormalized) of transitions.
+3 transitions matrix output are available: The matrix of frequencies of transitions, the matrix of frequencies of transition after each behavior
+ and the matrix of number of transitions.
+
+
+A transition matrix display the frequency (normalized) of transitions.
 
 Example of transition matrix::
 
@@ -876,7 +883,8 @@ Example of transition matrix::
     drink	0.2	0.0	0.0	0.0
     groom	0.0	0.2	0.0	0.0
 
-In this matrix you can see that the **groom** behavior precedes the **walk** behavior in 20% of the total transitions.
+In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of 0.2
+ of the total number of transitions.
 
 
 
@@ -937,7 +945,8 @@ The angle between the two drawn segments will be available in the text area of t
 Persistent measurements
 .......................
 
-If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all frames otherwise they will be deleted between frames.
+If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all
+ frames otherwise they will be deleted between frames.
 
 
 
@@ -949,7 +958,7 @@ Coding pad
 
 During observation a coding pad containing the available behaviors can be displayed (**Tools** > **Coding pad**).
 This **Coding pad** allows the user to code using a touch-screen or by clicking on the buttons.
-When the **Coding pad** is diplayed you can continue to code using the keyboard.
+When the **Coding pad** is displayed you can continue to code using the keyboard.
 
 .. image:: coding_pad.png
    :alt: Coding pad
