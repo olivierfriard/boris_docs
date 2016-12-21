@@ -897,7 +897,7 @@ Matrix of frequencies of transitions after behavior
 ...................................................
 
 This matrix contains the frequencies of transitions after each behavior.
-The sum of each row must be 1
+The sum of each row must be 1.
 
 Example::
 
@@ -909,11 +909,20 @@ Example::
 
 In this example you can see that **sleep** follows **eat** with a frequency of **0.667** and **walk** follows with a frequency of **0.333**.
 
-Matrix of number of transisitons
-................................
+
+Matrix of number of transitions
+...............................
+
+This matrix contains the number of transitions after each behavior.
+
+Example::
+
+            eat   sleep   walk
+    eat       0       2      1
+    sleep     1       0      1
+    walk      2       0      0
 
 
-This matrix contains the number of transitions.
 
 
 
@@ -1018,19 +1027,21 @@ Flow diagram
 ............
 
 
-If `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) is installed on your system (and the dot program available in the path) BORIS can generate flow diagram (PNG format)
+If `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) is installed on your system
+(and the **dot** program available in the path) BORIS can generate flow diagram (PNG format)
 from a transitions matrix file.
 
 **Tools > Transitions flow diagram > Create transitions flow diagram**
 
 Choose one ore more transition matrix files and BORIS will create the relative flow diagram.
 
-In the following example of transitions flow diagram, the fractions of the total number of transitions are displayed on the edges of the graph:
-
-
-.. image:: flow_diagram_graphviz.png
-   :alt: Transitions flow diagram produced by Graphviz
-   :width: 50%
+#In the following example of transitions flow diagram, the fractions of the total number of
+#transitions are displayed on the edges of the graph:
+#
+#
+#.. image:: flow_diagram_graphviz.png
+#   :alt: Transitions flow diagram produced by Graphviz
+#   :width: 50%
 
 
 Re-encoding and resizing a video file
