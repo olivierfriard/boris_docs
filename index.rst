@@ -879,13 +879,13 @@ Matrix of frequencies of transitions
 This matrix contains the frequencies of total transitions.
 The sum of all frequencies must be 1.
 
-Example of transition matrix::
+Example of frequencies of transitions matrix::
 
-            jump	walk	drink	groom
-    jump	0.3	0.0	0.0	0.1
-    walk	0.0	0.0	0.2	0.0
-    drink	0.2	0.0	0.0	0.0
-    groom	0.0	0.2	0.0	0.0
+        eat	sleep	walk
+    eat	0.0	0.286	0.143
+    sleep	0.143	0.0	0.143
+    walk	0.286	0.0	0.0
+
 
 
 In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of **0.2** of the total number of transitions.
