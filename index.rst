@@ -1045,8 +1045,8 @@ Choose one ore more transition matrix files and BORIS will create the relative f
 
 
 
-Matrix of frequencies of transitions
-....................................
+MFlow diagram of frequencies of transitions
+...........................................
 
 .. image:: transitions_frequency.png
        :alt: Frequencies of transitions
