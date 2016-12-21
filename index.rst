@@ -1050,7 +1050,7 @@ Matrix of frequencies of transitions
 
 .. image:: transitions_frequency.png
        :alt: Frequencies of transitions
-
+       :width: 100%
 
 
 Re-encoding and resizing a video file
