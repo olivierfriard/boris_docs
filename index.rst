@@ -882,10 +882,10 @@ The sum of all frequencies must be 1.
 
 Example of frequencies of transitions matrix::
 
-            eat	sleep	walk
-    eat      0.0	0.286	0.143
-    sleep	0.143	0.0	0.143
-    walk	0.286	0.0	0.0
+               eat   sleep     walk
+    eat        0.0   0.286    0.143
+    sleep    0.143     0.0    0.143
+    walk     0.286     0.0      0.0
 
 
 
