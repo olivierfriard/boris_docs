@@ -1045,12 +1045,12 @@ Choose one ore more transition matrix files and BORIS will create the relative f
 
 
 
-MFlow diagram of frequencies of transitions
+Flow diagram of frequencies of transitions
 ...........................................
 
 .. image:: transitions_frequency.png
        :alt: Frequencies of transitions
-       :width: 50%
+       :width: 20%
 
 
 Re-encoding and resizing a video file
