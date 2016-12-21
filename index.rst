@@ -1051,7 +1051,7 @@ Flow diagram of frequencies of transitions
 
 .. image:: transitions_frequency.png
        :alt: Frequencies of transitions
-       :width: 20%
+       :width: 25%
 
 
 
@@ -1061,7 +1061,7 @@ Flow diagram of frequencies of transitions after behavior
 
 .. image:: transitions_frequency_after_behavior.png
        :alt: Frequencies of transitions after behavior
-       :width: 20%
+       :width: 30%
 
 
 
@@ -1069,7 +1069,7 @@ Flow diagram of number of transitions
 .....................................
 
 .. image:: number_of_transitions.png
-       :alt: Frequencies of transitions after behavior
+       :alt: Number of transitions
        :width: 20%
 
 
