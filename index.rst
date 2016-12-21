@@ -886,8 +886,8 @@ Example of transition matrix::
     drink	0.2	0.0	0.0	0.0
     groom	0.0	0.2	0.0	0.0
 
-In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of 0.2
- of the total number of transitions.
+
+In this matrix you can see that the **groom** behavior precedes the **walk** behavior with a frequency of 0.2 of the total number of transitions.
 
 
 
