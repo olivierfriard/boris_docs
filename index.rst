@@ -877,6 +877,7 @@ Matrix of frequencies of transitions
 ....................................
 
 This matrix contains the frequencies of total transitions.
+The sum of all frequencies must be 1.
 
 Example of transition matrix::
 
