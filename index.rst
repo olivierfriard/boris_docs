@@ -737,6 +737,10 @@ If you have a numeric keypad you can use the following keys in alternative:
 
 To return in the media player mode press again the frame-by-frame button in the toolbar.
 
+
+The frame can be resized before visualization. See the `frame resizing`_ option.
+
+
 The frame viewer can be detached from the main window (See File > Preferences).
 In case on 2 simultaneous players the frame viewers will be automatically detached from the main window.
 
