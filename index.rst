@@ -707,6 +707,9 @@ You can switch between the media player and the frame-by-frame mode using the de
 In frame-by-frame mode the video will stop playing and the user will visualize the video frame by frame.
 
 
+.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.
+
+
 You can move between frames by using the arrow keys in the toolbar (on the right) or by using keyboard special keys:
 
 
