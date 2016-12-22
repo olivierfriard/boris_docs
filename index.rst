@@ -740,7 +740,7 @@ In case on 2 simultaneous players the frame viewers will be automatically detach
 
 
 For every second of the media file the frames are extracted by BORIS with the embedded ffmpeg program and are saved
-in the **`FFmpeg cache directory`_** specified in the **Preferences** window.
+in the `FFmpeg cache directory`_ specified in the **Preferences** window.
 
 
 Exporting events data
