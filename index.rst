@@ -1318,6 +1318,28 @@ The path for the ffmpeg executable program is displayed. From version 2.8 FFmpeg
     Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
 
 
+Frame-by-frame mode
+-------------------
+
+.. image:: preferences3.png
+   :alt: Preferences FFmpeg framework tab
+   :width: 60%
+
+
+Frame resizing
+...............
+
+The extracted frames can be resized before visualization to improve the speed. Select the width in pixel for the extracted frames.
+0 will indicate no frame resizing.
+
+
+Detaching the frame viewer
+...........................
+
+The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will be detached.
+
+
+
 Various
 =======
 
