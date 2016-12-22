@@ -1337,7 +1337,7 @@ Frame-by-frame mode
 Frame resizing
 ...............
 
-The extracted frames can be resized before visualization to improve the speed. Select the width in pixel for the extracted frames.
+In case of high resolution video the extracted frames can be resized before visualization to improve the speed. Select the width in pixel for the extracted frames.
 0 will indicate no frame resizing.
 
 
