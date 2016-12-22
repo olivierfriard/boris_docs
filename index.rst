@@ -1063,7 +1063,7 @@ Flow diagram of frequencies of transitions after behavior
 
 .. image:: transitions_frequency_after_behavior.png
        :alt: Frequencies of transitions after behavior
-       :width: 35%
+       :width: 30%
 
 
 
