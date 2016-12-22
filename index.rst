@@ -999,7 +999,7 @@ Persistent measurements
 .......................
 
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all
- frames otherwise they will be deleted between frames.
+frames otherwise they will be deleted between frames.
 
 
 
