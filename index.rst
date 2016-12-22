@@ -723,7 +723,8 @@ For the both modes (media player and frame-by-frame mode)
 * **ESC**: switch between VLC and frame-by-frame mode
 
 
-**Only for the frame-by-frame mode**:
+Only for the frame-by-frame mode
+..................................
 
 * **Left arrow** key: go to the previous frame
 * **Right arrow** key: go to the next frame
