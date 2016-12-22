@@ -713,7 +713,8 @@ In frame-by-frame mode the video will stop playing and the user will visualize t
 You can move between frames by using the arrow keys in the toolbar (on the right) or by using keyboard special keys:
 
 
-**For the both modes** (media player and frame-by-frame mode):
+For the both modes (media player and frame-by-frame mode)
+..............................................................
 
 * **Page Up** key: switch to the next media
 * **Page Down** key: switch to the previous media
@@ -1325,6 +1326,8 @@ Frame-by-frame mode
    :alt: Preferences FFmpeg framework tab
    :width: 60%
 
+
+.. _frame resizing:
 
 Frame resizing
 ...............
