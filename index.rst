@@ -1008,6 +1008,8 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
 Transitions flow diagram
 ------------------------
 
+BORIS can generate DOT script and flow diagram from the transition matrices (See Observations > Create transition matrix).
+
 
 DOT script (Graphviz language)
 ..............................
@@ -1016,8 +1018,8 @@ DOT script (Graphviz language)
 
 Choose one ore more transition matrix files and BORIS will create the relative DOT script file(s).
 
-The DOT script files can be used with `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) or `WebGraphviz <http://www.webgraphviz.com>`_ (Graphviz in the Browser)
-to generate flow diagram of transitions.
+The DOT script files can then be used with `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) or
+`WebGraphviz <http://www.webgraphviz.com>`_ (Graphviz in the Browser) to generate flow diagram of transitions.
 
 
 See `DOT (graph description language) <https://en.wikipedia.org/wiki/DOT_(graph_description_language)>`_ for details.
