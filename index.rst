@@ -696,7 +696,7 @@ The *Observations* > *Add event* menu option allows adding a new event by specif
 Frame-by-frame mode
 --------------------
 
-You can switch between play and frame-by-frame modes using the dedicated button in the toolbar:
+You can switch between the media player and the frame-by-frame mode using the dedicated button in the toolbar:
 
 
 .. image:: toolbar_frame-by-frame.png
@@ -732,7 +732,8 @@ If you have a numeric keypad you can use the following keys in alternative:
 
 To return in the VLC mode press again the frame-by-frame button in the toolbar.
 
-
+The frame viewer can be detached from the main window (See File > Preferences).
+In case on 2 simultaneous players the frame viewers will be automatically detached from the main window.
 
 
 Exporting events data
