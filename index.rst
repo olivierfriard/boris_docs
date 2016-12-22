@@ -689,7 +689,7 @@ In the case your behavior type is a *Point event with coding map* or a *State ev
 
 A recorded event can be edited (once selected) using the *Observations* > *Edit event* menu option. The resulting *Edit event parameters* allows modifying every parameter (e.g. time, subject, code, modifiers, and comment).
 
-The *Observations* > *Add event* menu option allows adding a new event by specifying its time and the other parameters.
+The **Observations** > **Add event** menu option allows adding a new event by specifying its time and the other parameters.
 
 
 
@@ -713,7 +713,7 @@ In frame-by-frame mode the video will stop playing and the user will visualize t
 You can move between frames by using the arrow keys in the toolbar (on the right) or by using keyboard special keys:
 
 
-**For the both modes** (VLC and frame-by-frame):
+**For the both modes** (media player and frame-by-frame mode):
 
 * **Page Up** key: switch to the next media
 * **Page Down** key: switch to the previous media
@@ -733,10 +733,14 @@ If you have a numeric keypad you can use the following keys in alternative:
 * The key **/** will allow you to view the previous frame
 * The key *\** will allow you to view the next frame
 
-To return in the VLC mode press again the frame-by-frame button in the toolbar.
+To return in the media player mode press again the frame-by-frame button in the toolbar.
 
 The frame viewer can be detached from the main window (See File > Preferences).
 In case on 2 simultaneous players the frame viewers will be automatically detached from the main window.
+
+
+For every second of the media file the frames are extracted by BORIS with the embedded ffmpeg program and are saved
+in the **`FFmpeg cache directory`_** specified in the **Preferences** window.
 
 
 Exporting events data
@@ -1303,6 +1307,8 @@ FFmpeg framework
 
 
 The path for the ffmpeg executable program is displayed. From version 2.8 FFmpeg is included with BORIS.
+
+.. _FFmpeg cache directory:
 
 **FFmpeg cache directory**
     This indicates the directory that will be used as image cache for frame-by-frame mode and spectrogram visualization.
