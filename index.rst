@@ -1357,10 +1357,8 @@ Citing BORIS
 If you have used BORIS for publications, please cite::
 
 
-    Olivier Friard and Marco Gamba
-    BORIS: a free, versatile open-source event-logging software for video/audio coding
-    and live observations.
-    Methods in Ecology and Evolution. 2016.
+    Olivier Friard and Marco Gamba. (2016) BORIS: a free, versatile open-source event-logging software for video/audio coding and live observations.
+    Methods in Ecology and Evolution, 7(11), 1324-1330
     DOI: 10.1111/2041-210X.12584
 
 
