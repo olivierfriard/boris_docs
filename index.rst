@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 3.2**
+**version 3.3**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
