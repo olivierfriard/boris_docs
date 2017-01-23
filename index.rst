@@ -969,7 +969,7 @@ Zoom
 ----
 
 Allow to zoom into the current video file. The available zoom values are: 1:2, 1:4, 2:1 and 1:1.
- **Fit to window** adapts the zoom value to the current window size.
+**Fit to window** adapts the zoom value to the current window size.
 
 The Zoom option is not available in frame-by-frame mode.
 
