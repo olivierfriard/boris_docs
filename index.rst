@@ -1116,24 +1116,24 @@ The re-encoded/resized video files are renamed by adding the re-encoded.avi exte
 
 
 
-Coding maps
-===========
+Modifiers coding maps
+=====================
 
 
-A coding map is a bitmap image with user-defined clickable areas.
-BORIS allows creating a coding map using the **Map creator** tool (**Tools** > **Map creator**).
+A modifiers coding map is a bitmap image with user-defined clickable areas that will help to code modifiers for a behavior.
+BORIS allows creating a modifiers coding map using the **Map creator** tool (**Tools** > **Map creator**).
 Clickable areas may correspond to specific modifiers that can be meaningful for the behavioral coding.
 Facial expression is the case we thought to when developing this function.
 
 
-Creating a coding map
----------------------
+Creating a modifiers coding map
+--------------------------------
 
 
-Loading a bitmap for a coding map
-.................................
+Loading a bitmap for a modifiers coding map
+...........................................
 
-To create a new coding map, launch the **Map creator** tool (**Tools** > **Map creator**).
+To create a new modifiers coding map, launch the **Map creator** tool (**Tools** > **Map creator**).
 The BORIS main window will be replaced by the **Map creator** window. Click on **Map creator** > **New Map** and
 enter a name for the new map in the edit box. You have to load a bitmap image (JPEG or PNG) using the **Load bitmap** button.
 The loaded image will be displayed.
@@ -1328,6 +1328,7 @@ The path for the ffmpeg executable program is displayed. From version 2.8 FFmpeg
     Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
 
 
+
 Frame-by-frame mode
 -------------------
 
@@ -1337,6 +1338,8 @@ Frame-by-frame mode
 
 
 .. _frame resizing:
+
+
 
 Frame resizing
 ...............
