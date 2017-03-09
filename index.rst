@@ -1414,6 +1414,16 @@ Detaching the frame viewer
 The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will be detached.
 
 
+Spectrogram
+-----------
+
+.. image:: preferences4.png
+   :alt: Preferences Spectrogram tab
+   :width: 60%
+
+
+
+
 
 Various
 =======
