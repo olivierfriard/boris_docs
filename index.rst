@@ -1405,6 +1405,7 @@ Frame bitmap format
 ...................
 
 A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
+The extracted frames will be saved in the directory defined in previous tab (FFmpeg cache directory).
 
 
 Detaching the frame viewer
