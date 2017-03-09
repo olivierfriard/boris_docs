@@ -1432,7 +1432,7 @@ Color map
 .........
 
 Select the color map for displaying the generated spectrogram.
-See <http://matplotlib.org/users/colormaps.html>`_ for details.
+See `Matplotlib colormaps <http://matplotlib.org/users/colormaps.html>`_ for details.
 
 
 
