@@ -497,7 +497,9 @@ In the following example observations are filtered: only observations with **des
 
 
 
-Observations can be filtered with **Independent variables** values. The following example displays only the observations that do not contain "Sunny"
+Observations can be filtered with **Independent variables** values.
+
+The following example displays only the observations that do not contain "Sunny"
 in the **Weather** independent variable :
 
 .. image:: observations_list2_filtered1.png
@@ -505,7 +507,7 @@ in the **Weather** independent variable :
    :width: 100%
 
 
-The following example displays only the observations with a value of **Temperature** independent variable between 18 and 22:
+Observations with a value of **Temperature** independent variable between 18 and 22:
 
 
 .. image:: observations_list2_filtered2.png
@@ -513,6 +515,12 @@ The following example displays only the observations with a value of **Temperatu
    :width: 100%
 
 
+Observations with a value of **Visitors** independent variable greater than 1000:
+
+
+.. image:: observations_list2_filtered3.png
+   :alt: Observations list
+   :width: 100%
 
 
 
