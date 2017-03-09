@@ -1394,11 +1394,11 @@ Frame-by-frame mode
 
 
 
-Frame resizing
-...............
+Resize frame
+............
 
-In case of high resolution video the extracted frames can be resized before visualization to improve the speed. Select the width in pixel for the extracted frames.
-0 will indicate no frame resizing.
+In case of high resolution video (for example 4K 1920x1080) the extracted frames can be resized before visualization to improve the speed. Select the width in pixel for the extracted frames.
+The aspect ratio will be maintained. 0 will indicate no frame resizing.
 
 
 Detaching the frame viewer
