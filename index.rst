@@ -480,7 +480,7 @@ Observations list
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
 
-.. image:: observations_list.png
+.. image:: observations_list2.png
    :alt: Observations list
    :width: 100%
 
@@ -488,14 +488,14 @@ The observations list can be filtered selecting a field in the drop-list box.
 
 In the following example observations are filtered: only observations containing the **Seven** subject are shown:
 
-.. image:: observations_list_filtered1.png
+.. image:: observations_list2_filtered1.png
    :alt: Observations list
    :width: 100%
 
 
 Observations can be filtered with **Independent variables** values:
 
-.. image:: observations_list_filtered2.png
+.. image:: observations_list2_filtered2.png
    :alt: Observations list
    :width: 100%
 
