@@ -503,6 +503,8 @@ in the **Weather** independent variable :
    :width: 100%
 
 
+The following example displays only the observations with a value of **Temperature** independent variable between 18 and 22:
+
 
 .. image:: observations_list2_filtered2.png
    :alt: Observations list
