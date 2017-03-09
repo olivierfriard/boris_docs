@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 3.3**
+**version 3.49**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -32,7 +32,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 Legal
 =====
 
-Copyright 2012-2016 Olivier Friard - Marco Gamba
+Copyright 2012-2017 Olivier Friard - Marco Gamba
 
 **BORIS** is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -48,6 +48,29 @@ Install BORIS
 =============
 
 BORIS can be installed following instructions on the BORIS site at `download page <http://www.boris.unito.it/?page=download>`_
+
+
+Linux
+-----
+
+BORIS is available as a DEB package for DEB based distributions based (like Debian and Ubuntu).
+After installation you will find BORIS in the **Education** sub-menu.
+
+
+You can also run BORIS from sources. See the download page for details about the dependencies to install.
+
+
+Microsoft-Windows
+-----------------
+
+BORIS is available for Windows in 32-bit and 64-bit versions. Check your OS before downloading.
+
+Two versions are available: **BORIS Setup** and **BORIS Portable**
+
+The **BORIS Setup** will install BORIS on your system (the default install path is located in your home directory, you do not need administration rights to install BORIS).
+
+The **BORIS Portable** will NOT install BORIS on your system but will run from a directory (find and launch boris.exe)
+
 
 
 If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ from the BORIS site.
@@ -1369,13 +1392,15 @@ FFmpeg framework
    :width: 60%
 
 
-The path for the ffmpeg executable program is displayed. From version 2.8 FFmpeg is included with BORIS.
+The path for the ffmpeg executable program is displayed. The FFmpeg executable is now included with BORIS in Windows and Mac OS versions.
 
 .. _FFmpeg cache directory:
+
 
 **FFmpeg cache directory**
     This indicates the directory that will be used as image cache for frame-by-frame mode and spectrogram visualization.
     If you do not specify a path, BORIS will use the default temporary directory of your system.
+
 
 **FFmpeg cache directory max size**
     Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
