@@ -480,6 +480,8 @@ Observations list
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
 
+The observations can be sorted by clicking in the desired column header (alphabetic order ascending or descending).
+
 .. image:: observations_list2.png
    :alt: Observations list
    :width: 100%
@@ -512,7 +514,7 @@ The following example displays only the observations with a value of **Temperatu
 
 
 
-The observations can be sorted by clicking in the desired column header (alphabetic order ascending or descending).
+
 
 
 Delete an observation
