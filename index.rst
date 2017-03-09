@@ -484,7 +484,8 @@ The **Observations** > **Observations list** will show you all the observations 
    :alt: Observations list
    :width: 100%
 
-The observations list can be filtered selecting a field in the drop-list box.
+
+The observations list can be filtered selecting a field and a condition in the drop-list boxes.
 
 In the following example observations are filtered: only observations with **description** containing the **In the pool** subject are shown:
 
@@ -494,8 +495,8 @@ In the following example observations are filtered: only observations with **des
 
 
 
-
-Observations can be filtered with **Independent variables** values:
+Observations can be filtered with **Independent variables** values. The following example displays only the observations that do not contain "Sunny"
+in the **Weather** independent variable :
 
 .. image:: observations_list2_filtered1.png
    :alt: Observations list
