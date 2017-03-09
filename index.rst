@@ -1401,6 +1401,12 @@ In case of high resolution video (for example 4K 1920x1080) the extracted frames
 The aspect ratio will be maintained. 0 will indicate no frame resizing.
 
 
+Frame bitmap format
+...................
+
+A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
+
+
 Detaching the frame viewer
 ...........................
 
