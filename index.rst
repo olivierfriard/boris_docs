@@ -69,9 +69,25 @@ Two versions are available: **BORIS Setup** and **BORIS Portable**
 
 The **BORIS Setup** will install BORIS on your system (the default install path is located in your home directory, you do not need administration rights to install BORIS).
 
-The **BORIS Portable** will NOT install BORIS on your system but will run from a directory (find and launch boris.exe)
+The **BORIS Portable** will NOT install BORIS on your system but will run from a directory (find and launch boris.exe).
+Use this version if you want to test a new version of BORIS for example.
 
 
+BORIS debugging version
+.......................
+
+Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
+This version will NOT install BORIS in your system.
+
+
+Mac OS
+------
+
+BORIS is available for Mac OS only in 64-bit version (from >= 10.8)
+
+
+VirtualBox virtual appliance
+----------------------------
 
 If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ from the BORIS site.
 In this case you must first install `VirtualBox <https://www.virtualbox.org/>`_
