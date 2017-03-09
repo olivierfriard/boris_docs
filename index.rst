@@ -1422,6 +1422,19 @@ Spectrogram
    :width: 60%
 
 
+Spectrogram height
+..................
+
+Select the height of generated spectrogram (in pixels).
+You will need to restart the current observation to apply changes.
+
+Color map
+.........
+
+Select the color map for displaying the generated spectrogram.
+See <http://matplotlib.org/users/colormaps.html>`_ for details.
+
+
 
 
 
