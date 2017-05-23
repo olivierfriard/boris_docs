@@ -415,7 +415,7 @@ The **Observations** table shows four columns **id** **Date** **Description** **
 Open an existing project with BORIS
 ===================================
 
-**important**
+**IMPORTANT**
 
 Projects created with v. 4+ will not be suitable for previous version of BORIS.
 The v. 4 will open projects created with previous version
