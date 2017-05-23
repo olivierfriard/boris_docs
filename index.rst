@@ -226,7 +226,7 @@ using sets of modifiers, you can attach one modifier for each set.
 To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
 
 
-.. image:: modifiers-1.6.png
+.. image:: modifiers_single_selection.png
    :width: 1200px
    :alt: modifiers configuration
 
