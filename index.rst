@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 3.49**
+**version 4.0.2**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -179,7 +179,7 @@ Categories of behaviors
 Defining categories of behaviors can be usefull for the analysis of coded events (for example the time budget analysis).
 Click the **Behavioral categories** button and add a the categories of behaviors. Behaviors can then be included or not in a defined category.
 
-.. image:: behaviors_categories.png
+.. image:: behavioral_categories.png
    :scale: 60%
    :alt: Categories of behaviors
 
