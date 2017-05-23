@@ -247,11 +247,33 @@ You can add and/or remove sets using the buttons **Add set of modifiers** and **
 
 The position of a modifiers' set can be customized  (using the **Move set left** and **Move set right** buttons)
 
-Modifiers can not contain the following characters:
+Modifiers can not contain the following characters:  (|),`~!
 
-..
 
-    (|),`~! **(**, **)** and **|** (pipe character).
+Example of a multiple selection modifiers set:
+
+.. image:: modifiers_multiple_selection.png
+   :width: 1200px
+   :alt: modifiers configuration
+
+Many values can be selected together.
+
+
+Example of a 2 sets of modifiers:
+
+.. image:: modifiers_2sets.png
+   :width: 1200px
+   :alt: modifiers configuration
+
+.. image:: modifiers_2sets_2.png
+   :width: 1200px
+   :alt: modifiers configuration
+
+
+
+
+
+
 
 Click **OK** to save modifiers in the **Ethogram** table.
 
