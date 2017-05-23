@@ -298,14 +298,11 @@ Example of an **exclusion matrix**:
    :width: 40%
    :alt: Exclusion matrix tool
 
-
-
-* the behavior **a** (Point event) will exclude the behavior **c** (State event) but not **d** (State event)
-* the behavior **b** (Point event) will exclude the behavior **d** but not **c**
-* the behavior **d** (State event) will exclude the behavior **c**
+In the previous example the Locomotion behavior will exclude **Alert**, **Allogroom**, **Breed**, **Carry objects** ...
 
 
 During the observation, the excluding event will stop all the current excluded state events one millisecond before the occurence of the event.
+
 
 
 Import an ethogram from an existing project
