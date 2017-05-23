@@ -378,7 +378,7 @@ existing BORIS project using the **Import Subjects from a BORIS project**.
 Define the Independent variables
 --------------------------------
 
-.. image:: independent_variables.png
+.. image:: independent_variables1.png
    :alt: Independent variables
    :width: 100%
 
@@ -387,14 +387,14 @@ BORIS allows adding information about the observation using **Independent variab
 This can be used to specify factors that may influence the behaviors (e.g. group
 composition, temperature, weather conditions) but will not change during a single
 observation within a project. Each independent variable can be defined by a **Label** (e.g. weather), a
-**Description** (e.g. weather conditions), a **Type** (*text*, *numeric* or *value from set*).
+**Description** (e.g. weather conditions), a **Type** (*text*, *numeric*, *value from set* or *timestamp*).
 
 
 The values of a set are defined in the **Set of values** column separating the available values with a comma (**,**).
 Please note that the first value of the set will be selected by default. It should be useful to define a NA value as first value of every set.
 
 
-The values for the independent variables can be set when creating a new observation.
+The values for the independent variables will be asked when creating a new observation.
 Addition, removal and sorting of the independent variables follows the same logic of the **Ethogram** table
 (see **Set your ethogram from scratch** for info).
 The independent variables can also be imported from an existing BORIS project using the **Import Variables from a BORIS project**.
