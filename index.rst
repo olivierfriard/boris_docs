@@ -290,20 +290,13 @@ BORIS will ask for including **Point events** or not and a new **Exclusion matri
 Exclusive behavior may be selected by checking on the corresponding cell in the automatically-generated
 matrix. We suggest to work on the **Exclusion matrix** when all the behaviors have been added to your ethogram.
 
-For example, for the following ethogram:
 
-
-.. image:: exclusion_matrix0.png
-   :width: 80%
-   :alt: Ethogram window
-
-
-The **Exclusion matrix** could be:
+Example of an **exclusion matrix**:
 
 
 .. image:: exclusion_matrix.png
    :width: 40%
-   :alt: Exclusion matrix window
+   :alt: Exclusion matrix tool
 
 
 
