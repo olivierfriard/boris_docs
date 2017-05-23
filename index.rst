@@ -121,8 +121,10 @@ You can launch BORIS from command line by specifying the project file to open as
 Create a new project with BORIS
 ===============================
 
-The BORIS project file is the container for all information related to the project. It contains the ethogram, the independent variables, the subjects and all observations data.
-The save menu option (File -> Save project) will save all this information. You can also activate the **automatic backup** feature (see **Preferences**).
+The BORIS project file is the container for all information related to the project.
+It contains the ethogram, the independent variables, the subjects and all observations data.
+The save menu option (**File** > **Save project**) will save all this information.
+You can also activate the  `automatic backup`_ feature (see **Preferences**).
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
 
 A video tutorial about creating a project is available at `<https://www.youtube.com/watch?v=UGou4EVcLm0>`_
@@ -1399,6 +1401,8 @@ General preferences
 
 **Playback speed step value**
     This value indicate how much the speed will be increased or decreased after pressing the *change playback speed* buttons.
+
+.. _automatic backup:
 
 **Automatic backup every (minutes)**
    if set BORIS will save your project automatically every n minutes. 0 indicate no automatic backup.
