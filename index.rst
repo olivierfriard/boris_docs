@@ -365,8 +365,8 @@ Define the subjects
 
 BORIS allow coding behaviors for different subjects within a single observation.
 The **Subject** table allows specifying subjects using a **Key** (e.g. the "K" on your keyboard), **Subject name** (e.g. "Kanzi"),
-**Description** (e.g. male, born October 28 - 1980). In this case, pressing "K" will set "Kanzi" as the focal subject
-of the behavioural coding. Pressing "K" again will deselect "Kanzi" and set to "no focal subject".
+**Description** (e.g. male, born October 28 - 1980). In this case, pressing "N" will set "Nina" as the focal subject
+of the behavioural coding. Pressing "N" again will deselect "Nina" and set to "no focal subject".
 The definition of one or more subjects is not mandatory. Addition, removal and sorting of the subjects follows the same
 logic of the *Ethogram* table (see **Set your ethogram from scratch** for info). The subjects can also be imported from an
 existing BORIS project using the **Import Subjects from a BORIS project**.
