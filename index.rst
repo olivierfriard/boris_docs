@@ -358,7 +358,7 @@ Define the subjects
 -------------------
 
 
-.. image:: subjects.png
+.. image:: subjects_configuration.png
    :width: 1200px
    :alt: Subjects definition
 
