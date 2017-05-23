@@ -237,12 +237,13 @@ Select the modifier type using the **Modifier type** combo box. You can choose b
 
 
 
-When the **Modifiers** window is open you can add and/or remove sets using the buttons **Add set of modifiers** and **Remove set of modifiers**.
 Within a set of modifiers, you can add and remove modifiers using the **Modifier** field and clicking on the **right-arrow** button (to add) and
 the **Remove modifier** button (to remove). The selected modifier can be edited using the **left-arrow** button. The **Key code** box can be
 used to set a shortcut key for the modifier (optionnal).
 
 The modifier position into the modifiers' set can be manually set using the **Move modifier up** and **Move modifier down** buttons.
+
+You can add and/or remove sets using the buttons **Add set of modifiers** and **Remove set of modifiers**.
 
 The position of a modifiers' set can be customized  (using the **Move set left** and **Move set right** buttons)
 
