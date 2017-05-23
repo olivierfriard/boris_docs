@@ -111,7 +111,8 @@ operation right-clicking on the BORIS icon and then clicking `Open` in the follo
 
 **WARNING**
 
-**On Microsoft-Windows, launching can be stopped by a *Security warning*: *The publisher can not be verified. Are you sure you want to run this software?*  Click the *Run* button to launch BORIS.**
+**On Microsoft-Windows, launching can be stopped by a `Security warning: The publisher can not be verified. Are you sure you want to run this software?`
+Click the `Run` button to launch BORIS.**
 
 
 At the first launch, BORIS will ask you to allow the automatically check for new version. Internet access is required for this feature.
