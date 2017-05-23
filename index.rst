@@ -247,7 +247,9 @@ You can add and/or remove sets using the buttons **Add set of modifiers** and **
 
 The position of a modifiers' set can be customized  (using the **Move set left** and **Move set right** buttons)
 
-Modifiers can not contain the following characters: **(**, **)** and **|** (pipe character).
+Modifiers can not contain the following characters:
+
+.. (|),`~! **(**, **)** and **|** (pipe character).
 
 Click **OK** to save modifiers in the **Ethogram** table.
 
