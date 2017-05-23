@@ -417,8 +417,8 @@ Open an existing project with BORIS
 
 **IMPORTANT**
 
-Projects created with v. 4+ will not be suitable for previous version of BORIS.
-The v. 4 will open projects created with previous version
+**Due to changes in modifiers format all the projects created with v. 4+ will not be suitable for previous version of BORIS.
+The v. 4 will open projects created with previous version and convert them. A copy of your old project will be kept.**
 
 
 To open an existing BORIS project, selct the menu **File** > **Open project**.
