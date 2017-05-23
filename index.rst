@@ -249,7 +249,9 @@ The position of a modifiers' set can be customized  (using the **Move set left**
 
 Modifiers can not contain the following characters:
 
-.. (|),`~! **(**, **)** and **|** (pipe character).
+..
+
+    (|),`~! **(**, **)** and **|** (pipe character).
 
 Click **OK** to save modifiers in the **Ethogram** table.
 
