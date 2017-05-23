@@ -101,13 +101,17 @@ Start BORIS by clicking on its icon. For launching BORIS from sources see the BO
 When launching BORIS for the first time it may take some time to show up. Please be patient!
 
 
-.. warning:: On Mac OS X 10.9 and above, launching can be stopped according to the **Security & Privacy** settings of your computer.
-   They can be changed opening **System Preferences...** > **Security & Privacy** > **General** and
-   selecting the option **Anywhere** in the frame **Allow apps downloaded from**. Alternatively you can repeat the
-   operation right-clicking on the BORIS icon and then clicking **Open** in the following two dialog boxes.
+**WARNING**
+
+**On Mac OS X 10.9 and above, launching can be stopped according to the **Security & Privacy** settings of your computer.
+They can be changed opening **System Preferences...** > **Security & Privacy** > **General** and
+selecting the option **Anywhere** in the frame **Allow apps downloaded from**. Alternatively you can repeat the
+operation right-clicking on the BORIS icon and then clicking **Open** in the following two dialog boxes.**
 
 
-.. warning:: On Microsoft-Windows, launching can be stopped by a **Security warning**: *The publisher can not be verified. Are you sure you want to run this software?*  Click the **Run** button to launch BORIS.
+**WARNING**
+
+**On Microsoft-Windows, launching can be stopped by a *Security warning*: *The publisher can not be verified. Are you sure you want to run this software?*  Click the *Run* button to launch BORIS.**
 
 
 At the first launch, BORIS will ask you to allow the automatically check for new version. Internet access is required for this feature.
