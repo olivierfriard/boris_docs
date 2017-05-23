@@ -400,6 +400,15 @@ Addition, removal and sorting of the independent variables follows the same logi
 The independent variables can also be imported from an existing BORIS project using the **Import Variables from a BORIS project**.
 
 
+Example of independent variablòe defined as "set of values"
+
+.. image:: independent_variables2.png
+   :alt: Independent variables
+   :width: 100%
+
+
+The predefined value must be contained in the set of value.
+
 
 
 Observations' tab
