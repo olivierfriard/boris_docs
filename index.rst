@@ -247,10 +247,10 @@ You can add and/or remove sets using the buttons **Add set of modifiers** and **
 
 The position of a modifiers' set can be customized  (using the **Move set left** and **Move set right** buttons)
 
-Modifiers can not contain the following characters:  (|),`~!
+Modifiers can not contain the following characters: **(|),`~!**
 
 
-Example of a multiple selection modifiers set:
+Example of a **multiple selection** modifiers set:
 
 .. image:: modifiers_multiple_selection.png
    :width: 1200px
