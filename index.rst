@@ -415,7 +415,11 @@ The **Observations** table shows four columns **id** **Date** **Description** **
 Open an existing project with BORIS
 ===================================
 
-To open an existing BORIS project, under the menu **File** , select **Open project**.
+.. important:: Projects created with v. 4+ will not be suitable for previous version of BORIS.
+   The v. 4 will open projects created with previous version
+
+
+To open an existing BORIS project, selct the menu **File** > **Open project**.
 A BORIS project file is a container for all information related to a set of observations as the ethogram,
 the independent variables, and the subjects. BORIS allows creating an unlimited number of projects but
 only one project can be opened at a time.
