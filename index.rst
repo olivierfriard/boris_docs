@@ -415,8 +415,10 @@ The **Observations** table shows four columns **id** **Date** **Description** **
 Open an existing project with BORIS
 ===================================
 
-.. important:: Projects created with v. 4+ will not be suitable for previous version of BORIS.
-   The v. 4 will open projects created with previous version
+**important**
+
+Projects created with v. 4+ will not be suitable for previous version of BORIS.
+The v. 4 will open projects created with previous version
 
 
 To open an existing BORIS project, selct the menu **File** > **Open project**.
