@@ -595,11 +595,15 @@ Observations with a value of **Visitors** independent variable greater than 1000
 
 
 
-Delete an observation
----------------------
+Delete observations
+-------------------
 
-An observation can be deleted from the project using the following procedure:
-**File** > **Edit project** > **Observation's tab** > **Select observation to remove** > **Remove observation** button
+The observations can be deleted from the project using the following procedure:
+**File** > **Edit project** > **Observation's tab**
+
+Select all observations to remove
+
+Click the **Remove selected observations** button and confirm the deletion.
 
 Please note that the deletion is irreversible.
 
