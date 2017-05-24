@@ -1252,7 +1252,39 @@ You can continue to use BORIS during the re-encoding/resizing operation.
 The re-encoded/resized video files are renamed by adding the re-encoded.avi extension to the original files.
 
 
-.. warning:: The MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.
+**warning**
+
+**The MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.**
+
+
+
+Project server
+---------------
+
+This function allow you to communicate with the `**BORIS App** <https://github.com/olivierfriard/BORIS-App/releases>`_ by sending project and receiving onservations made with the **BORIS App**.
+
+
+`The BORIS App user guide <http://boris-app.readthedocs.io/en/latest/>`_
+
+
+
+Starting the project server
+............................
+
+* Open your project
+
+* Select **File** > **Project server**
+
+A window will open and show you the URL of the server that should be used on the **BORIS App**.
+The project server will serve the project for 30 minutes.
+
+
+
+Stopping the project server
+.............................
+
+* Select **File** > **Stop serving project**
+
 
 
 
