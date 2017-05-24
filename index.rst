@@ -201,7 +201,9 @@ In the case you set the same key for more than a behavior, BORIS will pause your
 you want to record. The keys are case-insensitive.
 
 
-.. important:: Do not use the / and * keys! They are reserved for the frame-by-frame mode.
+**important**
+
+**Do not use the / and * keys! They are reserved for the frame-by-frame mode.**
 
 
 In the **Code** column, you have to add a unique code for each behavior. Duplicated codes are not accepted and
