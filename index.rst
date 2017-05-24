@@ -1263,8 +1263,7 @@ Project server
 
 This function allow you to communicate with the `BORIS App <https://github.com/olivierfriard/BORIS-App/releases>`_ by sending project and receiving onservations made with the **BORIS App**.
 
-
-`The BORIS App user guide <http://boris-app.readthedocs.io/en/latest/>`_
+Foe details read the `BORIS App user guide <http://boris-app.readthedocs.io/en/latest/>`_
 
 
 
