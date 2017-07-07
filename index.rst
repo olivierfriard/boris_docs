@@ -239,7 +239,7 @@ reduce the number of keys and simplify the behavioral coding.
 
 In BORIS modifiers can also be added in different modifier
 sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and another (#2) for "sisters"]. In the case of
-using sets of modifiers, you can attach one modifier for each set.
+using sets of modifiers, you can select one/more modifier for each set.
 
 To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
 
