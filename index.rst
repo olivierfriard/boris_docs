@@ -231,7 +231,10 @@ Modifiers can be used to add attributes to a behavior. A single behavior can hav
 reduce the number of keys and simplify the behavioral coding.
 
 
-3 types of modifiers are available: **Single selection**, **Multiple selection** and **Numeric**
+3 types of modifiers are available: **Single selection**, **Multiple selection** and **Numeric**.
+**Single selection** modifiers allows the observer to select only one modifier in the list.
+**Multiple selection** allows to select more modifiers from the list.
+**Numeric** allows to input a numeric data.
 
 
 In BORIS modifiers can also be added in different modifier
@@ -239,6 +242,8 @@ sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and anothe
 using sets of modifiers, you can attach one modifier for each set.
 
 To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
+
+Click the **Add a set of modifiers** button.
 
 
 .. image:: modifiers_single_selection.png
