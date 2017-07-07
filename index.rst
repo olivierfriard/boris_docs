@@ -228,7 +228,13 @@ Set the modifiers
 
 Modifiers can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached
 (e.g. "play" may have "solitary" or "social" as modifiers). The use of modifiers can be convenient to significantly
-reduce the number of keys and simplify the behavioral coding. In BORIS modifiers can also be added in different modifier
+reduce the number of keys and simplify the behavioral coding.
+
+
+3 types of modifiers are available: **Single selection**, **Multiple selection** and **Numeric**
+
+
+In BORIS modifiers can also be added in different modifier
 sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and another (#2) for "sisters"]. In the case of
 using sets of modifiers, you can attach one modifier for each set.
 
