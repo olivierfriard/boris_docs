@@ -365,6 +365,8 @@ Behavior type and exclusion information for the behaviours imported from JWatche
 
 .. _import an ethogram from a plain text file:
 
+
+
 Import an ethogram from a plain text file
 ..........................................
 
@@ -386,6 +388,15 @@ All fields after the 5th will be ignored.
 
 BORIS will ask to select a plain text file (by default: \*.txt \*.csv \*.tsv) and whether imported behaviors should replace or be appended to the **Ethogram** table.
 The missing information for the behaviours imported from text file have to be redefined.
+
+
+Export the ethogram
+...................
+
+The entire ethogram can be exported in various formats (TSV, CSV, XLS, ODS, HTML).
+See **File** > **Edit project** > **Ethogram tab** > **Export ethogram**
+
+
 
 
 
