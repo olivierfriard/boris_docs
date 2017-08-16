@@ -1124,7 +1124,7 @@ Allow to zoom into the current video file. The available zoom values are: 1:2, 1
 **Fit to window** adapts the zoom value to the current window size. In case of simultaneous playing
 you can set different values of zoom in player #1 and player #2.
 
-The Zoom option is not available in frame-by-frame mode.
+The Zoom option is not available in frame-by-frame mode. 
 
 
 
