@@ -180,10 +180,10 @@ Behavior types
 
 2 types of behaviors can be defined:
 
-- **Point event** behavior: for behavior without duration
+- **Point event** behavior when the behavior has no duration
 
 
-- **State event** behavior: for behavior with duration
+- **State event** behavior when the behavior has a duration
 
 
 
