@@ -151,6 +151,8 @@ under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > 
 Set an ethogram
 ---------------
 
+See `<https://en.wikipedia.org/wiki/Ethogram>`_ for ethogram definition.
+
 Switching to the **Ethogram** tab, you can alternatively:
 
 * set your ethogram from scratch;
@@ -168,7 +170,25 @@ Switching to the **Ethogram** tab, you can alternatively:
 Set your ethogram from scratch
 ..............................
 
+
+
 Clicking on the **Add behavior** button you can add a new row in the *Ethogram* table and behavior type will be automatically set to **Point event**.
+
+
+Behavior types
+~~~~~~~~~~~~~~
+
+2 types of behavior can be defined:
+
+**Point event** behavior
+    For behavior without duration
+
+
+**State event** behavior
+    For behavior with duration
+
+
+
 You can switch between **State event** and **Point event** at your convenience from the **Behavior type** column. You can also add a **Coding map** to
 either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; see the "Coding map" section for details).
 
