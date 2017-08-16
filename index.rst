@@ -180,12 +180,10 @@ Behavior types
 
 2 types of behaviors can be defined:
 
-- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined
-keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
+- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
 
 
-- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined
-keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
+- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
 
 
 
