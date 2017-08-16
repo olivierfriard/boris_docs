@@ -178,12 +178,12 @@ Clicking on the **Add behavior** button you can add a new row in the *Ethogram* 
 Behavior types
 ~~~~~~~~~~~~~~
 
-2 types of behavior can be defined:
+2 types of behaviors can be defined:
 
-**Point event** behavior: for behavior without duration
+- **Point event** behavior: for behavior without duration
 
 
-**State event** behavior: for behavior with duration
+- **State event** behavior: for behavior with duration
 
 
 
