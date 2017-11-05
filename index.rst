@@ -1465,17 +1465,16 @@ The time budget results can be saved in various formats for further analysis:
 
 
 
-Plot events 
------------
+Plot events (type 1)
+---------------------
 
-The **Analysis** > **Plot events** menu option plots the events from one observation by subject and behaviours along a time axis.
+The events from a selected observation can be plotted along a time axis (**Analysis** > **Plot events (type 1)**)
 
-You must first select the subjects and behaviors you want to include in the plot:
+The subjects and behaviors you want to include in the plot can be selected:
 
 .. image:: time_budget_parameters.png
    :alt: Time budget
    :width: 40%
-
 
 You can choose to include or not the behavior modifiers (if any) and to exclude behaviors without coded events.
 
@@ -1487,7 +1486,29 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 (SVG, PDF, EPS, PS). The SVG format can be further edited with the `Inkscape vector graphics editor <https://inkscape.org>`_.
 
 
-.. note:: If a STATE behavior has an odd number of coded events, BORIS will give you this error message: "The STATE behavior XXX is not paired"
+.. note:: If a STATE behavior has an odd number of coded events, you will see this error message: "The STATE behavior XXX is not paired"
+
+
+
+Plot events (type 2)
+---------------------
+
+With this function more observations can be plotted. This function creates one plot by subject on one figure.
+
+The time interval can be selected (See time budget)
+
+
+
+
+Inter-rater reliability
+------------------------
+
+The Cohen's kappa coefficient can be calculated (Analysis > Inter-rater reliability > Cohen's kappa).
+
+`Cohen's kappa on Wikipedia <https://en.wikipedia.org/wiki/Cohen%27s_kappa>`_
+
+After selecting 2 observations and a time window for the analysis (the default value is 10 seconds)
+the Cohen's kappa will be displayed in the results window.
 
 
 Preferences
