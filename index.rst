@@ -1409,11 +1409,17 @@ The **Time budget** analysis can be done by behavior or by category of behaviors
 The **Time budget** analysis can be done on one or more observations. If you select more than one observation you must then
 choose for a global time budget analysis that will contain all selected observations or a time budget analysis for every single observation.
 
+.. image:: time_budget_group_observations.png
+   :alt: Group observations
+   :width: 30%
+
+Choose **Yes** to group all observations in on time budget analysis
+
 
 The **Analysis** > **Time budget** menu option shows the time budget for the events of one or more observations.
 You must first select the subjects and behaviors you want to include in the time budget analysis:
 
-.. image:: time_budget_parameters.png
+.. image:: time_budget_parameters2.png
    :alt: Select subject and behaviors for time budget analysis
    :width: 50%
 
@@ -1422,8 +1428,11 @@ All behaviors can be selected or unselected by clicking on the Category (bold).
 
 You can choose to include or not the behavior modifiers in the Time budget analysis and to exclude behaviors without coded events.
 
-The Time budget analysis can be restricted to a portion of the observation. Use the **Start time** and **End time** boxes to select strting time and ending time.
+The Time budget analysis can be restricted to a part of the observation:
 
+* Full observation(s): the analysis will be made on the full observation length.
+* Limit to time interval: use the **Start time** and **End time** boxes to select starting time and ending time.
+* Limit to observed events: the analysis will be made from the first observed event to the last observed event.
 
 
 .. image:: time_budget.png
@@ -1433,8 +1442,10 @@ The Time budget analysis can be restricted to a portion of the observation. Use 
 
 The percent of total time will be calculated (if available). The total time is intended as the total media length.
 
-The time budget results can be saved in various formats for further analysis: TSV, CSV for plain text file, HTML or Microsoft Excel (XLS),
-Open Document Spreadsheet (ODS).
+The time budget results can be saved in various formats for further analysis:
+* Plain text files: TSV, CSV or HTML
+* Spreadsheets: Open Document (ODS), Microsoft Excel (XLSX) and Legacy Microsoft (XLS)
+
 
 .. note:: If a STATE behavior has an odd number of coded events, BORIS will report "UNPAIRED" instead of results"
 
@@ -1443,11 +1454,18 @@ Open Document Spreadsheet (ODS).
 Synthetic time budget
 ----------------------
 
-The synthetic time budget is similar to time budgwet but with fewer parameters and a different organization of results.
+The synthetic time budget is similar to time budget but with fewer parameters and a different organization of results.
 Results of all selected observations are organized in columns on a single page.
-Two parameters are provied for now: "number of occurrences" and "totlalduration" of behaviors
+Two parameters are provied for now: "number of occurrences" and "total duration" of behaviors
 
-Plot events
+The time budget results can be saved in various formats for further analysis:
+* Plain text files: TSV, CSV or HTML
+* Spreadsheets: Open Document (ODS), Microsoft Excel (XLSX) and Legacy Microsoft (XLS)
+
+
+
+
+Plot events 
 -----------
 
 The **Analysis** > **Plot events** menu option plots the events from one observation by subject and behaviours along a time axis.
