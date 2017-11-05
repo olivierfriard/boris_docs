@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 4.1.4**
+**version 4.2**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -1440,6 +1440,12 @@ Open Document Spreadsheet (ODS).
 
 
 
+Synthetic time budget
+----------------------
+
+The synthetic time budget is similar to time budgwet but with fewer parameters and a different organization of results.
+Results of all selected observations are organized in columns on a single page.
+Two parameters are provied for now: "number of occurrences" and "totlalduration" of behaviors
 
 Plot events
 -----------
