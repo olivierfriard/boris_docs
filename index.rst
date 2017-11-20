@@ -1621,7 +1621,7 @@ The events from a selected observation can be plotted along a time axis (**Analy
 
 The subjects and behaviors you want to include in the plot can be selected:
 
-.. image:: time_budget_parameters.png
+.. image:: time_budget_parameters2.png
    :alt: Time budget
    :width: 40%
 
