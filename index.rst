@@ -1551,8 +1551,8 @@ choose for a global time budget analysis that will contain all selected observat
 Choose **Yes** to group all observations in on time budget analysis
 
 
-The **Analysis** > **Time budget** menu option shows the time budget for the events of one or more observations.
-You must first select the subjects and behaviors you want to include in the time budget analysis:
+The **Analysis** > **Time budget** menu option shows the time budget for the events of the selected observations.
+Select the subjects and behaviors you want to include in the time budget analysis:
 
 .. image:: time_budget_parameters2.png
    :alt: Select subject and behaviors for time budget analysis
@@ -1569,6 +1569,10 @@ The Time budget analysis can be restricted to a part of the observation:
 * Limit to time interval: use the **Start time** and **End time** boxes to select starting time and ending time.
 * Limit to observed events: the analysis will be made from the first observed event to the last observed event.
 
+
+The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration** (for the behaviors defined as state events),
+The **duration mean** (for the behaviors defined as state events), the **standard deviation of duration**, the **inter-events intervals duration mean**,
+th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**.
 
 .. image:: time_budget.png
    :alt: Results of the time budget analysis
