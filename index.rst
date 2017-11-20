@@ -1613,11 +1613,21 @@ The time budget results can be saved in various formats for further analysis:
 
 
 
-Plot events (Back compatibility)
+Plot events
 ----------------------------------------------
 
 
-The events from a selected observation can be plotted along a time axis (**Analysis** > **Plot events (Back compatibility)**)
+The events from a selected observation can be plotted along a time axis.
+Two types of plot are available.
+
+
+Plot events (Back compatibility)
+...................................
+
+
+**Analysis** > **Plot events (Back compatibility)**
+
+The function allows to plot only one observation.
 
 The subjects and behaviors you want to include in the plot can be selected:
 
@@ -1642,11 +1652,12 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 
 
 Plot events 
----------------------
+...................
+
 
 **Analysis** > **Plot events**
 
-With this function you can select more than one observations to be plotted.
+With this function you can select many observations to be plotted.
 This function creates one plot by subject on one figure.
 
 The time interval can be selected (See time budget)
