@@ -1596,9 +1596,15 @@ The synthetic time budget is similar to time budget but with fewer parameters an
 Results of all selected observations are organized in columns on a single page.
 Two parameters are provied for now: "number of occurrences" and "total duration" of behaviors
 
+
+.. image:: synthetic_time_budget.png
+   :alt: Results of the time budget analysis
+   :width: 100%
+
 The time budget results can be saved in various formats for further analysis:
 * Plain text files: TSV, CSV or HTML
 * Spreadsheets: Open Document (ODS), Microsoft Excel (XLSX) and Legacy Microsoft (XLS)
+
 
 
 
