@@ -1572,7 +1572,8 @@ The Time budget analysis can be restricted to a part of the observation:
 
 The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration** (for the behaviors defined as state events),
 The **duration mean** (for the behaviors defined as state events), the **standard deviation of duration**, the **inter-events intervals duration mean**,
-th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**. All duration times are expressed in seconds (s).
+th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**.
+All duration times are expressed in seconds (s).
 
 .. image:: time_budget.png
    :alt: Results of the time budget analysis
@@ -1594,12 +1595,15 @@ Synthetic time budget
 
 The synthetic time budget is similar to time budget but with fewer parameters and a different organization of results.
 Results of all selected observations are organized in columns on a single page.
-Two parameters are provied for now: "number of occurrences" and "total duration" of behaviors
+Two parameters are provied for now: **number of occurrences** and **total duration** (for the behaviors defined as state events)
 
 
 .. image:: synthetic_time_budget.png
    :alt: Results of the time budget analysis
    :width: 100%
+
+
+All duration times are expressed in seconds (s).
 
 The time budget results can be saved in various formats for further analysis:
 * Plain text files: TSV, CSV or HTML
