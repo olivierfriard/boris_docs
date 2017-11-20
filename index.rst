@@ -1572,14 +1572,13 @@ The Time budget analysis can be restricted to a part of the observation:
 
 The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration** (for the behaviors defined as state events),
 The **duration mean** (for the behaviors defined as state events), the **standard deviation of duration**, the **inter-events intervals duration mean**,
-th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**.
+th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**. All duration times are expressed in seconds (s).
 
 .. image:: time_budget.png
    :alt: Results of the time budget analysis
    :width: 100%
 
 
-The percent of total time will be calculated (if available). The total time is intended as the total media length.
 
 The time budget results can be saved in various formats for further analysis:
 * Plain text files: TSV, CSV or HTML
