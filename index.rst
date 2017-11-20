@@ -6,7 +6,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 .. image:: logo_boris_500px.png
    :scale: 300%
 
-**version 5.0.0**
+**version 5.1.0**
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
@@ -144,7 +144,6 @@ under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > 
 
 
 .. image:: new_project.png
-   :scale: 60%
    :alt: New project
 
 
@@ -1126,7 +1125,7 @@ you can set different values of zoom in player #1 and player #2.
 
 The Zoom option is not available in frame-by-frame mode. 
 
-
+**The Zoom function is not working on Mac**
 
 Tools
 =====
@@ -1196,9 +1195,9 @@ frames otherwise they will be deleted between frames.
 Coding pad
 ----------
 
-During observation a coding pad containing the available behaviors can be displayed (**Tools** > **Coding pad**).
+During observation a coding pad with the available behaviors can be displayed (**Tools** > **Coding pad**).
 This **Coding pad** allows the user to code using a touch-screen or by clicking on the buttons.
-When the **Coding pad** is displayed you can continue to code using the keyboard.
+When the **Coding pad** is displayed you can continue to code using the keyboard or the ethogram.
 
 .. image:: coding_pad.png
    :alt: Coding pad
@@ -1329,40 +1328,176 @@ Stopping the project server
 
 
 
-Modifiers coding maps
-=====================
 
 
-A modifiers coding map is a bitmap image with user-defined clickable areas that will help to code modifiers for a behavior.
-BORIS allows creating a modifiers coding map using the **Map creator** tool (**Tools** > **Map creator**).
+
+
+
+
+
+
+
+
+
+Coding map
+===========
+
+A coding map is a bitmap image with user-defined clickable areas that will help to code for behaviors or modifiers for a behavior.
+
+2 types of coding maps are available:
+
+* Behaviors coding map
+* Modifiers coding map
+
+
+
+
+
+
+The Behaviors coding map
+------------------------
+
+BORIS allows creating a **Behaviors coding map** using the **Map creator** tool 
+(**Tools** > **Create a coding map** > **for behaviors).**
+
+A **Behaviors coding map** can be created only if you have defined behaviors in your ethogram.
+
+
+Creating a Behaviors coding map
+.................................
+
+
+To create a new **Behaviors coding map** launch the **Behaviors coding map creator**
+
+**Tools** > **Create a coding map** > **for behaviors).**
+
+A new window will open
+
+
+.. image:: behaviors_coding_map_empty.png
+   :alt: Behaviors coding map
+   :width: 50%
+
+
+
+**File** > **New behaviors coding map**
+
+Enter a name for the new **Behaviors coding map**
+
+.. image:: behaviors_coding_map_name.png
+   :alt: Behaviors coding map name
+   :width: 30%
+
+
+Loading a bitmap for a behaviors coding map
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Click the **Load bitmap** button in the bottom of the window and select a bitmap image (PNG and JPEG formats are accepted).
+
+If the size of your bitmap image is bigger than 640 x 640 pixels BORIS will resize it to
+640 x 640 pixels keeping the aspect ratio and store the resized version in the coding map file.
+
+
+The bitmap will be displayed
+
+
+.. image:: behaviors_coding_map1.png
+   :alt: Behaviors coding map
+   :width: 70%
+
+
+Adding areas corresponding the behaviors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Click the **New behavior area** button in the bottom of the window and select a behavior by clicking on the **Select behavior** button.
+
+
+.. image:: behaviors_coding_map2.png
+   :alt: Behaviors coding map
+   :width: 70%
+
+The available behaviors are taken from the ethogram of the current project.
+
+Click on the bitmap to define the vertex on the area that will code the selected behavior.
+Close the area by clicking again on the first point.
+
+The color of the new area can be changed using the **Opacity** button. The opacity can be changed (from 0 to 100%) using the slider.
+
+
+Save the behavior area by clicking on the **Save the behavior area** button
+
+The area will be added to the **Defined area** list
+
+You can add more area and also add more than one area for a same behavior.
+Two or more areas can overlap. In this case all corresponding behaviors will be triggered.
+
+
+.. image:: behaviors_coding_map3.png
+   :alt: Behaviors coding map
+   :width: 70%
+
+
+Add the Behaviors coding map to the current project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**File** > **Add coding map to project**
+
+The coding map will be added to the current project
+
+You can add a **Behaviors coding map** to the current project from a file containing the coding map:
+
+(**File** > **Edit project** > **Behaviors coding map** > **Add a behaviors coding map** )
+
+
+
+Saving the Behaviors coding map
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Saving the **Behaviors coding map** will create a file containing the **Behaviors coding map** including the bitmap image.
+
+**File** > **Save the current Behaviors coding map**
+
+The file containing the **Behaviors coding map** can be then reloaded in the **Behaviors coding map creator** or added to a BORIS project
+(**File** > **Edit project** > **Behaviors coding map** > **Add a behaviors coding map** )
+
+
+
+
+The Modifiers coding map
+------------------------
+
+
+BORIS allows creating a modifiers coding map using the **Modifiers Map creator** tool 
+(**Tools** > **Create a coding map** > **for modifiers**.)
 Clickable areas may correspond to specific modifiers that can be meaningful for the behavioral coding.
 Facial expression is the case we thought to when developing this function.
 
 
 Creating a modifiers coding map
---------------------------------
+.................................
 
 
 Loading a bitmap for a modifiers coding map
-...........................................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To create a new modifiers coding map, launch the **Map creator** tool (**Tools** > **Map creator**).
-The BORIS main window will be replaced by the **Map creator** window. Click on **Map creator** > **New Map** and
+To create a new **Modifiers coding map**, launch the **Modifiers Map creator** tool (**Tools** > **Create a coding map** > **for modifiers).**
+The BORIS main window will be replaced by the **Modifiers Map creator** window. Click on **Modifiers Map creator** > **New Modifiers map** and
 enter a name for the new map in the edit box. You have to load a bitmap image (JPEG or PNG) using the **Load bitmap** button.
 The loaded image will be displayed.
 
 
-.. image:: coding_map.png
+.. image:: modifiers_coding_map.png
    :alt: Coding map
    :width: 70%
 
 
-If the size of your bitmap image is bigger than 512 x 512 pixels BORIS will resize it to
-512 x 512 keeping the aspect ratio and store the resized version in the coding map file.
+If the size of your bitmap image is bigger than 640 x 640 pixels BORIS will resize it to
+640 x 640 pixels keeping the aspect ratio and store the resized version in the coding map file.
 
 
-Adding areas to a coding map
-............................
+Adding areas corresponding to the modifiers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 To create clickable areas on a coding map, you have to click on the **New area** button and enter
@@ -1381,8 +1516,8 @@ A map can be edited at anytime by opening the map file from the **Open map** men
 
 
 
-Adding a coding map to your project
-....................................
+Adding a modifiers coding map to your project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Creating a Coding map is not automatically adding the map to your project.
 The Coding map have to be added to your project by selecting the corresponding **Behavior type**
@@ -1465,10 +1600,11 @@ The time budget results can be saved in various formats for further analysis:
 
 
 
-Plot events (type 1)
----------------------
+Plot events (Back compatibility)
+----------------------------------------------
 
-The events from a selected observation can be plotted along a time axis (**Analysis** > **Plot events (type 1)**)
+
+The events from a selected observation can be plotted along a time axis (**Analysis** > **Plot events (Back compatibility)**)
 
 The subjects and behaviors you want to include in the plot can be selected:
 
@@ -1482,6 +1618,8 @@ You can choose to include or not the behavior modifiers (if any) and to exclude 
    :alt: plot
    :width: 100%
 
+The color of behaviors can be customized. See `plot colors`_ 
+
 The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic
 (SVG, PDF, EPS, PS). The SVG format can be further edited with the `Inkscape vector graphics editor <https://inkscape.org>`_.
 
@@ -1490,26 +1628,33 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 
 
 
-Plot events (type 2)
+Plot events 
 ---------------------
 
-With this function more observations can be plotted. This function creates one plot by subject on one figure.
+**Analysis** > **Plot events**
+
+With this function you can select more than one observations to be plotted.
+This function creates one plot by subject on one figure.
 
 The time interval can be selected (See time budget)
 
 
+The color of behaviors can be customized. See `plot colors`_ 
 
 
 Inter-rater reliability
 ------------------------
 
-The Cohen's kappa coefficient can be calculated (Analysis > Inter-rater reliability > Cohen's kappa).
+The Cohen's kappa coefficient can be calculated (**Analysis** > **Inter-rater reliability** > **Cohen's kappa**).
 
 `Cohen's kappa on Wikipedia <https://en.wikipedia.org/wiki/Cohen%27s_kappa>`_
 
-After selecting 2 observations and a time window for the analysis (the default value is 10 seconds)
+After selecting 2 observations and a time window (in seconds) for the analysis (the default value is 10 seconds)
 the Cohen's kappa will be displayed in the results window.
 
+.. image:: irr1.png
+   :alt: time window
+   :width: 30%
 
 Preferences
 ===========
@@ -1553,7 +1698,7 @@ General preferences
 
 **Embed media player**
     This option allows the user to detach from the main window or embed the media player in the main window.
-    On Mac OS X the media player can not be detached from main window.
+    **On Mac OS the media player can not be detached from main window.**
 
 **Alert if focal subject is not set**
     If this option is activated BORIS will show an alert box if no focal subject is selected
@@ -1644,8 +1789,23 @@ Select the color map for displaying the generated spectrogram.
 See `Matplotlib colormaps <http://matplotlib.org/users/colormaps.html>`_ for details.
 
 
+.. _plot colors:
+
+Plot colors
+--------------
+
+The color of behaviors in the plot events functions can be customized.
+The first color will be associated to the first behavior in your ethogram, the second color to the second behavior and so on.
+Various color formats can be used to specify a color: **named color** or **hex RGB** (like #0F0F0F).
+See https://matplotlib.org/api/colors_api.html and https://matplotlib.org/examples/color/named_colors.html for details
 
 
+The **reset colors to default** button will reload the default colors.
+
+
+.. image:: preferences5.png
+   :alt: Plot colors tab
+   :width: 60%
 
 Various
 =======
@@ -1663,10 +1823,10 @@ If you have used BORIS for publications, please cite::
 
 
 Bug reports and features request
---------------------------------
+-----------------------------------
 
-Please send bug reports and features request by e-mail (see web site http://www.boris.unito.it)
- or by using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS).
+Please send bug reports and features request using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS) 
+or by e-mail in english, french or italian (see web site http://www.boris.unito.it/pages/about.html).
 
 
 In case of bug report please verify that you are using the last version of BORIS and indicate your operating system, its version and the CPU architecture (32/64 bits).
