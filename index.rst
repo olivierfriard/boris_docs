@@ -629,7 +629,12 @@ Input the index of the column containing the timestamp and the index of the colu
 The two indices must be separated by a comma (,).
 
 .. image:: data_files_columns_selection.png
-   :width: 80%
+   :width: 60%
+
+
+
+
+
 
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
