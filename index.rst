@@ -626,14 +626,19 @@ In the above example the 4th column contains the timestamp and the 5th the value
 
 
 Input the index of the column containing the timestamp and the index of the column containing the value to be plotted.
-The two indices must be separated by a comma (,).
+The two indices must be separated by a comma (,). Click **OK** to close the window.
 
 .. image:: data_files_columns_selection.png
    :width: 60%
 
 
+A row will be added in the data files table.
+You can modify the following parameters:
 
+* **Columns to plot**
+* Plot title
 
+.. image:: data_files_parameters.png
 
 
 Spectrogram visualization
