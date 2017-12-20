@@ -680,18 +680,13 @@ This option can be usefull if you have to code various short media files enqueue
 
 
 
-Simultaneous play
-~~~~~~~~~~~~~~~~~
-
-BORIS also allows simultaneous playback of two media recorded independently
-(e.g. videos recorded from different points in a room; or a video and an audio recording of the same observation).
-The videos to be played simultaneously can be loaded in the **Media file paths for second player** playlist.
-In this case only one video per playlist is accepted.
-If the two media are not synchronised you can specify a time offset for the second player.
 
 
-Click OK to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
+Click the **Start** button to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
+If you do not want to start the observation click the **Save** button. The observation will be saved in the `observations list`_.
 
+
+.. _observations list:
 
 
 Observations list
