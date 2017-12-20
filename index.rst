@@ -1641,7 +1641,7 @@ Plot events (Back compatibility)
 ...................................
 
 
-.. note:: This funtion is now deprecated and may contain bugs. See Plot events 
+.. note:: This funtion is now deprecated and may contain bugs. See `plot events v.2`_
 
 
 **Analysis** > **Plot events (Back compatibility)**
@@ -1669,6 +1669,7 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 .. note:: If a STATE behavior has an odd number of coded events, you will see this error message: "The STATE behavior XXX is not paired"
 
 
+.. _plot events v.2:
 
 Plot events 
 ...................
