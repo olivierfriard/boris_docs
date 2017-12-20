@@ -623,7 +623,7 @@ Example of a plain text data file with 5 columns::
    1,851,497,549.383,0.00289630587212741
    1,848,493,549.4,0.00299626821652055
 
-In the above example the 4th column contains the timestamp 
+In the above example the 4th column contains the timestamp and the 5th the value to be plotted.
 
 
 Input the index of the column containing the timestamp and the index of the column containing the value to be plotted.
