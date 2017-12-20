@@ -594,7 +594,10 @@ Data files
 ~~~~~~~~~~~~~~~~~~~~~
 
 You can select one or more external data files to be plotted synchronously with your media.
-Click the **Data files** tab and select a data file 
+Click the **Data files** tab and use the **Add data file** button to select a data file.
+
+The data file must be a plain text file with at least 2 columns separated by comma or TAB.
+One column must contain a timestamp expressed in seconds. The sample rate can be variable
 
 
 .. image:: data_files_empty.png
