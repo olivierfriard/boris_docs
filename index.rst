@@ -578,6 +578,9 @@ This means that an event occurring at time t\ :sub:`x`\  in the media file queue
 in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media file, e.g. first_video.mp4).
 
 
+Second media player
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 You can add a second media that will be played synchronously with the first media player. Click the **Player 2** tab and add the 2nd media.
 You can set a **Time offset for second player** in order to synchronize it with the first player.
 
