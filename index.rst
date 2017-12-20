@@ -607,7 +607,7 @@ One column must contain a timestamp expressed in seconds. The sample rate can be
 
 .. image:: data_files_empty.png
 
-Example of a plain text data file::
+Example of a plain text data file with 5 columns::
 
    Display,X Pos,Y Pos,Start Time (secs),Pupil Diameter
    1,864,509,549.233,0.00295773451216519
@@ -622,6 +622,7 @@ Example of a plain text data file::
    1,851,497,549.383,0.00289630587212741
    1,848,493,549.4,0.00299626821652055
 
+In the above example the 4th column contains the timestamp 
 
 
 Spectrogram visualization
