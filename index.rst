@@ -8,6 +8,12 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 
 **version 5.1.0**
 
+
+BORIS is an easy-to-use event logging software for video/audio coding and live observations.
+BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.
+
+
+
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 `BORIS GitHub repository <https://github.com/olivierfriard/BORIS>`_
