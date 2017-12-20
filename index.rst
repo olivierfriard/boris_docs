@@ -607,12 +607,7 @@ One column must contain a timestamp expressed in seconds. The sample rate can be
 
 .. image:: data_files_empty.png
 
-Example of frequencies of transitions matrix::
-
-               eat   sleep     walk
-    eat        0.0   0.286    0.143
-    sleep    0.143     0.0    0.143
-    walk     0.286     0.0      0.0
+Example of a plain text data file::
 
    Display	X Pos	Y Pos	Start Time (secs)	Pupil Diameter
    1	864	509	549.233	0.00295773451216519
