@@ -639,7 +639,7 @@ You can modify the following parameters:
 * Plot title
 
 .. image:: data_files_parameters.png
-
+   :width: 60%
 
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
