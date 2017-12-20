@@ -626,7 +626,7 @@ In the above example the 4th column contains the timestamp and the 5th the value
 
 
 Input the index of the column containing the timestamp and the index of the column containing the value to be plotted.
-The tow indices must be separated by a comma (,).
+The two indices must be separated by a comma (,).
 
 .. image:: data_files_columns_selection.png
    :width: 80%
