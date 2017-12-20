@@ -650,6 +650,10 @@ You can modify the following parameters by directly typing in the table cells:
 * Color: the color of the color
 
 
+You can check if the data from file can be correctly plotted by using the **Check data** button.
+If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
+
+
 
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
