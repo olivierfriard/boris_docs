@@ -578,6 +578,36 @@ This means that an event occurring at time t\ :sub:`x`\  in the media file queue
 in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media file, e.g. first_video.mp4).
 
 
+
+Spectrogram visualization
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+BORIS allow you to visualize the sound spectrogram during the media observation.
+Activate the *Visualize spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
+
+.. image:: spectro1.png
+   :alt: spectrogram generation
+   :width: 60%
+
+
+The spectrogram visualization will be synchonized to the media position during the observation.
+
+.. image:: spectro2.png
+   :alt: spectrogram visualization
+
+
+
+Close current behavior between videos
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If this option is selected BORIS will close all ongoing State events between successive media files.
+
+This option can be usefull if you have to code various short media files enqueued in the first player (for example the output of a Camera trap).
+
+
+
+
+
 Second media player
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -650,33 +680,6 @@ You can modify the following parameters by directly typing in the table cells:
 
 You can check if the data from file can be correctly plotted by using the **Check data** button.
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
-
-
-
-Spectrogram visualization
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-BORIS allow you to visualize the sound spectrogram during the media observation.
-Activate the *Visualize spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
-
-.. image:: spectro1.png
-   :alt: spectrogram generation
-   :width: 60%
-
-
-The spectrogram visualization will be synchonized to the media position during the observation.
-
-.. image:: spectro2.png
-   :alt: spectrogram visualization
-
-
-
-Close current behavior between videos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If this option is selected BORIS will close all ongoing State events between successive media files.
-
-This option can be usefull if you have to code various short media files enqueued in the first player (for example the output of a Camera trap).
 
 
 
