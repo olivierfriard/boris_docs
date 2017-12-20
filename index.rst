@@ -629,7 +629,7 @@ Input the index of the column containing the timestamp and the index of the colu
 The two indices must be separated by a comma (,). Click **OK** to close the window.
 
 .. image:: data_files_columns_selection.png
-   :width: 60%
+   :width: 100%
 
 
 A row will be added in the data files table.
@@ -640,7 +640,9 @@ You can modify the following parameters by directly typing in the table cells:
 * Variable name
 * Time interval: The time interval that will be plotted (in seconds)
 * Start position: the start position of data for synchronisation with the media (in seconds)
-* Substract first value: if the timestamp does not start with a 0 value you can choose to substract the first value from all timestamp elements
+* Substract first value: if the timestamp does not start with a 0 value you can choose to substract the first value to all timestamp values.
+* Color: Plot color
+
 
 .. image:: data_files_parameters.png
    :width: 60%
