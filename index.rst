@@ -607,6 +607,8 @@ The dot (.) must be used as decimal separator.
 
 
 .. image:: data_files_empty.png
+    :width: 80%
+
 
 Example of a plain text data file with 5 columns::
 
@@ -630,7 +632,7 @@ Input the index of the column containing the timestamp and the index of the colu
 The tow indices must be separated by a comma (,).
 
 .. image:: data_files_columns_selection.png
-
+   :width: 80%
 
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
