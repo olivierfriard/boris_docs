@@ -642,12 +642,12 @@ A new row will be added in the data files table.
 You can modify the following parameters by directly typing in the table cells:
 
 * Columns to plot
-* Plot title
+* Plot title: the title of the plot
 * Variable name
 * Time interval: The time interval that will be plotted (in seconds)
 * Start position: the start position of data for synchronisation with the media (in seconds)
 * Substract first value: if the timestamp does not start with a 0 value you can choose to substract the first value to all timestamp values.
-* Color: Plot color
+* Color: the color of the color
 
 
 
