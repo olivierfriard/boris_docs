@@ -602,7 +602,8 @@ Click the **Data files** tab and use the **Add data file** button to select a da
 
 
 The data file must be a plain text file with at least 2 columns separated by comma or TAB.
-One column must contain a timestamp expressed in seconds. The sample rate can be variable
+One column must contain a timestamp expressed in seconds. The sample rate can be variable.
+The dot (.) must be used as decimal separator.
 
 
 .. image:: data_files_empty.png
@@ -623,6 +624,8 @@ Example of a plain text data file with 5 columns::
    1,848,493,549.4,0.00299626821652055
 
 In the above example the 4th column contains the timestamp 
+
+.. image:: data_files_columns_selection.png
 
 
 Spectrogram visualization
