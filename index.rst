@@ -632,7 +632,13 @@ The two indices must be separated by a comma (,). Click **OK** to close the wind
    :width: 60%
 
 
-A row will be added in the data files table.
+A new row will be added in the data files table.
+
+.. image:: data_files_parameters.png
+   :width: 100%
+
+
+
 You can modify the following parameters by directly typing in the table cells:
 
 * Columns to plot
@@ -644,8 +650,6 @@ You can modify the following parameters by directly typing in the table cells:
 * Color: Plot color
 
 
-.. image:: data_files_parameters.png
-   :width: 100%
 
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
