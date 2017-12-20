@@ -596,7 +596,7 @@ Data files
 You can select one or more external data files to be plotted synchronously with your media.
 Click the **Data files** tab and use the **Add data file** button to select a data file.
 
-
+.. image:: data_files_empty.png
    :alt: Data file tab
    :width: 80%
 
@@ -606,8 +606,6 @@ One column must contain a timestamp expressed in seconds. The sample rate can be
 The dot (.) must be used as decimal separator.
 
 
-.. image:: data_files_empty.png
-    :width: 80%
 
 
 Example of a plain text data file with 5 columns::
