@@ -629,7 +629,7 @@ Input the index of the column containing the timestamp and the index of the colu
 The two indices must be separated by a comma (,). Click **OK** to close the window.
 
 .. image:: data_files_columns_selection.png
-   :width: 100%
+   :width: 60%
 
 
 A row will be added in the data files table.
@@ -645,7 +645,7 @@ You can modify the following parameters by directly typing in the table cells:
 
 
 .. image:: data_files_parameters.png
-   :width: 60%
+   :width: 100%
 
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
