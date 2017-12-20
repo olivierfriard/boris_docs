@@ -633,10 +633,14 @@ The two indices must be separated by a comma (,). Click **OK** to close the wind
 
 
 A row will be added in the data files table.
-You can modify the following parameters:
+You can modify the following parameters by directly typing in the table cells:
 
-* **Columns to plot**
+* Columns to plot
 * Plot title
+* Variable name
+* Time interval: The time interval that will be plotted (in seconds)
+* Start position: the start position of data for synchronisation with the media (in seconds)
+* Substract first value: if the timestamp does not start with a 0 value you can choose to substract the first value from all timestamp elements
 
 .. image:: data_files_parameters.png
    :width: 60%
