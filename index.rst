@@ -16,6 +16,20 @@ BORIS is a free and open-source software available for GNU/Linux, Windows and Ma
 **version 5.1.0**
 
 
+`www.boris.unito.it <http://www.boris.unito.it>`_
+
+
+
+.. contents::
+   :depth: 2
+
+
+
+
+Follow BORIS
+=========================
+
+
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 `BORIS GitHub repository <https://github.com/olivierfriard/BORIS>`_
@@ -27,12 +41,6 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 `BORIS Facebook page <https://www.facebook.com/BORIS-behav-obs-318697441616743/>`_
 
 `BORIS Google+ <https://plus.google.com/u/0/107744013100136901033>`_
-
-
-
-
-.. contents::
-   :depth: 2
 
 
 
