@@ -601,7 +601,7 @@ Click the **Data files** tab and use the **Add data file** button to select a da
    :width: 80%
 
 
-The data file must be a plain text file with at least 2 columns separated by comma or TAB.
+The data file must be a plain text file with at least **2 columns** separated by comma or TAB.
 One column must contain a timestamp expressed in seconds. The sample rate can be variable.
 The dot (.) must be used as decimal separator.
 
