@@ -587,7 +587,7 @@ Activate the *Visualize spectrogram* check box. BORIS will ask you to generate t
 
 .. image:: spectro1.png
    :alt: spectrogram generation
-   :width: 60%
+   :width: 50%
 
 
 The spectrogram visualization will be synchonized to the media position during the observation.
