@@ -556,12 +556,12 @@ Click on the **Media** tab to make an obervation based on media.
 
 
 .. image:: media_tab_empty.png
-   :alt: Playlist
+   :alt: Player 1 tab
    :width: 80%
 
 The **Media tab** contains 3 tabs: **Player 1**, **Player 2** and **Data files**.
 
-Click the **Player 1** tab and add one or more media files using the **Add media** button or the **Add all media from directory** button.
+Click the **Player 1** tab and add one or more media files using the **Add media** button.
 
 Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), number of frames by second (FPS), video stream, audio stream  .
 
@@ -576,6 +576,15 @@ All the media types reported at http://www.videolan.org/vlc/features.html can be
 The media queued in the *Media file paths* will be played sequentially.
 This means that an event occurring at time t\ :sub:`x`\  in the media file queued as second (e.g. second_video.mp4)
 in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media file, e.g. first_video.mp4).
+
+
+You can add a second media that will be played synchronously with the first media player. Click the **Player 2** tab and add the 2nd media.
+You can set a **Time offset for second player** in order to synchronize it with the first player.
+
+
+.. image:: media_tab_player2_empty.png
+   :alt: Player2 tab
+   :width: 80%
 
 
 Spectrogram visualization
