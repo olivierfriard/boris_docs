@@ -514,7 +514,7 @@ or `Open an existing project with BORIS`_.
 
 Clicking on **Observations** > **New observation** will show the **New observation** window.
 
-.. image:: new_observation.png
+.. image:: new_observation_empty.png
    :alt: New observation window
    :width: 100%
 
