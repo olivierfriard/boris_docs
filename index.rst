@@ -560,7 +560,9 @@ Click on the **Media** tab to make an obervation based on media.
    :width: 80%
 
 The **Media tab** contains 3 tabs: **Player 1**, **Player 2** and **Data files**.
-In the **Media file paths** playlist you can add one or more media files using the **Add media** button.
+
+Click the **Player 1** tab and add one or more media files using the **Add media** button or the **Add all media from directory** button.
+
 Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), number of frames by second (FPS), video stream, audio stream  .
 
 
