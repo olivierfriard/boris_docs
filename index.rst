@@ -625,6 +625,10 @@ Example of a plain text data file with 5 columns::
 
 In the above example the 4th column contains the timestamp 
 
+
+Input the index of the column containing the timestamp and the index of the column containing the value to be plotted.
+The tow indices must be separated by a comma (,).
+
 .. image:: data_files_columns_selection.png
 
 
