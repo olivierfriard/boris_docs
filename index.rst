@@ -552,10 +552,10 @@ In the above tab you can select a time for **Scan sampling** observation. In thi
 Media based observation
 .......................
 
-Choose the **Media tab** to make an obervation based on media.
+Click on the **Media** tab to make an obervation based on media.
 
 
-.. image:: new_observation_playlist.png
+.. image:: media_tab_empty.png
    :alt: Playlist
    :width: 60%
 
