@@ -13,7 +13,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.**
 
 
-**version 5.1.0**
+**version 5.1.3**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -1641,6 +1641,9 @@ Plot events (Back compatibility)
 ...................................
 
 
+.. note:: This funtion is now deprecated and may contain bugs. See Plot events 
+
+
 **Analysis** > **Plot events (Back compatibility)**
 
 The function allows to plot only one observation.
@@ -1654,7 +1657,7 @@ The subjects and behaviors you want to include in the plot can be selected:
 You can choose to include or not the behavior modifiers (if any) and to exclude behaviors without coded events.
 
 .. image:: plot_events.png
-   :alt: plot
+   :alt: plot events
    :width: 100%
 
 The color of behaviors can be customized. See `plot colors`_ 
@@ -1680,6 +1683,10 @@ The time interval can be selected (See time budget)
 
 
 The color of behaviors can be customized. See `plot colors`_ 
+
+.. image:: plot_events_v2.png
+   :alt: plot events v.2
+   :width: 100%
 
 
 Inter-rater reliability
