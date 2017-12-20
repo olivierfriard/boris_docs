@@ -590,6 +590,18 @@ You can set a **Time offset for second player** in order to synchronize it with 
    :width: 80%
 
 
+Data files
+~~~~~~~~~~~~~~~~~~~~~
+
+You can select one or more external data files to be plotted synchronously with your media.
+Click the **Data files** tab and select a data file 
+
+
+.. image:: data_files_empty.png
+   :alt: Data file tab
+   :width: 80%
+
+
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
