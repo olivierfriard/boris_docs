@@ -753,6 +753,9 @@ A **double-click** on the converters cell will allow you to select a converter f
 .. image:: converter_selection.png
    :width: 40%
 
+.. image:: converter_selected.png
+   :width: 80%
+
 
 Start the observation
 ~~~~~~~~~~~~~~~~~~~~~
