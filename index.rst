@@ -757,6 +757,14 @@ A **double-click** on the converters cell will allow you to select a converter f
    :width: 80%
 
 
+Use the **Show plot** button to verify if your external data can be plotted without problem.
+
+
+.. image:: external_data_show_plot.png
+   :width: 80%
+
+
+
 Start the observation
 ~~~~~~~~~~~~~~~~~~~~~
 
