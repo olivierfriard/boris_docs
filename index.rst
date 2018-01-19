@@ -13,7 +13,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.**
 
 
-**version 5.1.3**
+**version 6.0.1** PRE-RELEASE
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -532,7 +532,7 @@ Click **Load converters from BORIS repository** and select the converters to be 
    :width: 100%
 
 
-Wirting a converter
+Writing a converter
 ...............................
 
 
