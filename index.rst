@@ -532,6 +532,14 @@ Click **Load converters from BORIS repository** and select the converters to be 
    :width: 100%
 
 
+Wirting a converter
+...............................
+
+
+See `Converters for external data values`_
+
+
+
 The converters loaded in your project can be then selected for converting timestamp (or other values) in external data file
 (See `converters`_)
 
@@ -1385,6 +1393,7 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
    :width: 90%
 
 
+.. _Converters for external data values:
 
 Converters for external data values
 ------------------------------------------------------------
