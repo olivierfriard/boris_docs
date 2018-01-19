@@ -751,7 +751,7 @@ See the Converters' tab in the project configuration: `converters tab`_
 A **double-click** on the converters cell will allow you to select a converter for each column to be plotted
 
 .. image:: converter_selection.png
-   :width: 100%
+   :width: 50%
 
 
 Start the observation
