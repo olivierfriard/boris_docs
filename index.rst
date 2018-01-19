@@ -105,7 +105,8 @@ BORIS is available for Mac OS only in 64-bit version (from >= 10.8)
 VirtualBox virtual appliance
 ----------------------------
 
-If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ from the BORIS site.
+If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ 
+from the BORIS site.
 In this case you must first install `VirtualBox <https://www.virtualbox.org/>`_
 
 
