@@ -539,7 +539,7 @@ Clicking on **Observations** > **New observation** will show the **New observati
 
 This window allow adding various observation data:
 
-* a mandatory **Observation id** (must be unique across all observations);
+* a mandatory **Observation id** (must be unique across all observations in the open project);
 * **Date**, which will be automatically set on the current date and time, but you can alternatively set this info on your media date and time, or whatever you prefer.
 * **Description**, which can host all the relevant information about your observation, but can be also left empty.
 * **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project). See the  `independent variables`_ section for details.
