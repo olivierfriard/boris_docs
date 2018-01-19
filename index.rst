@@ -525,6 +525,12 @@ Click **Load converters from BORIS repository** and select the converters to be 
    :width: 50%
 
 
+.. image:: converter_tab.png
+   :alt: Converters tab
+   :width: 100%
+
+
+
 Open an existing project with BORIS
 ===================================
 
