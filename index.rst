@@ -152,12 +152,19 @@ Create a new project with BORIS
 
 The BORIS project file is the container for all information related to the project.
 It contains the **ethogram**, the **independent variables**, the **subjects definition**, the **behaviors coding maps**, the **converters**
-and all **observations data**.
-The save menu option (**File** > **Save project** or **Save project as ...**) will save the project.
+and all **observations** data.
+The save menu option (**File** > **Save project** or **Save project as ...**) will save the project in a path in your local file system.
 You can also activate the  `automatic backup`_ feature (see **Preferences**).
+
+
+**NOTE**
+
+**It is very important to do regular backups of your project files to prevent the lost of data.**
+
+
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
 
-A video tutorial about creating a project is available at `<https://www.youtube.com/watch?v=UGou4EVcLm0>`_
+A video tutorial about creating a project is available at `https://www.youtube.com/watch?v=I97Dny5hFOE>`_
 
 To create a new project, under the menu **File** , select **New project**.
 You can determine your project name by writing in the **Project name** field in the **Information** tab. Once the project will be saved,
