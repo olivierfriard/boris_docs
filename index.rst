@@ -1404,8 +1404,6 @@ The **INPUT** variable will be loaded with the original value of the external da
 
 The **OUPUT** variable must contain the converted value in seconds (the dot must be used for decimal separator).
 
-The Python function **strptime()** from the **datetime** module can be useful for converting time values:
-https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
 
 
 Example of a converter for converting HH.MM:SS format in seconds::
@@ -1414,7 +1412,11 @@ Example of a converter for converting HH.MM:SS format in seconds::
    OUTPUT = int(h) * 3600 + int(m) * 60 + int(s)
 
 
-Example of a converter for converting ISO8601 format in seconds::
+The Python function **strptime()** from the **datetime** module can be useful for converting time values:
+https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+
+
+Example of a converter for converting ISO8601 format in seconds using the strptime() function::
 
    import datetime
    epoch = datetime.datetime.utcfromtimestamp(0)
