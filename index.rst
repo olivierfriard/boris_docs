@@ -1415,7 +1415,7 @@ Example of a converter for converting ISO8601 format in seconds::
 
 .. image:: converter_writing.png
    :alt: writing/modifiying a converter
-   :width: 80%
+   :width: 100%
 
 
 
