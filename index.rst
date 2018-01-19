@@ -682,7 +682,7 @@ A new row will be added in the data files table.
 
 
 
-You can modify the following parameters by directly typing in the table cells:
+You can modify/complete the following parameters by directly typing in the table cells:
 
 * Columns to plot
 * Plot title: the title of the plot
@@ -693,7 +693,7 @@ You can modify the following parameters by directly typing in the table cells:
 * Color: the color of the color
 
 
-You can check if the data from file can be correctly plotted by using the **Check data** button.
+You can check if the data from file can be correctly plotted by using the **Show plot** button.
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
 
 
