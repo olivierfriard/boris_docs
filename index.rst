@@ -522,7 +522,7 @@ Click **Load converters from BORIS repository** and select the converters to be 
 
 .. image:: converter_selection_from_repository.png
    :alt: Converters selection from repository
-   :width: 50%
+   :width: 40%
 
 
 .. image:: converter_tab.png
