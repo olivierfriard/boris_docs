@@ -688,7 +688,7 @@ External data files
 
 **WARNING**
 
-**The external data visualisation in experimental at this time**
+**The external data visualisation in experimental at this time. Additional features will be added in future versions**
 
 
 You can select one or more external data files to be plotted synchronously with your media.
