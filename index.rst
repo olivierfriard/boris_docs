@@ -517,7 +517,7 @@ Converters can be written by the user, loaded from file or loaded from the repos
 Load converters from BORIS web site
 ................................................
 
-Click **Load converters from BORIS repository** and select the converters.
+Click **Load converters from BORIS repository** and select the converters to be added to your project.
 
 
 .. image:: converter_selection_from_repository.png
