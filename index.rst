@@ -456,7 +456,7 @@ existing BORIS project using the **Import Subjects from a BORIS project**.
 .. _independent variables:
 
 Define the Independent variables
---------------------------------
+------------------------------------------------
 
 .. image:: independent_variables1.png
    :alt: Independent variables
@@ -480,7 +480,7 @@ Addition, removal and sorting of the independent variables follows the same logi
 The independent variables can also be imported from an existing BORIS project using the **Import Variables from a BORIS project**.
 
 
-Example of independent variablòe defined as "set of values"
+Example of independent variable defined as "set of values"
 
 .. image:: independent_variables2.png
    :alt: Independent variables
@@ -492,13 +492,23 @@ The predefined value must be contained in the set of value.
 
 
 Observations' tab
------------------
+------------------------------------
 
 
 The **Observations** table in BORIS shows information about all the previous observations within a project.
 A selected "Observation" can be removed using the "Remove observation" button (you will be prompted for confirmation).
 This operation cannot be undone and deleted observations cannot be recovered once the project is saved.
 The **Observations** table shows four columns **id** **Date** **Description** **Media**.
+
+
+
+Converters
+-----------------------------------
+
+Converters are used for plotting external data when the timestamp values are not expressed in seconds.
+Converters can be written by the user, loaded from file or loaded from the BORIS web site.
+
+
 
 
 Open an existing project with BORIS
@@ -699,9 +709,13 @@ If the data are compatible you will see a plot otherwise you will obtain a messa
 
 
 
-**Converters**
+Converters
+~~~~~~~~~~~~~~~~~~~~~
 
+If the values in the timestamp column are not expessed in seconds (12.45) but in another format (HH:MM:SS, MM:SS, ...) you must use a converter
+that will convert the current format in seconds.
 
+Some converters can be loaded from the BORIS web site by using the 
 
 
 
