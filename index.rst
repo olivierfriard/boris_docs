@@ -748,8 +748,11 @@ you must use a converter that will convert the current format in seconds.
 See the Converters' tab in the project configuration: `converters tab`_ 
 
 
+A **double-click** on the converters cell will allow you to select a converter for each column to be plotted
 
 
+Start the observation
+~~~~~~~~~~~~~~~~~~~~~
 
 
 Click the **Start** button to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
