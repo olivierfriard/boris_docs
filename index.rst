@@ -48,7 +48,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 Legal
 =====
 
-Copyright 2012-2017 Olivier Friard - Marco Gamba
+Copyright 2012-2018 Olivier Friard - Marco Gamba
 
 **BORIS** is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -1398,11 +1398,14 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
 Converters for external data values
 ------------------------------------------------------------
 
-Converters can be written using the Python programming language.
+Converters can be written using the Python 3 programming language.
 
 The **INPUT** variable will be loaded with the original value of the external data file (for example 01:22:32).
 
 The **OUPUT** variable must contain the converted value in seconds (the dot must be used for decimal separator).
+
+The Python function **strptime()** from the **datetime** module can be useful for converting time values:
+https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
 
 
 Example of a converter for converting HH.MM:SS format in seconds::
