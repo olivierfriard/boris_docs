@@ -1402,6 +1402,22 @@ Example of a converter for converting HH.MM:SS format in seconds::
    OUTPUT = int(h) * 3600 + int(m) * 60 + int(s)
 
 
+Example of a converter for converting ISO8601 format in seconds::
+
+   import datetime
+   epoch = datetime.datetime.utcfromtimestamp(0)
+   datetime_format = "%Y-%m-%dT%H:%M:%SZ"
+   
+   OUTPUT = (datetime.datetime.strptime(INPUT, datetime_format) - epoch).total_seconds()
+
+
+**File** > **Edit project** > **Converters tab**
+
+.. image:: converter_writing.png
+   :alt: writing/modifiying a converter
+   :width: 80%
+
+
 
 
 Transitions flow diagram
