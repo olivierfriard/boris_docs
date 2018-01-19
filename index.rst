@@ -683,10 +683,10 @@ You can set a **Time offset for second player** in order to synchronize it with 
    :width: 80%
 
 
-Data files
+External data files
 ~~~~~~~~~~~~~~~~~~~~~
 
-**WARING**
+**WARNING**
 
 **The external data visualisation in experimental at this time**
 
