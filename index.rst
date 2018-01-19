@@ -758,12 +758,12 @@ A **double-click** on the converters cell will allow you to select a converter f
 
 
 Use the **Show plot** button to verify if your external data can be plotted without problem.
+The **Close plot** button will close the plot window.
 
 
 .. image:: external_data_show_plot.png
    :width: 80%
 
-Use the **Close plot** button to close the plot window.
 
 
 
@@ -2018,6 +2018,11 @@ The **reset colors to default** button will reload the default colors.
    :alt: Plot colors tab
    :width: 60%
 
+
+
+
+
+
 Various
 =======
 
@@ -2053,6 +2058,12 @@ All elements, including the media player can be undocked from the main window an
 
 .. image:: open_observation_dw.png
    :alt: Undocked widgets
+
+
+Writing converters for converting external data values
+------------------------------------------------------------
+
+Converters can be written using the Python programming language.
 
 
 
