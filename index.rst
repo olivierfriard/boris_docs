@@ -1306,6 +1306,8 @@ The Zoom option is not available in frame-by-frame mode.
 
 **The Zoom function is not working on Mac**
 
+
+
 Tools
 =====
 
@@ -1381,6 +1383,21 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
 .. image:: coding_pad.png
    :alt: Coding pad
    :width: 90%
+
+
+
+Writing converters for converting external data values
+------------------------------------------------------------
+
+Converters can be written using the Python programming language.
+
+
+
+Example of a converter for converting HH.MM:SS format in seconds::
+
+   h, m, s = INPUT.split(':')
+   OUTPUT = int(h) * 3600 + int(m) * 60 + int(s)
+
 
 
 
@@ -2060,10 +2077,6 @@ All elements, including the media player can be undocked from the main window an
    :alt: Undocked widgets
 
 
-Writing converters for converting external data values
-------------------------------------------------------------
-
-Converters can be written using the Python programming language.
 
 
 
