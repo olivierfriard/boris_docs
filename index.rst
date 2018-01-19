@@ -521,8 +521,8 @@ Click **Load converters from BORIS repository** and select the converters.
 
 
 .. image:: converter_selection_from_repository.png
-   :alt: Converters tab
-   :width: 100%
+   :alt: Converters selection from repository
+   :width: 50%
 
 
 Open an existing project with BORIS
