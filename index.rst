@@ -763,6 +763,9 @@ Use the **Show plot** button to verify if your external data can be plotted with
 .. image:: external_data_show_plot.png
    :width: 80%
 
+Use the **Close plot** button to close the plot window.
+
+
 
 
 Start the observation
