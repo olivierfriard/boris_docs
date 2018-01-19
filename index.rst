@@ -755,6 +755,16 @@ For now only 2 values can be plotted synchronously with your media file. The val
 
 
 
+During the observation tha values you have selected in external data files will be plotted synchronously with your media file.
+
+
+.. image:: observation_with_external_data.png
+    :alt: Observation with 2 values plotted from external data files: Temperature and salinity 
+
+
+
+
+
 .. _converters:
 
 Converters
@@ -782,7 +792,6 @@ The **Close plot** button will close the plot window.
 .. image:: external_data_show_plot.png
    :width: 80%
 
-
 Converters can also be used to convert values that are not time value.
 
 Example of a converter for inverting value::
@@ -791,8 +800,8 @@ Example of a converter for inverting value::
 
 
 
-.. image:: observation_with_external_data.png
-    :alt: Observation with 2 values plotted from external data files: Temperature and salinity 
+
+
 
 
 
