@@ -117,6 +117,10 @@ Launch BORIS
 Start BORIS by clicking on its icon. For launching BORIS from sources see the BORIS web site.
 When launching BORIS for the first time it may take some time to show up. Please be patient!
 
+.. image:: main_window_empty.png
+   :scale: 200%
+   :alt: The BORIS main window
+
 
 **WARNING**
 
