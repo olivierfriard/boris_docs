@@ -792,7 +792,7 @@ Example of a converter for inverting value::
 
 
 .. image:: observation_with_external_data.png
-    :alt: Observation with 2 values plotted: Temperature and salinity 
+    :alt: Observation with 2 values plotted from external data files: Temperature and salinity 
 
 
 
