@@ -687,7 +687,7 @@ You can modify/complete the following parameters by directly typing in the table
 * Columns to plot
 * Plot title: the title of the plot
 * Variable name
-* Converters: Used if the timestamp is not expressed in seconds
+* Converters: Used if the timestamp is not expressed in seconds (see below for details)
 * Time interval: The time interval that will be plotted (in seconds)
 * Start position: the start position of data for synchronisation with the media (in seconds)
 * Substract first value: if the timestamp does not start with a 0 value you can choose to substract the first value to all timestamp values.
