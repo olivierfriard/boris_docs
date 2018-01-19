@@ -502,7 +502,9 @@ The **Observations** table shows four columns **id** **Date** **Description** **
 
 
 
-Converters
+.. _converters tab:
+
+Converters' tab
 -----------------------------------
 
 Converters are used for plotting external data when the timestamp values are not expressed in seconds.
@@ -740,10 +742,11 @@ If the data are compatible you will see a plot otherwise you will obtain a messa
 Converters
 ~~~~~~~~~~~~~~~~~~~~~
 
-If the values in the timestamp column are not expessed in seconds (12.45) but in another format (HH:MM:SS, MM:SS, ...) you must use a converter
-that will convert the current format in seconds.
+If the values in the timestamp column are not expessed in seconds (like 12.45) but in another format (HH:MM:SS, MM:SS, ISO8601 2018-01-18T12:31:40Z ...)
+you must use a converter that will convert the current format in seconds.
 
-Some converters can be loaded from the BORIS web site by using the 
+See the Converters' tab in the project configuration: `converters tab`_ 
+
 
 
 
