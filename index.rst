@@ -1386,11 +1386,13 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
 
 
 
-Writing converters for converting external data values
+Converters for external data values
 ------------------------------------------------------------
 
 Converters can be written using the Python programming language.
+
 The **INPUT** variable will be loaded with the original value of the external data file (for example 01:22:32).
+
 The **OUPUT** variable must contain the converted value in seconds (the dot must be used for decimal separator).
 
 
