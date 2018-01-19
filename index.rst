@@ -650,13 +650,10 @@ Click the **Data files** tab and use the **Add data file** button to select a da
 
 
 The data file must be a plain text file with at least **2 columns** separated by comma or TAB.
-One column must contain a timestamp expressed in seconds. The sample rate can be variable.
-The dot (.) must be used as decimal separator.
+One column must contain a timestamp that will be used to synchronize the plot with the media. The sampling rate can be variable.
 
 
-
-
-Example of a plain text data file with 5 columns::
+Example of a plain text data file with 5 columns separated by comma (**,**)::
 
    Display,X Pos,Y Pos,Start Time (secs),Pupil Diameter
    1,864,509,549.233,0.00295773451216519
