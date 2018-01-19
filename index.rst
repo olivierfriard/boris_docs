@@ -687,6 +687,7 @@ You can modify/complete the following parameters by directly typing in the table
 * Columns to plot
 * Plot title: the title of the plot
 * Variable name
+* Converters: Used if the timestamp is not expressed in seconds
 * Time interval: The time interval that will be plotted (in seconds)
 * Start position: the start position of data for synchronisation with the media (in seconds)
 * Substract first value: if the timestamp does not start with a 0 value you can choose to substract the first value to all timestamp values.
@@ -695,6 +696,12 @@ You can modify/complete the following parameters by directly typing in the table
 
 You can check if the data from file can be correctly plotted by using the **Show plot** button.
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
+
+
+
+**Converters**
+
+
 
 
 
