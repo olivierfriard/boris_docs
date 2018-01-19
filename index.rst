@@ -689,6 +689,7 @@ External data files
 **WARNING**
 
 **The external data visualisation in experimental at this time. Additional features will be added in future versions**
+**For now only 2 external data can be plotted with your media file**
 
 
 You can select one or more external data files to be plotted synchronously with your media.
@@ -699,7 +700,7 @@ Click the **Data files** tab and use the **Add data file** button to select a da
    :width: 120%
 
 
-The data file must be a plain text file with at least **2 columns** separated by comma or TAB.
+The data files must be plain text files with at least **2 columns** separated by comma or TAB.
 One column must contain a timestamp that will be used to synchronize the plot with the media. The sampling rate can be variable.
 
 
@@ -722,6 +723,7 @@ Input the index of the column containing the timestamp and the index of the colu
 The two indices must be separated by a comma (,). Click **OK** to close the window.
 
 .. image:: data_files_columns_selection.png
+   :alt: Selection of values
    :width: 50%
 
 
@@ -747,6 +749,9 @@ You can modify/complete the following parameters by directly typing in the table
 You can check if the data from file can be correctly plotted by using the **Show plot** button.
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
 
+
+
+For now only 2 values can be plotted synchronously with your media file. The values can come from the same file or from two different files.
 
 
 
@@ -778,6 +783,16 @@ The **Close plot** button will close the plot window.
    :width: 80%
 
 
+Converters can also be used to convert values that are not time value.
+
+Example of a converter for inverting value::
+
+   OUTPUT = - float(INPUT)
+
+
+
+.. image:: observation_with_external_data.png
+    :alt: Observation with 2 values plotted: Temperature and salinity 
 
 
 
@@ -793,7 +808,7 @@ If you do not want to start the observation click the **Save** button. The obser
 
 
 Observations list
------------------
+--------------------------
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
 
