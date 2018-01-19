@@ -686,6 +686,11 @@ You can set a **Time offset for second player** in order to synchronize it with 
 Data files
 ~~~~~~~~~~~~~~~~~~~~~
 
+**WARING**
+
+**The external data visualisation in experimental at this time**
+
+
 You can select one or more external data files to be plotted synchronously with your media.
 Click the **Data files** tab and use the **Add data file** button to select a data file.
 
