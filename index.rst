@@ -530,6 +530,11 @@ Click **Load converters from BORIS repository** and select the converters to be 
    :width: 100%
 
 
+The converters loaded in your project can be then selected for converting timestamp (or other values) in external data file
+(See `converters`_)
+
+
+
 
 Open an existing project with BORIS
 ===================================
@@ -728,6 +733,9 @@ You can check if the data from file can be correctly plotted by using the **Show
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
 
 
+
+
+.. _converters:
 
 Converters
 ~~~~~~~~~~~~~~~~~~~~~
