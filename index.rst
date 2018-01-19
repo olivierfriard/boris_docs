@@ -506,9 +506,23 @@ Converters
 -----------------------------------
 
 Converters are used for plotting external data when the timestamp values are not expressed in seconds.
-Converters can be written by the user, loaded from file or loaded from the BORIS web site.
+Converters can be written by the user, loaded from file or loaded from the repository of the BORIS web site
+(http://www.boris.unito.it/static/converters.json).
+
+.. image:: converter_tab_empty.png
+   :alt: Converters tab
+   :width: 100%
 
 
+Load converters from BORIS web site
+................................................
+
+Click **Load converters from BORIS repository** and select the converters.
+
+
+.. image:: converter_selection_from_repository.png
+   :alt: Converters tab
+   :width: 100%
 
 
 Open an existing project with BORIS
