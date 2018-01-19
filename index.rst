@@ -107,7 +107,7 @@ VirtualBox virtual appliance
 
 If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ 
 from the BORIS site.
-In this case you must first install `VirtualBox <https://www.virtualbox.org/>`_
+In this case you must first install the `VirtualBox <https://www.virtualbox.org/>`_ virtualizer from Oracle (released under GPL 2).
 
 
 
