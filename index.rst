@@ -207,11 +207,13 @@ Set your ethogram from scratch
 
 Clicking on the **Add behavior** button you can add a new row in the *Ethogram* table and behavior type will be automatically set to **Point event**.
 
+The cells with gray background can not be directly edited. You must double-click on them and then select a value.
+
 
 Behavior types
 ~~~~~~~~~~~~~~
 
-2 types of behaviors can be defined:
+2 types of behaviors can be defined. Double-click on the cell and select the type of behavior:
 
 - **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below)
 or by clicking to the corresponding row in the Ethogram table.
