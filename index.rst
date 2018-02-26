@@ -213,15 +213,18 @@ Behavior types
 
 2 types of behaviors can be defined:
 
-- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
+- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below)
+or by clicking to the corresponding row in the Ethogram table.
 
 
-- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
+- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key
+(see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
 
 
 
-You can switch between **State event** and **Point event** at your convenience from the **Behavior type** column. You can also add a **Coding map** to
-either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; see the "Coding map" section for details).
+You can switch between **State event** and **Point event** at your convenience from the **Behavior type** column. You can also add a 
+**Coding map** to either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; 
+see the "Coding map" section for details).
 
 An existing behavior can be duplicated using the **Clone behavior** button. Its code have then to be changed. On a selected behavior, click on
 the **Remove behavior** button to remove. The **Remove all behaviors** button will clear the **Ethogram** table. Both the above-mentioned operations
