@@ -1184,8 +1184,8 @@ Example of SQL export::
 Export events as behavioral strings
 ------------------------------------
 
-Behavioral string can be used with the BSA service:
-`Behavioral Strings Analysis (BSA) <http://penelope.unito.it/bsa/>`_
+Behavioral strings can be used with the **Behatrix** program:
+`Behatrix (formerly BSA) <http://www.boris.unito.it/behatrix>`_
 
 Example::
 
