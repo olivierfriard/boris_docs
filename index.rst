@@ -1185,7 +1185,7 @@ Export events as behavioral strings
 ------------------------------------
 
 Behavioral strings can be used with the **Behatrix** program:
-`Behatrix (formerly BSA) <http://www.boris.unito.it/behatrix>`_
+`Behatrix (formerly BSA) <http://www.boris.unito.it/pages/behatrix>`_
 
 Example::
 
