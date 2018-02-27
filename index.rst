@@ -887,9 +887,9 @@ Please note that the deletion is irreversible.
 Import observations from a project file
 ----------------------------------------
 
-The **Observations** > **Import observations** option allows to import obserations from a BORIS project file into the current project.
+The **Observations** > **Import observations** option allows to import observations from a BORIS project file into the current project.
 Choose the project file and then the observations to import. BORIS will check if observations with same id are already existing in the current project.
-BORIIS will also check if behaviors and/or subjects used in the imported observations are not defined in the current project.
+BORIS will also check if behaviors and/or subjects used in the imported observations are not defined in the current project.
 
 
 
