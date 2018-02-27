@@ -1195,10 +1195,10 @@ Example::
 
 
     Subject #1:
-    eat|eat|jump|jump
+    eat|jump|eat|jump
 
     Subject #2:
-    eat|eat|jump|jump
+    eat|rest|jump|eat|jump
 
 
 Export events as `Praat <http://www.fon.hum.uva.nl/praat/>`_ `TextGrid <http://www.fon.hum.uva.nl/praat/manual/TextGrid.html>`_
