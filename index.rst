@@ -662,7 +662,7 @@ file, e.g. first_video.mp4).
 
 
 Spectrogram visualization
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 BORIS allow you to visualize the sound spectrogram during the media observation.
 Activate the *Visualize spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
@@ -679,8 +679,10 @@ The spectrogram visualization will be synchonized to the media position during t
 
 
 
+
+
 Close current behavior between videos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ì
 
 If this option is selected BORIS will close all ongoing State events between successive media files.
 
@@ -693,13 +695,21 @@ This option can be usefull if you have to code various short media files enqueue
 Second media player
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can add a second media that will be played synchronously with the first media player. Click the **Player 2** tab and add the 2nd media.
+You can add a second media that will be played synchronously with the first media player. Click the **Player 2** tab and add the 2nd media 
+with the **Add media** or **Add media without path** buttons.
+
+
+
+
 You can set a **Time offset for second player** in order to synchronize it with the first player.
 
 
 .. image:: media_tab_player2_empty.png
    :alt: Player2 tab
    :width: 80%
+
+
+
 
 
 External data files
