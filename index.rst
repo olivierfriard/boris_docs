@@ -636,15 +636,18 @@ the same directory than the BORIS project file to be found. This option is usefu
 the same project file(s).
 
 
-The **Add all media from directory** and **Add all media from dir without path** allow to add all media files found in a directory.
+The **Add all media from directory** and **Add all media from dir without path** allow to add all media files found in a directory to 
+the playlist.
 
 
 Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), 
 number of frames by second (FPS), video stream, audio stream  .
 
 
-If you have to add various media files, you can use the **Add all media from directory** button, in this case all the media files found in 
-the selected directory will be added in the playlist.
+.. image:: media_tab_with_media.png
+   :alt: Player 1 tab
+   :width: 80%
+
 
 
 The **Remove media** button can be used to remove the selected media files.
