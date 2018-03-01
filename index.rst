@@ -1131,7 +1131,7 @@ Exporting events data
 The coded events can be exported in various format (**Observations** > **Export ?**):
 
 Export events
--------------
+-------------------------------------
 
 This function will export the events of selected observations in TSV, XLS or ODS formats. These formats are suitable for further analysis.
 
@@ -1142,11 +1142,11 @@ This function will export the events of selected observations in TSV, XLS or ODS
 
 
 Export aggregated events
-------------------------
+-------------------------------------
 
 This function will export the events of the selected observations in the following formats:
 
-* **tabular format** (TSV, CSV, XLS, ODS, HTML)
+* **tabular format** (TSV, CSV, XLSX, XLS, ODS, HTML)
 * **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
 
@@ -1178,6 +1178,14 @@ Example of SQL export::
     ("demo #1","2015-11-30 10:39:18","Subj #2","jump","","POINT",120.863,0,"",""),
     ("demo #1","2015-11-30 10:39:18","Subj #2","jump","","POINT",122.438,0,"",""),
     ("demo #1","2015-11-30 10:39:18","Subj #2","eat","meat","STATE",26.6,113.988,"","");
+
+
+
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on the observation id modified to do not
+contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
+
+
+
 
 
 
@@ -1359,199 +1367,11 @@ Tools
 
 
 
-
-
-
-
-
-
 Coding map
-===========
+====================
 
-A coding map is a bitmap image with user-defined clickable areas that will help to code for behaviors or modifiers for a behavior.
+.. include:: coding_map.rst
 
-2 types of coding maps are available:
-
-* Behaviors coding map
-* Modifiers coding map
-
-
-
-
-
-
-The Behaviors coding map
-------------------------
-
-BORIS allows creating a **Behaviors coding map** using the **Map creator** tool 
-(**Tools** > **Create a coding map** > **for behaviors).**
-
-A **Behaviors coding map** can be created only if you have defined behaviors in your ethogram.
-
-
-Creating a Behaviors coding map
-.................................
-
-
-To create a new **Behaviors coding map** launch the **Behaviors coding map creator**
-
-**Tools** > **Create a coding map** > **for behaviors).**
-
-A new window will open
-
-
-.. image:: behaviors_coding_map_empty.png
-   :alt: Behaviors coding map
-   :width: 50%
-
-
-
-**File** > **New behaviors coding map**
-
-Enter a name for the new **Behaviors coding map**
-
-.. image:: behaviors_coding_map_name.png
-   :alt: Behaviors coding map name
-   :width: 30%
-
-
-Loading a bitmap for a behaviors coding map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-Click the **Load bitmap** button in the bottom of the window and select a bitmap image (PNG and JPEG formats are accepted).
-
-If the size of your bitmap image is bigger than 640 x 640 pixels BORIS will resize it to
-640 x 640 pixels keeping the aspect ratio and store the resized version in the coding map file.
-
-
-The bitmap will be displayed
-
-
-.. image:: behaviors_coding_map1.png
-   :alt: Behaviors coding map
-   :width: 70%
-
-
-Adding areas corresponding the behaviors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Click the **New behavior area** button in the bottom of the window and select a behavior by clicking on the **Select behavior** button.
-
-
-.. image:: behaviors_coding_map2.png
-   :alt: Behaviors coding map
-   :width: 70%
-
-The available behaviors are taken from the ethogram of the current project.
-
-Click on the bitmap to define the vertex on the area that will code the selected behavior.
-Close the area by clicking again on the first point.
-
-The color of the new area can be changed using the **Opacity** button. The opacity can be changed (from 0 to 100%) using the slider.
-
-
-Save the behavior area by clicking on the **Save the behavior area** button
-
-The area will be added to the **Defined area** list
-
-You can add more area and also add more than one area for a same behavior.
-Two or more areas can overlap. In this case all corresponding behaviors will be triggered.
-
-
-.. image:: behaviors_coding_map3.png
-   :alt: Behaviors coding map
-   :width: 70%
-
-
-Add the Behaviors coding map to the current project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**File** > **Add coding map to project**
-
-The coding map will be added to the current project
-
-You can add a **Behaviors coding map** to the current project from a file containing the coding map:
-
-(**File** > **Edit project** > **Behaviors coding map** > **Add a behaviors coding map** )
-
-
-
-Saving the Behaviors coding map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Saving the **Behaviors coding map** will create a file containing the **Behaviors coding map** including the bitmap image.
-
-**File** > **Save the current Behaviors coding map**
-
-The file containing the **Behaviors coding map** can be then reloaded in the **Behaviors coding map creator** or added to a BORIS project
-(**File** > **Edit project** > **Behaviors coding map** > **Add a behaviors coding map** )
-
-
-
-
-The Modifiers coding map
-------------------------
-
-
-BORIS allows creating a modifiers coding map using the **Modifiers Map creator** tool 
-(**Tools** > **Create a coding map** > **for modifiers**.)
-Clickable areas may correspond to specific modifiers that can be meaningful for the behavioral coding.
-Facial expression is the case we thought to when developing this function.
-
-
-Creating a modifiers coding map
-.................................
-
-
-Loading a bitmap for a modifiers coding map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-To create a new **Modifiers coding map**, launch the **Modifiers Map creator** tool (**Tools** > **Create a coding map** > **for modifiers).**
-The BORIS main window will be replaced by the **Modifiers Map creator** window. Click on **Modifiers Map creator** > **New Modifiers map** and
-enter a name for the new map in the edit box. You have to load a bitmap image (JPEG or PNG) using the **Load bitmap** button.
-The loaded image will be displayed.
-
-
-.. image:: modifiers_coding_map.png
-   :alt: Coding map
-   :width: 70%
-
-
-If the size of your bitmap image is bigger than 640 x 640 pixels BORIS will resize it to
-640 x 640 pixels keeping the aspect ratio and store the resized version in the coding map file.
-
-
-Adding areas corresponding to the modifiers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-To create clickable areas on a coding map, you have to click on the **New area** button and enter
-an **Area code** in the edit box. The new area can now be defined by clicking on the image.
-The drawing tool allows defining a irregular polygon (a plane shape with straight sides, which
-does not have all sides equal and all angles equal) by clicking to determine subsequent vertices.
-It can be convex or concave. Straight sides must not cross each other. Once selected an area can be
-deleted using the **Delete area** button. When an area is closed and its name has been defined in
-the **Area code** field, it can be saved by using the **Save area** button.
-The areas can partially overlap each other. See the **Using a Coding map** section for more details.
-Once all areas are added the entire map can be saved using the **Save map** option menu
-(**Map creator** > **Save map**). The map is now saved in its own file (.boris_map) which is NOT part of the BORIS project.
-A map can be edited at anytime by opening the map file from the **Open map** menu option (**Map creator** > **Open map**).
-
-
-
-
-
-Adding a modifiers coding map to your project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Creating a Coding map is not automatically adding the map to your project.
-The Coding map have to be added to your project by selecting the corresponding **Behavior type**
-(**Point event with coding map**, **State event with coding map**). BORIS will ask to select the
-file name containing the coding map (.boris_map) and load the coding map in the project.
-The coding map name will appear in the **Coding map** column and will be saved in the BORIS project file.
-
-NOTE: If you later modify your coding map you must reload the new version in your BORIS project.
 
 
 
@@ -1563,155 +1383,9 @@ Analysis
 
 
 Preferences
-===========
+==============================
 
-You can customize BORIS using the Preferences window (**File** > **Preferences**)
-
-
-
-.. _general preferences:
-
-General preferences
--------------------
-
-
-.. image:: preferences1.png
-   :alt: Preferences first tab
-   :width: 80%
-
-**Default project time format**
-    This option allows the user to choose the format for displaying time in the project. Please note that time is internally always saved in seconds with a precision of 3 decimal digits
-
-**Fast forward/backward speed (seconds)**
-    This option allows the user to customize the amount of time for "jumping" forward or backward in media.
-
-.. _Time offset for media reposition:
-
-**Time offset for media reposition (seconds)**
-    This value indicates the time offset for repositioning the media after double-click on a row event of the *Events* table.
-    'for example -4 seconds indicates that after a double-click the media will be repositioned 4 seconds before the recorded event.'
-
-**Playback speed step value**
-    This value indicate how much the speed will be increased or decreased after pressing the *change playback speed* buttons.
-
-.. _automatic backup:
-
-**Automatic backup every (minutes)**
-   if set BORIS will save your project automatically every n minutes. 0 indicate no automatic backup.
-
-**Play sound when a key is pressed**
-    Activate a sound signal after every keypress event
-
-**Embed media player**
-    This option allows the user to detach from the main window or embed the media player in the main window.
-    **On Mac OS the media player can not be detached from main window.**
-
-**Alert if focal subject is not set**
-    If this option is activated BORIS will show an alert box if no focal subject is selected
-
-.. _tracking cursor position:
-
-**Tracking cursor above current event**
-    Check this box to position the tracking cursor above the current event in events list table.
-
-**Check for new version**
-    Check for new version on BORIS web site every 15 days (internet access required)
-
-
-FFmpeg framework
-----------------
-
-
-.. image:: preferences2.png
-   :alt: Preferences FFmpeg framework tab
-   :width: 60%
-
-
-The path for the ffmpeg executable program is displayed. The FFmpeg executable is now included with BORIS in Windows and Mac OS versions.
-
-.. _FFmpeg cache directory:
-
-
-**FFmpeg cache directory**
-    This indicates the directory that will be used as image cache for frame-by-frame mode and spectrogram visualization.
-    If you do not specify a path, BORIS will use the default temporary directory of your system.
-
-
-**FFmpeg cache directory max size**
-    Indicate a size limit (in Mb) for the image caching. 0 indicates no limit
-
-
-
-Frame-by-frame mode
--------------------
-
-.. image:: preferences3.png
-   :alt: Preferences FFmpeg framework tab
-   :width: 60%
-
-
-.. _frame resizing:
-
-
-
-Resize frame
-............
-
-In case of high resolution video (for example 4K 1920x1080) the extracted frames can be resized before visualization to improve the speed. Select the width in pixel for the extracted frames.
-The aspect ratio will be maintained. 0 will indicate no frame resizing.
-
-
-Frame bitmap format
-...................
-
-A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
-The extracted frames will be saved in the directory defined in previous tab (FFmpeg cache directory).
-
-
-Detaching the frame viewer
-...........................
-
-The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will be detached.
-
-
-Spectrogram
------------
-
-.. image:: preferences4.png
-   :alt: Preferences Spectrogram tab
-   :width: 60%
-
-
-Spectrogram height
-..................
-
-Select the height of generated spectrogram (in pixels).
-You will need to restart the current observation to apply changes.
-
-Color map
-.........
-
-Select the color map for displaying the generated spectrogram.
-See `Matplotlib colormaps <http://matplotlib.org/users/colormaps.html>`_ for details.
-
-
-.. _plot colors:
-
-Plot colors
---------------
-
-The color of behaviors in the plot events functions can be customized.
-The first color will be associated to the first behavior in your ethogram, the second color to the second behavior and so on.
-Various color formats can be used to specify a color: **named color** or **hex RGB** (like #0F0F0F).
-See https://matplotlib.org/api/colors_api.html and https://matplotlib.org/examples/color/named_colors.html for details
-
-
-The **reset colors to default** button will reload the default colors.
-
-
-.. image:: preferences5.png
-   :alt: Plot colors tab
-   :width: 60%
+.. include:: preferences.rst
 
 
 
