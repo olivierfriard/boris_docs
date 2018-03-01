@@ -600,7 +600,7 @@ You must then indicate if you want to make an observation based on pre-recorded 
 
 
 Live observation
-................
+..............................
 
 During the live observation BORIS will show you a timer that will be used for recording time for coded events.
 
@@ -612,13 +612,14 @@ Choose the **Live tab** to make a live observation.
 
 
 
-In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset you indicated and all the coded events will have the same time value.
+In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset 
+you indicated and all the coded events will have the same time value.
 
 
 
 
 Media based observation
-.......................
+.....................................
 
 Click on the **Media** tab to make an obervation based on media.
 
@@ -629,12 +630,18 @@ Click on the **Media** tab to make an obervation based on media.
 
 The **Media tab** contains 3 tabs: **Player 1**, **Player 2** and **Data files**.
 
-Click the **Player 1** tab and add one or more media files using the **Add media** button.
+Click the **Player 1** tab and add one or more media files using the **Add media** or **Add media without path** button.
+The **Add media without path** button allow you to not save the path of your media file(s). In this case the media file(s) must be in 
+the same directory than the BORIS project file to be found. This option is useful if you are working with various computers on 
+the same project file(s).
 
-Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), number of frames by second (FPS), video stream, audio stream  .
+
+Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), 
+number of frames by second (FPS), video stream, audio stream  .
 
 
-If you have to add various media files, you can use the **Add all media from directory** button, in this case all the media files found in the selected directory will be added in the playlist.
+If you have to add various media files, you can use the **Add all media from directory** button, in this case all the media files found in 
+the selected directory will be added in the playlist.
 
 
 The **Remove media** button can be used to remove the selected media files.
@@ -643,7 +650,8 @@ The **Remove media** button can be used to remove the selected media files.
 All the media types reported at http://www.videolan.org/vlc/features.html can be played in BORIS.
 The media queued in the *Media file paths* will be played sequentially.
 This means that an event occurring at time t\ :sub:`x`\  in the media file queued as second (e.g. second_video.mp4)
-in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media file, e.g. first_video.mp4).
+in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media 
+file, e.g. first_video.mp4).
 
 
 
@@ -1139,7 +1147,7 @@ Export events
 **Observations** > **Export events**
 
 This function will export the events of selected observations in TSV, CSV, ODS, XLSX, XLS or HTML formats. 
-If more observations are selected BORIS will ask for a directory to save the various files.
+If many observations are selected BORIS will ask for a directory to save the various files.
 These formats are suitable for further analysis.
 
 
@@ -1165,6 +1173,8 @@ This function will export the events of the selected observations in the followi
 * **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
 
+If many observations are selected you can choose to group all results in one file. If you do not want to group results BORIS 
+will ask for a directory to save  the various files.
 
 
 The **State events** are paired and the duration is available.
