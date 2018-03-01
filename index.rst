@@ -636,6 +636,9 @@ the same directory than the BORIS project file to be found. This option is usefu
 the same project file(s).
 
 
+The **Add all media from directory** and **Add all media from dir without path** allow to add all media files found in a directory.
+
+
 Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), 
 number of frames by second (FPS), video stream, audio stream  .
 
