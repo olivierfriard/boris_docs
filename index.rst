@@ -1128,12 +1128,19 @@ in the `FFmpeg cache directory`_ specified in the **Preferences** window.
 Exporting events data
 =====================
 
-The coded events can be exported in various format (**Observations** > **Export ?**):
+The coded events can be exported in various formats:
+
+
+
 
 Export events
 -------------------------------------
 
-This function will export the events of selected observations in TSV, XLS or ODS formats. These formats are suitable for further analysis.
+**Observations** > **Export events**
+
+This function will export the events of selected observations in TSV, CSV, ODS, XLSX, XLS or HTML formats. 
+If more observations are selected BORIS will ask for a directory to save the various files.
+These formats are suitable for further analysis.
 
 
 .. image:: export_events.png
@@ -1141,8 +1148,16 @@ This function will export the events of selected observations in TSV, XLS or ODS
    :width: 60%
 
 
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id** 
+             in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
+
+
+
 Export aggregated events
 -------------------------------------
+
+
+**Observations** > **Export aggregated events**
 
 This function will export the events of the selected observations in the following formats:
 
@@ -1152,7 +1167,7 @@ This function will export the events of the selected observations in the followi
 
 
 
-The **State events** are paired and duration is available.
+The **State events** are paired and the duration is available.
 
 
 Example of tabular export
@@ -1181,8 +1196,8 @@ Example of SQL export::
 
 
 
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on 
-    the observation id modified to do not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id** 
+             in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
 
 
 
