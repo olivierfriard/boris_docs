@@ -1181,7 +1181,8 @@ Example of SQL export::
 
 
 
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on the observation id modified to do not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on 
+the observation id modified to do not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
 
 
 
