@@ -1092,6 +1092,8 @@ Various
 ==========================
 
 
+.. _Removing path of media files:
+
 Removing path of media files
 ---------------------------------------
 
