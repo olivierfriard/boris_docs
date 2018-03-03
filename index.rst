@@ -1095,7 +1095,7 @@ Various
 Removing path of media files
 ---------------------------------------
 
-BORIS store into the file project the full path of the media files (for example: ``/home/user/Video/video_n1.mp4`` or ``c:\Users\user\Documents\video1.avi``).
+BORIS store the full path of the media files into the file project (for example: ``/home/user/Video/video_n1.mp4`` or ``c:\Users\user\Documents\video1.avi``).
 
 If you want to move your project on a different computer or if you want to move your media files you may want to do not store the full 
 path. For this you can choose to add media files without the full path (See **Add media files** section). You can also remove the full path
