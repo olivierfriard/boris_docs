@@ -1089,10 +1089,38 @@ Preferences
 
 
 Various
-=======
+==========================
+
+
+Removing path of media files
+---------------------------------------
+
+BORIS store into the file project the full path of the media files (for example: ``/home/user/Video/video_n1.mp4`` or ``c:\Users\user\Documents\video1.avi``).
+
+If you want to move your project on a different computer or if you want to move your media files you may want to do not store the full 
+path. For this you can choose to add media files without the full path (See **Add media files** section). You can also remove the full path
+of your media files from the all observations of the current project (**File** > **Remove path from media files**. Please note that this 
+operation is irreversible. After remotion the full path of your media will be lost and will not be recoverable. 
+
+**If you choose to do not store the full path of media files the media files must located in the same directory than your BORIS project file.**
+
+
+Docking
+-------------------
+
+All elements, including the media player can be undocked from the main window and positioned where you prefer
+(e.g. they can be on the same desktop over one or two screens).
+
+
+.. image:: open_observation_dw.png
+   :alt: Undocked widgets
+
+
+
+
 
 Citing BORIS
-------------
+------------------------
 
 If you have used BORIS for publications, please cite::
 
@@ -1104,7 +1132,7 @@ If you have used BORIS for publications, please cite::
 
 
 Bug reports and features request
------------------------------------
+----------------------------------------
 
 Please send bug reports and features request using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS) 
 or by e-mail in english, french or italian (see web site http://www.boris.unito.it/pages/about.html).
@@ -1113,16 +1141,6 @@ or by e-mail in english, french or italian (see web site http://www.boris.unito.
 In case of bug report please verify that you are using the last version of BORIS and indicate your operating system, its version and the CPU architecture (32/64 bits).
 You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to any third party.
 
-
-Docking
--------
-
-All elements, including the media player can be undocked from the main window and positioned where you prefer
-(e.g. they can be on the same desktop over one or two screens).
-
-
-.. image:: open_observation_dw.png
-   :alt: Undocked widgets
 
 
 
