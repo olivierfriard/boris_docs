@@ -102,9 +102,20 @@ Frame bitmap format
 A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
 The extracted frames will be saved in the directory defined in previous tab (FFmpeg cache directory).
 
+Cache size
+.........................................................
+
+
+In frame-by-frame mode the frames are extracted from the video with the **ffmpeg** program every second by default.
+
+This value can be increased to extract frames for a longer sequence and avoiding waiting for frames extraction every second.
+
+Note for high resolution video this operation can be long.
+
+
 
 Detaching the frame viewer
-...........................
+.........................................................
 
 The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will be detached.
 
@@ -118,13 +129,13 @@ Spectrogram
 
 
 Spectrogram height
-..................
+.........................................................
 
 Select the height of generated spectrogram (in pixels).
 You will need to restart the current observation to apply changes.
 
 Color map
-.........
+.........................................................
 
 Select the color map for displaying the generated spectrogram.
 See `Matplotlib colormaps <http://matplotlib.org/users/colormaps.html>`_ for details.
