@@ -566,21 +566,21 @@ only one project can be opened at a time.
 
 
 Observations
-============
+============================================================
 
 .. include:: observations.rst
 
 
 
 Coding your media
-=================
+============================================================
 
 When looking at the BORIS main window, the window title bar shows the **Observation id** - **Project name** - **BORIS**.
 The media (the first in the queue) will be loaded in the media player and paused.
 
 
 Media controls are available in the toolbar
--------------------------------------------
+------------------------------------------------------------
 
 .. image:: toolbar.png
    :alt: Media control toolbar
@@ -703,8 +703,11 @@ See `Time offset for media reposition`_ in Preferences window to customize the t
 
 
 
+
+
+
 Record an event
----------------
+------------------------------------------------------------
 
 
 
@@ -748,8 +751,23 @@ The **Observations** > **Add event** menu option allows adding a new event by sp
 
 
 
+
+Fix unpaired state events
+------------------------------------------------------------
+
+You can use the "Fix unpaired events" function to fix the **state events** without a STOP event.
+
+**Observations** > **Fix unpaired events** (keyboard shortcut: CTRL+U)
+
+The program will ask for a time at which insert the STOP events for all unpaired **state events**
+
+This function can be run on a set of selected observations (when no observation is open). In this case the STOP events will be inserted at the end of observation.
+
+
+
+
 Frame-by-frame mode
---------------------
+------------------------------------------------------------
 
 You can switch between the media player and the frame-by-frame mode using the dedicated button in the toolbar:
 
@@ -769,7 +787,7 @@ You can move between frames by using the arrow keys in the toolbar (on the right
 
 
 For the both modes (media player and frame-by-frame mode)
-..............................................................
+............................................................
 
 * **Page Up** key: switch to the next media
 * **Page Down** key: switch to the previous media
@@ -779,7 +797,7 @@ For the both modes (media player and frame-by-frame mode)
 
 
 Only for the frame-by-frame mode
-..................................
+............................................................
 
 * **Left arrow** key: go to the previous frame
 * **Right arrow** key: go to the next frame
@@ -805,7 +823,7 @@ in the `FFmpeg cache directory`_ specified in the **Preferences** window.
 
 
 Exporting events data
-=====================
+============================================================
 
 The coded events can be exported in various formats:
 
@@ -813,7 +831,7 @@ The coded events can be exported in various formats:
 
 
 Export events
--------------------------------------
+------------------------------------------------------------
 
 **Observations** > **Export events**
 
