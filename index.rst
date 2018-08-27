@@ -167,6 +167,7 @@ BORIS allows creating an unlimited number of projects but only one project can b
 
 A video tutorial about creating a project is available at https://www.youtube.com/watch?v=I97Dny5hFOE
 
+
 To create a new project, under the menu **File** , select **New project**.
 You can determine your project name by writing in the **Project name** field in the **Information** tab. Once the project will be saved,
 the **Project file path** will show the full path to your project file.

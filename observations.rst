@@ -6,7 +6,7 @@
 Create a new observation
 ----------------------------------------
 
-A video tutorial about making an observation is available at `<https://www.youtube.com/watch?v=ef-d6WEc0po>`_
+A video tutorial about making an observation is available at `<https://www.youtube.com/watch?v=CKeBITCICXc>`_
 
 To create a new observation you must first `Create a new project with BORIS`_
 or `Open an existing project with BORIS`_.
