@@ -38,7 +38,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 `BORIS YouTube channel <https://www.youtube.com/channel/UCo-Jyvzawwp0bRMEor4aLVQ>`_
 
-`BORIS Facebook page <https://www.facebook.com/BORIS-behav-obs-318697441616743/>`_
+
 
 
 
