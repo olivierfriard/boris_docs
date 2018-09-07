@@ -177,7 +177,7 @@ under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > 
 
 .. image:: images/new_project.png
    :alt: New project
-
+   :width: 100%
 
 Set an ethogram
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -361,15 +361,18 @@ BORIS will ask for including **Point events** or not and a new **Exclusion matri
 Exclusive behavior may be selected by checking on the corresponding cell in the automatically-generated
 matrix. We suggest to work on the **Exclusion matrix** when all the behaviors have been added to your ethogram.
 
+All behaviors can be excluded by a particular behavior by selecting the corresponding entire row (click on the row header of the behavior)
+and by clicking on the **Check selected** button. You can also uncheck all behaviors by selecting the **Uncheck selected** button.
+
 
 Example of an **exclusion matrix**:
-
 
 .. image:: images/exclusion_matrix.png
    :width: 100%
    :alt: Exclusion matrix tool
 
-In the previous example the Locomotion behavior will exclude **Alert**, **Allogroom**, **Breed**, **Carry objects** ...
+For example in the previous figure, the **Alert** behavior will exclude the following behaviors: **Allogroom**, **Breed**, **Carry objects**, **Chase** ...
+
 
 
 During the observation, the excluding event will stop all the current excluded state events one millisecond before the occurence of the event.
