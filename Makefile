@@ -6,8 +6,8 @@ default:
 	#rm boris_user_guide.pdf_original
 	git add *.rst
 	git add *.png
-	git commit -a -m "new PDF"
-	git push origin master
+	git commit -a -m "some work"
+	git push
 
 
 
