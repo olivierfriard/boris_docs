@@ -67,7 +67,7 @@ BORIS can be installed following instructions on the BORIS site at `download pag
 Linux
 -----
 
-BORIS is available for 32 or 64bits systems. 
+BORIS is available for 32 or 64-bit systems. 
 
 You can also run BORIS from sources.
 See the `Linux download page <http://www.boris.unito.it/pages/download_linux>`_ for details about the dependencies to install.
@@ -86,11 +86,12 @@ The **BORIS Portable** will NOT install BORIS on your system but will run from a
 Use this version if you want to test a new version of BORIS for example.
 
 
-BORIS debugging version
-.......................
-
-Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
-This version will NOT install BORIS in your system.
+..
+    BORIS debugging version
+    .......................
+    
+    Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
+    This version will NOT install BORIS in your system.
 
 
 Mac OS
