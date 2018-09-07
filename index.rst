@@ -4,7 +4,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 
 
 .. image:: images/new_logo.500px.png
-   :scale: 50%
+   :width: 50%
 
 
 
