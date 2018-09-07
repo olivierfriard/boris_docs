@@ -649,6 +649,16 @@ It can be used to record an event by double clicking on the corresponding row.
 The **Key** column indicates the keyboard key assigned to each behavior (if any).
 Pressing a key will record the corresponding behavior (that will appear in the *Events* widget).
 
+The behaviors shown in the ethogram widget can be filtered:
+
+**Right-click** on ethogram widget > **Filter behaviors**
+
+Check/Uncheck single behaviors or double-click on the behavioral category
+
+.. image:: images/filter_behaviors.png
+   :alt: Filter behaviors in ethogram widget
+   :width: 100%
+
 
 
 
