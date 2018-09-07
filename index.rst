@@ -179,6 +179,7 @@ under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > 
    :alt: New project
    :width: 100%
 
+
 Set an ethogram
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -197,9 +198,9 @@ Switching to the **Ethogram** tab, you can alternatively:
    :width: 100%
 
 
+
 Set your ethogram from scratch
 ............................................................................................................................................
-
 
 
 Clicking on the **Add behavior** button you can add a new row in the *Ethogram* table and behavior type will be automatically set to **Point event**.
@@ -207,8 +208,9 @@ Clicking on the **Add behavior** button you can add a new row in the *Ethogram* 
 The cells with gray background can not be directly edited. You must double-click on them and then select a value.
 
 
+
 Behavior types
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 2 types of behaviors can be defined. Double-click on the cell and select the type of behavior:
 
@@ -219,7 +221,7 @@ Behavior types
 
 
 
-You can switch between **State event** and **Point event** at your convenience from the **Behavior type** column. You can also add a 
+You can switch between **State event** and **Point event** at your convenience with a double-click on the **Behavior type** cell. You can also add a 
 **Coding map** to either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; 
 see the "Coding map" section for details).
 
@@ -249,7 +251,7 @@ Set keys and codes
 For each behavior you have to set a keyboard key (**Key** column) that will be then used to code the behavioral events.
 You can choose whether you want to set a unique key for each behavior or use the same key for more than one behavior.
 In the case you set the same key for more than a behavior, BORIS will pause your coding and ask which of the behavior
-you want to record. The keys are case-insensitive.
+you want to record. From version 7 the keys are **case-sensitive**.
 
 
 **important**
