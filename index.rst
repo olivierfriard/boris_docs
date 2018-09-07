@@ -65,22 +65,23 @@ BORIS can be installed following instructions on the BORIS site at `download pag
 
 
 Linux
------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS is available for 32 or 64-bit systems. 
+BORIS is available only for 64-bit systems. 
 
 You can also run BORIS from sources.
 See the `Linux download page <http://www.boris.unito.it/pages/download_linux>`_ for details about the dependencies to install.
 
 
 Microsoft-Windows
------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 BORIS is available for Windows in 32-bit and 64-bit versions. Check your OS before downloading.
 
 Two versions are available: **BORIS Setup** and **BORIS Portable**
 
-The **BORIS Setup** will install BORIS on your system (the default install path is located in your home directory, you do not need administration rights to install BORIS).
+The **BORIS Setup** will install BORIS on your system (the default install path is located in your home directory,
+you do not need administration rights to install BORIS).
 
 The **BORIS Portable** will NOT install BORIS on your system but will run from a directory (find and launch boris.exe).
 Use this version if you want to test a new version of BORIS for example.
@@ -95,7 +96,7 @@ Use this version if you want to test a new version of BORIS for example.
 
 
 Mac OS
-------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 BORIS is available for Mac OS only in 64-bit version (from >= 10.8)
 
