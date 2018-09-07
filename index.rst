@@ -657,7 +657,7 @@ Check/Uncheck single behaviors or double-click on the behavioral category
 
 .. image:: images/filter_behaviors.png
    :alt: Filter behaviors in ethogram widget
-   :width: 100%
+   :width: 80%
 
 
 
