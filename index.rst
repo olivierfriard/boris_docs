@@ -196,7 +196,7 @@ Switching to the **Ethogram** tab, you can alternatively:
 
 .. image:: images/project2_ethogram.png
    :alt: Ethogram configuration
-
+   :scale: 200%
 
 
 Set your ethogram from scratch
