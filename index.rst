@@ -591,6 +591,8 @@ Media controls are available in the toolbar
 
 Key to the symbols:
 
+* **List of observations**
+
 * **Play**
 
 * **Pause** (the SPACE bar can be used)
@@ -617,9 +619,11 @@ Key to the symbols:
 
 In frame-by-frame mode:
 
-* **Move on frame back**
+* **Move on frame back** (enabled in frame-by-frame mode)
 
-* **Move one frame forward**
+* **Move one frame forward** (enabled in frame-by-frame mode)
+
+* **Close current observation**
 
 
 
