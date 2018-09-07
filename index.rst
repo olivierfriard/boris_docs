@@ -119,7 +119,6 @@ When launching BORIS for the first time it may take some time to show up. Please
 The main window of BORIS will show up. The toolbar with media player commands is disabled for now.
 
 .. image:: images/main_window_empty.png
-   :scale: 200%
    :alt: The BORIS main window
 
 
