@@ -27,7 +27,7 @@ BORIS is a free and open-source software available for GNU/Linux, Windows and Ma
 
 
 Follow BORIS
-=========================
+============================================================================================================================================
 
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -45,7 +45,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 
 Legal
-=====
+============================================================================================================================================
 
 Copyright 2012-2018 Olivier Friard - Marco Gamba
 
@@ -60,7 +60,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 
 
 Install BORIS
-=============
+============================================================================================================================================
 
 BORIS can be installed following instructions on the BORIS site at `download page <http://www.boris.unito.it/?page=download>`_
 
@@ -111,7 +111,7 @@ In this case you must first install the `VirtualBox <https://www.virtualbox.org/
 
 
 Launch BORIS
-============
+============================================================================================================================================
 
 Start BORIS by clicking on its icon. For launching BORIS from sources see the BORIS web site.
 When launching BORIS for the first time it may take some time to show up. Please be patient!
@@ -147,7 +147,7 @@ You can launch BORIS from command line by specifying the project file to open as
 
 
 Create a new project with BORIS
-===============================
+============================================================================================================================================
 
 The BORIS project file is the container for all information related to the project.
 It contains the **ethogram**, the **independent variables**, the **subjects definition**, the **behaviors coding maps**, the **converters**
@@ -215,10 +215,12 @@ Behavior types
 
 2 types of behaviors can be defined. Double-click on the cell and select the type of behavior:
 
-- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
+- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below)
+or by clicking to the corresponding row in the Ethogram table.
 
 
-- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
+- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key
+(see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
 
 
 
@@ -385,7 +387,8 @@ Import an ethogram from an existing project
 
 Behaviors within an ethogram can be imported from an existing BORIS project (.boris) using the **Import behaviours from a BORIS project** button.
 BORIS will ask to select a BORIS project file and whether imported behaviors should replace or be appended to the **Ethogram** table.
-Imported behaviors will retain all the previously defined behavior parameters (namely Behavior type, Key, Code, Description, Modifiers and Exclusion information).
+Imported behaviors will retain all the previously defined behavior parameters (namely Behavior type, Key, Code, Description, Modifiers and
+Exclusion information).
 
 
 
@@ -422,7 +425,8 @@ The fields will be interpreted as:
 All fields after the 5th will be ignored.
 
 
-BORIS will ask to select a plain text file (by default: \*.txt \*.csv \*.tsv) and whether imported behaviors should replace or be appended to the **Ethogram** table.
+BORIS will ask to select a plain text file (by default: \*.txt \*.csv \*.tsv) and whether imported behaviors should replace or be appended
+to the **Ethogram** table.
 The missing information for the behaviours imported from text file have to be redefined.
 
 
@@ -437,7 +441,7 @@ See **File** > **Edit project** > **Ethogram tab** > **Export ethogram**
 
 
 Define the subjects
--------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 .. image:: subjects_configuration.png
@@ -459,7 +463,7 @@ existing BORIS project using the **Import Subjects from a BORIS project**.
 .. _independent variables:
 
 Define the Independent variables
-------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: independent_variables1.png
    :alt: Independent variables
@@ -495,7 +499,7 @@ The predefined value must be contained in the set of value.
 
 
 Observations' tab
-------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 The **Observations** table in BORIS shows information about all the previous observations within a project.
@@ -508,7 +512,7 @@ The **Observations** table shows four columns **id** **Date** **Description** **
 .. _converters tab:
 
 Converters' tab
------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Converters are used for plotting external data when the timestamp values are not expressed in seconds.
 Converters can be written by the user, loaded from file or loaded from the repository of the BORIS web site
@@ -550,7 +554,7 @@ The converters loaded in your project can be then selected for converting timest
 
 
 Open an existing project with BORIS
-===================================
+============================================================================================================================================
 
 **IMPORTANT**
 
@@ -566,21 +570,21 @@ only one project can be opened at a time.
 
 
 Observations
-============================================================
+============================================================================================================================================
 
 .. include:: observations.rst
 
 
 
 Coding your media
-============================================================
+============================================================================================================================================
 
 When looking at the BORIS main window, the window title bar shows the **Observation id** - **Project name** - **BORIS**.
 The media (the first in the queue) will be loaded in the media player and paused.
 
 
 Media controls are available in the toolbar
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: toolbar.png
    :alt: Media control toolbar
@@ -632,7 +636,7 @@ The media can be controlled by special keyboard keys:
 
 
 **Ethogram** widget in the main window
-----------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 .. image:: main_window_ethogram.png
@@ -648,7 +652,7 @@ Pressing a key will record the corresponding behavior (that will appear in the *
 
 
 **Subjects** widget in the main window
----------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: main_window_subjects.png
    :alt: Subjects list widget in main window
@@ -656,13 +660,14 @@ Pressing a key will record the corresponding behavior (that will appear in the *
 
 The **Subjects** widget provide the user with the list of subjects defined in the **Subject** tab in the **Project** window.
 It can be used to add information about the focal subject on the recorded behaviors by double clicking on the corresponding row.
-When a subject is selected his/her name appears above the media player. The **Key** column indicates the keyboard key assigned to each subject (if any).
+When a subject is selected his/her name appears above the media player. The **Key** column indicates the keyboard key assigned to each
+subject (if any).
 
 
 
 
 **Media player** widget in the main window
--------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: main_window_videoplayer.png
    :alt: Media player in main window
@@ -676,7 +681,7 @@ The horizontal slide bar can be used to navigate the media file.
 
 
 **Events** widget in the main window
--------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 .. image:: main_window_events.png
@@ -707,7 +712,7 @@ See `Time offset for media reposition`_ in Preferences window to customize the t
 
 
 Record an event
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -732,7 +737,8 @@ BORIS will prompt you for the desired behavior.
 
 
 
-In the case you have specified modifiers (one or more sets), BORIS will prompt you for the desired modifier(s) if any (e.g. **ball** or **opponent** in the figure below).
+In the case you have specified modifiers (one or more sets), BORIS will prompt you for the desired modifier(s) if any (e.g. **ball** or
+**opponent** in the figure below).
 You can select the correct one using the mouse or the keyboard ( **b** key or **o** key)
 
 .. image:: ask_for_modifiers.png
@@ -743,9 +749,12 @@ You can select the correct one using the mouse or the keyboard ( **b** key or **
 
 
 
-In the case your behavior type is a *Point event with coding map* or a *State event with coding map*, BORIS will show the *Coding map* window and will allow selecting the desired area(s). In case you click a part of the map in which two (or more) areas overlap, the corresponding codes will be recorded.
+In the case your behavior type is a *Point event with coding map* or a *State event with coding map*, BORIS will show the *Coding map*
+window and will allow selecting the desired area(s). In case you click a part of the map in which two (or more) areas overlap, the
+corresponding codes will be recorded.
 
-A recorded event can be edited (once selected) using the *Observations* > *Edit event* menu option. The resulting *Edit event parameters* allows modifying every parameter (e.g. time, subject, code, modifiers, and comment).
+A recorded event can be edited (once selected) using the *Observations* > *Edit event* menu option. The resulting *Edit event parameters*
+allows modifying every parameter (e.g. time, subject, code, modifiers, and comment).
 
 The **Observations** > **Add event** menu option allows adding a new event by specifying its time and the other parameters.
 
@@ -753,7 +762,7 @@ The **Observations** > **Add event** menu option allows adding a new event by sp
 
 
 Fix unpaired state events
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 You can use the "Fix unpaired events" function to fix the **state events** without a STOP event.
 
@@ -761,13 +770,14 @@ You can use the "Fix unpaired events" function to fix the **state events** witho
 
 The program will ask for a time at which insert the STOP events for all unpaired **state events**
 
-This function can be run on a set of selected observations (when no observation is open). In this case the STOP events will be inserted at the end of observation.
+This function can be run on a set of selected observations (when no observation is open). In this case the STOP events will be inserted at
+the end of observation.
 
 
 
 
 Frame-by-frame mode
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 You can switch between the media player and the frame-by-frame mode using the dedicated button in the toolbar:
 
@@ -780,7 +790,8 @@ You can switch between the media player and the frame-by-frame mode using the de
 In frame-by-frame mode the video will stop playing and the user will visualize the video frame by frame.
 
 
-.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.
+.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are
+not reliable.
 
 
 You can move between frames by using the arrow keys in the toolbar (on the right) or by using keyboard special keys:
@@ -823,7 +834,7 @@ in the `FFmpeg cache directory`_ specified in the **Preferences** window.
 
 
 Exporting events data
-============================================================
+============================================================================================================================================
 
 The coded events can be exported in various formats:
 
@@ -831,7 +842,7 @@ The coded events can be exported in various formats:
 
 
 Export events
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 **Observations** > **Export events**
 
@@ -851,7 +862,7 @@ These formats are suitable for further analysis.
 
 
 Export aggregated events
--------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **Observations** > **Export aggregated events**
@@ -904,7 +915,7 @@ Example of SQL export::
 
 
 Export events as behavioral strings
-------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Behavioral strings can be used with the **Behatrix** program:
 `Behatrix (formerly BSA) <http://www.boris.unito.it/pages/behatrix>`_
@@ -924,7 +935,7 @@ Example::
 
 
 Export events as `Praat <http://www.fon.hum.uva.nl/praat/>`_ `TextGrid <http://www.fon.hum.uva.nl/praat/manual/TextGrid.html>`_
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Example::
 
@@ -960,7 +971,7 @@ Example::
 
 
 Extract sequences from media files
-----------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Sequences of media file corresponding to coded events can be extracted from media files:
 
@@ -979,7 +990,7 @@ in the selected directory followind the file name format:
 
 
 Export transitions matrix
--------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 3 transitions matrix outputs are available: The matrix of frequencies of transitions, the matrix of frequencies of transition after each behavior
@@ -987,7 +998,7 @@ and the matrix of number of transitions.
 
 
 Matrix of frequencies of transitions
-....................................
+............................................................................................................................................
 
 This matrix contains the frequencies of total transitions.
 The sum of all frequencies must be 1.
@@ -1001,12 +1012,13 @@ Example of frequencies of transitions matrix::
 
 
 
-In this matrix you can see that the **eat** behavior precedes the **sleep** behavior with a frequency of **0.286** of the total number of transitions.
+In this matrix you can see that the **eat** behavior precedes the **sleep** behavior with a frequency of **0.286** of the total number of
+transitions.
 
 
 
 Matrix of frequencies of transitions after behavior
-...................................................
+............................................................................................................................................
 
 
 This matrix contains the frequencies of transitions after each behavior.
@@ -1024,7 +1036,7 @@ In this example you can see that **sleep** follows **eat** with a frequency of *
 
 
 Matrix of number of transitions
-...............................
+............................................................................................................................................
 
 This matrix contains the number of transitions after each behavior.
 
@@ -1037,7 +1049,7 @@ Example::
 
 
 Playback menu
-=============
+============================================================================================================================================
 
 Jump
 ----
@@ -1072,7 +1084,7 @@ The Zoom option is not available in frame-by-frame mode.
 
 
 Tools
-===================
+============================================================================================================================================
 
 .. include:: tools.rst
 
@@ -1082,7 +1094,7 @@ Tools
 
 
 Coding map
-====================
+============================================================================================================================================
 
 .. include:: coding_map.rst
 
@@ -1090,14 +1102,14 @@ Coding map
 
 
 Analysis
-==============================
+============================================================================================================================================
 
 
 .. include:: analysis.rst
 
 
 Preferences
-==============================
+============================================================================================================================================
 
 .. include:: preferences.rst
 
@@ -1107,15 +1119,17 @@ Preferences
 
 
 Various
-==========================
+============================================================================================================================================
 
 
 .. _Removing path of media files:
 
-Removing path of media files
----------------------------------------
 
-BORIS store the full path of the media files into the file project (for example: ``/home/user/Video/video_n1.mp4`` or ``c:\Users\user\Documents\video1.avi``).
+Removing path of media files
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Using BORIS you can choose to store the full path of the media files into the file project (for example: ``/home/user/Video/video_n1.mp4`` or
+``c:\Users\user\Documents\video1.avi``).
 
 If you want to move your project on a different computer or if you want to move your media files you may want to do not store the full 
 path. For this you can choose to add media files without the full path (See **Add media files** section). You can also remove the full path
@@ -1126,7 +1140,7 @@ operation is irreversible. After remotion the full path of your media will be lo
 
 
 Docking
--------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 All elements, including the media player can be undocked from the main window and positioned where you prefer
 (e.g. they can be on the same desktop over one or two screens).
@@ -1140,7 +1154,7 @@ All elements, including the media player can be undocked from the main window an
 
 
 Citing BORIS
-------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 If you have used BORIS for publications, please cite::
 
@@ -1152,13 +1166,14 @@ If you have used BORIS for publications, please cite::
 
 
 Bug reports and features request
-----------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Please send bug reports and features request using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS) 
 or by e-mail in english, french or italian (see web site http://www.boris.unito.it/pages/about.html).
 
 
-In case of bug report please verify that you are using the last version of BORIS and indicate your operating system, its version and the CPU architecture (32/64 bits).
+In case of bug report please verify that you are using the last version of BORIS and indicate your operating system, its version and the
+CPU architecture (32/64 bits).
 You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to any third party.
 
 
@@ -1168,12 +1183,12 @@ You may also include the BORIS project that gave you an error. Any information y
 
 
 Acknowledgement
-===============
+============================================================================================================================================
 
 The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and Laura Ozella for their precious help.
 
 Valid keys for triggering behavior
-----------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 BORIS will not make difference between lower case and upper case characters
 
