@@ -930,7 +930,13 @@ Example of SQL export::
 
 
 
+Export events for JWatcher analysis
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+**Observations** > **Export events** > **JWatcher**
+
+
+TO BE COMPLETED
 
 
 Export events as behavioral strings
