@@ -933,6 +933,8 @@ Example of SQL export::
 Export events for JWatcher analysis
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+ `JWatcher <http://www.jwatcher.ucla.edu>`_
+
 **Observations** > **Export events** > **JWatcher**
 
 
