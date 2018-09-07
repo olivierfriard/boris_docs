@@ -617,7 +617,6 @@ Key to the symbols:
 
 * **Switch between VLC and frame-by-frame modes**
 
-In frame-by-frame mode:
 
 * **Move on frame back** (enabled in frame-by-frame mode)
 
