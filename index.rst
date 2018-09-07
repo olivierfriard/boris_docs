@@ -67,11 +67,10 @@ BORIS can be installed following instructions on the BORIS site at `download pag
 Linux
 -----
 
-BORIS is available as a DEB package for DEB based distributions based (like Debian and Ubuntu).
-After installation you will find BORIS in the **Education** sub-menu.
+BORIS is available for 32 or 64bits systems. 
 
-
-You can also run BORIS from sources. See the download page for details about the dependencies to install.
+You can also run BORIS from sources.
+See the `download page <http://www.boris.unito.it/pages/download_linux>`_ for details about the dependencies to install.
 
 
 Microsoft-Windows
