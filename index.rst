@@ -217,8 +217,7 @@ Behavior types
 - **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
 
 
-- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key
-(see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
+- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
 
 
 
@@ -788,7 +787,7 @@ You can switch between the media player and the frame-by-frame mode using the de
 In frame-by-frame mode the video will stop playing and the user will visualize the video frame by frame.
 
 
-.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are
+.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are \
 not reliable.
 
 
