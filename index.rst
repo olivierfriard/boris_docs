@@ -358,7 +358,7 @@ This can be set using the **Behaviors exclusion matrix** window, which can be
 opened clicking on the **Exclusion matrix** button.
 BORIS will ask for including **Point events** or not and a new **Exclusion matrix** window will open.
 
-Exclusive behavior may be selected by checking on the corresponding cell in the automatically-generated
+Exclusive behavior may be selected by checking on the corresponding checkbox in the automatically-generated
 matrix. We suggest to work on the **Exclusion matrix** when all the behaviors have been added to your ethogram.
 
 All behaviors can be excluded by a particular behavior by selecting the corresponding entire row (click on the row header of the behavior)
