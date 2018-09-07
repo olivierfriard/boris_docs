@@ -380,7 +380,7 @@ During the observation, the excluding event will stop all the current excluded s
 
 
 Import an ethogram from an existing project
-...........................................
+............................................................................................................................................
 
 
 Behaviors within an ethogram can be imported from an existing BORIS project (.boris) using the **Import behaviours from a BORIS project** button.
