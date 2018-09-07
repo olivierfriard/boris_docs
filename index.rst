@@ -584,9 +584,9 @@ The media (the first in the queue) will be loaded in the media player and paused
 Media controls are available in the toolbar
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-.. image:: toolbar.png
+.. image:: images/toolbar.png
    :alt: Media control toolbar
-   :width: 80%
+   :width: 100%
 
 
 Key to the symbols:
