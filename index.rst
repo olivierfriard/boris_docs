@@ -640,9 +640,9 @@ The media can be controlled by special keyboard keys:
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. image:: main_window_ethogram.png
+.. image:: images/main_window_ethogram.png
    :alt: Ethogram widget in main window
-   :width: 80%
+   :width: 100%
 
 The **Ethogram** widget provide the user with the list of behaviors defined in the **Ethogram**.
 It can be used to record an event by double clicking on the corresponding row.
