@@ -4,7 +4,7 @@
 
 
 Create a new observation
-----------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 A video tutorial about making an observation is available at `<https://www.youtube.com/watch?v=CKeBITCICXc>`_
 
@@ -32,7 +32,7 @@ You must then indicate if you want to make an observation based on pre-recorded 
 
 
 Live observation
-..............................
+............................................................................................................................................
 
 During the live observation BORIS will show you a timer that will be used for recording time for coded events.
 
@@ -51,7 +51,7 @@ you indicated and all the coded events will have the same time value.
 
 
 Media based observation
-.....................................
+............................................................................................................................................
 
 Click on the **Media** tab to make an obervation based on media.
 
