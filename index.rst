@@ -949,7 +949,7 @@ Example::
 
     # observation id: demo#1
     # observation description:
-    # Media file name: crop.avi, crop2.avi
+    # Media file name: video1.mp4, video2.mp4
 
 
     Subject #1:
