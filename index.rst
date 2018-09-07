@@ -70,7 +70,7 @@ Linux
 BORIS is available for 32 or 64bits systems. 
 
 You can also run BORIS from sources.
-See the `download page <http://www.boris.unito.it/pages/download_linux>`_ for details about the dependencies to install.
+See the `Linux download page <http://www.boris.unito.it/pages/download_linux>`_ for details about the dependencies to install.
 
 
 Microsoft-Windows
