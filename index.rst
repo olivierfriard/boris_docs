@@ -176,7 +176,6 @@ under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > 
 
 
 .. image:: images/new_project.png
-   :scale: 200%
    :alt: New project
 
 
