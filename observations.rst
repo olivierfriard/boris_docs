@@ -95,7 +95,7 @@ file, e.g. first_video.mp4).
 
 
 Spectrogram visualization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 BORIS allow you to visualize the sound spectrogram during the media observation.
 Activate the *Visualize spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
@@ -115,7 +115,7 @@ The spectrogram visualization will be synchonized to the media position during t
 
 
 Close current behavior between videos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ì
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If this option is selected BORIS will close all ongoing State events between successive media files.
 
@@ -126,7 +126,7 @@ This option can be usefull if you have to code various short media files enqueue
 
 
 Second media player
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can add a second media that will be played synchronously with the first media player. Click the **Player 2** tab and add the 2nd media 
 with the **Add media** or **Add media without path** buttons.
@@ -146,7 +146,7 @@ You can set a **Time offset for second player** in order to synchronize it with 
 
 
 External data files
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **WARNING**
 
@@ -230,7 +230,7 @@ During the observation tha values you have selected in external data files will 
 .. _converters:
 
 Converters
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If the values in the timestamp column are not expessed in seconds (like 12.45) but in another format (HH:MM:SS, MM:SS, ISO8601 2018-01-18T12:31:40Z ...)
 you must use a converter that will convert the current format in seconds.
@@ -268,7 +268,7 @@ Example of a converter for inverting value::
 
 
 Start the observation
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Click the **Start** button to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
@@ -278,8 +278,10 @@ If you do not want to start the observation click the **Save** button. The obser
 .. _observations list:
 
 
+
+
 Observations list
---------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
 
@@ -329,7 +331,7 @@ Observations with a value of **Visitors** independent variable greater than 1000
 
 
 Delete observations
--------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 The observations can be deleted from the project using the following procedure:
 **File** > **Edit project** > **Observation's tab**
@@ -341,8 +343,11 @@ Click the **Remove selected observations** button and confirm the deletion.
 Please note that the deletion is irreversible.
 
 
+
+
+
 Import observations from a project file
-----------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 The **Observations** > **Import observations** option allows to import observations from a BORIS project file into the current project.
 Choose the project file and then the observations to import. BORIS will check if observations with same id are already existing in the current project.
