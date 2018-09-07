@@ -2,7 +2,7 @@
 Behavioral Observation Research Interactive Software (BORIS) user guide
 ********************************************************************************
 
-**This user guide is under construction**
+**THIS USER GUIDE IS UNDER CONSTRUCTION**
 
 
 .. image:: images/new_logo.500px.png
