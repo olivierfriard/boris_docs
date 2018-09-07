@@ -176,7 +176,7 @@ or whatever you prefer. **Description** can host all the relevant information ab
 under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > **Default project time format**.
 
 
-.. image:: new_project.png
+.. image:: images/new_project.png
    :scale: 200%
    :alt: New project
 
