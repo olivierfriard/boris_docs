@@ -182,7 +182,7 @@ under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > 
 
 
 Set an ethogram
----------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 See `<https://en.wikipedia.org/wiki/Ethogram>`_ for ethogram definition.
 
@@ -200,7 +200,7 @@ Switching to the **Ethogram** tab, you can alternatively:
 
 
 Set your ethogram from scratch
-..............................
+............................................................................................................................................
 
 
 
@@ -234,7 +234,7 @@ manually by using the **Move up** and **Move down** buttons.
 
 
 Categories of behaviors
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Defining categories of behaviors can be usefull for the analysis of coded events (for example the time budget analysis).
 Click the **Behavioral categories** button and add a the categories of behaviors. Behaviors can then be included or not in a defined category.
@@ -246,7 +246,7 @@ Click the **Behavioral categories** button and add a the categories of behaviors
 
 
 Set keys and codes
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For each behavior you have to set a keyboard key (**Key** column) that will be then used to code the behavioral events.
 You can choose whether you want to set a unique key for each behavior or use the same key for more than one behavior.
@@ -277,7 +277,7 @@ The following three columns (**Modifiers**, **Exclusion**, **Coding map**) canno
 
 
 Set the modifiers
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Modifiers can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached
 (e.g. "play" may have "solitary" or "social" as modifiers). The use of modifiers can be convenient to significantly
@@ -353,7 +353,7 @@ Click **OK** to save modifiers in the **Ethogram** table.
 
 
 Set the exclusion matrix
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The occurrence of an event (State or Point) can exclude the occurrence of a state event.
 This can be set using the **Behaviors exclusion matrix** window, which can be
@@ -367,8 +367,8 @@ matrix. We suggest to work on the **Exclusion matrix** when all the behaviors ha
 Example of an **exclusion matrix**:
 
 
-.. image:: exclusion_matrix.png
-   :width: 40%
+.. image:: images/exclusion_matrix.png
+   :width: 100%
    :alt: Exclusion matrix tool
 
 In the previous example the Locomotion behavior will exclude **Alert**, **Allogroom**, **Breed**, **Carry objects** ...
