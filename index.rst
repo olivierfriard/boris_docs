@@ -665,9 +665,9 @@ Check/Uncheck single behaviors or double-click on the behavioral category
 **Subjects** widget in the main window
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-.. image:: main_window_subjects.png
+.. image:: images/main_window_subjects.png
    :alt: Subjects list widget in main window
-   :width: 60%
+   :width: 80%
 
 The **Subjects** widget provide the user with the list of subjects defined in the **Subject** tab in the **Project** window.
 It can be used to add information about the focal subject on the recorded behaviors by double clicking on the corresponding row.
@@ -675,6 +675,15 @@ When a subject is selected his/her name appears above the media player. The **Ke
 subject (if any).
 
 
+The subjects shown in the subjects widget can be filtered:
+
+**Right-click** on subjects widget > **Filter subjects**
+
+Check/Uncheck single subject
+
+.. image:: images/filter_subjects.png
+   :alt: Filter subjects in subjects widget
+   :width: 80%
 
 
 **Media player** widget in the main window
