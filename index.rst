@@ -194,7 +194,7 @@ Switching to the **Ethogram** tab, you can alternatively:
 * `import an ethogram from a plain text file`_
 
 
-.. image:: project2_ethogram.png
+.. image:: images/project2_ethogram.png
    :scale: 60%
    :alt: Ethogram configuration
 
