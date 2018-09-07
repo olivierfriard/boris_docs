@@ -683,7 +683,7 @@ Check/Uncheck single subject
 
 .. image:: images/filter_subjects.png
    :alt: Filter subjects in subjects widget
-   :width: 100%
+   :width: 80%
 
 
 **Media player** widget in the main window
