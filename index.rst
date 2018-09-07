@@ -593,7 +593,7 @@ Key to the symbols:
 
 * **List of observations**
 
-* **Play** become **Pause** when media is played
+* **Play** (become **Pause** when media is played)
 
 * **Rewind** reset your media at the beginning
 
