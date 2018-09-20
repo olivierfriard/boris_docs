@@ -943,17 +943,17 @@ Example of SQL export::
 
 
 
-Export events for JWatcher analysis
+Export events for analysis with JWatcher
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 `JWatcher <http://www.jwatcher.ucla.edu>`_  is a powerful tool for the quantitative analysis of behavior.
 
 The events coded with BORIS can be exported to be analyzed with JWatcher.
 
-**Observations** > **Export events** > **JWatcher**
+**Observations** > **Export events** > **for analysis with JWatcher**
 
 
-TO BE COMPLETED
+
 
 
 Export events as behavioral strings
