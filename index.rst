@@ -182,6 +182,8 @@ under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > 
    :width: 100%
 
 
+
+
 Set an ethogram
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -201,6 +203,8 @@ Switching to the **Ethogram** tab, you can alternatively:
 
 
 
+
+
 Set your ethogram from scratch
 ............................................................................................................................................
 
@@ -216,23 +220,28 @@ Behavior types
 
 2 types of behaviors can be defined. Double-click on the cell and select the type of behavior:
 
-- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
+- **Point event** behavior when the behavior has no duration. The behavior will be coded by pressing the defined keyboard key (see below) or
+by clicking to the corresponding row in the Ethogram table.
 
 
-- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
+- **State event** behavior when the behavior has a duration. The behavior start and stop will be coded by pressing the defined keyboard key
+(see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
 
 
 
-You can switch between **State event** and **Point event** at your convenience with a double-click on the **Behavior type** cell. You can also add a 
-**Coding map** to either a **State event** (**State event with coding map**) or a **Point event** (**Point event with coding map**; 
+You can switch between **State event** and **Point event** at your convenience with a double-click on the **Behavior type** cell.
+You can also add a **Coding map** to either a **State event** (**State event with coding map**) or a **Point event** (**Point event with
+coding map**; 
 see the "Coding map" section for details).
 
 An existing behavior can be duplicated using the **Clone behavior** button. Its code have then to be changed. On a selected behavior, click on
-the **Remove behavior** button to remove. The **Remove all behaviors** button will clear the **Ethogram** table. Both the above-mentioned operations
-must be confirmed when prompted.
+the **Remove behavior** button to remove. The **Remove all behaviors** button will clear the **Ethogram** table. Both the above-mentioned
+operations must be confirmed when prompted.
 
 Behavioral codes (**Code** column) can be sorted alphabetically by checking the **Alphabetical order** checkbox. Alternatively they can be sorted
 manually by using the **Move up** and **Move down** buttons.
+
+
 
 
 Categories of behaviors
@@ -244,6 +253,8 @@ Click the **Behavioral categories** button and add a the categories of behaviors
 .. image:: behavioral_categories.png
    :scale: 60%
    :alt: Categories of behaviors
+
+
 
 
 
