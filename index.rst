@@ -950,7 +950,10 @@ Export events for analysis with JWatcher
 
 The events coded with BORIS can be exported to be analyzed with JWatcher.
 
-**Observations** > **Export events** > **for analysis with JWatcher**
+Click **Observations** > **Export events** > **for analysis with JWatcher** to export the coded events.
+
+BORIS will ask for selecting a directory. Afeter the selection 3 files will be created with the following extensions: .dat, .faf, .fmt.
+
 
 
 
