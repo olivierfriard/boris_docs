@@ -124,8 +124,7 @@ The main window of BORIS will show up. The toolbar with media player commands is
    :alt: The BORIS main window
 
 
-.. warning:: On Mac OS X 10.9 and above, launching can be stopped according to the `Security & Privacy` settings of your computer. They can be changed opening `System Preferences...` > `Security & Privacy` > `General` and
-selecting the option `Anywhere` in the frame `Allow apps downloaded from`. Alternatively you can repeat the operation right-clicking on the BORIS icon and then clicking `Open` in the following two dialog boxes.
+.. warning:: On Mac OS X 10.9 and above, launching can be stopped according to the `Security & Privacy` settings of your computer. They can be changed opening `System Preferences...` > `Security & Privacy` > `General` and selecting the option `Anywhere` in the frame `Allow apps downloaded from`. Alternatively you can repeat the operation right-clicking on the BORIS icon and then clicking `Open` in the following two dialog boxes.
 
 
 .. warning:: **On Microsoft-Windows, launching can be stopped by a `Security warning: The publisher can not be verified. Are you sure you want to run this software?` Click the `Run` button to launch BORIS.**
@@ -149,10 +148,7 @@ The save menu option (**File** > **Save project** or **Save project as ...**) wi
 You can also activate the  `automatic backup`_ feature (see **Preferences**).
 
 
-**NOTE**
-
-**It is very important to do regular backups of your project files to prevent the lost of data.**
-Software can be reinstalled but your data could quite possibly be lost for ever.
+.. note:: It is VERY important to do regular backups of your project files to prevent the lost of data. Software can be reinstalled but your data could quite possibly be lost for ever.
 
 
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
