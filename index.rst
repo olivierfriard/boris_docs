@@ -124,21 +124,14 @@ The main window of BORIS will show up. The toolbar with media player commands is
    :alt: The BORIS main window
 
 
-.. warning:: This is a simple **seealso** note.
-
-**WARNING**
-
-**On Mac OS X 10.9 and above, launching can be stopped according to the `Security & Privacy` settings of your computer.
+.. warning:: **On Mac OS X 10.9 and above, launching can be stopped according to the `Security & Privacy` settings of your computer.
 They can be changed opening `System Preferences...` > `Security & Privacy` > `General` and
 selecting the option `Anywhere` in the frame `Allow apps downloaded from`. Alternatively you can repeat the
 operation right-clicking on the BORIS icon and then clicking `Open` in the following two dialog boxes.**
 
 
-**WARNING**
-
-**On Microsoft-Windows, launching can be stopped by a `Security warning: The publisher can not be verified.
-Are you sure you want to run this software?`
-Click the `Run` button to launch BORIS.**
+.. warning:: **On Microsoft-Windows, launching can be stopped by a `Security warning: The publisher can not be verified.
+Are you sure you want to run this software?` Click the `Run` button to launch BORIS.**
 
 
 At the first launch, BORIS will ask you to allow the automatically check for new version. Internet access is required for this feature.
