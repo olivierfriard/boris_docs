@@ -124,7 +124,9 @@ The main window of BORIS will show up. The toolbar with media player commands is
    :alt: The BORIS main window
 
 
-.. WARNING
+.. seealso:: This is a simple **seealso** note.
+
+**WARNING**
 
 **On Mac OS X 10.9 and above, launching can be stopped according to the `Security & Privacy` settings of your computer.
 They can be changed opening `System Preferences...` > `Security & Privacy` > `General` and
