@@ -124,7 +124,7 @@ The main window of BORIS will show up. The toolbar with media player commands is
    :alt: The BORIS main window
 
 
-.. seealso:: This is a simple **seealso** note.
+.. warning:: This is a simple **seealso** note.
 
 **WARNING**
 
