@@ -172,9 +172,9 @@ In the above example the 4th column contains the timestamp and the 5th the value
 Input the index of the column containing the timestamp and the index of the column containing the value to be plotted.
 The two indices must be separated by a comma (,). Click **OK** to close the window.
 
-.. image:: data_files_columns_selection.png
-   :alt: Selection of values
-   :width: 50%
+.. image:: images/external_data_file_columns_selection.png
+   :alt: Selection of columns (time, value)
+   :width: 80%
 
 
 A new row will be added in the data files table.
