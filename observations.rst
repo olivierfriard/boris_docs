@@ -73,13 +73,21 @@ The **Add all media from directory** and **Add all media from dir without path**
 the playlist.
 
 
-Information about the selected media file will be extracted and displayed in the media list: media file path, media duration (in seconds), 
-number of frames by second (FPS), video stream, audio stream  .
 
+Information about the selected media file will be extracted and displayed in the media list: media file path, media duration, 
+number of frames by second (FPS), the presence of a video stream, the presence of an audio stream  .
 
 .. image:: images/media_files_tab_1.png
    :alt: Media files tab
-   :width: 80%
+
+
+The dropdown list in the first column allow you to choose a player (for a maximum of 8). If you want to observer more media files
+simultaneously you must use consecutive players (starting from 1). See example below:
+
+
+.. image:: images/media_files_tab_2.png
+   :alt: Media files tab
+
 
 
 
