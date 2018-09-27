@@ -38,7 +38,7 @@ During the live observation BORIS will show you a timer that will be used for re
 
 Choose the **Live tab** to make a live observation.
 
-.. image:: live_observation.png
+.. image:: images/live_observation.png
    :alt: New live observation
    :width: 100%
 
