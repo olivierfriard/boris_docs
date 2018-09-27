@@ -56,7 +56,7 @@ Media based observation
 Click on the **Media files** tab to make an observation based on one or more media files.
 
 
-.. image:: media_files_tab_empty.png
+.. image:: images/media_files_tab_empty.png
    :alt: Media files tab
    :width: 80%
 
