@@ -58,7 +58,7 @@ Click on the **Media** tab to make an observation based on one or more media fil
 
 .. image:: images/media_files_tab_empty.png
    :alt: Media files tab
-   :width: 80%
+
 
 The **Media** tab contains 2 tabs: **Media files** and **Data files**.
 
