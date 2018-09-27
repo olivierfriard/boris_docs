@@ -40,7 +40,7 @@ Choose the **Live tab** to make a live observation.
 
 .. image:: images/live_observation.png
    :alt: New live observation
-   :width: 100%
+   :width: 80%
 
 
 
@@ -58,7 +58,7 @@ Click on the **Media** tab to make an observation based on one or more media fil
 
 .. image:: images/media_files_tab_empty.png
    :alt: Media files tab
-
+   :width: 80%
 
 The **Media** tab contains 2 tabs: **Media files** and **Data files**.
 
@@ -79,7 +79,7 @@ number of frames by second (FPS), the presence of a video stream, the presence o
 
 .. image:: images/media_files_tab_1.png
    :alt: Media files tab
-
+   :width: 80%
 
 The dropdown list in the first column allow you to choose a player (for a maximum of 8). If you want to observer more media files
 simultaneously you must use consecutive players (starting from 1). See example below:
@@ -87,7 +87,7 @@ simultaneously you must use consecutive players (starting from 1). See example b
 
 .. image:: images/media_files_tab_2.png
    :alt: Media files tab
-
+   :width: 80%
 
 
 
