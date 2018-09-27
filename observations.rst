@@ -145,7 +145,7 @@ External data files
 You can select one or more external data files to be plotted synchronously with your media.
 Click the **Data files** tab and use the **Add data file** button to select a data file.
 
-.. image:: image/external_data_file_1.png
+.. image:: images/external_data_file_1.png
    :alt: Data file tab
    :width: 100%
 
