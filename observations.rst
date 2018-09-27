@@ -133,41 +133,21 @@ This option can be usefull if you have to code various short media files enqueue
 
 
 
-Second media player
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You can add a second media that will be played synchronously with the first media player. Click the **Player 2** tab and add the 2nd media 
-with the **Add media** or **Add media without path** buttons.
-
-
-
-
-You can set a **Time offset for second player** in order to synchronize it with the first player.
-
-
-.. image:: media_tab_player2_empty.png
-   :alt: Player2 tab
-   :width: 80%
-
-
-
 
 
 External data files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**WARNING**
 
-**The external data visualisation in experimental at this time. Additional features will be added in future versions**
-**For now only 2 external data can be plotted with your media file**
+.. warning:: **At this time only 2 external data can be plotted with your media file**
 
 
 You can select one or more external data files to be plotted synchronously with your media.
 Click the **Data files** tab and use the **Add data file** button to select a data file.
 
-.. image:: data_files_empty.png
+.. image:: external_data_file_1.png
    :alt: Data file tab
-   :width: 120%
+   :width: 100%
 
 
 The data files must be plain text files with at least **2 columns** separated by comma or TAB.
