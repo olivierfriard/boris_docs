@@ -53,19 +53,19 @@ you indicated and all the coded events will have the same time value.
 Media based observation
 ............................................................................................................................................
 
-Click on the **Media files** tab to make an observation based on one or more media files.
+Click on the **Media** tab to make an observation based on one or more media files.
 
 
 .. image:: images/media_files_tab_empty.png
    :alt: Media files tab
    :width: 80%
 
-The **Media tab** contains 3 tabs: **Player 1**, **Player 2** and **Data files**.
+The **Media** tab contains 2 tabs: **Media files** and **Data files**.
 
-Click the **Player 1** tab and add one or more media files using the **Add media** or **Add media without path** button.
-The **Add media without path** button allow you to not save the path of your media file(s). In this case the media file(s) must be in 
-the same directory than the BORIS project file to be found. This option is useful if you are working with various computers on 
-the same project file(s).
+Click the **Media files** tab and add one or more media files using the **Add media** or **Add media without path** button.
+The **Add media without path** button allow you to not store the path of your media file(s) in the BORIS project file.
+In this case the media file(s) must be in the same directory than the BORIS project file to be found. This option is useful
+if you are working with various computers on the same project file(s).
 
 If you want to remove the media file paths of an entire project see `Removing path of media files`_.
 
@@ -77,8 +77,8 @@ Information about the selected media file will be extracted and displayed in the
 number of frames by second (FPS), video stream, audio stream  .
 
 
-.. image:: media_tab_with_media.png
-   :alt: Player 1 tab
+.. image:: images/media_files_tab_1.png
+   :alt: Media files tab
    :width: 80%
 
 
