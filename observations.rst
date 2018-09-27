@@ -53,11 +53,11 @@ you indicated and all the coded events will have the same time value.
 Media based observation
 ............................................................................................................................................
 
-Click on the **Media** tab to make an obervation based on media.
+Click on the **Media files** tab to make an observation based on one or more media files.
 
 
-.. image:: media_tab_empty.png
-   :alt: Player 1 tab
+.. image:: media_files_tab_empty.png
+   :alt: Media files tab
    :width: 80%
 
 The **Media tab** contains 3 tabs: **Player 1**, **Player 2** and **Data files**.
