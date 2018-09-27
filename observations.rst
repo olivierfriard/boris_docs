@@ -146,7 +146,7 @@ You can select one or more external data files to be plotted synchronously with 
 Click the **Data files** tab and use the **Add data file** button to select a data file.
 
 .. image:: images/external_data_file_1.png
-   :alt: Data file tab
+   :alt: External data file tab
    :width: 100%
 
 
@@ -179,7 +179,7 @@ The two indices must be separated by a comma (,). Click **OK** to close the wind
 
 A new row will be added in the data files table.
 
-.. image:: data_files_parameters.png
+.. image:: images/external_data_file_1.png
    :width: 100%
 
 
