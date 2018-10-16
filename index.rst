@@ -301,12 +301,14 @@ sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and anothe
 using sets of modifiers, you can select one/more modifier for each set.
 
 To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
-
-Click the **Add a set of modifiers** button.
+The following window will show up:
 
 .. image:: images/modifiers_empty.png
    :width: 80%
    :alt: modifiers configuration
+
+
+Click the **Add a set of modifiers** button.
 
 
 Set a name for the new modifiers set (new in v. 4) by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
