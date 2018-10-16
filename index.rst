@@ -306,7 +306,7 @@ Click the **Add a set of modifiers** button.
 
 
 .. image:: images/modifiers_single_selection.png
-   :width: 1200px
+   :width: 80%
    :alt: modifiers configuration
 
 
