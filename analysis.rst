@@ -89,7 +89,7 @@ Two parameters are provided for now: **number of occurrences** and **total durat
 
 .. image:: images/subtract_behavior.png
    :alt: subtract behavior from the total duration
-   :width: 100%
+   :width: 80%
 
 
 
