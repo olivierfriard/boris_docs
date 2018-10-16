@@ -40,7 +40,7 @@ The Time budget analysis can be restricted to a part of the observation:
 
 
 The last dialog window will allow you to subtract the duration of one or more behaviors from the total duration of the observation.
-This can help you if you have defined a "out-of-sight" code in your ethogram for example.
+This can help you if you have defined a "out-of-sight" code in your ethogram for example:
 
 
 .. image:: images/subtract_behavior.png
