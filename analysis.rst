@@ -45,7 +45,7 @@ This can help you if you have defined a "out-of-sight" code in your ethogram for
 
 .. image:: images/subtract_behavior.png
    :alt: subtract behavior from the total duration
-   :width: 100%
+   :width: 80%
 
 
 The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration** (for the behaviors defined as state events),
@@ -83,13 +83,6 @@ Two parameters are provided for now: **number of occurrences** and **total durat
 .. image:: synthetic_time_budget.png
    :alt: Results of the time budget analysis
    :width: 100%
-
-
-
-
-.. image:: images/subtract_behavior.png
-   :alt: subtract behavior from the total duration
-   :width: 80%
 
 
 
