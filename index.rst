@@ -254,18 +254,14 @@ You can choose whether you want to set a unique key for each behavior or use the
 In the case you set the same key for more than a behavior, BORIS will pause your coding and ask which of the behavior
 you want to record. From version 7 the keys are **case-sensitive**.
 
+If your project was created with a previous version of BORIS (< v.7) you can use the **Convert keys to lower case** to convert all keys to
+lower case otherwise you will have to code your observation using upper case key.
+
 .. important:: If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior keys to lower case.
 
-**important**
 
-**If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior keys to lower case.**
+.. important:: **Do not use the / and * keys! They are reserved for the frame-by-frame mode.**
 
-
-
-
-**important**
-
-**Do not use the / and * keys! They are reserved for the frame-by-frame mode.**
 
 
 In the **Code** column, you have to add a unique code for each behavior. Duplicated codes are not accepted and
