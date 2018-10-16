@@ -310,7 +310,7 @@ The following window will show up:
 
 Click the **Add a set of modifiers** button:
 
-.. image:: images/modifiers_empty.png
+.. image:: images/modifiers_1.png
     :width: 60%
     :alt: modifiers configuration
 
@@ -330,7 +330,7 @@ used to set a shortcut key for the modifier (optionnal).
 
 
 
-.. image:: images/modifiers_1.png
+.. image:: images/modifiers_single_selection.png
     :width: 80%
     :alt: modifiers configuration
 
