@@ -328,7 +328,7 @@ and **Numeric**
 
 
 Within a set of modifiers, you can add a modifier by writing the modifier in the **Modifier** edit box.
-You can choose a shortcut (one character) to this modifier (optionnal). Then press the **right-arrow** button to add the new modifiers
+You can choose a shortcut (one character - case sensitive) to this modifier (optional). Then press the **right-arrow** button to add the new modifiers
 to the set.
 
 .. image:: images/modifiers_2.png
@@ -345,6 +345,9 @@ After adding all modifiers the window will appear like this:
     :width: 80%
     :alt: modifiers configuration
 
+
+In case of **Single selection** or **Multiple selection** all defined subjects can be added as modifiers using
+the **Add subjects as modifiers** button. This can help in case of coding interactions between subjects for example.
 
 
 
@@ -366,7 +369,7 @@ Example of a **multiple selection** modifiers set:
 Many values can be selected together.
 
 
-Example of a 2 sets of modifiers:
+Example of 2 sets of modifiers:
 
 .. image:: modifiers_2sets.png
    :width: 1200px
