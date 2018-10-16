@@ -39,6 +39,15 @@ The Time budget analysis can be restricted to a part of the observation:
 * Limit to observed events: the analysis will be made from the first observed event to the last observed event.
 
 
+The last dialog window will allow you to subtract the duration of one or more behaviors from the total duration of the observation.
+This can help you if you have defined a "out-of-sight" code in your ethogram for example.
+
+
+.. image:: images/subtract_behavior.png
+   :alt: subtract behavior from the total duration
+   :width: 100%
+
+
 The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration** (for the behaviors defined as state events),
 The **duration mean** (for the behaviors defined as state events), the **standard deviation of duration**, the **inter-events intervals duration mean**,
 th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**.
@@ -68,12 +77,20 @@ Synthetic time budget
 
 The synthetic time budget is similar to time budget but with fewer parameters and a different organization of results.
 Results of all selected observations are organized in columns on a single page.
-Two parameters are provied for now: **number of occurrences** and **total duration** (for the behaviors defined as state events)
+Two parameters are provided for now: **number of occurrences** and **total duration** (for the behaviors defined as state events)
 
 
 .. image:: synthetic_time_budget.png
    :alt: Results of the time budget analysis
    :width: 100%
+
+
+
+
+.. image:: images/subtract_behavior.png
+   :alt: subtract behavior from the total duration
+   :width: 100%
+
 
 
 All duration times are expressed in seconds (s).
