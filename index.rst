@@ -304,8 +304,7 @@ To add modifiers to a behavior, you need to double-click the **Modifiers** cell 
 
 Click the **Add a set of modifiers** button.
 
-
-.. image:: images/modifiers_single_selection.png
+.. image:: images/modifiers_empty.png
    :width: 80%
    :alt: modifiers configuration
 
@@ -316,9 +315,21 @@ Select the modifier type using the **Modifier type** combo box. You can choose b
 
 
 
+
+
+
 Within a set of modifiers, you can add and remove modifiers using the **Modifier** field and clicking on the **right-arrow** button (to add) and
 the **Remove modifier** button (to remove). The selected modifier can be edited using the **left-arrow** button. The **Key code** box can be
 used to set a shortcut key for the modifier (optionnal).
+
+
+
+.. image:: images/modifiers_single_selection.png
+   :width: 80%
+   :alt: modifiers configuration
+
+
+
 
 The modifier position into the modifiers' set can be manually set using the **Move modifier up** and **Move modifier down** buttons.
 
