@@ -45,7 +45,7 @@ This can help you if you have defined a "out-of-sight" code in your ethogram for
 
 .. image:: images/subtract_behavior.png
    :alt: subtract behavior from the total duration
-   :width: 80%
+   :width: 50%
 
 
 The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration** (for the behaviors defined as state events),
