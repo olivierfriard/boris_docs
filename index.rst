@@ -304,11 +304,15 @@ To add modifiers to a behavior, you need to double-click the **Modifiers** cell 
 The following window will show up:
 
 .. image:: images/modifiers_empty.png
-   :width: 80%
-   :alt: modifiers configuration
+    :width: 60%
+    :alt: modifiers configuration
 
 
-Click the **Add a set of modifiers** button.
+Click the **Add a set of modifiers** button:
+
+.. image:: images/modifiers_empty.png
+    :width: 60%
+    :alt: modifiers configuration
 
 
 Set a name for the new modifiers set (new in v. 4) by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
@@ -327,7 +331,8 @@ used to set a shortcut key for the modifier (optionnal).
 
 
 .. image:: images/modifiers_single_selection.png
-   :alt: modifiers configuration
+    :width: 80%
+    :alt: modifiers configuration
 
 
 
