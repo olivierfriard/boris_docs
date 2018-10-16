@@ -320,9 +320,9 @@ Set a name for the new modifiers set by typing it in the **Set name** edit box. 
 Select the modifier type using the **Modifier type** combo box. You can choose between **Single selection**, **Multiple selection**
 and **Numeric**
 
-* the **Single selection** will allow you to select only **one** modifier for the current behavior.
+* the **Single selection** type will allow you to select only **one** modifier for the current behavior.
 
-* the **Multiple selection** will allow you to select one or more modifiers for the current behavior.
+* the **Multiple selection** type will allow you to select one or more modifiers for the current behavior.
 
 * the **Numeric** type will allow you to input a number. For example a distance of interaction.
 
@@ -330,6 +330,10 @@ and **Numeric**
 Within a set of modifiers, you can add a modifier by writing the modifier in the **Modifier** edit box.
 You can choose a shortcut (one character) to this modifier (optionnal). Then press the **right-arrow** button to add the new modifiers
 to the set.
+
+.. image:: images/modifiers_2.png
+    :width: 60%
+    :alt: modifiers configuration
 
 To modify a modifier, select it and press the **left-arrow** button, edit the modifier and press the **right-arrow** button.
 
