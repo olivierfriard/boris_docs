@@ -325,7 +325,6 @@ used to set a shortcut key for the modifier (optionnal).
 
 
 .. image:: images/modifiers_single_selection.png
-   :width: 80%
    :alt: modifiers configuration
 
 
