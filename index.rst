@@ -315,20 +315,21 @@ Click the **Add a set of modifiers** button:
     :alt: modifiers configuration
 
 
-Set a name for the new modifiers set (new in v. 4) by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
+Set a name for the new modifiers set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
 
-Select the modifier type using the **Modifier type** combo box. You can choose between **Single selection**, **Multiple selection** and **Numeric**
-
-
-
+Select the modifier type using the **Modifier type** combo box. You can choose between **Single selection**, **Multiple selection**
+and **Numeric**
 
 
+Within a set of modifiers, you can add a modifier by writing the modifier in the **Modifier** edit box.
+You can choose a shortcut (one character) to this modifier (optionnal). Then press the **right-arrow** button to add the new modifiers
+to the set.
 
-Within a set of modifiers, you can add and remove modifiers using the **Modifier** field and clicking on the **right-arrow** button (to add) and
-the **Remove modifier** button (to remove). The selected modifier can be edited using the **left-arrow** button. The **Key code** box can be
-used to set a shortcut key for the modifier (optionnal).
+To modify a modifier, select it and press the **left-arrow** button, edit the modifier and press the **right-arrow** button.
 
+A modifier can be removed by pressing the **Remove modifier** button.
 
+After adding all modifiers the window will appear like this:
 
 .. image:: images/modifiers_single_selection.png
     :width: 80%
