@@ -330,7 +330,7 @@ used to set a shortcut key for the modifier (optionnal).
 
 
 
-.. image:: images/modifiers_single_selection.png
+.. image:: images/modifiers_1.png
     :width: 80%
     :alt: modifiers configuration
 
