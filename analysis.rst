@@ -118,13 +118,16 @@ This function creates one plot by subject on one figure.
 
 The color of behaviors can be customized. See `plot colors`_
 
-.. image:: plot_events_v2.png
-   :alt: plot events v.2
+.. image:: images/plot_events.png
+   :alt: plot events
    :width: 100%
 
 
+
+
+
 Inter-rater reliability
-------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 The Cohen's kappa coefficient can be calculated (**Analysis** > **Inter-rater reliability** > **Cohen's kappa**).
 
