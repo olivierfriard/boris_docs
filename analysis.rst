@@ -5,9 +5,10 @@
 
 
 Time budget
-------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-The **Time budget** analysis can be done by behavior or by category of behaviors. Choose the option from the **Analysis** menu.
+The **Time budget** analysis can be done by behavior (including or not the modifiers) or by category of behaviors.
+Choose the option from the **Analysis** menu.
 
 The **Time budget** analysis can be done on one or more observations. If you select more than one observation you must then
 choose for a global time budget analysis that will contain all selected observations or a time budget analysis for every single observation.
@@ -16,7 +17,7 @@ choose for a global time budget analysis that will contain all selected observat
    :alt: Group observations
    :width: 30%
 
-Choose **Yes** to group all observations in on time budget analysis
+Choose **Yes** to group all observations in one time budget analysis
 
 
 The **Analysis** > **Time budget** menu option shows the time budget for the events of the selected observations.
@@ -58,8 +59,12 @@ The time budget results can be saved in various formats for further analysis:
 
 
 
+
+
+
+
 Synthetic time budget
-----------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 The synthetic time budget is similar to time budget but with fewer parameters and a different organization of results.
 Results of all selected observations are organized in columns on a single page.
@@ -82,19 +87,10 @@ The time budget results can be saved in various formats for further analysis:
 
 
 Plot events
-----------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 The events from a selected observation can be plotted along a time axis.
-Two types of plot are available.
-
-
-Plot events (Back compatibility)
-...................................
-
-
-.. note:: This funtion is now deprecated and may contain bugs. See `plot events v.2`_
-
 
 **Analysis** > **Plot events (Back compatibility)**
 
@@ -112,7 +108,7 @@ You can choose to include or not the behavior modifiers (if any) and to exclude 
    :alt: plot events
    :width: 100%
 
-The color of behaviors can be customized. See `plot colors`_ 
+The color of behaviors can be customized. See `plot colors`_
 
 The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic
 (SVG, PDF, EPS, PS). The SVG format can be further edited with the `Inkscape vector graphics editor <https://inkscape.org>`_.
@@ -123,7 +119,9 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 
 .. _plot events v.2:
 
-Plot events 
+
+
+Plot events
 ...................
 
 
@@ -135,7 +133,7 @@ This function creates one plot by subject on one figure.
 The time interval can be selected (See time budget)
 
 
-The color of behaviors can be customized. See `plot colors`_ 
+The color of behaviors can be customized. See `plot colors`_
 
 .. image:: plot_events_v2.png
    :alt: plot events v.2

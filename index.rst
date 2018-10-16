@@ -347,7 +347,7 @@ After adding all modifiers the window will appear like this:
 
 
 In case of **Single selection** or **Multiple selection** all defined subjects can be added as modifiers using
-the **Add subjects as modifiers** button. This can help in case of coding interactions between subjects for example.
+the **Add subjects as modifiers** button. This can help in case of coding the interactions between subjects for example.
 
 
 
@@ -1228,7 +1228,7 @@ operation is irreversible. After remotion the full path of your media will be lo
 Docking
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-All elements, including the media player can be undocked from the main window and positioned where you prefer
+All elements, including all the media players can be undocked from the main window and positioned where you prefer
 (e.g. they can be on the same desktop over one or two screens).
 
 
@@ -1273,12 +1273,15 @@ Acknowledgement
 
 The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and Laura Ozella for their precious help.
 
+
+
 Valid keys for triggering behavior
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS will not make difference between lower case and upper case characters
+BORIS make difference between lower case and upper case characters
 
 
+* keys from a to z
 * keys from A to Z
 * keys from 0 to 9
 * function keys from F1 to F12
