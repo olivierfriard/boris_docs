@@ -14,7 +14,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide (UNDER C
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.**
 
 
-**version 7** 
+**version 7**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -69,7 +69,9 @@ BORIS can be installed following instructions on the BORIS site at `download pag
 Linux
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS is available only for 64-bit systems. 
+BORIS is available only for 64-bit systems.
+
+The `VLC media player <https://www.videolan.org/vlc/>`_ must be installed on your system.
 
 You can also run BORIS from sources.
 See the `Linux download page <http://www.boris.unito.it/pages/download_linux>`_ for details about the dependencies to install.
@@ -92,7 +94,7 @@ Use this version if you want to test a new version of BORIS for example.
 ..
     BORIS debugging version
     .......................
-    
+
     Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
     This version will NOT install BORIS in your system.
 
@@ -106,7 +108,7 @@ BORIS is available for Mac OS only in 64-bit version (from >= 10.8)
 VirtualBox virtual appliance
 ----------------------------
 
-If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_ 
+If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_
 from the BORIS site.
 In this case you must first install the `VirtualBox <https://www.virtualbox.org/>`_ virtualizer from Oracle (released under GPL 2).
 
@@ -217,7 +219,7 @@ Behavior types
 
 You can switch between **State event** and **Point event** at your convenience with a double-click on the **Behavior type** cell.
 You can also add a **Coding map** to either a **State event** (**State event with coding map**) or a **Point event** (**Point event with
-coding map**; 
+coding map**;
 see the "Coding map" section for details).
 
 An existing behavior can be duplicated using the **Clone behavior** button. Its code have then to be changed. On a selected behavior,
@@ -252,9 +254,12 @@ You can choose whether you want to set a unique key for each behavior or use the
 In the case you set the same key for more than a behavior, BORIS will pause your coding and ask which of the behavior
 you want to record. From version 7 the keys are **case-sensitive**.
 
+.. important:: If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior keys to lower case.
+
 **important**
 
 **If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior keys to lower case.**
+
 
 
 
@@ -869,7 +874,7 @@ Export events
 
 **Observations** > **Export events**
 
-This function will export the events of selected observations in TSV, CSV, ODS, XLSX, XLS or HTML formats. 
+This function will export the events of selected observations in TSV, CSV, ODS, XLSX, XLS or HTML formats.
 If many observations are selected BORIS will ask for a directory to save the various files.
 These formats are suitable for further analysis.
 
@@ -879,7 +884,7 @@ These formats are suitable for further analysis.
    :width: 60%
 
 
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id** 
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id**
              in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
 
 
@@ -896,7 +901,7 @@ This function will export the events of the selected observations in the followi
 * **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
 
-If many observations are selected you can choose to group all results in one file. If you do not want to group results BORIS 
+If many observations are selected you can choose to group all results in one file. If you do not want to group results BORIS
 will ask for a directory to save  the various files.
 
 
@@ -929,7 +934,7 @@ Example of SQL export::
 
 
 
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id** 
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id**
              in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
 
 
@@ -1123,7 +1128,7 @@ Allow to zoom into the current video file. The available zoom values are: 1:2, 1
 **Fit to window** adapts the zoom value to the current window size. In case of simultaneous playing
 you can set different values of zoom in player #1 and player #2.
 
-The Zoom option is not available in frame-by-frame mode. 
+The Zoom option is not available in frame-by-frame mode.
 
 **The Zoom function is not working on Mac**
 
@@ -1176,10 +1181,10 @@ Removing path of media files
 Using BORIS you can choose to store the full path of the media files into the file project (for example: ``/home/user/Video/video_n1.mp4`` or
 ``c:\Users\user\Documents\video1.avi``).
 
-If you want to move your project on a different computer or if you want to move your media files you may want to do not store the full 
+If you want to move your project on a different computer or if you want to move your media files you may want to do not store the full
 path. For this you can choose to add media files without the full path (See **Add media files** section). You can also remove the full path
-of your media files from the all observations of the current project (**File** > **Remove path from media files**. Please note that this 
-operation is irreversible. After remotion the full path of your media will be lost and will not be recoverable. 
+of your media files from the all observations of the current project (**File** > **Remove path from media files**. Please note that this
+operation is irreversible. After remotion the full path of your media will be lost and will not be recoverable.
 
 **If you choose to do not store the full path of media files the media files must located in the same directory than your BORIS project file.**
 
@@ -1213,7 +1218,7 @@ If you have used BORIS for publications, please cite::
 Bug reports and features request
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-Please send bug reports and features request using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS) 
+Please send bug reports and features request using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS)
 or by e-mail in english, french or italian (see web site http://www.boris.unito.it/pages/about.html).
 
 
