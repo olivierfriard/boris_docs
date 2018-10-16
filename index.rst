@@ -305,7 +305,7 @@ To add modifiers to a behavior, you need to double-click the **Modifiers** cell 
 Click the **Add a set of modifiers** button.
 
 
-.. image:: modifiers_single_selection.png
+.. image:: images/modifiers_single_selection.png
    :width: 1200px
    :alt: modifiers configuration
 
