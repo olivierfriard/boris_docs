@@ -92,9 +92,8 @@ Plot events
 
 The events from a selected observation can be plotted along a time axis.
 
-**Analysis** > **Plot events (Back compatibility)**
+**Analysis** > **Plot events**
 
-The function allows to plot only one observation.
 
 The subjects and behaviors you want to include in the plot can be selected:
 
@@ -104,9 +103,6 @@ The subjects and behaviors you want to include in the plot can be selected:
 
 You can choose to include or not the behavior modifiers (if any) and to exclude behaviors without coded events.
 
-.. image:: plot_events.png
-   :alt: plot events
-   :width: 100%
 
 The color of behaviors can be customized. See `plot colors`_
 
@@ -117,15 +113,7 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 .. note:: If a STATE behavior has an odd number of coded events, you will see this error message: "The STATE behavior XXX is not paired"
 
 
-.. _plot events v.2:
 
-
-
-Plot events
-...................
-
-
-**Analysis** > **Plot events**
 
 With this function you can select many observations to be plotted.
 This function creates one plot by subject on one figure.
