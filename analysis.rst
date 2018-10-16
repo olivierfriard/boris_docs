@@ -90,12 +90,12 @@ Plot events
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
-The events from a selected observation can be plotted along a time axis.
+The coded events from many observations can be plotted along a time axis.
 
 **Analysis** > **Plot events**
 
 
-The subjects and behaviors you want to include in the plot can be selected:
+The subjects and behaviors you want to include in the plot can be selected in the following window:
 
 .. image:: time_budget_parameters2.png
    :alt: Time budget
@@ -103,8 +103,8 @@ The subjects and behaviors you want to include in the plot can be selected:
 
 You can choose to include or not the behavior modifiers (if any) and to exclude behaviors without coded events.
 
+The time interval can be selected (See time budget)
 
-The color of behaviors can be customized. See `plot colors`_
 
 The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vectorial graphic
 (SVG, PDF, EPS, PS). The SVG format can be further edited with the `Inkscape vector graphics editor <https://inkscape.org>`_.
@@ -113,12 +113,7 @@ The plot can be exported in various formats like bitmap (PNG, JPG, TIFF) or vect
 .. note:: If a STATE behavior has an odd number of coded events, you will see this error message: "The STATE behavior XXX is not paired"
 
 
-
-
-With this function you can select many observations to be plotted.
 This function creates one plot by subject on one figure.
-
-The time interval can be selected (See time budget)
 
 
 The color of behaviors can be customized. See `plot colors`_
