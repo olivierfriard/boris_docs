@@ -47,7 +47,11 @@ Choose the **Live tab** to make a live observation.
 In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset
 you indicated and all the coded events will have the same time value.
 
-Click the **Start** button to begin the observation or **Save** to save it in the `observations list`_.
+
+Start the observation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Click the **Start** button to begin the live observation or **Save** to save it in the `observations list`_.
 
 
 
@@ -271,16 +275,17 @@ Start the observation
 Click the **Start** button to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
 If you do not want to start the observation click the **Save** button. The observation will be saved in the `observations list`_.
 
-
-.. _observations list:
-
-
+The main window during the observation of a single media file will look like this:
 
 .. image:: images/observation_1video.png
    :width: 100%
 
 
 
+
+
+
+.. _observations list:
 
 Observations list
 --------------------------------------------------------------------------------------------------------------------------------------------
