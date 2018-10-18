@@ -131,7 +131,7 @@ Check/Uncheck single subject
    :width: 40%
 
 
-**Media player** widget in the main window
+The media player widgets
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: images/observation_3video_2.png
@@ -142,6 +142,10 @@ The media position can be set using the horizontal slide bar.
 Each media player has its own audio volume control
 (the vertical slide bar on the right side of the player).
 
+
+.. image:: images/undocked_widgets.png
+   :alt: undocked widgets
+   :width: 100%
 
 
 
