@@ -16,7 +16,7 @@ Clicking on **Observations** > **New observation** will show the **New observati
 
 .. image:: images/new_observation_empty.png
    :alt: New observation window
-   :width: 100%
+   :width: 80%
 
 
 This window allow adding various observation data:
