@@ -134,9 +134,9 @@ Check/Uncheck single subject
 **Media player** widget in the main window
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-.. image:: main_window_videoplayer.png
-   :alt: Media player in main window
-   :width: 1200px
+.. image:: images/observation_3video_2.png
+   :alt: 3 media players
+   :width: 100%
 
 The media position can be set using the horizontal slide bar.
 Each media player has its own audio volume control
@@ -155,7 +155,8 @@ Each media player has its own audio volume control
 
 
 
-The **Events** widget shows all the recorded behaviors with the following parameters (columns):
+The **Events** widget shows all the recorded behaviors (events) with the following parameters
+(organized in columns):
 
 * **time**, the time at which the event occurred;
 * **subject**, the focal subject (if any);
