@@ -138,9 +138,9 @@ Check/Uncheck single subject
    :alt: Media player in main window
    :width: 1200px
 
-The **Media player** widget has two controls: the media position (horizontal slide bar) and the audio volume (vertical slide bar)
-provide the user with the list of subjects defined in the **Subject** tab in the **Project** window.
-The horizontal slide bar can be used to navigate the media file.
+The media position can be set using the horizontal slide bar.
+Each media player has its own audio volume control
+(the vertical slide bar on the right side of the player).
 
 
 
