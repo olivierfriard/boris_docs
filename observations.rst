@@ -47,6 +47,8 @@ Choose the **Live tab** to make a live observation.
 In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset
 you indicated and all the coded events will have the same time value.
 
+Click the **Start** button to begin the observation or **Save** to save it in the `observations list`_.
+
 
 
 
@@ -102,11 +104,14 @@ file, e.g. first_video.mp4).
 
 
 
+
+
 Spectrogram visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 BORIS allow you to visualize the sound spectrogram during the media observation.
-Activate the *Visualize spectrogram* check box. BORIS will ask you to generate the spectrograms for all media files loaded in the first player.
+Activate the **Visualize spectrogram** check box. BORIS will ask you to generate the spectrograms
+for all media files loaded in the first player.
 
 .. image:: spectro1.png
    :alt: spectrogram generation
@@ -130,7 +135,8 @@ This option is disabled for now.
 ..
     If this option is selected BORIS will close all ongoing State events between successive media files.
 
-    This option can be usefull if you have to code various short media files enqueued in the first player (for example the output of a Camera trap).
+    This option can be usefull if you have to code various short media files enqueued in the first player
+    (for example the output of a Camera trap).
 
 
 
@@ -267,6 +273,11 @@ If you do not want to start the observation click the **Save** button. The obser
 
 
 .. _observations list:
+
+
+
+.. image:: observation_1video.png
+   :width: 80%
 
 
 
