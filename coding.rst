@@ -1,4 +1,4 @@
-.. _coding:
+.. _media coding:
 
 When looking at the BORIS main window, the window title bar shows the **Observation id** - **Project name** - **BORIS**.
 The media (the first in the queue) will be loaded in the media player and paused.
@@ -60,6 +60,8 @@ The media can be controlled by special keyboard keys:
 * **Down arrow** key: jump backward in the current media
 * **ESC**: switch between VLC and frame-by-frame mode
 
+
+.. _live coding:
 
 Live observations
 --------------------------------------------------------------------------------------------------------------------------------------------

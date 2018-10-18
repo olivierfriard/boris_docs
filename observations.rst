@@ -58,7 +58,7 @@ The main window during a live observation will look like this:
 .. image:: images/observation_live.png
    :width: 100%
 
-See the `coding`_ to start coding.
+See the `live coding`_ section to start coding.
 
 
 Media based observation
@@ -286,7 +286,7 @@ The main window during the observation of a single media file will look like thi
    :width: 100%
 
 
-See the `coding`_ to start coding.
+See the `media coding`_ section to start coding.
 
 
 
