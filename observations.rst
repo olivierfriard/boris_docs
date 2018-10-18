@@ -277,7 +277,7 @@ If you do not want to start the observation click the **Save** button. The obser
 
 
 .. image:: images/observation_1video.png
-   :width: 80%
+   :width: 100%
 
 
 
