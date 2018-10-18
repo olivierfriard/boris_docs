@@ -286,7 +286,7 @@ The main window during the observation of a single media file will look like thi
    :width: 100%
 
 
-
+See the `coding`_ to start coding.
 
 
 
