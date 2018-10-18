@@ -60,6 +60,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 `GNU General Public License <http://www.gnu.org/copyleft/gpl.html>`_ for more details.
 
 
+
+
+
 Install BORIS
 ============================================================================================================================================
 
@@ -114,6 +117,9 @@ In this case you must first install the `VirtualBox <https://www.virtualbox.org/
 
 
 
+
+
+
 Launch BORIS
 ============================================================================================================================================
 
@@ -138,6 +144,9 @@ This option can be changed on the **Preferences** window (See `general preferenc
 
 
 You can launch BORIS from command line by specifying the project file to open as the first argument.
+
+
+
 
 
 Create a new project with BORIS

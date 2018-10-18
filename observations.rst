@@ -91,7 +91,7 @@ simultaneously you must use consecutive players (starting from 1). See example b
 
 
 
-The **Remove media** button can be used to remove the selected media files.
+The **Remove media** button can be used to remove all the selected media files.
 
 
 All the media types reported at http://www.videolan.org/vlc/features.html can be played in BORIS.
@@ -125,9 +125,12 @@ The spectrogram visualization will be synchonized to the media position during t
 Close current behavior between videos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If this option is selected BORIS will close all ongoing State events between successive media files.
+This option is disabled for now.
 
-This option can be usefull if you have to code various short media files enqueued in the first player (for example the output of a Camera trap).
+..
+    If this option is selected BORIS will close all ongoing State events between successive media files.
+
+    This option can be usefull if you have to code various short media files enqueued in the first player (for example the output of a Camera trap).
 
 
 
