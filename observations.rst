@@ -14,7 +14,7 @@ or `Open an existing project with BORIS`_.
 
 Clicking on **Observations** > **New observation** will show the **New observation** window.
 
-.. image:: new_observation_empty.png
+.. image:: images/new_observation_empty.png
    :alt: New observation window
    :width: 100%
 
@@ -44,7 +44,7 @@ Choose the **Live tab** to make a live observation.
 
 
 
-In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset 
+In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset
 you indicated and all the coded events will have the same time value.
 
 
@@ -69,12 +69,12 @@ if you are working with various computers on the same project file(s).
 
 If you want to remove the media file paths of an entire project see `Removing path of media files`_.
 
-The **Add all media from directory** and **Add all media from dir without path** allow to add all media files found in a directory to 
+The **Add all media from directory** and **Add all media from dir without path** allow to add all media files found in a directory to
 the playlist.
 
 
 
-Information about the selected media file will be extracted and displayed in the media list: media file path, media duration, 
+Information about the selected media file will be extracted and displayed in the media list: media file path, media duration,
 number of frames by second (FPS), the presence of a video stream, the presence of an audio stream  .
 
 .. image:: images/media_files_tab_1.png
@@ -97,7 +97,7 @@ The **Remove media** button can be used to remove the selected media files.
 All the media types reported at http://www.videolan.org/vlc/features.html can be played in BORIS.
 The media queued in the *Media file paths* will be played sequentially.
 This means that an event occurring at time t\ :sub:`x`\  in the media file queued as second (e.g. second_video.mp4)
-in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media 
+in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media
 file, e.g. first_video.mp4).
 
 
@@ -209,7 +209,7 @@ During the observation tha values you have selected in external data files will 
 
 
 .. image:: observation_with_external_data.png
-    :alt: Observation with 2 values plotted from external data files: Temperature and salinity 
+    :alt: Observation with 2 values plotted from external data files: Temperature and salinity
 
 
 
@@ -223,7 +223,7 @@ Converters
 If the values in the timestamp column are not expessed in seconds (like 12.45) but in another format (HH:MM:SS, MM:SS, ISO8601 2018-01-18T12:31:40Z ...)
 you must use a converter that will convert the current format in seconds.
 
-See the Converters' tab in the project configuration: `converters tab`_ 
+See the Converters' tab in the project configuration: `converters tab`_
 
 
 A **double-click** on the converters cell will allow you to select a converter for each column to be plotted
