@@ -131,7 +131,7 @@ Check/Uncheck single subject
    :width: 40%
 
 
-The media player widgets
+The **media player** widgets
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: images/observation_3video_2.png
@@ -143,13 +143,15 @@ Each media player has its own audio volume control
 (the vertical slide bar on the right side of the player).
 
 
+The organization of the various widget can be customized:
+
 .. image:: images/undocked_widgets.png
    :alt: undocked widgets
    :width: 100%
 
 
 
-**Events** widget in the main window
+The **Events** widget
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
