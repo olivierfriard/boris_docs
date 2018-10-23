@@ -12,7 +12,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.**
 
 
-**version 7**
+**version 7.0.12**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
