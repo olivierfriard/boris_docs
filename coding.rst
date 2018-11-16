@@ -293,6 +293,20 @@ This option allows to add or subtract a time value (in seconds) to all selected 
 
 
 
+Copy events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This option allows to copy the selected events in the clipboard.
+
+Example of clipboard content::
+
+
+    0.0	Himal	Tear	Branches
+    0.0	Nautilus	Tear	Branches
+    30.199	Himal	Tear	Branches
+    30.2	Himal	Locomotion	Walk
+    32.4	Himal	Locomotion	Walk
+    32.4	Nautilus	Tear	Branches
 
 
 
