@@ -165,8 +165,8 @@ The **Events** widget
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. image:: main_window_events.png
-   :alt: Events list in main window
+.. image:: images/events_widget.png
+   :alt: Events widget
    :width: 60%
 
 
