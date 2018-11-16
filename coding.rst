@@ -297,6 +297,7 @@ Copy events
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to copy the selected events in the clipboard.
+The clipboard will contain the values of the selected events (except the **type** field) separated by a <TAB> character.
 
 Example of clipboard content::
 
@@ -307,6 +308,35 @@ Example of clipboard content::
     30.2	Himal	Locomotion	Walk
     32.4	Himal	Locomotion	Walk
     32.4	Nautilus	Tear	Branches
+
+
+
+
+
+Paste events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This option allows to paste the clipboard content into the events widget.
+The clipboard must respect the format described in the previous section: 5 columns separated by <TAB> character.
+
+
+
+
+
+Find in events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This option allows to search for a string in the various field of events.
+
+
+.. image:: images/find_in_events.png
+   :alt: Find in events
+   :width: 60%
+
+
+
+
 
 
 
