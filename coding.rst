@@ -200,6 +200,12 @@ Some functions are available in the Events widget context menu. Righ-click on th
 
 
 
+Add events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+The **Add event** menu option allows adding a new event by specifying its time and the other parameters.
+
 
 
 
