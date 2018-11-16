@@ -264,15 +264,31 @@ This option allows adding a new event by specifying its time and the other param
 
 
 
+
+
+
 Edit selected event(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 This option allows to edit the selected event(s). When many events are selected you have to choose the field to edit between **Subject**,
-**Behavior**
+**Behavior** and **Comment**. In this case the new value will apply to all selected events.
 
 .. image:: images/edit_many_events.png
    :alt: Edit many events
+   :width: 60%
+
+
+
+
+
+Edit time of selected event(s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This option allows to add or subtract a time value (in seconds) to all selected events. For subtracting a value use a negative value.
+
+.. image:: images/edit_time_events.png
+   :alt: Edit time of selected events
    :width: 60%
 
 
