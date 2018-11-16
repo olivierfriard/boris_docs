@@ -328,7 +328,7 @@ Find in events
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to search for a string in the various field of events.
-
+Select the fields to be searched. The find operation can be restricted to the selected events.
 
 .. image:: images/find_in_events.png
    :alt: Find in events
