@@ -328,7 +328,7 @@ Find in events
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to search for a string in the various field of events.
-Select the fields to be searched. The find operation can be restricted to the selected events.
+Select the fields to be searched. The find/replace operation can be restricted to the selected events.
 
 .. image:: images/find_in_events.png
    :alt: Find in events
@@ -336,6 +336,15 @@ Select the fields to be searched. The find operation can be restricted to the se
 
 
 
+Find/Replace in events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This option allows to search for a string and replace it by a new value in the various field of events.
+Select the fields to be searched. The find operation can be restricted to the selected events.
+
+.. image:: images/find_replace_in_events.png
+   :alt: Find / replace in events
+   :width: 60%
 
 
 
