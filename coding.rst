@@ -348,6 +348,31 @@ Select the fields to be searched. The find operation can be restricted to the se
 
 
 
+Filter events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This option allows to filter the events by field value.
+
+.. image:: images/filter_events.png
+   :alt: Filter events
+   :width: 60%
+
+
+Show all events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This option reverts the previous one and allows to visualize all coded events
+
+
+
+Check state events
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Thi soption allows to check if the **state events** are **PAIRED**, if they have a **START** and a **STOP** occurences.
+
+
 
 Fix unpaired state events
 --------------------------------------------------------------------------------------------------------------------------------------------

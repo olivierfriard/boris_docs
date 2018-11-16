@@ -12,7 +12,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.**
 
 
-**version 7.0.12**
+**version 7.1.3**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -437,7 +437,7 @@ Exclusion information).
 
 
 Import an ethogram from a JWatcher global definition file (.gdf)
-.................................................................
+............................................................................................................................................
 
 
 Behaviors can be imported from a JWatcher global definition file (.gdf) using the **Import from JWatcher** button.
@@ -451,7 +451,7 @@ Behavior type and exclusion information for the behaviours imported from JWatche
 
 
 Import an ethogram from a plain text file
-..........................................
+............................................................................................................................................
 
 
 Behaviors can be imported from a plain text file using the **Import from text file** button.
@@ -475,7 +475,7 @@ The missing information for the behaviours imported from text file have to be re
 
 
 Export the ethogram
-...................
+............................................................................................................................................
 
 The entire ethogram can be exported in various formats (TSV, CSV, XLS, ODS, HTML).
 See **File** > **Edit project** > **Ethogram tab** > **Export ethogram**
@@ -576,7 +576,7 @@ Converters can be written by the user, loaded from file or loaded from the repos
 
 
 Load converters from BORIS web site
-................................................
+............................................................................................................................................
 
 Click **Load converters from BORIS repository** and select the converters to be added to your project.
 
@@ -592,7 +592,7 @@ Click **Load converters from BORIS repository** and select the converters to be 
 
 
 Writing a converter
-...............................
+............................................................................................................................................
 
 
 See `Converters for external data values`_
