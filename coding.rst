@@ -189,22 +189,7 @@ See `Time offset for media reposition`_ in Preferences window to customize the t
 
 
 
-The Events widget context menu
-............................................................................................................................................
 
-Some functions are available in the Events widget context menu. Righ-click on the Events widget.
-
-.. image:: images/events_widget_menu.png
-   :alt: Events widget menu
-   :width: 60%
-
-
-
-Add events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-The **Add event** menu option allows adding a new event by specifying its time and the other parameters.
 
 
 
@@ -255,6 +240,40 @@ A recorded event can be edited (once selected) using the *Observations* > *Edit 
 allows modifying every parameter (e.g. time, subject, code, modifiers, and comment).
 
 The **Observations** > **Add event** menu option allows adding a new event by specifying its time and the other parameters.
+
+
+
+
+
+The Events widget context menu
+............................................................................................................................................
+
+Some functions are available in the Events widget context menu. Righ-click on the Events widget.
+
+.. image:: images/events_widget_menu.png
+   :alt: Events widget menu
+   :width: 60%
+
+
+
+Add event
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This option allows adding a new event by specifying its time and the other parameters.
+
+
+
+Edit selected event(s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This option allows to edit the selected event(s). When many events are selected you have to choose the field to edit between **Subject**,
+**Behavior**
+
+.. image:: images/edit_many_events.png
+   :alt: Edit many events
+   :width: 60%
 
 
 
