@@ -908,6 +908,10 @@ The Zoom option is not available in frame-by-frame mode.
 **The Zoom function is not working on Mac**
 
 
+
+
+
+
 Tools
 ============================================================================================================================================
 

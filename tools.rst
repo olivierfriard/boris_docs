@@ -2,7 +2,7 @@
 
 
 Geometric measurements
-----------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Geometric measurements can only be made in frame-by-frame mode. Distances, areas and angles can be measured.
 Click on **Tools** > **Geometric measurements** to activate the measurements. The **Measurements window** will be shown:
@@ -13,7 +13,7 @@ Click on **Tools** > **Geometric measurements** to activate the measurements. Th
 
 
 Setting the scale
-.................
+............................................................................................................................................
 
 For distance and area measurements you can set a scale in order to have results of measurements in a real unit (like centimeters, meters etc).
 1) measure a reference object (that have a known size) on the frame (with the distance tool. See next chapter for details) and set the pixel distance in the **Pixel** text box.
@@ -21,7 +21,7 @@ For distance and area measurements you can set a scale in order to have results 
 
 
 Distance measurements
-......................
+............................................................................................................................................
 
 Select the **Distance** radio button. Click the left mouse button on the frame bitmap to set the start of the segment that will be measured.
 A blue circle with a cross will be drawn.
@@ -35,7 +35,7 @@ The distance between the two selected points will be available in the text area 
 
 
 Area measurements
-.................
+............................................................................................................................................
 
 Select the **Area** radio button. Click the left mouse button on the frame bitmap to set the area vertices.
 Blue circles with a cross will be drawn.
@@ -44,7 +44,7 @@ The area of the drawn polygon will be available in the text area of the **Measur
 
 
 Angle measurements
-..................
+............................................................................................................................................
 
 Select the **Angle** radio button. Click the left mouse button on the frame bitmap to set the angle vertex.
 A red circle with a cross will be drawn.
@@ -53,7 +53,7 @@ The angle between the two drawn segments will be available in the text area of t
 
 
 Persistent measurements
-.......................
+............................................................................................................................................
 
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all
 frames otherwise they will be deleted between frames.
@@ -64,7 +64,7 @@ frames otherwise they will be deleted between frames.
 
 
 Coding pad
-----------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 During observation a coding pad with the available behaviors can be displayed (**Tools** > **Coding pad**).
 This **Coding pad** allows the user to code using a touch-screen or by clicking on the buttons.
@@ -78,7 +78,7 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
 .. _Converters for external data values:
 
 Converters for external data values
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Converters can be written using the Python 3 programming language.
 
@@ -103,7 +103,7 @@ Example of a converter for converting ISO8601 format in seconds using the strpti
    import datetime
    epoch = datetime.datetime.utcfromtimestamp(0)
    datetime_format = "%Y-%m-%dT%H:%M:%SZ"
-   
+
    OUTPUT = (datetime.datetime.strptime(INPUT, datetime_format) - epoch).total_seconds()
 
 
@@ -117,9 +117,10 @@ Example of a converter for converting ISO8601 format in seconds using the strpti
 
 
 Transitions flow diagram
-------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS can generate DOT scripts and flow diagrams from the transitions matrices (See Observations > Create transition matrix for obtaining the transitions matrices).
+BORIS can generate DOT scripts and flow diagrams from the transitions matrices (See Observations > Create transition matrix for obtaining
+the transitions matrices).
 
 
 DOT script (Graphviz language)

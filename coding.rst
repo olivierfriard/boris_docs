@@ -1,11 +1,17 @@
 .. _media coding:
 
+
+
 When looking at the BORIS main window, the window title bar shows the **Observation id** - **Project name** - **BORIS**.
 The media (the first in the queue) will be loaded in the media player and paused.
 
 
+
+
 Media based coding
 --------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 Media controls are available in the toolbar
@@ -131,6 +137,8 @@ Check/Uncheck single subject
    :width: 40%
 
 
+
+
 The **media player** widgets
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -148,6 +156,8 @@ The organization of the various widget can be customized:
 .. image:: images/undocked_widgets.png
    :alt: undocked widgets
    :width: 100%
+
+
 
 
 
@@ -177,6 +187,16 @@ see `tracking cursor position`_ option in Preferences window.
 A double-click on a row will reposition the media player to the moment of the corresponding event.
 See `Time offset for media reposition`_ in Preferences window to customize the time offset for media repositioning.
 
+
+
+The Events widget context menu
+............................................................................................................................................
+
+Some functions are available in the Events widget context menu. Righ-click on the Events widget.
+
+.. image:: images/events_widget_menu.png
+   :alt: Events widget menu
+   :width: 60%
 
 
 
@@ -233,6 +253,8 @@ The **Observations** > **Add event** menu option allows adding a new event by sp
 
 
 
+
+
 Fix unpaired state events
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -244,6 +266,8 @@ The program will ask for a time at which insert the STOP events for all unpaired
 
 This function can be run on a set of selected observations (when no observation is open). In this case the STOP events will be inserted at
 the end of observation.
+
+
 
 
 
@@ -268,8 +292,10 @@ In frame-by-frame mode the video will stop playing and the user will visualize t
 You can move between frames by using the arrow keys in the toolbar (on the right) or by using keyboard special keys:
 
 
+
+
 For the both modes (media player and frame-by-frame mode)
-............................................................
+............................................................................................................................................
 
 * **Page Up** key: switch to the next media
 * **Page Down** key: switch to the previous media
@@ -278,8 +304,10 @@ For the both modes (media player and frame-by-frame mode)
 * **ESC**: switch between VLC and frame-by-frame mode
 
 
+
+
 Only for the frame-by-frame mode
-............................................................
+............................................................................................................................................
 
 * **Left arrow** key: go to the previous frame
 * **Right arrow** key: go to the next frame

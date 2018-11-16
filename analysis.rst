@@ -72,6 +72,7 @@ The time budget results can be saved in various formats for further analysis:
 
 
 
+
 Synthetic time budget
 --------------------------------------------------------------------------------------------------------------------------------------------
 
