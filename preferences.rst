@@ -37,9 +37,10 @@ General preferences
 **Play sound when a key is pressed**
     Activate a sound signal after every keypress event
 
-**Embed media player**
-    This option allows the user to detach from the main window or embed the media player in the main window.
-    **On Mac OS the media player can not be detached from main window.**
+..
+    **Embed media player**
+        This option allows the user to detach from the main window or embed the media player in the main window.
+        **On Mac OS the media player can not be detached from main window.**
 
 **Alert if focal subject is not set**
     If this option is activated BORIS will show an alert box if no focal subject is selected
