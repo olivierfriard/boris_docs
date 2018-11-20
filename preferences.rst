@@ -125,7 +125,8 @@ Note for high resolution video this operation can be long.
 Detaching the frame viewer
 ............................................................................................................................................
 
-The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will be detached.
+The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will
+be detached.
 
 
 

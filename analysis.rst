@@ -48,8 +48,10 @@ This can help you if you have defined a "out-of-sight" code in your ethogram for
    :width: 50%
 
 
-The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration** (for the behaviors defined as state events),
-The **duration mean** (for the behaviors defined as state events), the **standard deviation of duration**, the **inter-events intervals duration mean**,
+The results contain for each subject and behavior the **total nuber of occurrences**, the **total duration**
+(for the behaviors defined as state events),
+The **duration mean** (for the behaviors defined as state events), the **standard deviation of duration**,
+the **inter-events intervals duration mean**,
 th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**.
 All duration times are expressed in seconds (s).
 
