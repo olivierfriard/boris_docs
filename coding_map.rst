@@ -14,16 +14,16 @@ A coding map is a bitmap image with user-defined clickable areas that will help 
 
 
 The Behaviors coding map
-------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS allows creating a **Behaviors coding map** using the **Map creator** tool 
+BORIS allows creating a **Behaviors coding map** using the **Map creator** tool
 (**Tools** > **Create a coding map** > **for behaviors).**
 
 A **Behaviors coding map** can be created only if you have defined behaviors in your ethogram.
 
 
 Creating a Behaviors coding map
-.................................
+............................................................................................................................................
 
 
 To create a new **Behaviors coding map** launch the **Behaviors coding map creator**
@@ -49,7 +49,7 @@ Enter a name for the new **Behaviors coding map**
 
 
 Loading a bitmap for a behaviors coding map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Click the **Load bitmap** button in the bottom of the window and select a bitmap image (PNG and JPEG formats are accepted).
@@ -67,7 +67,7 @@ The bitmap will be displayed
 
 
 Adding areas corresponding the behaviors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the **New behavior area** button in the bottom of the window and select a behavior by clicking on the **Select behavior** button.
 
@@ -98,7 +98,7 @@ Two or more areas can overlap. In this case all corresponding behaviors will be 
 
 
 Add the Behaviors coding map to the current project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **File** > **Add coding map to project**
 
@@ -110,8 +110,10 @@ You can add a **Behaviors coding map** to the current project from a file contai
 
 
 
+
+
 Saving the Behaviors coding map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Saving the **Behaviors coding map** will create a file containing the **Behaviors coding map** including the bitmap image.
 
@@ -124,21 +126,25 @@ The file containing the **Behaviors coding map** can be then reloaded in the **B
 
 
 The Modifiers coding map
-------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
-BORIS allows creating a modifiers coding map using the **Modifiers Map creator** tool 
+BORIS allows creating a modifiers coding map using the **Modifiers Map creator** tool
 (**Tools** > **Create a coding map** > **for modifiers**.)
 Clickable areas may correspond to specific modifiers that can be meaningful for the behavioral coding.
 Facial expression is the case we thought to when developing this function.
 
 
+
+
 Creating a modifiers coding map
-.................................
+............................................................................................................................................
+
+
 
 
 Loading a bitmap for a modifiers coding map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To create a new **Modifiers coding map**, launch the **Modifiers Map creator** tool (**Tools** > **Create a coding map** > **for modifiers).**
 The BORIS main window will be replaced by the **Modifiers Map creator** window. Click on **Modifiers Map creator** > **New Modifiers map** and
@@ -156,7 +162,7 @@ If the size of your bitmap image is bigger than 640 x 640 pixels BORIS will resi
 
 
 Adding areas corresponding to the modifiers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 To create clickable areas on a coding map, you have to click on the **New area** button and enter
@@ -176,7 +182,7 @@ A map can be edited at anytime by opening the map file from the **Open map** men
 
 
 Adding a modifiers coding map to your project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Creating a Coding map is not automatically adding the map to your project.
 The Coding map have to be added to your project by selecting the corresponding **Behavior type**
