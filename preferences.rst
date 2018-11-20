@@ -14,6 +14,8 @@ General preferences
    :alt: Preferences first tab
    :width: 80%
 
+
+
 **Default project time format**
     This option allows the user to choose the format for displaying time in the project. Please note that time is internally always saved in seconds with a precision of 3 decimal digits
 
@@ -54,8 +56,11 @@ General preferences
     Check for new version on BORIS web site every 15 days (internet access required)
 
 
+
+
+
 FFmpeg framework
-----------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 .. image:: preferences2.png
@@ -79,7 +84,7 @@ The path for the ffmpeg executable program is displayed. The FFmpeg executable i
 
 
 Frame-by-frame mode
--------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: preferences3.png
    :alt: Preferences FFmpeg framework tab
@@ -91,20 +96,21 @@ Frame-by-frame mode
 
 
 Resize frame
-............
+............................................................................................................................................
 
-In case of high resolution video (for example 4K 1920x1080) the extracted frames can be resized before visualization to improve the speed. Select the width in pixel for the extracted frames.
+In case of high resolution video (for example 4K 1920x1080) the extracted frames can be resized before visualization to improve the speed.
+Select the width in pixel for the extracted frames.
 The aspect ratio will be maintained. 0 will indicate no frame resizing.
 
 
 Frame bitmap format
-...................
+............................................................................................................................................
 
 A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
 The extracted frames will be saved in the directory defined in previous tab (FFmpeg cache directory).
 
 Cache size
-.........................................................
+............................................................................................................................................
 
 
 In frame-by-frame mode the frames are extracted from the video with the **ffmpeg** program every second by default.
@@ -116,27 +122,30 @@ Note for high resolution video this operation can be long.
 
 
 Detaching the frame viewer
-.........................................................
+............................................................................................................................................
 
 The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will be detached.
 
 
+
+
 Spectrogram
------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: preferences4.png
    :alt: Preferences Spectrogram tab
    :width: 60%
 
 
+
 Spectrogram height
-.........................................................
+............................................................................................................................................
 
 Select the height of generated spectrogram (in pixels).
 You will need to restart the current observation to apply changes.
 
 Color map
-.........................................................
+............................................................................................................................................
 
 Select the color map for displaying the generated spectrogram.
 See `Matplotlib colormaps <http://matplotlib.org/users/colormaps.html>`_ for details.
@@ -144,8 +153,11 @@ See `Matplotlib colormaps <http://matplotlib.org/users/colormaps.html>`_ for det
 
 .. _plot colors:
 
+
+
+
 Plot colors
---------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 The color of behaviors in the plot events functions can be customized.
 The first color will be associated to the first behavior in your ethogram, the second color to the second behavior and so on.

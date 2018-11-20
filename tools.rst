@@ -195,10 +195,12 @@ Re-encoding and resizing a video file
 -------------------------------------
 
 
-BORIS can re-encode and resize your video files in order to reduce the size of the files and have a smooth coding (specially with two video files playing together).
+BORIS can re-encode and resize your video files in order to reduce the size of the files and have a smooth coding
+(specially with two video files playing together).
 The re-encoding and resizing operations are done with the embedded ffmpeg program with high quality parameters (bitrate 2000k).
 
-Select the files you want re-encode and resize and select the horizontal resolution in pixels (the default is 1024). The aspect ratio will be maintained.
+Select the files you want re-encode and resize and select the horizontal resolution in pixels (the default is 1024).
+The aspect ratio will be maintained.
 
 You can continue to use BORIS during the re-encoding/resizing operation.
 
@@ -214,7 +216,8 @@ The re-encoded/resized video files are renamed by adding the re-encoded.avi exte
 Project server
 ---------------
 
-This function allow you to communicate with the `BORIS App <https://github.com/olivierfriard/BORIS-App/releases>`_ by sending project and receiving onservations made with the **BORIS App**.
+This function allow you to communicate with the `BORIS App <https://github.com/olivierfriard/BORIS-App/releases>`_ by sending project
+and receiving onservations made with the **BORIS App**.
 For details read the `BORIS App user guide <http://boris-app.readthedocs.io/en/latest/>`_
 
 
