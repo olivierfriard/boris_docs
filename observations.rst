@@ -238,7 +238,8 @@ During the observation tha values you have selected in external data files will 
 Converters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If the values in the timestamp column are not expessed in seconds (like 12.45) but in another format (HH:MM:SS, MM:SS, ISO8601 2018-01-18T12:31:40Z ...)
+If the values in the timestamp column are not expessed in seconds (like 12.45) but in another format
+(HH:MM:SS, MM:SS, ISO8601 2018-01-18T12:31:40Z ...)
 you must use a converter that will convert the current format in seconds.
 
 See the Converters' tab in the project configuration: `converters tab`_
@@ -362,6 +363,7 @@ Import observations from a project file
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 The **Observations** > **Import observations** option allows to import observations from a BORIS project file into the current project.
-Choose the project file and then the observations to import. BORIS will check if observations with same id are already existing in the current project.
+Choose the project file and then the observations to import. BORIS will check if observations with same id are already existing in the
+current project.
 BORIS will also check if behaviors and/or subjects used in the imported observations are not defined in the current project.
 

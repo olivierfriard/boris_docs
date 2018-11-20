@@ -17,7 +17,8 @@ General preferences
 
 
 **Default project time format**
-    This option allows the user to choose the format for displaying time in the project. Please note that time is internally always saved in seconds with a precision of 3 decimal digits
+    This option allows the user to choose the format for displaying time in the project. Please note that time is internally always saved
+    in seconds with a precision of 3 decimal digits
 
 **Fast forward/backward speed (seconds)**
     This option allows the user to customize the amount of time for "jumping" forward or backward in media.
