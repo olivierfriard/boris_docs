@@ -928,7 +928,6 @@ Tools
 
 
 
-
 Coding map
 ============================================================================================================================================
 
@@ -940,8 +939,9 @@ Coding map
 Analysis
 ============================================================================================================================================
 
-
 .. include:: analysis.rst
+
+
 
 
 Preferences
@@ -952,11 +952,8 @@ Preferences
 
 
 
-
-
 Various
 ============================================================================================================================================
-
 
 .. _Removing path of media files:
 
@@ -973,6 +970,7 @@ of your media files from the all observations of the current project (**File** >
 operation is irreversible. After remotion the full path of your media will be lost and will not be recoverable.
 
 **If you choose to do not store the full path of media files the media files must located in the same directory than your BORIS project file.**
+
 
 
 Docking
@@ -1026,7 +1024,7 @@ The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and
 
 
 Valid keys for triggering behavior
---------------------------------------------------------------------------------------------------------------------------------------------
+============================================================================================================================================
 
 BORIS makes difference between lower case and upper case characters
 
