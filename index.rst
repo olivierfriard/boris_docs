@@ -608,10 +608,16 @@ The converters loaded in your project can be then selected for converting timest
 Open an existing project with BORIS
 ============================================================================================================================================
 
-**IMPORTANT**
 
-**Due to changes in modifiers format all the projects created with v. 4+ will not be suitable for previous version of BORIS.
-The v. 4 will open projects created with previous version and convert them. A copy of your old project will be kept.**
+.. important:: **Due to changes in the project format all the projects created with v. 7+ will not be suitable for previous version of BORIS.
+    The v. 7 will open projects created with previous version and convert them. A copy of your old project will be kept.**
+
+
+.. important:: If you open a project file created with a version older than v.7 BORIS will convert your project file and keep an original version of your project file
+    ask you to convert the upper case behavior and subject keys to lower case.
+
+
+
 
 
 To open an existing BORIS project, selct the menu **File** > **Open project**.
@@ -877,27 +883,27 @@ Playback menu
 ============================================================================================================================================
 
 Jump
-----
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Jump forward
-.............
+............................................................................................................................................
 
 Allow to jump forward in the current media file. See **File** > **Preferences**  for setting the jump value.
 
 
 Jump backward
-.............
+............................................................................................................................................
 
 Allow to jump backward in the current media file. See **File** > **Preferences**  for setting the jump value.
 
 Jump to specific time
-.....................
+............................................................................................................................................
 
 Allow to go to a specific time in the current media file.
 
 
 Zoom
-----
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 Allow to zoom into the current video file. The available zoom values are: 1:2, 1:4, 2:1 and 1:1.
 **Fit to window** adapts the zoom value to the current window size. In case of simultaneous playing
@@ -905,7 +911,8 @@ you can set different values of zoom in player #1 and player #2.
 
 The Zoom option is not available in frame-by-frame mode.
 
-**The Zoom function is not working on Mac**
+
+.. warning:: **The Zoom function is not working on Mac**
 
 
 
@@ -1021,7 +1028,7 @@ The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and
 Valid keys for triggering behavior
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS make difference between lower case and upper case characters
+BORIS makes difference between lower case and upper case characters
 
 
 * keys from a to z
