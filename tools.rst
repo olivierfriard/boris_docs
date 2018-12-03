@@ -1,6 +1,16 @@
 .. Tools
 
 
+Focus video areas
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+It is possible to focus an area of the video. Click on the center of the area you want to focus.
+The video will be displayed at its native resolution (not shrinked) and centered on the clicked point.
+Another click on the video will restore the previous visualization.
+
+This function is not yet available in frame-by-frame mode.
+
+
 Geometric measurements
 --------------------------------------------------------------------------------------------------------------------------------------------
 
