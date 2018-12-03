@@ -1,7 +1,7 @@
 .. Tools
 
 
-Focus video areas
+Focus video area
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 It is possible to focus an area of the video. Click on the center of the area you want to focus.
