@@ -8,6 +8,8 @@ It is possible to focus an area of the video. Click on the center of the area yo
 The video will be displayed at its native resolution (not shrinked) and centered on the clicked point.
 Another click on the video will restore the previous visualization.
 
+Th focused area can also be zoomed (only on the first player for now).
+
 This function is not yet available in frame-by-frame mode.
 
 
