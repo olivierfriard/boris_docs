@@ -204,7 +204,7 @@ The behaviors can be recorded using the keyboard with the predefined keys, by do
 or by using the **Coding pad** (See `coding pad`_).
 
 
-.. image:: ethogram_subjects_widgets.png
+.. image:: images/ethogram_subjects_widgets.png
    :alt: Ethogram and subjects widgets
    :width: 60%
 
@@ -214,7 +214,7 @@ In the case you have specified the same key for two (or more) events (e.g. key A
 BORIS will prompt you for the desired behavior.
 
 
-.. image:: ask_for_code.png
+.. image:: images/ask_for_code.png
    :alt: Ask for modifiers
    :width: 40%
 
@@ -224,7 +224,7 @@ In the case you have specified modifiers (one or more sets), BORIS will prompt y
 **opponent** in the figure below).
 You can select the correct one using the mouse or the keyboard ( **b** key or **o** key)
 
-.. image:: ask_for_modifiers.png
+.. image:: images/ask_for_modifiers.png
    :alt: Ask for modifiers
    :width: 40%
 
@@ -411,7 +411,7 @@ Frame-by-frame mode
 You can switch between the media player and the frame-by-frame mode using the dedicated button in the toolbar:
 
 
-.. image:: toolbar_frame-by-frame.png
+.. image:: images/toolbar_frame-by-frame.png
    :alt: frame-by-frame_button
    :width: 60%
 

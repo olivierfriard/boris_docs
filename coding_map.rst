@@ -33,7 +33,7 @@ To create a new **Behaviors coding map** launch the **Behaviors coding map creat
 A new window will open
 
 
-.. image:: behaviors_coding_map_empty.png
+.. image:: images/behaviors_coding_map_empty.png
    :alt: Behaviors coding map
    :width: 50%
 
@@ -43,7 +43,7 @@ A new window will open
 
 Enter a name for the new **Behaviors coding map**
 
-.. image:: behaviors_coding_map_name.png
+.. image:: images/behaviors_coding_map_name.png
    :alt: Behaviors coding map name
    :width: 30%
 
@@ -61,7 +61,7 @@ If the size of your bitmap image is bigger than 640 x 640 pixels BORIS will resi
 The bitmap will be displayed
 
 
-.. image:: behaviors_coding_map1.png
+.. image:: images/behaviors_coding_map1.png
    :alt: Behaviors coding map
    :width: 70%
 
@@ -72,7 +72,7 @@ Adding areas corresponding the behaviors
 Click the **New behavior area** button in the bottom of the window and select a behavior by clicking on the **Select behavior** button.
 
 
-.. image:: behaviors_coding_map2.png
+.. image:: images/behaviors_coding_map2.png
    :alt: Behaviors coding map
    :width: 70%
 
@@ -92,7 +92,7 @@ You can add more area and also add more than one area for a same behavior.
 Two or more areas can overlap. In this case all corresponding behaviors will be triggered.
 
 
-.. image:: behaviors_coding_map3.png
+.. image:: images/behaviors_coding_map3.png
    :alt: Behaviors coding map
    :width: 70%
 
@@ -152,8 +152,8 @@ enter a name for the new map in the edit box. You have to load a bitmap image (J
 The loaded image will be displayed.
 
 
-.. image:: modifiers_coding_map.png
-   :alt: Coding map
+.. image:: images/modifiers_coding_map.png
+   :alt: Coding map for modifiers
    :width: 70%
 
 

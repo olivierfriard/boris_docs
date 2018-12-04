@@ -10,7 +10,7 @@ General preferences
 -------------------
 
 
-.. image:: preferences1.png
+.. image:: images/preferences1.png
    :alt: Preferences first tab
    :width: 80%
 
@@ -64,7 +64,7 @@ FFmpeg framework
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. image:: preferences2.png
+.. image:: images/preferences2.png
    :alt: Preferences FFmpeg framework tab
    :width: 60%
 
@@ -87,7 +87,7 @@ The path for the ffmpeg executable program is displayed. The FFmpeg executable i
 Frame-by-frame mode
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-.. image:: preferences3.png
+.. image:: images/preferences3.png
    :alt: Preferences FFmpeg framework tab
    :width: 60%
 
@@ -134,7 +134,7 @@ be detached.
 Spectrogram
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-.. image:: preferences4.png
+.. image:: images/preferences4.png
    :alt: Preferences Spectrogram tab
    :width: 60%
 
@@ -170,7 +170,7 @@ See https://matplotlib.org/api/colors_api.html and https://matplotlib.org/exampl
 The **reset colors to default** button will reload the default colors.
 
 
-.. image:: preferences5.png
+.. image:: images/preferences5.png
    :alt: Plot colors tab
    :width: 60%
 
