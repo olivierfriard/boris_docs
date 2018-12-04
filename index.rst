@@ -958,6 +958,8 @@ Various
 .. _Removing path of media files:
 
 
+
+
 Removing path of media files
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -973,18 +975,6 @@ operation is irreversible. After remotion the full path of your media will be lo
 
 
 
-Docking
---------------------------------------------------------------------------------------------------------------------------------------------
-
-All elements, including all the media players can be undocked from the main window and positioned where you prefer
-(e.g. they can be on the same desktop over one or two screens).
-
-
-.. image:: open_observation_dw.png
-   :alt: Undocked widgets
-
-
-
 
 
 Citing BORIS
@@ -997,6 +987,28 @@ If you have used BORIS for publications, please cite::
     event-logging software for video/audio coding and live observations.
     Methods in Ecology and Evolution, 7(11), 1324-1330
     DOI: 10.1111/2041-210X.12584
+
+
+Docking
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+All elements, including all the media players can be undocked from the main window and positioned where you prefer
+(e.g. they can be on the same desktop over one or two screens).
+
+The position of the various widgets is saved the in BORIS configuration file at the end of the work session.
+
+.. image:: images/undocked_widgets.png
+   :alt: Undocked widgets
+
+
+
+Configuration files
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+BORIS saves the configuration (user preferences, windows position, widgets position) in a configuration file. This file is named **.boris**
+and it is saved on the home directory of the current user. (/home/user/.boris for Linux, C:\Users\user\.boris for Microsoft Windows and
+/Users/user/.boris for MacOS). If you have some trouble using BORIS try to close the program, delete this file and relaunch BORIS.
+
 
 
 Bug reports and features request
