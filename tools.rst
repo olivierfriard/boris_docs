@@ -8,6 +8,7 @@ It is possible to focus an area of the video. Click on the center of the area yo
 The video will be displayed at its native resolution (not shrinked) and centered on the clicked point.
 Another click on the video will restore the previous visualization.
 
+
 Th focused area can also be zoomed (only on the first player for now).
 
 
@@ -28,7 +29,8 @@ See the mouse cursor on the screenshot above.
    :alt: A high resolution video with a focused area
    :width: 80%
 
-Now the video is displayed with its real resolution allowing to see details.
+Now the video is displayed with its real resolution allowing to see details. Another click on the video will restore the previous
+visualization withou focus.
 
 
 
@@ -41,7 +43,7 @@ Geometric measurements can only be made in frame-by-frame mode. Distances, areas
 Click on **Tools** > **Geometric measurements** to activate the measurements. The **Measurements window** will be shown:
 
 .. image:: measurements_window.png
-   :alt: measurements window
+   :alt: images/measurements window
    :width: 60%
 
 
@@ -49,7 +51,10 @@ Setting the scale
 ............................................................................................................................................
 
 For distance and area measurements you can set a scale in order to have results of measurements in a real unit (like centimeters, meters etc).
-1) measure a reference object (that have a known size) on the frame (with the distance tool. See next chapter for details) and set the pixel distance in the **Pixel** text box.
+
+1) measure a reference object (that have a known size) on the frame (with the distance tool. See next chapter for details)
+   and set the pixel distance in the **Pixel** text box.
+
 2) Set the real size of the reference object in the **Reference** text box (must be a number without unit).
 
 
@@ -63,7 +68,7 @@ The distance between the two selected points will be available in the text area 
 
 
 .. image:: distance_measurement_screenshot.png
-   :alt: distance measurement screenshot
+   :alt: images/distance measurement screenshot
    :width: 90%
 
 
@@ -157,7 +162,7 @@ the transitions matrices).
 
 
 DOT script (Graphviz language)
-..............................
+............................................................................................................................................
 
 **Tools > Transitions flow diagram > Create transitions DOT script**
 
@@ -172,7 +177,7 @@ See `DOT (graph description language) <https://en.wikipedia.org/wiki/DOT_(graph_
 
 
 Flow diagram
-............
+............................................................................................................................................
 
 
 If `Graphviz <http://www.graphviz.org>`_ (Graph Visualization Software) is installed on your system
@@ -194,7 +199,7 @@ Choose one ore more transition matrix files and BORIS will create the relative f
 
 
 Flow diagram of frequencies of transitions
-...........................................
+............................................................................................................................................
 
 .. image:: transitions_frequency.png
        :alt: Frequencies of transitions
@@ -203,7 +208,7 @@ Flow diagram of frequencies of transitions
 
 
 Flow diagram of frequencies of transitions after behavior
-..........................................................
+............................................................................................................................................
 
 
 .. image:: transitions_frequency_after_behavior.png
@@ -213,7 +218,7 @@ Flow diagram of frequencies of transitions after behavior
 
 
 Flow diagram of number of transitions
-.....................................
+............................................................................................................................................
 
 .. image:: number_of_transitions.png
        :alt: Number of transitions
@@ -225,7 +230,7 @@ Flow diagram of number of transitions
 
 
 Re-encoding and resizing a video file
--------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 BORIS can re-encode and resize your video files in order to reduce the size of the files and have a smooth coding
@@ -247,7 +252,7 @@ The re-encoded/resized video files are renamed by adding the re-encoded.avi exte
 
 
 Project server
----------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 This function allow you to communicate with the `BORIS App <https://github.com/olivierfriard/BORIS-App/releases>`_ by sending project
 and receiving onservations made with the **BORIS App**.
@@ -256,7 +261,7 @@ For details read the `BORIS App user guide <http://boris-app.readthedocs.io/en/l
 
 
 Starting the project server
-............................
+............................................................................................................................................
 
 * Open your project
 
@@ -268,7 +273,7 @@ The project server will serve the project for 30 minutes.
 
 
 Stopping the project server
-.............................
+............................................................................................................................................
 
 * Select **File** > **Stop serving project**
 
