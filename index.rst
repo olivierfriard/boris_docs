@@ -996,10 +996,26 @@ Docking
 All elements, including all the media players can be undocked from the main window and positioned where you prefer
 (e.g. they can be on the same desktop over one or two screens).
 
-The position of the various widgets is saved in the in BORIS `configuration file`_ at the end of the work session.
+The position of the various widgets is saved in the `configuration file`_ at the end of the work session.
 
 .. image:: images/undocked_widgets.png
    :alt: Undocked widgets
+
+
+Click the icon present at the top-right crner of the widget (for MacOS the icon is located at the left-top corner).
+
+
+For Linux:
+
+.. image:: images/dock_undock1.png
+   :alt: dock/undock
+
+
+For Microsoft-Windows:
+
+.. image:: images/dock_undock1_win.png
+   :alt: dock/undock
+
 
 
 
