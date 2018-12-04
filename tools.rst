@@ -42,8 +42,8 @@ Geometric measurements
 Geometric measurements can only be made in frame-by-frame mode. Distances, areas and angles can be measured.
 Click on **Tools** > **Geometric measurements** to activate the measurements. The **Measurements window** will be shown:
 
-.. image:: measurements_window.png
-   :alt: images/measurements window
+.. image:: images/measurements_window.png
+   :alt: measurements window
    :width: 60%
 
 
@@ -67,8 +67,8 @@ Click the right mouse button to set the end. A red circle with a cross will be d
 The distance between the two selected points will be available in the text area of the **Measurements window**.
 
 
-.. image:: distance_measurement_screenshot.png
-   :alt: images/distance measurement screenshot
+.. image:: images/distance_measurement_screenshot.png
+   :alt: distance measurement screenshot
    :width: 90%
 
 
@@ -248,6 +248,34 @@ The re-encoded/resized video files are renamed by adding the re-encoded.avi exte
 **warning**
 
 **The MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.**
+
+
+
+
+
+
+
+
+Rotating a video file
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+BORIS can rotate your video files in order to code them using the right view.
+The rotating operation is done with the embedded ffmpeg program using the same quality parameters then the original video.
+
+Select the files you want rotate and select the rotation between: **Rotate 90 clockwise**,
+**Rotate 90 counter clockwise** and **Rotate 180**.
+
+The aspect ratio will be maintained.
+
+You can continue to use BORIS during the rotation operation.
+
+The rotated video files are renamed by adding the **rotated<ANGLE>** to the original file name.
+
+
+
+
+
 
 
 
