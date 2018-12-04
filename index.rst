@@ -1002,7 +1002,9 @@ The position of the various widgets is saved in the `configuration file`_ at the
    :alt: Undocked widgets
 
 
-Click the icon present at the top-right crner of the widget (for MacOS the icon is located at the left-top corner).
+Click the icon present at the top-right corner of the widget (for MacOS the icon is located at the left-top corner) will undock the widgets
+that can be repositioned on another docking area or moved out of the main window.
+A double-click on the top bar of the widget will reposition it on the main window.
 
 
 For Linux:
@@ -1015,6 +1017,7 @@ For Microsoft-Windows:
 
 .. image:: images/dock_undock1_win.png
    :alt: dock/undock
+   :width: 100%
 
 
 
