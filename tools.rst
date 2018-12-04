@@ -1,7 +1,7 @@
 .. Tools
 
 
-Focus video area
+Focus a video area
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 It is possible to focus an area of the video. Click on the center of the area you want to focus.
@@ -10,19 +10,23 @@ Another click on the video will restore the previous visualization.
 
 Th focused area can also be zoomed (only on the first player for now).
 
-This function is not yet available in frame-by-frame mode.
+
+.. note:: This function is not yet available in frame-by-frame mode.
+
 
 
 .. image:: images/focus_video_area_1.png
    :alt: A high resolution video
+    :width: 100%
 
 
 The visualization can be focused on a particular region of the video by clicking on the video.
+See the mouse cursor on the screenshot above.
 
 
 .. image:: images/focus_video_area_2.png
    :alt: A high resolution video
-
+    :width: 100%
 
 Now the video is displayed with its real resolution allowing to see details.
 
