@@ -13,6 +13,23 @@ Th focused area can also be zoomed (only on the first player for now).
 This function is not yet available in frame-by-frame mode.
 
 
+.. image:: images/focus_video_area_1.png
+   :alt: A high resolution video
+
+
+The visualization can be focused on a particular region of the video by clicking on the video.
+
+
+.. image:: images/focus_video_area_2.png
+   :alt: A high resolution video
+
+
+Now the video is displayed with its real resolution allowing to see details.
+
+
+
+
+
 Geometric measurements
 --------------------------------------------------------------------------------------------------------------------------------------------
 
