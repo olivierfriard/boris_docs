@@ -108,7 +108,7 @@ During observation a coding pad with the available behaviors can be displayed (*
 This **Coding pad** allows the user to code using a touch-screen or by clicking on the buttons.
 When the **Coding pad** is displayed you can continue to code using the keyboard or the ethogram.
 
-.. image:: coding_pad.png
+.. image:: images/coding_pad.png
    :alt: Coding pad
    :width: 90%
 
@@ -147,7 +147,7 @@ Example of a converter for converting ISO8601 format in seconds using the strpti
 
 **File** > **Edit project** > **Converters tab**
 
-.. image:: converter_writing.png
+.. image:: images/converter_writing.png
    :alt: writing/modifiying a converter
    :width: 100%
 
@@ -192,7 +192,7 @@ Choose one ore more transition matrix files and BORIS will create the relative f
    transitions are displayed on the edges of the graph:
 
 
-    .. image:: flow_diagram_graphviz.png
+    .. image:: images/flow_diagram_graphviz.png
        :alt: Transitions flow diagram produced by Graphviz
        :width: 50%
 
@@ -201,7 +201,7 @@ Choose one ore more transition matrix files and BORIS will create the relative f
 Flow diagram of frequencies of transitions
 ............................................................................................................................................
 
-.. image:: transitions_frequency.png
+.. image:: images/transitions_frequency.png
        :alt: Frequencies of transitions
        :width: 25%
 
