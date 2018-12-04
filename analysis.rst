@@ -13,7 +13,7 @@ Choose the option from the **Analysis** menu.
 The **Time budget** analysis can be done on one or more observations. If you select more than one observation you must then
 choose for a global time budget analysis that will contain all selected observations or a time budget analysis for every single observation.
 
-.. image:: time_budget_group_observations.png
+.. image:: images/time_budget_group_observations.png
    :alt: Group observations
    :width: 30%
 
@@ -23,7 +23,7 @@ Choose **Yes** to group all observations in one time budget analysis
 The **Analysis** > **Time budget** menu option shows the time budget for the events of the selected observations.
 Select the subjects and behaviors you want to include in the time budget analysis:
 
-.. image:: time_budget_parameters2.png
+.. image:: images/time_budget_parameters2.png
    :alt: Select subject and behaviors for time budget analysis
    :width: 50%
 
@@ -55,7 +55,7 @@ the **inter-events intervals duration mean**,
 th **standard deviation of the inter-events intervals duration** and the **percent of total duration of observation(s)**.
 All duration times are expressed in seconds (s).
 
-.. image:: time_budget.png
+.. image:: images/time_budget.png
    :alt: Results of the time budget analysis
    :width: 100%
 
@@ -83,7 +83,7 @@ Results of all selected observations are organized in columns on a single page.
 Two parameters are provided for now: **number of occurrences** and **total duration** (for the behaviors defined as state events)
 
 
-.. image:: synthetic_time_budget.png
+.. image:: images/synthetic_time_budget.png
    :alt: Results of the time budget analysis
    :width: 100%
 
@@ -110,7 +110,7 @@ The coded events from many observations can be plotted along a time axis.
 
 The subjects and behaviors you want to include in the plot can be selected in the following window:
 
-.. image:: time_budget_parameters2.png
+.. image:: images/time_budget_parameters2.png
    :alt: Time budget
    :width: 60%
 
@@ -149,6 +149,6 @@ The Cohen's kappa coefficient can be calculated (**Analysis** > **Inter-rater re
 After selecting 2 observations and a time window (in seconds) for the analysis (the default value is 10 seconds)
 the Cohen's kappa will be displayed in the results window.
 
-.. image:: irr1.png
+.. image:: images/irr1.png
    :alt: time window
    :width: 30%
