@@ -17,7 +17,7 @@ Th focused area can also be zoomed (only on the first player for now).
 
 .. image:: images/focus_video_area_1.png
    :alt: A high resolution video
-    :width: 100%
+   :width: 100%
 
 
 The visualization can be focused on a particular region of the video by clicking on the video.
@@ -25,8 +25,8 @@ See the mouse cursor on the screenshot above.
 
 
 .. image:: images/focus_video_area_2.png
-   :alt: A high resolution video
-    :width: 100%
+   :alt: A high resolution video with a focused area
+   :width: 100%
 
 Now the video is displayed with its real resolution allowing to see details.
 
