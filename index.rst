@@ -1020,6 +1020,14 @@ For Microsoft-Windows:
    :width: 100%
 
 
+For MacOS:
+
+.. image:: images/dock_undock1_mac.png
+   :alt: dock/undock
+   :width: 100%
+
+
+
 
 
 .. _configuration file:

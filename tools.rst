@@ -9,7 +9,7 @@ The video will be displayed at its native resolution (not shrinked) and centered
 Another click on the video will restore the previous visualization.
 
 
-Th focused area can also be zoomed (only on the first player for now).
+The focused area can also be zoomed (only on the first player for now).
 
 
 .. note:: This function is not yet available in frame-by-frame mode.
@@ -30,7 +30,7 @@ See the mouse cursor on the screenshot above.
    :width: 80%
 
 Now the video is displayed with its real resolution allowing to see details. Another click on the video will restore the previous
-visualization withou focus.
+visualization without focus.
 
 
 
