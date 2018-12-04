@@ -989,25 +989,32 @@ If you have used BORIS for publications, please cite::
     DOI: 10.1111/2041-210X.12584
 
 
+
 Docking
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 All elements, including all the media players can be undocked from the main window and positioned where you prefer
 (e.g. they can be on the same desktop over one or two screens).
 
-The position of the various widgets is saved the in BORIS configuration file at the end of the work session.
+The position of the various widgets is saved in the in BORIS `configuration file`_ at the end of the work session.
 
 .. image:: images/undocked_widgets.png
    :alt: Undocked widgets
 
 
 
+.. _configuration file:
+
+
 Configuration files
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 BORIS saves the configuration (user preferences, windows position, widgets position) in a configuration file. This file is named **.boris**
-and it is saved on the home directory of the current user. (/home/user/.boris for Linux, C:\Users\user\.boris for Microsoft Windows and
+and it is saved on the home directory of the current user (/home/user/.boris for Linux, C:\Users\user\.boris for Microsoft Windows and
 /Users/user/.boris for MacOS). If you have some trouble using BORIS try to close the program, delete this file and relaunch BORIS.
+
+The **recent projects list** is saved on the **.boris_recent_projects** file in the home directory of the current user.
+
 
 
 
