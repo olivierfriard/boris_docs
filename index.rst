@@ -631,16 +631,17 @@ Import a project
 ============================================================================================================================================
 
 You can import a project from a **Noldus The Observer XT Coding Scheme Exchange** file (.otx or .otb extensions).
-The Observer XT program allows you to save a project as a template (see your manual). This template can be imported into BORIS
-and saved as a BORIS project.
+The Observer XT software allows you to save a project as a template (see the reference manual). This template can be imported into BORIS
+and then saved as a BORIS project (File > Import a project from ... > Noldus The Observer XT template)
 
-The following information will be imported:
+The following information will be imported from the template file:
 
 * Ethogram (coding scheme)
 * Modifiers
 * Behavioral categories
 * Subjects
 * Independent variables
+
 
 
 The Observer is a registered trademark of Noldus Information Technology b.v.
