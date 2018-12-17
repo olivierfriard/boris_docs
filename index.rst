@@ -161,7 +161,8 @@ The save menu option (**File** > **Save project** or **Save project as ...**) wi
 You can also activate the  `automatic backup`_ feature (see **Preferences**).
 
 
-.. note:: It is VERY important to do regular backups of your project files to prevent the lost of data. Software can be reinstalled but your data could quite possibly be lost for ever.
+.. note:: It is VERY important to do regular backups of your project files to prevent the lost of data. Software can be reinstalled but
+    your data could quite possibly be lost for ever.
 
 
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
@@ -210,7 +211,8 @@ Set your ethogram from scratch
 ............................................................................................................................................
 
 
-Clicking on the **Add behavior** button you can add a new row in the **Ethogram** table and behavior type will be automatically set to **Point event**.
+Clicking on the **Add behavior** button you can add a new row in the **Ethogram** table and behavior type will be automatically set
+to **Point event**.
 
 The cells with gray background can not be directly edited. You must double-click on them and then select a value.
 
@@ -221,7 +223,8 @@ Behavior types
 
 2 types of behaviors can be defined. Double-click on the cell and select the type of behavior:
 
-- **Point event** behavior when the behavior has **no duration**. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
+- **Point event** behavior when the behavior has **no duration**. The behavior will be coded by pressing the defined keyboard key
+    (see below) or by clicking to the corresponding row in the Ethogram table.
 
 
 - **State event** behavior when the behavior has a **duration**. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
