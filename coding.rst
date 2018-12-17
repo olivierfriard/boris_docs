@@ -402,6 +402,27 @@ the end of observation.
 
 
 
+Explore project
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+You can search information in various fields in all observations in the current project (Observations > Explore project).
+
+The searchable fields are: **subject**, **behavior**, **modifier** and **comment**.
+
+If more than one field is searched a logic AND will apply.
+
+.. image:: images/explore_project.png
+   :alt: Explore project
+
+
+
+The events that were found are listed in a table. By double-clicking on the row the corresponding observation will be opened
+and the visualization will be scrolled to the row corresponding to the event.
+
+
+.. image:: images/explore_project_results.png
+   :alt: Explore project
+
 
 
 
