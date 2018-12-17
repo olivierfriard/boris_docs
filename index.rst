@@ -12,7 +12,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.**
 
 
-**version 7.3**
+**version 7.4**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -626,6 +626,25 @@ the independent variables, and the subjects. BORIS allows creating an unlimited 
 only one project can be opened at a time.
 
 
+
+Import a project
+============================================================================================================================================
+
+You can import a project from a **Noldus The Observer XT Coding Scheme Exchange** file (.otx or .otb extensions).
+The Observer XT program allows you to save a project as a template (see your manual). This template can be imported into BORIS
+and saved as a BORIS project.
+
+The following information will be imported:
+
+* Ethogram (coding scheme)
+* Modifiers
+* Behavioral categories
+* Subjects
+* Independent variables
+
+
+The Observer is a registered trademark of Noldus Information Technology b.v.
+See the `Noldus web site for details <https://www.noldus.com/human-behavior-research/products/the-observer-xt>`_
 
 Observations
 ============================================================================================================================================
