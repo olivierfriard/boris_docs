@@ -9,7 +9,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 
 
 **BORIS is an easy-to-use event logging software for video/audio coding and live observations.
-BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS X.**
+BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS.**
 
 
 **version 7.4**
@@ -223,12 +223,11 @@ Behavior types
 
 2 types of behaviors can be defined. Double-click on the cell and select the type of behavior:
 
-- **Point event** behavior when the behavior has **no duration**. The behavior will be coded by pressing the defined keyboard key
-(see below) or by clicking to the corresponding row in the Ethogram table.
+
+- **Point event** behavior when the behavior has **no duration**. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
 
 
-- **State event** behavior when the behavior has a **duration**. The behavior start and stop will be coded by pressing the defined keyboard
-key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
+- **State event** behavior when the behavior has a **duration**. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
 
 
 
@@ -273,7 +272,8 @@ If your project was created with a previous version of BORIS (< v.7) you can use
 lower case otherwise you will have to code your observation using upper case key.
 
 
-.. important:: If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior and subject keys to lower case.
+.. important:: If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior and
+    subject keys to lower case.
 
 
 .. important:: **Do not use the / and * keys! They are reserved for the frame-by-frame mode.**
@@ -318,6 +318,8 @@ using sets of modifiers, you can select one/more modifier for each set.
 To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
 The following window will show up:
 
+
+
 .. image:: images/modifiers_empty.png
     :width: 60%
     :alt: modifiers configuration
@@ -343,18 +345,21 @@ and **Numeric**
 
 
 Within a set of modifiers, you can add a modifier by writing the modifier in the **Modifier** edit box.
-You can choose a shortcut (one character - case sensitive) to this modifier (optional). Then press the **right-arrow** button to add the new modifiers
-to the set.
+You can choose a shortcut (one character - case sensitive) to this modifier (optional). Then press the **right-arrow** button to add the
+new modifiers to the set.
+
 
 .. image:: images/modifiers_2.png
     :width: 60%
     :alt: modifiers configuration
+
 
 To modify a modifier, select it and press the **left-arrow** button, edit the modifier and press the **right-arrow** button.
 
 A modifier can be removed by pressing the **Remove modifier** button.
 
 After adding all modifiers the window will appear like this:
+
 
 .. image:: images/modifiers_single_selection.png
     :width: 80%
@@ -375,7 +380,9 @@ The position of a modifiers' set can be customized  (using the **Move set left**
 Modifiers can not contain the following characters: **(|),`~!**
 
 
+
 Example of a **multiple selection** modifiers set:
+
 
 .. image:: modifiers_multiple_selection.png
    :width: 1200px
@@ -385,6 +392,7 @@ Many values can be selected together.
 
 
 Example of 2 sets of modifiers:
+
 
 .. image:: modifiers_2sets.png
    :width: 1200px
@@ -425,8 +433,9 @@ Example of an **exclusion matrix**:
    :width: 100%
    :alt: Exclusion matrix tool
 
-For example in the previous figure, the **Alert** behavior will exclude the following behaviors: **Allogroom**, **Breed**, **Carry objects**, **Chase** ...
 
+For example in the previous figure, the **Alert** behavior will exclude the following behaviors: **Allogroom**, **Breed**,
+**Carry objects**, **Chase** ...
 
 
 During the observation, the excluding event will stop all the current excluded state events one millisecond before the occurence of the event.
@@ -515,7 +524,8 @@ If your project was created with a previous version of BORIS (< v.7) you can use
 lower case otherwise you will have to code your observation using upper case key.
 
 
-.. important:: If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior and subject keys to lower case.
+.. important:: If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior and
+    subject keys to lower case.
 
 
 
