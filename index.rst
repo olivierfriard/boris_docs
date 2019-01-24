@@ -665,6 +665,8 @@ The following information will be imported from the template file:
 The Observer is a registered trademark of Noldus Information Technology b.v.
 See the `Noldus web site for details <https://www.noldus.com/human-behavior-research/products/the-observer-xt>`_
 
+
+
 Observations
 ============================================================================================================================================
 

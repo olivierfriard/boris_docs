@@ -48,6 +48,8 @@ In the above tab you can select a time for **Scan sampling** observation. In thi
 you indicated and all the coded events will have the same time value.
 
 
+
+
 Start the observation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -61,8 +63,11 @@ The main window during a live observation will look like this:
 See the `live coding`_ section to start coding.
 
 
+
+
 Media based observation
 ............................................................................................................................................
+
 
 Click on the **Media** tab to make an observation based on one or more media files.
 
@@ -101,15 +106,21 @@ simultaneously you must use consecutive players (starting from 1). See example b
    :width: 80%
 
 
+If you have to synchronize 2 (or more) videos you can use the **Offset column** to indicate when the 2nd player should start.
+For example if the video loaded in the second player starts 15 seconds after the first video you have to input **15** in
+the **Offset** cell. If the second video starts before the first player you can set a negative value in the **Offset** cell
+
+
+If you have to play sequentially many videos you have to select the same player (#1) for all video you have loaded.
+This means that an event occurring at time t\ :sub:`x`\  in the media file queued as second (e.g. second_video.mp4)
+in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media
+file, e.g. first_video.mp4).
 
 The **Remove media** button can be used to remove all the selected media files.
 
 
 All the media types reported at http://www.videolan.org/vlc/features.html can be played in BORIS.
-The media queued in the *Media file paths* will be played sequentially.
-This means that an event occurring at time t\ :sub:`x`\  in the media file queued as second (e.g. second_video.mp4)
-in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media
-file, e.g. first_video.mp4).
+
 
 
 
