@@ -46,7 +46,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 Legal
 ============================================================================================================================================
 
-Copyright 2012-2018 Olivier Friard - Marco Gamba
+Copyright 2012-2019 Olivier Friard - Marco Gamba
 
 **BORIS** is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -70,7 +70,8 @@ BORIS can be installed following instructions on the BORIS site at `download pag
 Linux
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS is available only for 64-bit systems.
+The BORIS ececutable program is available for Linux only for 64-bit systems. If you are using a 32-bit system you have to launch BORIS
+from sources.
 
 The `VLC media player <https://www.videolan.org/vlc/>`_ must be installed on your system.
 
@@ -81,23 +82,31 @@ See the `Linux download page <http://www.boris.unito.it/pages/download_linux>`_ 
 Microsoft-Windows
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS is available for Windows in 32-bit and 64-bit versions. Check your OS before downloading.
+BORIS is available for Windows in 32-bit and 64-bit versions. Check your OS to download the right version.
 
-Two versions are available: **BORIS Setup** and **BORIS Portable**
+Two versions are available: **BORIS Portable** and **BORIS Setup**
 
-The **BORIS Setup** will install BORIS on your system (the default install path is located in your home directory,
-you do not need administration rights to install BORIS).
 
 The **BORIS Portable** will NOT install BORIS on your system but will run from a directory (find and launch boris.exe).
-Use this version if you want to test a new version of BORIS for example.
+Use this version if you want to test a new version of BORIS for example. Using the **portable** version more versions can coexist on
+your system.
 
 
-..
-    BORIS debugging version
-    .......................
+The **BORIS Setup** will install BORIS on your system (the default install path is located in your home directory,
+you do not need administration rights to install BORIS). Installing a newer version of BORIS will replace the currently installed version.
 
-    Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
-    This version will NOT install BORIS in your system.
+
+
+BORIS debugging version
+............................................................................................................................................
+
+A portable debugging version is available for 64-bit versions.
+
+Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
+This version will NOT install BORIS in your system.
+
+You have to extract the archive and launch the **start_boris.bat** file.
+
 
 
 Mac OS
@@ -106,12 +115,13 @@ Mac OS
 BORIS is available for Mac OS only in 64-bit version (from >= 10.8)
 
 
-VirtualBox virtual appliance
-----------------------------
+..
+    VirtualBox virtual appliance
+    ----------------------------
 
-If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_
-from the BORIS site.
-In this case you must first install the `VirtualBox <https://www.virtualbox.org/>`_ virtualizer from Oracle (released under GPL 2).
+    If you want to try BORIS without installing it you can download the `VirtualBox virtual appliance <http://www.boris.unito.it/?page=download>`_
+    from the BORIS site.
+    In this case you must first install the `VirtualBox <https://www.virtualbox.org/>`_ virtualizer from Oracle (released under GPL 2).
 
 
 
