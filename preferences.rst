@@ -17,6 +17,9 @@ General preferences
    :width: 80%
 
 
+**Refresh** button
+    Option to reinitialize the configuration to default. BORIS will be closed.
+
 
 **Default project time format**
     This option allows the user to choose the format for displaying time in the project. Please note that time is internally always saved

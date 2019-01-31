@@ -12,7 +12,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS.**
 
 
-**version 7.4.3**
+**version 7.4.5**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -301,7 +301,7 @@ Modifiers can not contain the following characters: **(|),`~!**
 Example of a **multiple selection** modifiers set:
 
 
-.. image:: modifiers_multiple_selection.png
+.. image:: images/modifiers_multiple_selection.png
    :width: 1200px
    :alt: modifiers configuration
 
@@ -1020,7 +1020,7 @@ In case of bug report please verify that you are using the last version of BORIS
 CPU architecture (32/64 bits).
 You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to any third party.
 
-
+A debugging version (for WIndows 64-bit) is available if you want to collaborate to BORIS.
 
 
 
@@ -1029,7 +1029,7 @@ You may also include the BORIS project that gave you an error. Any information y
 Acknowledgement
 ============================================================================================================================================
 
-The authors would like to acknowledge Sergio Castellano, Valentina Matteucci and Laura Ozella for their precious help.
+The authors would like to acknowledge Valentina Matteucci, Laura Ozella, Giovanni Di Panfilo and all others users for their precious help.
 
 
 
