@@ -126,11 +126,13 @@ Select the width in pixel for the extracted frames.
 The aspect ratio will be maintained. 0 will indicate no frame resizing.
 
 
+
 Frame bitmap format
 ............................................................................................................................................
 
 A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
 The extracted frames will be saved in the directory defined in previous tab (FFmpeg cache directory).
+
 
 Cache size
 ............................................................................................................................................
@@ -143,12 +145,6 @@ This value can be increased to extract frames for a longer sequence and avoiding
 Note for high resolution video this operation can be long.
 
 
-
-Detaching the frame viewer
-............................................................................................................................................
-
-The frame viewer can be detached from the main window. Please note that in case of two simultaneous media files the frames viewers will
-be detached.
 
 
 
