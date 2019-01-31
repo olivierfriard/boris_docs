@@ -5,6 +5,8 @@
 
 BORIS can be installed following instructions on the BORIS site at `download page <http://www.boris.unito.it/?page=download>`_
 
+All previous versions of BORIS are available from the `BORIS archive <https://drive.google.com/drive/folders/0B0KTzxkLpPJ_bE8zOUFjenFnU3c>`_
+
 
 Linux
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -16,6 +18,7 @@ The `VLC media player <https://www.videolan.org/vlc/>`_ must be installed on you
 
 You can also run BORIS from sources.
 See the `Linux download page <http://www.boris.unito.it/pages/download_linux>`_ for details about the dependencies to install.
+
 
 
 Microsoft-Windows
