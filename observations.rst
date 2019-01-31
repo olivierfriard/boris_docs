@@ -237,7 +237,7 @@ For now only 2 values can be plotted synchronously with your media file. The val
 During the observation tha values you have selected in external data files will be plotted synchronously with your media file.
 
 
-.. image:: observation_with_external_data.png
+.. image:: images/observation_with_external_data.png
     :alt: Observation with 2 values plotted from external data files: Temperature and salinity
 
 
@@ -258,10 +258,10 @@ See the Converters' tab in the project configuration: `converters tab`_
 
 A **double-click** on the converters cell will allow you to select a converter for each column to be plotted
 
-.. image:: converter_selection.png
+.. image:: images/converter_selection.png
    :width: 40%
 
-.. image:: converter_selected.png
+.. image:: images/converter_selected.png
    :width: 80%
 
 
@@ -269,7 +269,7 @@ Use the **Show plot** button to verify if your external data can be plotted with
 The **Close plot** button will close the plot window.
 
 
-.. image:: external_data_show_plot.png
+.. image:: images/external_data_show_plot.png
    :width: 80%
 
 Converters can also be used to convert values that are not time value.
@@ -311,7 +311,7 @@ The **Observations** > **Observations list** will show you all the observations 
 
 The observations can be sorted by clicking in the desired column header (alphabetic order ascending or descending).
 
-.. image:: observations_list2.png
+.. image:: images/observations_list2.png
    :alt: Observations list
    :width: 100%
 
@@ -320,7 +320,7 @@ The observations list can be filtered selecting a field and a condition in the d
 
 In the following example observations are filtered: only observations with **description** containing the **In the pool** subject are shown:
 
-.. image:: observations_list2_filtered.png
+.. image:: images/observations_list2_filtered.png
    :alt: Observations list
    :width: 100%
 
@@ -331,7 +331,7 @@ Observations can be filtered with **Independent variables** values.
 The following example displays only the observations that do not contain "Sunny"
 in the **Weather** independent variable :
 
-.. image:: observations_list2_filtered1.png
+.. image:: images/observations_list2_filtered1.png
    :alt: Observations list
    :width: 100%
 
@@ -339,7 +339,7 @@ in the **Weather** independent variable :
 Observations with a value of **Temperature** independent variable between 18 and 22:
 
 
-.. image:: observations_list2_filtered2.png
+.. image:: images/observations_list2_filtered2.png
    :alt: Observations list
    :width: 100%
 
@@ -347,7 +347,7 @@ Observations with a value of **Temperature** independent variable between 18 and
 Observations with a value of **Visitors** independent variable greater than 1000:
 
 
-.. image:: observations_list2_filtered3.png
+.. image:: images/observations_list2_filtered3.png
    :alt: Observations list
    :width: 100%
 
