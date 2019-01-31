@@ -555,7 +555,7 @@ Open an existing project with BORIS
 
 
 
-To open an existing BORIS project, selct the menu **File** > **Open project**.
+To open an existing BORIS project, select the menu **File** > **Open project**.
 A BORIS project file is a container for all information related to a set of observations as the ethogram,
 the independent variables, and the subjects. BORIS allows creating an unlimited number of projects but
 only one project can be opened at a time.
