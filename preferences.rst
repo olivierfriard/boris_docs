@@ -6,6 +6,8 @@ You can customize BORIS using the Preferences window (**File** > **Preferences**
 
 .. _general preferences:
 
+
+
 General preferences
 -------------------
 
@@ -29,34 +31,50 @@ General preferences
     This value indicates the time offset for repositioning the media after double-click on a row event of the *Events* table.
     'for example -4 seconds indicates that after a double-click the media will be repositioned 4 seconds before the recorded event.'
 
+
 **Playback speed step value**
     This value indicate how much the speed will be increased or decreased after pressing the *change playback speed* buttons.
 
 .. _automatic backup:
 
+
 **Automatic backup every (minutes)**
    if set BORIS will save your project automatically every n minutes. 0 indicate no automatic backup.
+
+
+
+**Separator for behavioural strings**
+    Character (or string) used to separate behaviors when exporting events as behavioural strings. See also Behatrix
+
+
+
+**Close the same current event independently of modifiers**
+    Option used to STOP the current behavior without regarding the modifiers
+
+
 
 **Play sound when a key is pressed**
     Activate a sound signal after every keypress event
 
-..
-    **Embed media player**
-        This option allows the user to detach from the main window or embed the media player in the main window.
-        **On Mac OS the media player can not be detached from main window.**
+
 
 **Alert if focal subject is not set**
     If this option is activated BORIS will show an alert box if no focal subject is selected
 
 .. _tracking cursor position:
 
+
 **Tracking cursor above current event**
     Check this box to position the tracking cursor above the current event in events list table.
+
 
 **Check for new version**
     Check for new version on BORIS web site every 15 days (internet access required)
 
 
+**Display subtitles**
+    Option to display or hide the visualization of subtitles. The file containing subtitles must have the same base name than the video files
+    with a .srt extension.
 
 
 
