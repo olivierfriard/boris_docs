@@ -452,7 +452,7 @@ lower case otherwise you will have to code your observation using upper case key
 Define the Independent variables
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-.. image:: independent_variables1.png
+.. image:: images/independent_variables1.png
    :alt: Independent variables
    :width: 100%
 
@@ -476,7 +476,7 @@ The independent variables can also be imported from an existing BORIS project us
 
 Example of independent variable defined as "set of values"
 
-.. image:: independent_variables2.png
+.. image:: images/independent_variables2.png
    :alt: Independent variables
    :width: 100%
 
@@ -505,7 +505,7 @@ Converters are used for plotting external data when the timestamp values are not
 Converters can be written by the user, loaded from file or loaded from the repository of the BORIS web site
 (http://www.boris.unito.it/static/converters.json).
 
-.. image:: converter_tab_empty.png
+.. image:: images/converter_tab_empty.png
    :alt: Converters tab
    :width: 100%
 
@@ -516,12 +516,12 @@ Load converters from BORIS web site
 Click **Load converters from BORIS repository** and select the converters to be added to your project.
 
 
-.. image:: converter_selection_from_repository.png
+.. image:: images/converter_selection_from_repository.png
    :alt: Converters selection from repository
    :width: 40%
 
 
-.. image:: converter_tab.png
+.. image:: images/converter_tab.png
    :alt: Converters tab
    :width: 100%
 
@@ -617,7 +617,7 @@ If many observations are selected BORIS will ask for a directory to save the var
 These formats are suitable for further analysis.
 
 
-.. image:: export_events.png
+.. image:: images/export_events.png
    :alt: example of exported events in TSV format
    :width: 60%
 
@@ -648,7 +648,7 @@ The **State events** are paired and the duration is available.
 
 Example of tabular export
 
-.. image:: export_aggregated_events.png
+.. image:: images/export_aggregated_events.png
    :alt: example of aggregated and exported events in TSV format
    :width: 80%
 
