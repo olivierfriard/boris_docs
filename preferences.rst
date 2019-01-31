@@ -79,7 +79,7 @@ General preferences
     Option to display or hide the visualization of subtitles.
     In case of separate file, the file containing subtitles must have the same base name than the video files with a .srt extension.
 
-**Pause media before "Add event" command
+**Pause media before "Add event" command**
     Option to pause the media before manually adding an event.
 
 
