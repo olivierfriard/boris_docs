@@ -311,11 +311,11 @@ Many values can be selected together.
 Example of 2 sets of modifiers:
 
 
-.. image:: modifiers_2sets.png
+.. image:: images/modifiers_2sets.png
    :width: 1200px
    :alt: modifiers configuration
 
-.. image:: modifiers_2sets_2.png
+.. image:: images/modifiers_2sets_2.png
    :width: 1200px
    :alt: modifiers configuration
 
@@ -422,7 +422,7 @@ Define the subjects
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
-.. image:: subjects_configuration.png
+.. image:: images/subjects_configuration.png
    :width: 1200px
    :alt: Subjects definition
 
