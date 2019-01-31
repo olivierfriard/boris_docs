@@ -73,8 +73,8 @@ General preferences
 
 
 **Display subtitles**
-    Option to display or hide the visualization of subtitles. The file containing subtitles must have the same base name than the video files
-    with a .srt extension.
+    Option to display or hide the visualization of subtitles.
+    In case of separate file, the file containing subtitles must have the same base name than the video files with a .srt extension.
 
 
 
