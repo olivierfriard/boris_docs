@@ -13,6 +13,7 @@ Export events
 
 This function will export the events of selected observations in TSV, CSV, ODS, XLSX, XLS or HTML formats.
 If many observations are selected BORIS will ask for a directory to save the various files.
+For the XLS and XLSX formats the events can be exported on various worsheet in a single workbook.
 These formats are suitable for further analysis.
 
 
@@ -39,10 +40,13 @@ This function will export the events of the selected observations in the followi
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
 
 If many observations are selected you can choose to group all results in one file. If you do not want to group results BORIS
-will ask for a directory to save  the various files.
+will ask for a directory to save the various files.
 
 
 The **State events** are paired and the duration is available.
+
+An arbitrary time interval can be selected (check the **Limit to time interval** option).
+In this case the ongoing events will be started at start time and stopped at end time in the export file.
 
 
 Example of tabular export
