@@ -83,7 +83,7 @@ The **Add media without path** button allow you to not store the path of your me
 In this case the media file(s) must be in the same directory than the BORIS project file to be found. This option is useful
 if you are working with various computers on the same project file(s).
 
-If you want to remove the media file paths of an entire project see `<index.rst#Removing path of media files`_.
+If you want to remove the media file paths of an entire project see `<index.rst#Removing path of media files>`_.
 
 The **Add all media from directory** and **Add all media from dir without path** allow to add all media files found in a directory to
 the playlist.
