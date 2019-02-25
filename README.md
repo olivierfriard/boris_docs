@@ -1,4 +1,4 @@
-# BORIS user guide v. 7
+# BORIS user guide
 
 
-https://github.com/olivierfriard/boris_docs/blob/v7/index.rst
+https://boris.readthedocs.io
