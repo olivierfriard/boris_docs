@@ -47,7 +47,13 @@ A portable debugging version is available for Windows 64-bit versions.
 Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
 This version will NOT install BORIS in your system.
 
-You have to extract the archive and launch the **start_boris.bat** file.
+You have to extract the archive and launch one of the 3 **.bat** file:
+
+* the **start_boris_no_log.bat** will display the log file in the command prompt window.
+
+* the **start_boris_new_log.bat** will create a new log file at every launch. The file name will contain a timestamp to avoid overwriting it
+
+* the **start_boris.bat** will add the log information to the boris.log file
 
 
 
