@@ -78,7 +78,7 @@ The save menu option (**File** > **Save project** or **Save project as ...**) wi
 You can also activate the  `automatic backup`_ feature (see **Preferences**).
 
 
-.. note:: It is VERY important to do regular backups of your project files to prevent the lost of data. Software can be reinstalled but
+.. note:: It is EXTREMELY important to do regular backups of your project files to prevent the lost of data. Software can be reinstalled but
     your data could quite possibly be lost for ever.
 
 
@@ -792,7 +792,7 @@ In case of bug report please verify that you are using the last version of BORIS
 CPU architecture (32/64 bits).
 You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to any third party.
 
-A debugging version (for WIndows 64-bit) is available if you want to collaborate to BORIS.
+A debugging version (for Windows 64-bit) is available if you want to collaborate to BORIS.
 
 
 

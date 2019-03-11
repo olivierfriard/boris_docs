@@ -42,7 +42,7 @@ you do not need administration rights to install BORIS). Installing a newer vers
 BORIS debugging version
 ............................................................................................................................................
 
-A portable debugging version is available for Windows 64-bit versions.
+A portable version for debugging is available for Windows 64-bit versions.
 
 Use this version if you want to report bug. In this case you should include screenshots or copy of the terminal output.
 This version will NOT install BORIS in your system.
