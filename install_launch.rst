@@ -56,6 +56,14 @@ You have to extract the archive and launch one of the 3 **.bat** file:
 * the **start_boris.bat** will add the log information to the boris.log file
 
 
+The log files are created in the home directory of the current user:
+
+* /home/USER_NAME/ for Linux
+
+* C:\\Users\\USER_NAME\\ for Microsoft Windows
+
+* /Users/USER_NAME/ for MacOS
+
 
 Mac OS
 --------------------------------------------------------------------------------------------------------------------------------------------
