@@ -279,7 +279,8 @@ When a **Numeric** modifier will trigger, BORIS will ask the observer for a nume
 ____________________________________________________________________________________________________________________________________________
 
 
-This modifier can be used to save a value from an external data file (defined during the creation of the observation).
+This modifier can be used to record the value of a variable coming from an external data file
+(defined during the creation of the observation).
 
 You have to define the variable name in the **Variable name** edit box.
 This is mandatory and the name of the variable **must** be the same than the variable defined in the observation.
