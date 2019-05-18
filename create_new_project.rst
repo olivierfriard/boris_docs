@@ -195,6 +195,7 @@ Select the modifier type using the **Modifier type** combo box. You have to choo
 
 
 **Single selection** and **Multiple selection** modifiers
+______________________________________________________________________________
 
 
 Set a name for the new modifiers set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
