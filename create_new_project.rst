@@ -149,7 +149,6 @@ The following three columns (**Modifiers**, **Exclusion**, **Coding map**) canno
 Set the modifiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Set the modifiers`_
 
 Modifiers can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached
 (e.g. "play" may have "solitary" or "social" as modifiers). The use of modifiers can be convenient to significantly
@@ -195,11 +194,10 @@ Select the modifier type using the **Modifier type** combo box. You have to choo
 
 
 **Single selection** and **Multiple selection** modifiers
-______________________________________________________________________________
+____________________________________________________________________________________________________________________________________________
 
 
 Set a name for the new modifiers set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
-
 
 
 Within a set of modifiers, you can add a modifier by writing the modifier in the **Modifier** edit box.
@@ -224,23 +222,23 @@ After adding all modifiers the window will appear like this:
     :alt: modifiers configuration
 
 
-In case of **Single selection** or **Multiple selection** all defined subjects can be added as modifiers using
-the **Add subjects as modifiers** button. This can help in case of coding the interactions between subjects for example.
+All defined subjects can be added as modifiers using the **Add subjects as modifiers** button.
+This can help in case of coding the interactions between subjects for example.
 
 
-In case of **Single selection** or **Multiple selection** the modifiers can be loaded from a plain text file
-(use the **Load modifiers from file** button).
+The modifiers can be loaded from a plain text file
+Use the **Load modifiers from file** button.
 
 
 
 The modifier position into the modifiers' set can be manually set using the **Move modifier up** and **Move modifier down** buttons.
+The modifiers can be sorted alphabetically (use the **Sort modifiers** button).
 
 You can add and/or remove sets using the buttons **Add set of modifiers** and **Remove set of modifiers**.
 
 The position of a modifiers' set can be customized  (using the **Move set left** and **Move set right** buttons)
 
 Modifiers can not contain the following characters: **(|),`~!**
-
 
 
 Example of a **multiple selection** modifiers set:
@@ -266,6 +264,26 @@ Example of 2 sets of modifiers:
 
 
 
+**Numeric** modifier
+____________________________________________________________________________________________________________________________________________
+
+
+Set a name for the new set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
+
+When a **Numeric** modifier will trigger, BORIS will ask the observer for a numeric value.
+
+
+
+
+**Value from external data file** modifier
+____________________________________________________________________________________________________________________________________________
+
+
+This modifier can be used to save a value from an external data file (defined during the creation of the observation.
+See `Media based observation`_)
+
+You have to define the variable name in the **Variable name** edit box.
+This is mandatory and the name of the variable must be the same than the variable defined in the observation.
 
 
 
