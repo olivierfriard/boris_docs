@@ -113,7 +113,7 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
    :width: 90%
 
 
-.. _Converters for external data values:
+
 
 Converters for external data values
 --------------------------------------------------------------------------------------------------------------------------------------------

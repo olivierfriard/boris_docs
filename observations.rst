@@ -1,4 +1,4 @@
-.. observations
+.. Observations
 
 
 
