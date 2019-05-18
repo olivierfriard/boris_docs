@@ -172,8 +172,7 @@ sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and anothe
 using sets of modifiers, you can select one/more modifier for each set.
 
 To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers
-to.
-The following window will show up:
+to. The following window will show up:
 
 
 
@@ -191,9 +190,8 @@ Click the **Add a set of modifiers** button:
 
 Set a name for the new modifiers set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
 
-Select the modifier type using the **Modifier type** combo box. You can choose between **Single selection**, **Multiple selection**
+Select the modifier type using the **Modifier type** combo box. You have to choose between **Single selection**, **Multiple selection**
 **Numeric** and **Value from external data file**.
-
 
 
 
@@ -221,6 +219,10 @@ After adding all modifiers the window will appear like this:
 
 In case of **Single selection** or **Multiple selection** all defined subjects can be added as modifiers using
 the **Add subjects as modifiers** button. This can help in case of coding the interactions between subjects for example.
+
+
+In case of **Single selection** or **Multiple selection** the modifiers can be loaded from a plain text file
+(use the **Load modifiers from file** button).
 
 
 
