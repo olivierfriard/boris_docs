@@ -286,6 +286,9 @@ You have to define the variable name in the **Variable name** edit box.
 This is mandatory and the name of the variable must be the same than the variable defined in the observation.
 
 
+.. image:: images/modifiers_value_from_external_data.png
+   :alt: modifier value from external data file
+
 
 
 Click **OK** to save modifiers in the **Ethogram** table.
