@@ -275,7 +275,7 @@ The **Close plot** button will close the plot window.
 
 
 .. image:: images/external_data_show_plot.png
-   :width: 80%
+   :width: 2000px
 
 Converters can also be used to convert values that are not time value.
 
