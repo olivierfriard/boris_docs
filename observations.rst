@@ -238,7 +238,7 @@ During the observation tha values you have selected in external data files will 
 
 
 .. image:: images/observation_with_external_data.png
-    :width: 1000px
+    :width: 1500px
     :alt: Observation with 2 values plotted from external data files: Temperature and salinity
 
 
