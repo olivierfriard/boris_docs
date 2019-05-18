@@ -63,8 +63,7 @@ The main window during a live observation will look like this:
 See the `live coding`_ section to start coding.
 
 
-.. _media-based-observation:
-
+247
 
 Media based observation
 ............................................................................................................................................
@@ -245,7 +244,6 @@ During the observation tha values you have selected in external data files will 
 
 
 
-.. _converters:
 
 Converters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
