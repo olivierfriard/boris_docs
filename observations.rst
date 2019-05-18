@@ -53,7 +53,7 @@ you indicated and all the coded events will have the same time value.
 Start the observation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click the **Start** button to begin the live observation or **Save** to save it in the `Obbservations list`_.
+Click the **Start** button to begin the live observation or **Save** to save it in the `Observations list`_.
 
 The main window during a live observation will look like this:
 
@@ -63,7 +63,7 @@ The main window during a live observation will look like this:
 See the `live coding`_ section to start coding.
 
 
-247
+
 
 Media based observation
 ............................................................................................................................................
@@ -238,6 +238,7 @@ During the observation tha values you have selected in external data files will 
 
 
 .. image:: images/observation_with_external_data.png
+    :width: 1000px
     :alt: Observation with 2 values plotted from external data files: Temperature and salinity
 
 
@@ -302,7 +303,7 @@ See the `media coding`_ section to start coding.
 
 
 
-Obbservations list
+Observations list
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
