@@ -155,7 +155,7 @@ The organization of the various widget can be customized:
 
 .. image:: images/undocked_widgets.png
    :alt: undocked widgets
-   :width: 1500px
+   :width: 2000px
 
 
 
