@@ -302,7 +302,7 @@ See the `media coding`_ section to start coding.
 
 
 
-Observations list
+Obbservations list
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
