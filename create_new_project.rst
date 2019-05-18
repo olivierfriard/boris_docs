@@ -283,7 +283,6 @@ This modifier can be used to save a value from an external data file (defined du
 
 See `Media based observation`_
 
-:ref:`media-based-observation`
 
 You have to define the variable name in the **Variable name** edit box.
 This is mandatory and the name of the variable must be the same than the variable defined in the observation.
