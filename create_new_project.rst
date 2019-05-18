@@ -149,6 +149,8 @@ The following three columns (**Modifiers**, **Exclusion**, **Coding map**) canno
 Set the modifiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+`Set the modifiers`_
+
 Modifiers can be used to add attributes to a behavior. A single behavior can have two or more modifiers attached
 (e.g. "play" may have "solitary" or "social" as modifiers). The use of modifiers can be convenient to significantly
 reduce the number of keys and simplify the behavioral coding.
@@ -188,10 +190,14 @@ Click the **Add a set of modifiers** button:
     :alt: modifiers configuration
 
 
-Set a name for the new modifiers set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
-
 Select the modifier type using the **Modifier type** combo box. You have to choose between **Single selection**, **Multiple selection**
 **Numeric** and **Value from external data file**.
+
+
+**Single selection** and **Multiple selection** modifiers
+
+
+Set a name for the new modifiers set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
 
 
 
