@@ -527,7 +527,8 @@ See `Converters for external data values`_
 
 
 The converters loaded in your project can be then selected for converting timestamp (or other values) in external data file
-(See `converters`_)
+
+(See `Converters`_)
 
 
 
