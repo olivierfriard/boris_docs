@@ -63,6 +63,7 @@ The main window during a live observation will look like this:
 See the `live coding`_ section to start coding.
 
 
+.. _media-based-observation:
 
 
 Media based observation
