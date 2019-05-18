@@ -287,6 +287,7 @@ This is mandatory and the name of the variable must be the same than the variabl
 
 
 .. image:: images/modifiers_value_from_external_data.png
+   :width: 1200px
    :alt: modifier value from external data file
 
 

@@ -41,7 +41,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 
 
-
+.. include:: observations.rst
 
 
 
