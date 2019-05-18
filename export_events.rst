@@ -161,7 +161,7 @@ Example::
 
 
 
-Extract sequences from media files
+Extract sequences from media files corresponding to coded events
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 Sequences of media file corresponding to coded events can be extracted from media files:
@@ -177,6 +177,20 @@ in the selected directory followind the file name format:
 
 
 {observation id}_{player}_{subject}_{behavior}_{start time}-{stop time}
+
+
+
+Extract frames corresponding to coded events
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+The frames corresponding to coded events can be extracted and saved as images.
+
+1) Click on **Observations** > **Extract frames from media files** option.
+2) Choose the observation(s).
+3) Select the events to be extracted.
+4) Select a destination directory that will contain the extracted sequences.
+5) Select a time offset (in seconds, the default value is 0).
+
 
 
 
