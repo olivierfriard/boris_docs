@@ -279,8 +279,9 @@ When a **Numeric** modifier will trigger, BORIS will ask the observer for a nume
 ____________________________________________________________________________________________________________________________________________
 
 
-This modifier can be used to save a value from an external data file (defined during the creation of the observation.
-See `Media based observation`_)
+This modifier can be used to save a value from an external data file (defined during the creation of the observation).
+
+See `Media based observation`_
 
 See `Set the exclusion matrix`_
 
