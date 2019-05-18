@@ -316,6 +316,8 @@ Behavior type and exclusion information for the behaviours imported from JWatche
 
 
 
+
+
 Import an ethogram from a plain text file
 ............................................................................................................................................
 
@@ -326,9 +328,9 @@ The fields must be separated by TAB, comma (,) or semicolomn (;). All rows must 
 
 The fields will be interpreted as:
 
-* field #1: event type (point or state)
-* field #2: key (case insensitive)
-* field #3: code (must be unique)
+* field #1: Behavior type **State event** or **Point event** (mandatory)
+* field #2: Key (case insensitive)
+* field #3: Behavior code (must be unique)
 * field #4: behavior category (empty if no category)
 * field #5: description (optional)
 
@@ -338,6 +340,23 @@ All fields after the 5th will be ignored.
 BORIS will ask to select a plain text file (by default: \*.txt \*.csv \*.tsv) and whether imported behaviors should replace or be appended
 to the **Ethogram** table.
 The missing information for the behaviours imported from text file have to be redefined.
+
+
+Import an ethogram from Google Sheet, Microsoft-Excel or LibreOffice Calc (via clipboard)
+............................................................................................................................................
+
+The ethogram can be imported from a spreadsheet.
+The spreadsheet must contain one behavior by row and have to be organized as above:
+
+
+* 1st column: Behavior type: **State event** or **Point event** (mandatory)
+* 2nd column: Key (one character - Optional)
+* 3rd column: Behavior code (mandatory - must be unique)
+* 4th column: Behavior category (optional)
+* 5th column: Description of behavior (optional)
+
+
+
 
 
 Export the ethogram
