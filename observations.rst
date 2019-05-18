@@ -53,7 +53,7 @@ you indicated and all the coded events will have the same time value.
 Start the observation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click the **Start** button to begin the live observation or **Save** to save it in the `Observations list`_.
+Click the **Start** button to begin the live observation or **Save** to save it in the `Obbservations list`_.
 
 The main window during a live observation will look like this:
 
