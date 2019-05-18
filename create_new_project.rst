@@ -419,17 +419,40 @@ Define the subjects
 
 
 BORIS allow coding behaviors for different subjects within a single observation.
-The **Subject** table allows specifying subjects using a **Key** (e.g. the **k** on your keyboard), **Subject name** (e.g. "Kanzi"),
-**Description** (e.g. male, born October 28 - 1980). In this case, pressing **n** will set "Nina" as the focal subject
+The **Subject** table allows specifying subjects using a **Key** (e.g. the **k** on your keyboard),
+**Subject name** (e.g. "Kanzi"),
+**Description** (e.g. male, born October 28 - 1980).
+
+In this case, pressing **n** will set "Nina" as the focal subject
 of the behavioural coding. Pressing **n** again will deselect "Nina" and set to "no focal subject".
+
 The definition of one or more subjects is not mandatory. Addition, removal and sorting of the subjects follows the same
-logic of the *Ethogram* table (see **Set your ethogram from scratch** for info). The subjects can also be imported from an
-existing BORIS project using the **Import Subjects from a BORIS project**.
+logic of the *Ethogram* table (see `Set your ethogram from scratch`_ for info).
+
 
 From version 7 the keys are **case-sensitive**.
 
 If your project was created with a previous version of BORIS (< v.7) you can use the **Convert keys to lower case** to convert all keys to
 lower case otherwise you will have to code your observation using upper case key.
+
+
+The subjects can also be imported from an existing BORIS project: use the **Import Subjects from a BORIS project** button.
+
+
+Import subject from a spreadsheet
+............................................................................................................................................
+
+The subjects can be imported from a spreadsheet (Google spreadsheet, Microsoft-Excel, LibreOffice Calc).
+
+
+The spreadsheet must contain one subject by row and have to be organized as above:
+
+* 1st column: Subject key (One character - Case sensitive - Optional)
+* 2nd column: Subject name (mandatory)
+* 3rd column: Description of subject (optional)
+
+Select all cells of your spreadsheet (CTRL + A), copy to clipboard (CTRL + C).
+Click the **Import from clipboard** button.
 
 
 .. important:: If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior and
