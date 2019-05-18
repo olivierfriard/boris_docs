@@ -154,17 +154,25 @@ Modifiers can be used to add attributes to a behavior. A single behavior can hav
 reduce the number of keys and simplify the behavioral coding.
 
 
-3 types of modifiers are available: **Single selection**, **Multiple selection** and **Numeric**.
-**Single selection** modifiers allows the observer to select only one modifier in the list.
-**Multiple selection** allows to select more modifiers from the list.
-**Numeric** allows to input a numeric data.
+4 types of modifiers are available: **Single selection**, **Multiple selection**, **Numeric** and 
+**Value from external data file**:
+
+* the **Single selection** type will allow the observer to select only **one** modifier for the current behavior.
+
+* the **Multiple selection** type will allow the observer to select one or more modifiers for the current behavior.
+
+* the **Numeric** type will allow the observer to input a number. For example a distance of interaction.
+
+* the **Value from external data file** type will save the value of a variable from an external data file.
+
 
 
 In BORIS modifiers can also be added in different modifier
 sets [e.g. "play, social" may have a modifier set (#1) for "brothers" and another (#2) for "sisters"]. In the case of
 using sets of modifiers, you can select one/more modifier for each set.
 
-To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers to.
+To add modifiers to a behavior, you need to double-click the **Modifiers** cell corresponding to the behavior you want to add the modifiers
+to.
 The following window will show up:
 
 
@@ -184,13 +192,9 @@ Click the **Add a set of modifiers** button:
 Set a name for the new modifiers set by typing it in the **Set name** edit box. Setting a modifiers' set name is not mandatory.
 
 Select the modifier type using the **Modifier type** combo box. You can choose between **Single selection**, **Multiple selection**
-and **Numeric**
+**Numeric** and **Value from external data file**.
 
-* the **Single selection** type will allow you to select only **one** modifier for the current behavior.
 
-* the **Multiple selection** type will allow you to select one or more modifiers for the current behavior.
-
-* the **Numeric** type will allow you to input a number. For example a distance of interaction.
 
 
 Within a set of modifiers, you can add a modifier by writing the modifier in the **Modifier** edit box.
@@ -328,11 +332,11 @@ The fields must be separated by TAB, comma (,) or semicolomn (;). All rows must 
 
 The fields will be interpreted as:
 
-* field #1: Behavior type **State event** or **Point event** (mandatory)
-* field #2: Key (case insensitive)
-* field #3: Behavior code (must be unique)
-* field #4: behavior category (empty if no category)
-* field #5: description (optional)
+* 1st column: Behavior type **State event** or **Point event** (mandatory)
+* 2nd column: Key (one character - case insensitive)
+* 3rd column: Behavior code (must be unique)
+* 4th column: behavior category (empty if no category)
+* 5th column: Description of behavior(optional)
 
 All fields after the 5th will be ignored.
 
@@ -342,7 +346,8 @@ to the **Ethogram** table.
 The missing information for the behaviours imported from text file have to be redefined.
 
 
-Import an ethogram from Google Sheet, Microsoft-Excel or LibreOffice Calc (via clipboard)
+
+Import an ethogram from a spreadsheet (Google Sheet, Microsoft-Excel or LibreOffice Calc...)
 ............................................................................................................................................
 
 The ethogram can be imported from a spreadsheet.
@@ -350,10 +355,13 @@ The spreadsheet must contain one behavior by row and have to be organized as abo
 
 
 * 1st column: Behavior type: **State event** or **Point event** (mandatory)
-* 2nd column: Key (one character - Optional)
+* 2nd column: Key (One character - Case sensitive - Optional)
 * 3rd column: Behavior code (mandatory - must be unique)
 * 4th column: Behavior category (optional)
 * 5th column: Description of behavior (optional)
+
+Select all cells of your spreadsheet (CTRL + A), copy to clipboard (CTRL + C).
+Click the **Import from clipboard** button.
 
 
 
