@@ -60,7 +60,7 @@ The main window during a live observation will look like this:
 .. image:: images/observation_live.png
    :width: 100%
 
-See the `live coding`_ section to start coding.
+See the `Live observations`_ section to start coding.
 
 
 
@@ -225,12 +225,17 @@ You can modify/complete the following parameters by directly typing in the table
 * Color: the color of the color
 
 
+**NOTE** : if you want to record the value of the plotted variable in a modifier of a behavior
+(see **Value from external data file** modifier) the modifier must have the same **variable name**.
+
+
 You can check if the data from file can be correctly plotted by using the **Show plot** button.
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
 
 
 
-For now only 2 values can be plotted synchronously with your media file. The values can come from the same file or from two different files.
+For now only 2 values can be plotted synchronously with your media file.
+The values can come from the same file or from two different files.
 
 
 

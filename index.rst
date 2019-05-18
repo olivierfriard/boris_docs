@@ -265,6 +265,7 @@ The position of the various widgets is saved in the `configuration file`_ at the
 
 .. image:: images/undocked_widgets.png
    :alt: Undocked widgets
+   :width: 1500px
 
 
 Click the icon present at the top-right corner of the widget (for MacOS the icon is located at the left-top corner) will undock the widgets

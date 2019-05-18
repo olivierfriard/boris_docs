@@ -67,7 +67,7 @@ The media can be controlled by special keyboard keys:
 * **ESC**: switch between VLC and frame-by-frame mode
 
 
-.. _live coding:
+
 
 Live observations
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -155,7 +155,7 @@ The organization of the various widget can be customized:
 
 .. image:: images/undocked_widgets.png
    :alt: undocked widgets
-   :width: 100%
+   :width: 1500px
 
 
 
@@ -199,7 +199,7 @@ Record an event
 
 
 
-Once ready to begin your coding, you can start the media player using the **Play** button (or the Space bar).
+Once ready to begin your coding, you can start the media player using the **Play** button (or the **Space bar**).
 The behaviors can be recorded using the keyboard with the predefined keys, by double-clicking the corresponding row in the **Ethogram** table
 or by using the **Coding pad** (See `coding pad`_).
 
@@ -220,8 +220,8 @@ BORIS will prompt you for the desired behavior.
 
 
 
-In the case you have specified modifiers (one or more sets), BORIS will prompt you for the desired modifier(s) if any (e.g. **ball** or
-**opponent** in the figure below).
+In the case you have specified modifiers (one or more sets), BORIS will prompt you for the desired modifier(s)
+if any (e.g. **ball** or **opponent** in the figure below).
 You can select the correct one using the mouse or the keyboard ( **b** key or **o** key)
 
 .. image:: images/ask_for_modifiers.png
@@ -229,14 +229,16 @@ You can select the correct one using the mouse or the keyboard ( **b** key or **
    :width: 40%
 
 
+If no keys are defined for the modifier selection, you can type the first character of the modifier
+and use the **Up arrow** and **Down arrow** keyboard keys to select the correct modifier.
 
 
 
-In the case your behavior type is a *Point event with coding map* or a *State event with coding map*, BORIS will show the *Coding map*
-window and will allow selecting the desired area(s). In case you click a part of the map in which two (or more) areas overlap, the
-corresponding codes will be recorded.
+In the case your behavior type is a **Point event with coding map** or a **State event with coding map**,
+BORIS will show the **Coding map** window and will allow selecting the desired area(s).
+In case you click a part of the map in which two (or more) areas overlap, the corresponding codes will be recorded.
 
-A recorded event can be edited (once selected) using the *Observations* > *Edit event* menu option. The resulting *Edit event parameters*
+A recorded event can be edited (once selected) using the **Observations** > **Edit event** menu option. The resulting *Edit event parameters*
 allows modifying every parameter (e.g. time, subject, code, modifiers, and comment).
 
 The **Observations** > **Add event** menu option allows adding a new event by specifying its time and the other parameters.
