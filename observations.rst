@@ -226,9 +226,9 @@ You can modify/complete the following parameters by directly typing in the table
 
 
 **NOTE** : if you want to record the value of the plotted variable in a modifier of a behavior
-(see **Value from external data file** modifier) the modifier must have the same **variable name**.
+(see `Value from external data file modifier`_) the modifier must have the same **variable name**.
 
-`Value from external data file modifier`_
+
 
 You can check if the data from file can be correctly plotted by using the **Show plot** button.
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
@@ -244,7 +244,7 @@ During the observation tha values you have selected in external data files will 
 
 
 .. image:: images/observation_with_external_data.png
-    :width: 2000px
+    :width: 1800px
     :alt: Observation with 2 values plotted from external data files: Temperature and salinity
 
 
@@ -276,7 +276,7 @@ The **Close plot** button will close the plot window.
 
 
 .. image:: images/external_data_show_plot.png
-   :width: 2000px
+   :width: 1800px
 
 Converters can also be used to convert values that are not time value.
 
