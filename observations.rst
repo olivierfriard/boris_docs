@@ -44,14 +44,16 @@ Choose the **Live tab** to make a live observation.
 
 
 
-**Scan sampling**
+Scan sampling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In the above tab you can select a time for **Scan sampling** observation. In this case the timer will stop at every time offset
 you indicated and all the coded events will have the same time value.
 
 
 
-**Start from current time**
+Start from current time
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want that the time starts from the current time you can check the **Start from current time** checkbox.
 The start time will be the computer current time when you will press the **Start** button.

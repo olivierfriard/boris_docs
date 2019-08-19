@@ -7,7 +7,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
    :width: 80%
 
 
-.. scetions levels: =, -, ., ~, _
+.. sections levels: = - . ~ _
 
 
 **BORIS is an easy-to-use event logging software for video/audio coding and live observations.
