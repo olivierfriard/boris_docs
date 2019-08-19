@@ -43,7 +43,7 @@ General preferences
 
 **Auto-save project every (minutes)**
    if set BORIS will save your project automatically every n minutes. 0 indicate no automatic backup.
-   The project will be saved if an observation is open and the project is already saved.
+   The project will be saved if the project is already saved and an observation is open.
 
 
 
