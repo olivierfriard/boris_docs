@@ -1,4 +1,4 @@
-.. observations
+.. Observations
 
 
 
@@ -53,14 +53,14 @@ you indicated and all the coded events will have the same time value.
 Start the observation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click the **Start** button to begin the live observation or **Save** to save it in the `observations list`_.
+Click the **Start** button to begin the live observation or **Save** to save it in the `Observations list`_.
 
 The main window during a live observation will look like this:
 
 .. image:: images/observation_live.png
    :width: 100%
 
-See the `live coding`_ section to start coding.
+See the `Live observations`_ section to start coding.
 
 
 
@@ -225,12 +225,18 @@ You can modify/complete the following parameters by directly typing in the table
 * Color: the color of the color
 
 
+**NOTE** : if you want to record the value of the plotted variable in a modifier of a behavior
+(see `Value from external data file modifier`_) the modifier must have the same **variable name**.
+
+
+
 You can check if the data from file can be correctly plotted by using the **Show plot** button.
 If the data are compatible you will see a plot otherwise you will obtain a message with an explanation.
 
 
 
-For now only 2 values can be plotted synchronously with your media file. The values can come from the same file or from two different files.
+For now only 2 values can be plotted synchronously with your media file.
+The values can come from the same file or from two different files.
 
 
 
@@ -238,13 +244,13 @@ During the observation tha values you have selected in external data files will 
 
 
 .. image:: images/observation_with_external_data.png
+    :width: 1800px
     :alt: Observation with 2 values plotted from external data files: Temperature and salinity
 
 
 
 
 
-.. _converters:
 
 Converters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -270,7 +276,7 @@ The **Close plot** button will close the plot window.
 
 
 .. image:: images/external_data_show_plot.png
-   :width: 80%
+   :width: 1800px
 
 Converters can also be used to convert values that are not time value.
 
@@ -302,7 +308,6 @@ See the `media coding`_ section to start coding.
 
 
 
-.. _observations list:
 
 Observations list
 --------------------------------------------------------------------------------------------------------------------------------------------
