@@ -307,7 +307,7 @@ and it is saved on the home directory of the current user:
 
 * /home/USERNAME/.boris for Linux
 
-* C:\\Users\\USERNAME\\.boris for Microsoft Windows
+* C:\\Users\\USERNAME\\\.boris for Microsoft Windows
 
 * /Users/USERNAME/.boris for MacOS
 
