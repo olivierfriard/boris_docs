@@ -329,7 +329,7 @@ Please send bug reports and features request using the BORIS GitHub repository (
 or by e-mail in english, french or italian (see web site http://www.boris.unito.it/pages/about.html).
 
 
-In case of bug report please verify that you are using the last version of BORIS and indicate your operating system, its version and the
+In case of bug report please verify that you are using the **lastest version of BORIS** and indicate your operating system, its version and the
 CPU architecture (32/64 bits).
 You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to any third party.
 
