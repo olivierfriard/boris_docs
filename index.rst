@@ -303,13 +303,17 @@ Configuration files
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 BORIS saves the configuration (user preferences, windows position, widgets position) in a configuration file. This file is named **.boris**
-and it is saved on the home directory of the current user:
+and it is saved on the home directory of the current user::
 
-* /home/USERNAME/.boris for Linux
+    Linux:    
+    /home/USERNAME/.boris for Linux
 
-* C:\\Users\\USERNAME\\\.boris for Microsoft Windows
+    Microsoft-Windows:
+    C:\\Users\\USERNAME\\\.boris for Microsoft Windows
 
-* /Users/USERNAME/.boris for MacOS
+    MacOS:
+    /Users/USERNAME/.boris for MacOS
+
 
 If you have some trouble using BORIS try to close the program, delete this file and relaunch BORIS.
 
