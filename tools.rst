@@ -122,13 +122,21 @@ When the **Subjects pad** is displayed you can continue to select the focal subj
 
 .. image:: images/subjects_pad.png
    :alt: Subjects pad
-   :width: 90%
 
 
 
 Image overlay on video
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+An image can be overlayed on the video (**Tools** > **Image overlay on video** > **Add an image overlay**).
+
+.. image:: images/image_overlay_dialog.png
+   :alt: Image overlay dialog
+
+The image must be in PNG format, if the image is smaller than the video resolution the image position can be set from the top-left corner.
+The transparency of image can be set from 0 (full transparency) to 255 (no transparency).
+
+The remove the image overlay click **Tools** > **Image overlay on video** > **Remove**
 
 
 Converters for external data values
