@@ -21,7 +21,7 @@ The focused area can also be zoomed (only on the first player for now).
    :width: 80%
 
 
-The visualization can be focused on a particular region of the video by clicking on the video.
+The visualization can be focused on a particular region of the video by clicking on the video (with the left button).
 See the mouse cursor on the screenshot above.
 
 
