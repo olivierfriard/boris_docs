@@ -113,6 +113,22 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
    :width: 90%
 
 
+Subjects pad
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+A pad with all defined subjects (or filtered subjects) can be displayed during the observation (**Tools** > **Subjects pad**).
+This **Subjects pad** allows the user to select the focal subject using a touch-screen or by clicking on the buttons.
+When the **Subjects pad** is displayed you can continue to select the focal subject using the keyboard or the subjects list.
+
+.. image:: images/subjects_pad.png
+   :alt: Subjects pad
+   :width: 90%
+
+
+
+Image overlay on video
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 Converters for external data values
