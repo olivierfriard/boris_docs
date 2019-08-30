@@ -334,7 +334,7 @@ when the video time will reach the **Stop time** value.
 Live observation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The observation will start at time 0 (or the current time if you have choosen this option).
+The observation will start at time 0 (or the current time if the **Start from current time** option is enabled).
 The **Start time** of the time interval will not be applied.
 The observation will stop when the **Stop time** will be reached.
 

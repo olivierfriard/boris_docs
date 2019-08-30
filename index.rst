@@ -14,7 +14,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS.**
 
 
-**version 7.7.4**
+**version 7.8**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -305,7 +305,7 @@ Configuration files
 BORIS saves the configuration (user preferences, windows position, widgets position) in a configuration file. This file is named **.boris**
 and it is saved on the home directory of the current user::
 
-    for Linux:    
+    for Linux:
     /home/USERNAME/.boris
 
     for Microsoft-Windows:
