@@ -26,6 +26,7 @@ This window allow adding various observation data:
 * **Description**, which can host all the relevant information about your observation, but can be also left empty.
 * **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project). See the  `independent variables`_ section for details.
 * **Time offset**. BORIS allow specifying a time offset that can be added or subtracted from the media timecode.
+* The **Limit observation to a time interval** option can be used to limit the observation.
 
 
 You must then indicate if you want to make an observation based on pre-recorded media (audio / video) or a live observation.
@@ -297,10 +298,6 @@ Example of a converter for inverting value::
 
 
 
-
-
-
-
 Start the observation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -317,6 +314,29 @@ The main window during the observation of a single media file will look like thi
 See the `media coding`_ section to start coding.
 
 
+Limit observation to a time interval
+............................................................................................................................................
+
+This option can be used to limit the observation to a time interval for live or media based observations.
+
+
+.. image:: images/limit_obs_time_interval.png
+   :width: 80%
+
+
+Media based observation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When the observation will start the media will be automatically positioned to the **Start time** value and the player will stop
+when the video time will reach the **Stop time** value.
+
+
+Live observation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The observation will start at time 0 (or the current time if you have choosen this option).
+The **Start time** of the time interval will not be applied.
+The observation will stop when the **Stop time** will be reached.
 
 
 Observations list
