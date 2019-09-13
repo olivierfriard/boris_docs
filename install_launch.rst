@@ -5,7 +5,8 @@
 
 BORIS can be installed following instructions on the BORIS site at `download page <http://www.boris.unito.it/?page=download>`_
 
-All previous versions of BORIS are available from the `BORIS archive <https://drive.google.com/drive/folders/0B0KTzxkLpPJ_bE8zOUFjenFnU3c>`_
+All previous versions of BORIS are available in the **Releases** section of the
+`GitHub repository <https://github.com/olivierfriard/BORIS/releases>`_
 
 
 Linux
