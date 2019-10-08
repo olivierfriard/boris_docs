@@ -163,8 +163,8 @@ In case of a point event the presence of a corresponding event in the other obse
 centered on the point event.
 
 
-A IRR Cohen's Kappa analysis is available in the GSEQ program (see  `<http://www2.gsu.edu/~psyrab/gseq>`_).
-For this the coded events can be exported as aggreagated events in SDIS format. See `export aggregated events`_
+A IRR Cohen's Kappa analysis is available in the GSEQ program (`<http://www2.gsu.edu/~psyrab/gseq>`_).
+For this the coded events can be exported as aggregated events in SDIS format. See `export aggregated events`_
 
 
 Advanced event filtering
