@@ -170,20 +170,21 @@ For this the coded events can be exported as aggregated events in SDIS format. S
 Advanced event filtering
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-This function allows to extract events from one or more observations by selecting subjects, behaviors and logical operators.
+This function allows to filter events from one or more observations by selecting subjects, behaviors and logical operators.
 
 To use the filter select a subject, a behavior and click on the button with the green arrow on the side of the behaviors list.
 A complex filter can be constructed by adding a logical operator (**AND** / **OR**) for combinating various subjects and behaviors.
 
-Example of a summarized output:
 
+Example of a summarized output showing the occurences of Himal resting while Nautilus in alert:
 
 .. image:: images/advanced_filter_summary.png
    :alt: Advanced event filter summary
    :width: 80%
 
 
-Example of a detailed output:
+Example of a detailed output showing the overlaping intervals while Himal rests and Nautilus is in alert:
+
 
 .. image:: images/advanced_filter_details.png
    :alt: Advanced event filter summary
