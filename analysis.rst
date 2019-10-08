@@ -183,7 +183,13 @@ Example of a summarized output:
    :width: 100%
 
 
-The output can
+Example of a detailed output:
+
+.. image:: images/advanced_filter_details.png
+   :alt: Advanced event filter summary
+   :width: 100%
 
 
 
+The results can be saved in a Tab Separted Values (TSV) file using the **Save results** button.
+Other formats will be added in future.
