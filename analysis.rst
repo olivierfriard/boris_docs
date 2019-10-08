@@ -152,3 +152,25 @@ the Cohen's kappa will be displayed in the results window.
 .. image:: images/irr1.png
    :alt: time window
    :width: 30%
+
+
+Implementation of IRR Cohen's Kappa in BORIS
+............................................................................................................................................
+
+If a time window of n seconds is set the 2 selected observations will be checked every n seconds for agreement/disagreement
+from the first event to the last event of the 2 observations .
+In case of a point event the presence of a corresponding event in the other observation will be verified using a time window of n seconds
+centered on the point event.
+
+
+A IRR Cohen's Kappa analysis is available in the GSEQ program (see  `<http://www2.gsu.edu/~psyrab/gseq>`_).
+For this the coded events can be exported as aggreagated events in SDIS format. See `export aggregated events`_
+
+
+Advanced event filtering
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
