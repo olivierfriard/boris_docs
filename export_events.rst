@@ -169,8 +169,11 @@ Example::
 Export events as Behavioral Binary Table
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+.. warning:: This function is still experimental in v. 7.8.5
+
+
 A time interval will be asked to the user (in seconds). The observation will be checked every n seconds and
-the presence of the selected behaviors will be exported in a table for each selected subjects.
+the presence (1, absence: 0) of the selected behaviors will be exported in a table for each selected subjects.
 
 
 Example for a time interval of 1 second::
