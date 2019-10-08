@@ -191,6 +191,20 @@ Example of a detailed output showing the overlaping intervals while Himal rests 
    :width: 80%
 
 
+An unlimited nuber of conditions can be used:
+
+.. image:: images/advanced_filter_example1.png
+   :alt: Advanced event filter summary
+   :width: 80%
+
+
+Parenthesis can be used to group logical conditions into block(s):
+
+
+
+.. image:: images/advanced_filter_example2.png
+   :alt: Advanced event filter summary
+   :width: 80%
 
 The results can be saved in a Tab Separted Values (TSV) file using the **Save results** button.
 Other formats will be added in future.
