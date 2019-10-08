@@ -180,14 +180,14 @@ Example of a summarized output:
 
 .. image:: images/advanced_filter_summary.png
    :alt: Advanced event filter summary
-   :width: 100%
+   :width: 80%
 
 
 Example of a detailed output:
 
 .. image:: images/advanced_filter_details.png
    :alt: Advanced event filter summary
-   :width: 100%
+   :width: 80%
 
 
 
