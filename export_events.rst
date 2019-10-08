@@ -26,6 +26,7 @@ These formats are suitable for further analysis.
              in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
 
 
+.. _export aggregated events:
 
 Export aggregated events
 --------------------------------------------------------------------------------------------------------------------------------------------
