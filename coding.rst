@@ -36,9 +36,9 @@ Key to the symbols:
 
 * **Set the playback at speed 1x**
 
-* **Increase playback speed** (See `general preferences`_ to set the step value)
+* **Increase the playback speed** (See `general preferences`_ to set the step value)
 
-* **Decrease playback speed** (See `general preferences`_ to set the step value)
+* **Decrease the playback speed** (See `general preferences`_ to set the step value)
 
 * **Jump to the previous media file**
 
@@ -55,6 +55,9 @@ Key to the symbols:
 
 * **Close current observation**
 
+* **Plot events of current observation**
+
+* **Find in events**
 
 
 
@@ -65,7 +68,9 @@ The media can be controlled by special keyboard keys:
 * **Up arrow** key: jump forward in the current media
 * **Down arrow** key: jump backward in the current media
 * **ESC**: switch between VLC and frame-by-frame mode
-
+* **Home** key: Increase the playback speed (See `general preferences`_ to set the step value)
+* **End**: Decrease the playback speed (See `general preferences`_ to set the step value)
+* **Backspace**: Set the playback at speed 1x
 
 
 
