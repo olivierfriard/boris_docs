@@ -67,10 +67,17 @@ The media can be controlled by special keyboard keys:
 * **Page Down** key: switch to the previous media
 * **Up arrow** key: jump forward in the current media
 * **Down arrow** key: jump backward in the current media
-* **ESC**: switch between VLC and frame-by-frame mode
-* **Home**: key: Increase the playback speed (See `general preferences`_ to set the step value)
-* **End**: Decrease the playback speed (See `general preferences`_ to set the step value)
+* **Esc**: switch between VLC and frame-by-frame mode
+* **Home** key: Increase the playback speed (See `general preferences`_ to set the step value)
+* **End** key: Decrease the playback speed (See `general preferences`_ to set the step value)
 * **Backspace**: Set the playback at speed 1x
+
+
+For frame-by-frame mode:
+
+* **Left arrow** key: go to the previous frame
+* **Right arrow** key: go to the next frame
+
 
 
 
@@ -462,8 +469,7 @@ For the both modes (media player and frame-by-frame mode)
 * **Page Down** key: switch to the previous media
 * **Up arrow** key: jump forward in the current media
 * **Down arrow** key: jump backward in the current media
-* **ESC**: switch between VLC and frame-by-frame mode
-
+* **Esc**: switch between VLC and frame-by-frame mode
 
 
 
