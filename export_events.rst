@@ -22,7 +22,7 @@ These formats are suitable for further analysis.
    :width: 60%
 
 
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id**
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on a modified **observation id**
              in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
 
 

@@ -167,13 +167,19 @@ A IRR Cohen's Kappa analysis is available in the GSEQ program (`<http://www2.gsu
 For this the coded events can be exported as aggregated events in SDIS format. See `export aggregated events`_
 
 
+
+
+
+
+
+
 Advanced event filtering
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 This function allows to filter events from one or more observations by selecting subjects, behaviors and logical operators.
 
 To use the filter select a subject, a behavior and click on the button with the green arrow on the side of the behaviors list.
-A complex filter can be constructed by adding a logical operator (**AND** / **OR**) for combinating various subjects and behaviors.
+A complex filter can be constructed by adding a logical operator (**AND** & / **OR** | ) for combinating various subjects and behaviors.
 
 
 Example of a summarized output showing the occurences of Himal resting while Nautilus in alert:
