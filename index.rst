@@ -368,4 +368,4 @@ BORIS makes difference between lower case and upper case characters
 * keys from 0 to 9
 * function keys from F1 to F12
 * à é è ù ì ç
-* ! " £ $ % & / ( ) = ? ^ [ ] @ | § ° #
+* ! " £ $ % & / ( ) = ? ^ [ ] { } @ | § ° #
