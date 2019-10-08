@@ -170,6 +170,15 @@ For this the coded events can be exported as aggregated events in SDIS format. S
 Advanced event filtering
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+This function allows to extract events from one or more observations by selecting subjects, behaviors and logical operators.
+
+
+
+.. image:: images/advanced_filter_summary.png
+   :alt: Advanced event filter summary
+   :width: 100%
+
+
 
 
 
