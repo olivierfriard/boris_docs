@@ -169,20 +169,21 @@ Example::
 Export events as Behavioral Binary Table
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+A time interval will be asked to the user (in seconds). The presence of the selected behaviors will be exported as a table
 
 Example::
 
     time	Alert	Drink	Locomotion	Swim
-    0.0	0	1	0	0
-    1.0	0	1	0	0
-    2.0	0	1	0	0
-    3.0	0	1	0	0
-    4.0	0	1	0	0
-    5.0	0	1	0	0
-    6.0	0	1	0	0
-    7.0	0	0	1	0
-    8.0	0	0	1	0
-    9.0	1	0	0	0
+    0.0		0		1		0			0
+    1.0		0		1		0			0
+    2.0		0		1		0			0
+    3.0		0		1		0			0
+    4.0		0		1		0			0
+    5.0		0		1		0			0
+    6.0		0		1		0			0
+    7.0		0		0		1			0
+    8.0		0		0		1			0
+    9.0		1	0	0	0
     10.0	1	0	0	0
     11.0	0	0	1	0
     12.0	1	0	0	0
