@@ -178,8 +178,10 @@ Advanced event filtering
 
 This function allows to filter events from one or more observations by selecting subjects, behaviors and logical operators.
 
-To use the filter select a subject, a behavior and click on the button with the green arrow on the side of the behaviors list.
-A complex filter can be constructed by adding a logical operator (**AND** & / **OR** | ) for combinating various subjects and behaviors.
+To use the filter, select a subject, select a behavior and click on the button with the green arrow on the side of the behaviors list.
+The tuple subject/behavior will be added in the **filter text edit**.
+A complex filter query can be constructed by adding parenthesis and logical operator (**AND** & / **OR** | )
+for combining various subjects and behaviors.
 
 
 Example of a summarized output showing the occurences of Himal resting while Nautilus in alert:
@@ -195,6 +197,14 @@ Example of a detailed output showing the overlaping intervals while Himal rests 
 .. image:: images/advanced_filter_details.png
    :alt: Advanced event filter details
    :width: 80%
+
+
+The same subject can be used many times in the query with OR or AND (in case of non exclusive behaviors):
+
+.. image:: images/advanced_filter_example0.png
+   :alt: Advanced event filter with 4 conditions
+   :width: 80%
+
 
 
 An unlimited number of conditions can be used:
