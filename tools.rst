@@ -272,9 +272,8 @@ You can continue to use BORIS during the re-encoding/resizing operation.
 The re-encoded/resized video files are renamed by adding the re-encoded.avi extension to the original files.
 
 
-**warning**
+.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.
 
-**The MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.**
 
 
 
