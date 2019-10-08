@@ -34,7 +34,7 @@ Key to the symbols:
 
 * **Fast forward** jumps for n seconds forward in your media (See `general preferences`_ to set n)
 
-* **Set the playback at speed 1x**
+* **Set the playback speed to 1x**
 
 * **Increase the playback speed** (See `general preferences`_ to set the step value)
 
@@ -70,10 +70,10 @@ The media can be controlled by special keyboard keys:
 * **Esc**: switch between VLC and frame-by-frame mode
 * **Home** key: Increase the playback speed (See `general preferences`_ to set the step value)
 * **End** key: Decrease the playback speed (See `general preferences`_ to set the step value)
-* **Backspace**: Set the playback at speed 1x
+* **Backspace**: Set the playback speed to 1x
 
 
-For frame-by-frame mode:
+Only for frame-by-frame mode:
 
 * **Left arrow** key: go to the previous frame
 * **Right arrow** key: go to the next frame
