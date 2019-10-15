@@ -9,7 +9,7 @@ You can customize BORIS using the Preferences window (**File** > **Preferences**
 
 
 General preferences
--------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 .. image:: images/preferences1.png
@@ -84,6 +84,11 @@ General preferences
     Option to pause the media before manually adding an event.
 
 
+Results
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+**Compact time budget**
+    This option allow to produce a compact time budget with the same number of columns for each row.
 
 
 FFmpeg framework
