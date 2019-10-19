@@ -46,6 +46,7 @@ Switching to the **Ethogram** tab, you can alternatively:
 * import an existing ethogram from another BORIS project;
 * import an ethogram from a JWatcher global definition file (.gdf).
 * `import an ethogram from a plain text file`_
+* `import an ethogram from a spreadsheet`_ (Google Sheet, Microsoft-Excel, Libreoffice Calc ...)
 
 
 .. image:: images/project2_ethogram.png
@@ -353,8 +354,6 @@ Behavior type and exclusion information for the behaviours imported from JWatche
 
 
 
-
-
 Import an ethogram from a plain text file
 ............................................................................................................................................
 
@@ -379,6 +378,8 @@ to the **Ethogram** table.
 The missing information for the behaviours imported from text file have to be redefined.
 
 
+
+.. _import an ethogram from a spreadsheet:
 
 Import an ethogram from a spreadsheet (Google Sheet, Microsoft-Excel or LibreOffice Calc...)
 ............................................................................................................................................
