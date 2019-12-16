@@ -46,6 +46,7 @@ Switching to the **Ethogram** tab, you can alternatively:
 * import an existing ethogram from another BORIS project;
 * import an ethogram from a JWatcher global definition file (.gdf).
 * `import an ethogram from a plain text file`_
+* `import an ethogram from a spreadsheet`_ (Google Sheet, Microsoft-Excel, Libreoffice Calc ...)
 
 
 .. image:: images/project2_ethogram.png
@@ -155,7 +156,7 @@ Modifiers can be used to add attributes to a behavior. A single behavior can hav
 reduce the number of keys and simplify the behavioral coding.
 
 
-4 types of modifiers are available: **Single selection**, **Multiple selection**, **Numeric** and 
+4 types of modifiers are available: **Single selection**, **Multiple selection**, **Numeric** and
 **Value from external data file**:
 
 * the **Single selection** type will allow the observer to select only **one** modifier for the current behavior.
@@ -353,8 +354,6 @@ Behavior type and exclusion information for the behaviours imported from JWatche
 
 
 
-
-
 Import an ethogram from a plain text file
 ............................................................................................................................................
 
@@ -380,6 +379,8 @@ The missing information for the behaviours imported from text file have to be re
 
 
 
+.. _import an ethogram from a spreadsheet:
+
 Import an ethogram from a spreadsheet (Google Sheet, Microsoft-Excel or LibreOffice Calc...)
 ............................................................................................................................................
 
@@ -390,8 +391,8 @@ The spreadsheet must contain one behavior by row and have to be organized as abo
 * 1st column: Behavior type: **State event** or **Point event** (mandatory)
 * 2nd column: Key (One character - Case sensitive - Optional)
 * 3rd column: Behavior code (mandatory - must be unique)
-* 4th column: Behavior category (optional)
-* 5th column: Description of behavior (optional)
+* 4th column: Description of behavior (optional)
+* 5th column: Behavior category (optional)
 
 Select all cells of your spreadsheet (CTRL + A), copy to clipboard (CTRL + C).
 Click the **Import from clipboard** button.
