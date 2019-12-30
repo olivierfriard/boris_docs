@@ -1,6 +1,6 @@
-********************************************************************************************************************************************
+************************************************************************************************************************
 Behavioral Observation Research Interactive Software (BORIS) user guide
-********************************************************************************************************************************************
+************************************************************************************************************************
 
 
 .. image:: images/new_logo.500px.png
@@ -28,7 +28,7 @@ BORIS is a free and open-source software available for GNU/Linux, Windows and Ma
 
 
 Follow BORIS
-============================================================================================================================================
+========================================================================================================================
 
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -44,7 +44,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 
 Legal
-============================================================================================================================================
+========================================================================================================================
 
 Copyright 2012-2019 Olivier Friard - Marco Gamba
 
@@ -60,7 +60,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 
 
 Install BORIS
-============================================================================================================================================
+========================================================================================================================
 
 
 .. include:: install_launch.rst
@@ -270,7 +270,7 @@ Docking
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 All elements, including all the media players can be undocked from the main window and positioned where you prefer
-(e.g. they can be on the same desktop over one or two screens).
+(e.g. they can be on the same desktop over one or many screens).
 
 The position of the various widgets is saved in the `configuration file`_ at the end of the work session.
 
@@ -304,6 +304,7 @@ For MacOS:
    :width: 100%
 
 
+The dockwidgets (except the player dockwidgets) can be locked on the main window (See **Tools** > **Lock dockwidgets**).
 
 
 
