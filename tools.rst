@@ -256,7 +256,7 @@ Flow diagram of frequencies of transitions after behavior
 
 
 Flow diagram of number of transitions
-............................................................................................................................................
+........................................................................................................................
 
 .. image:: images/number_of_transitions.png
        :alt: Number of transitions
@@ -268,7 +268,7 @@ Flow diagram of number of transitions
 
 
 Re-encoding and resizing a video file
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 BORIS can re-encode and resize your video files in order to reduce the size of the files and have a smooth coding
@@ -283,7 +283,8 @@ You can continue to use BORIS during the re-encoding/resizing operation.
 The re-encoded/resized video files are renamed by adding the re-encoded.avi extension to the original files.
 
 
-.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.
+.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the
+             extracted frames are not reliable.
 
 
 
@@ -294,7 +295,7 @@ The re-encoded/resized video files are renamed by adding the re-encoded.avi exte
 
 
 Rotating a video file
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 BORIS can rotate your video files in order to code them using the right view.

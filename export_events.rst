@@ -7,7 +7,7 @@ The coded events can be exported in various formats:
 
 
 Export events
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 **Observations** > **Export events**
 
@@ -29,7 +29,7 @@ These formats are suitable for further analysis.
 .. _export aggregated events:
 
 Export aggregated events
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 **Observations** > **Export aggregated events**
@@ -40,8 +40,8 @@ This function will export the events of the selected observations in the followi
 * **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
 
-If many observations are selected you can choose to group all results in one file. If you do not want to group results BORIS
-will ask for a directory to save the various files.
+If many observations are selected you can choose to group all results in one file. If you do not want to group results
+BORIS will ask for a directory to save the various files.
 
 
 The **State events** are paired and the duration is available.
@@ -82,7 +82,7 @@ Example of SQL export::
 
 
 Export events for analysis with JWatcher
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 `JWatcher <http://www.jwatcher.ucla.edu>`_  is a powerful tool for the quantitative analysis of behavior.
 
@@ -90,7 +90,8 @@ The events coded with BORIS can be exported to be analyzed with JWatcher.
 
 Click **Observations** > **Export events** > **for analysis with JWatcher** to export the coded events.
 
-BORIS will ask for selecting a directory. After this, for each combination of selected observation and selected subject the following files
+BORIS will ask for selecting a directory. After this, for each combination of selected observation and selected subject
+the following files
 will be created:
 
 * the Focal Data File (.dat)
@@ -107,7 +108,7 @@ These files can be used to analyze your observations with JWatcher.
 
 
 Export events as behavioral strings
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Behavioral strings can be used with the **Behatrix** program:
 `Behatrix (formerly BSA) <http://www.boris.unito.it/pages/behatrix>`_
@@ -129,7 +130,7 @@ Example::
 
 
 Export events as `Praat <http://www.fon.hum.uva.nl/praat/>`_ `TextGrid <http://www.fon.hum.uva.nl/praat/manual/TextGrid.html>`_
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Example::
 
@@ -167,7 +168,7 @@ Example::
 
 
 Export events as Behavioral Binary Table
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 .. warning:: This function is still experimental in v. 7.8.5
 
@@ -249,7 +250,7 @@ Example for a time interval of 1 second::
 
 
 Extract sequences from media files corresponding to coded events
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Sequences of media file corresponding to coded events can be extracted from media files:
 
@@ -259,8 +260,8 @@ Sequences of media file corresponding to coded events can be extracted from medi
 4) Select a destination directory that will contain the extracted sequences.
 5) Select a time offset (in seconds, the default value is 0).
 
-The time offset will be substracted from the starting time of event and added to the stopping time. All the extracted sequences will be saved
-in the selected directory followind the file name format:
+The time offset will be substracted from the starting time of event and added to the stopping time. All the extracted
+sequences will be saved in the selected directory followind the file name format:
 
 
 {observation id}_{player}_{subject}_{behavior}_{start time}-{stop time}
@@ -268,7 +269,7 @@ in the selected directory followind the file name format:
 
 
 Extract frames corresponding to coded events
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 The frames corresponding to coded events can be extracted and saved as images.
 
@@ -282,15 +283,15 @@ The frames corresponding to coded events can be extracted and saved as images.
 
 
 Export transitions matrix
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
-3 transitions matrix outputs are available: The matrix of frequencies of transitions, the matrix of frequencies of transition after each behavior
-and the matrix of number of transitions.
+3 transitions matrix outputs are available: The matrix of frequencies of transitions, the matrix of frequencies of
+transition after each behavior and the matrix of number of transitions.
 
 
 Matrix of frequencies of transitions
-............................................................................................................................................
+........................................................................................................................
 
 This matrix contains the frequencies of total transitions.
 The sum of all frequencies must be 1.
@@ -304,13 +305,13 @@ Example of frequencies of transitions matrix::
 
 
 
-In this matrix you can see that the **eat** behavior precedes the **sleep** behavior with a frequency of **0.286** of the total number of
-transitions.
+In this matrix you can see that the **eat** behavior precedes the **sleep** behavior with a frequency of **0.286** of
+the total number of transitions.
 
 
 
 Matrix of frequencies of transitions after behavior
-............................................................................................................................................
+........................................................................................................................
 
 
 This matrix contains the frequencies of transitions after each behavior.
@@ -324,12 +325,12 @@ Example::
     walk    1.0      0.0      0.0
 
 
-In this example you can see that **sleep** follows **eat** with a frequency of **0.667** and **walk** follows with a frequency of **0.333**.
+In this example you can see that **sleep** follows **eat** with a frequency of **0.667** and **walk** follows with a
+frequency of **0.333**.
 
 
 Matrix of number of transitions
-............................................................................................................................................
-
+........................................................................................................................
 This matrix contains the number of transitions after each behavior.
 
 Example::
