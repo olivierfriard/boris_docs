@@ -22,8 +22,9 @@ These formats are suitable for further analysis.
    :width: 60%
 
 
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on a modified **observation id**
-             in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
+.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on a modified
+             **observation id** in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened
+             to 31 characters.
 
 
 .. _export aggregated events:
@@ -130,7 +131,7 @@ Example::
 
 
 Export events as `Praat <http://www.fon.hum.uva.nl/praat/>`_ `TextGrid <http://www.fon.hum.uva.nl/praat/manual/TextGrid.html>`_
-------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
 
 Example::
 
