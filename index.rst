@@ -1,6 +1,6 @@
-********************************************************************************************************************************************
+************************************************************************************************************************
 Behavioral Observation Research Interactive Software (BORIS) user guide
-********************************************************************************************************************************************
+************************************************************************************************************************
 
 
 .. image:: images/new_logo.500px.png
@@ -28,7 +28,7 @@ BORIS is a free and open-source software available for GNU/Linux, Windows and Ma
 
 
 Follow BORIS
-============================================================================================================================================
+========================================================================================================================
 
 
 BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -44,7 +44,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 
 Legal
-============================================================================================================================================
+========================================================================================================================
 
 Copyright 2012-2020 Olivier Friard - Marco Gamba
 
@@ -60,7 +60,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 
 
 Install BORIS
-============================================================================================================================================
+========================================================================================================================
 
 
 .. include:: install_launch.rst
@@ -69,7 +69,7 @@ Install BORIS
 
 
 Create a new project with BORIS
-============================================================================================================================================
+========================================================================================================================
 
 .. include:: create_new_project.rst
 
@@ -77,15 +77,17 @@ Create a new project with BORIS
 
 
 Open an existing project with BORIS
-============================================================================================================================================
+========================================================================================================================
 
 
-.. important:: **Due to changes in the project format all the projects created with v. 7+ will not be suitable for previous version of BORIS.
-    The v. 7 will open projects created with previous version and convert them. A copy of your old project will be kept.**
+.. important:: **Due to changes in the project format all the projects created with v. 7+ will not be suitable for
+               previous version of BORIS. The v. 7 will open projects created with previous version and convert them.
+               A copy of your old project will be kept.**
 
 
-.. important:: If you open a project file created with a version older than v.7 BORIS will convert your project file and keep an original
-    version of your project file. BORIS will ask you to convert the upper case behavior and subject keys to lower case.
+.. important:: If you open a project file created with a version older than v.7 BORIS will convert your project file and
+               keep an original version of your project file. BORIS will ask you to convert the upper case behavior and 
+               subject keys to lower case.
 
 
 
@@ -99,11 +101,11 @@ only one project can be opened at a time.
 
 
 Import a project
-============================================================================================================================================
+========================================================================================================================
 
 You can import a project from a **Noldus The Observer XT Coding Scheme Exchange** file (.otx or .otb extensions).
-The Observer XT software allows you to save a project as a template (see the reference manual). This template can be imported into BORIS
-and then saved as a BORIS project (File > Import a project from ... > Noldus The Observer XT template)
+The Observer XT software allows you to save a project as a template (see the reference manual). This template can be
+imported into BORIS and then saved as a BORIS project (File > Import a project from ... > Noldus The Observer XT template)
 
 The following information will be imported from the template file:
 
@@ -121,14 +123,14 @@ See the `Noldus web site for details <https://www.noldus.com/human-behavior-rese
 
 
 Observations
-============================================================================================================================================
+========================================================================================================================
 
 .. include:: observations.rst
 
 
 
 Coding your media
-============================================================================================================================================
+========================================================================================================================
 
 .. include:: coding.rst
 
@@ -136,7 +138,7 @@ Coding your media
 
 
 Exporting events data
-============================================================================================================================================
+========================================================================================================================
 
 
 .. include:: export_events.rst
@@ -145,17 +147,17 @@ Exporting events data
 
 
 Playback menu
-============================================================================================================================================
+========================================================================================================================
 
 
 
 Jump
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 
 Jump forward
-............................................................................................................................................
+........................................................................................................................
 
 Allow to jump forward in the current media file. See **File** > **Preferences**  for setting the jump value.
 
@@ -163,14 +165,14 @@ Allow to jump forward in the current media file. See **File** > **Preferences** 
 
 
 Jump backward
-............................................................................................................................................
+........................................................................................................................
 
 Allow to jump backward in the current media file. See **File** > **Preferences**  for setting the jump value.
 
 
 
 Jump to specific time
-............................................................................................................................................
+........................................................................................................................
 
 Allow to go to a specific time in the current media file.
 
@@ -179,7 +181,7 @@ Allow to go to a specific time in the current media file.
 
 
 Zoom
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Allow to zoom into the current video file. The available zoom values are: 1:2, 1:4, 2:1 and 1:1.
 **Fit to window** adapts the zoom value to the current window size. In case of simultaneous playing
@@ -196,7 +198,7 @@ The Zoom option is not available in frame-by-frame mode.
 
 
 Tools
-============================================================================================================================================
+========================================================================================================================
 
 .. include:: tools.rst
 
@@ -205,7 +207,7 @@ Tools
 
 
 Coding map
-============================================================================================================================================
+========================================================================================================================
 
 .. include:: coding_map.rst
 
@@ -213,7 +215,7 @@ Coding map
 
 
 Analysis
-============================================================================================================================================
+========================================================================================================================
 
 .. include:: analysis.rst
 
@@ -221,7 +223,7 @@ Analysis
 
 
 Preferences
-============================================================================================================================================
+========================================================================================================================
 
 .. include:: preferences.rst
 
@@ -229,7 +231,7 @@ Preferences
 
 
 Various
-============================================================================================================================================
+========================================================================================================================
 
 .. _Removing path of media files:
 
@@ -237,7 +239,7 @@ Various
 
 
 Removing path of media files
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Using BORIS you can choose to store the full path of the media files into the file project (for example: ``/home/user/Video/video_n1.mp4`` or
 ``c:\Users\user\Documents\video1.avi``).
@@ -254,7 +256,7 @@ operation is irreversible. After remotion the full path of your media will be lo
 
 
 Citing BORIS
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 If you have used BORIS for publications, please cite::
 
@@ -267,10 +269,10 @@ If you have used BORIS for publications, please cite::
 
 
 Docking
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 All elements, including all the media players can be undocked from the main window and positioned where you prefer
-(e.g. they can be on the same desktop over one or two screens).
+(e.g. they can be on the same desktop over one or many screens).
 
 The position of the various widgets is saved in the `configuration file`_ at the end of the work session.
 
@@ -279,8 +281,8 @@ The position of the various widgets is saved in the `configuration file`_ at the
    :width: 1800px
 
 
-Click the icon present at the top-right corner of the widget (for MacOS the icon is located at the left-top corner) will undock the widgets
-that can be repositioned on another docking area or moved out of the main window.
+Click the icon present at the top-right corner of the widget (for MacOS the icon is located at the left-top corner) will
+undock the widgets that can be repositioned on another docking area or moved out of the main window.
 A double-click on the top bar of the widget will reposition it on the main window.
 
 
@@ -312,10 +314,10 @@ If you fill uncomfortable with the dockwidgets you can block them on the main wi
 
 
 Configuration files
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
-BORIS saves the configuration (user preferences, windows position, widgets position) in a configuration file. This file is named **.boris**
-and it is saved on the home directory of the current user::
+BORIS saves the configuration (user preferences, windows position, widgets position) in a configuration file. This file
+is named **.boris** and it is saved on the home directory of the current user::
 
     for Linux:
     /home/USERNAME/.boris
@@ -335,15 +337,16 @@ The **recent projects list** is saved on the **.boris_recent_projects** file in 
 
 
 Bug reports and features request
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Please send bug reports and features request using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS)
 or by e-mail in english, french or italian (see web site http://www.boris.unito.it/pages/about.html).
 
 
-In case of bug report please verify that you are using the **lastest version of BORIS** and indicate your operating system, its version and the
-CPU architecture (32/64 bits).
-You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to any third party.
+In case of bug report please verify that you are using the **lastest version of BORIS** and indicate your operating
+system, its version and the CPU architecture (32/64 bits).
+You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to
+any third party.
 
 A debugging version (for Windows 64-bit) is available if you want to collaborate to BORIS.
 
@@ -352,14 +355,14 @@ A debugging version (for Windows 64-bit) is available if you want to collaborate
 
 
 Acknowledgement
-============================================================================================================================================
-
-The authors would like to acknowledge Valentina Matteucci, Laura Ozella, Giovanni Di Panfilo and all others users for their precious help.
+========================================================================================================================
+The authors would like to acknowledge Valentina Matteucci, Laura Ozella, Giovanni Di Panfilo and all others users for
+their precious help.
 
 
 
 Valid keys for triggering behavior
-============================================================================================================================================
+========================================================================================================================
 
 BORIS makes difference between lower case and upper case characters
 

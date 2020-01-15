@@ -9,13 +9,13 @@ The media (the first in the queue) will be loaded in the media player and paused
 
 
 Media based coding
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 Media controls are available in the toolbar
-............................................................................................................................................
+........................................................................................................................
 
 .. image:: images/toolbar.png
    :alt: Media control toolbar
@@ -82,7 +82,7 @@ Only for frame-by-frame mode:
 
 
 Live observations
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 During a live observation the media control toolbar is disabled.
 
@@ -100,7 +100,7 @@ See the following screenshot.
 
 
 **Ethogram** widget in the main window
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 .. image:: images/main_window_ethogram.png
@@ -126,16 +126,16 @@ Check/Uncheck single behaviors or double-click on the behavioral category
 
 
 **Subjects** widget in the main window
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 .. image:: images/main_window_subjects.png
    :alt: Subjects list widget in main window
    :width: 80%
 
-The **Subjects** widget provide the user with the list of subjects defined in the **Subject** tab in the **Project** window.
-It can be used to add information about the focal subject on the recorded behaviors by double clicking on the corresponding row.
-When a subject is selected his/her name appears above the media player. The **Key** column indicates the keyboard key assigned to each
-subject (if any).
+The **Subjects** widget provide the user with the list of subjects defined in the **Subject** tab in the **Project**
+window. It can be used to add information about the focal subject on the recorded behaviors by double clicking on the
+corresponding row. When a subject is selected his/her name appears above the media player. The **Key** column indicates
+the keyboard key assigned to each subject (if any).
 
 
 The subjects shown in the subjects widget can be filtered:
@@ -207,13 +207,13 @@ See `Time offset for media reposition`_ in Preferences window to customize the t
 
 
 Record an event
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 
 Once ready to begin your coding, you can start the media player using the **Play** button (or the **Space bar**).
-The behaviors can be recorded using the keyboard with the predefined keys, by double-clicking the corresponding row in the **Ethogram** table
-or by using the **Coding pad** (See `coding pad`_).
+The behaviors can be recorded using the keyboard with the predefined keys, by double-clicking the corresponding row in
+the **Ethogram** table or by using the **Coding pad** (See `coding pad`_).
 
 
 .. image:: images/ethogram_subjects_widgets.png
@@ -250,8 +250,8 @@ In the case your behavior type is a **Point event with coding map** or a **State
 BORIS will show the **Coding map** window and will allow selecting the desired area(s).
 In case you click a part of the map in which two (or more) areas overlap, the corresponding codes will be recorded.
 
-A recorded event can be edited (once selected) using the **Observations** > **Edit event** menu option. The resulting *Edit event parameters*
-allows modifying every parameter (e.g. time, subject, code, modifiers, and comment).
+A recorded event can be edited (once selected) using the **Observations** > **Edit event** menu option. The resulting
+*Edit event parameters* allows modifying every parameter (e.g. time, subject, code, modifiers, and comment).
 
 The **Observations** > **Add event** menu option allows adding a new event by specifying its time and the other parameters.
 
@@ -260,7 +260,7 @@ The **Observations** > **Add event** menu option allows adding a new event by sp
 
 
 The Events widget context menu
-............................................................................................................................................
+........................................................................................................................
 
 Some functions are available in the Events widget context menu. Righ-click on the Events widget.
 
@@ -271,7 +271,7 @@ Some functions are available in the Events widget context menu. Righ-click on th
 
 
 Add event
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 This option allows adding a new event by specifying its time and the other parameters.
@@ -282,11 +282,11 @@ This option allows adding a new event by specifying its time and the other param
 
 
 Edit selected event(s)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-This option allows to edit the selected event(s). When many events are selected you have to choose the field to edit between **Subject**,
-**Behavior** and **Comment**. In this case the new value will apply to all selected events.
+This option allows to edit the selected event(s). When many events are selected you have to choose the field to edit
+between **Subject**, **Behavior** and **Comment**. In this case the new value will apply to all selected events.
 
 .. image:: images/edit_many_events.png
    :alt: Edit many events
@@ -297,9 +297,10 @@ This option allows to edit the selected event(s). When many events are selected 
 
 
 Edit time of selected event(s)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This option allows to add or subtract a time value (in seconds) to all selected events. For subtracting a value use a negative value.
+This option allows to add or subtract a time value (in seconds) to all selected events. For subtracting a value use a
+negative value.
 
 .. image:: images/edit_time_events.png
    :alt: Edit time of selected events
@@ -308,7 +309,7 @@ This option allows to add or subtract a time value (in seconds) to all selected 
 
 
 Copy events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to copy the selected events in the clipboard.
 The clipboard will contain the values of the selected events (except the **type** field) separated by a <TAB> character.
@@ -328,7 +329,7 @@ Example of clipboard content::
 
 
 Paste events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 This option allows to paste the clipboard content into the events widget.
@@ -339,7 +340,7 @@ The clipboard must respect the format described in the previous section: 5 colum
 
 
 Find in events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to search for a string in the various field of events.
 Select the fields to be searched. The find/replace operation can be restricted to the selected events.
@@ -351,7 +352,7 @@ Select the fields to be searched. The find/replace operation can be restricted t
 
 
 Find/Replace in events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to search for a string and replace it by a new value in the various field of events.
 Select the fields to be searched. The find operation can be restricted to the selected events.
@@ -363,7 +364,7 @@ Select the fields to be searched. The find operation can be restricted to the se
 
 
 Filter events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 This option allows to filter the events by field value.
@@ -374,14 +375,14 @@ This option allows to filter the events by field value.
 
 
 Show all events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option reverts the previous one and allows to visualize all coded events
 
 
 
 Check state events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 This option allows to check if the **state events** are **PAIRED**, if they have a **START** and a **STOP** occurences.
@@ -389,21 +390,21 @@ This option allows to check if the **state events** are **PAIRED**, if they have
 
 
 Delete selected events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to delete the selected events. This operation is irreversible!
 
 
 
 Delete all events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option allows to delete all then events in the current observation. This operation is irreversible!
 
 
 
 Fix unpaired state events
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 You can use the "Fix unpaired events" function to fix the **state events** without a STOP event.
 
@@ -417,7 +418,7 @@ the end of observation.
 
 
 Explore project
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 You can search information in various fields in all observations in the current project (Observations > Explore project).
 
@@ -495,6 +496,13 @@ The frame viewer can be detached from the main window (See File > Preferences).
 In case on 2 simultaneous players the frame viewers will be automatically detached from the main window.
 
 
-For every second of the media file the frames are extracted by BORIS with the embedded ffmpeg program and are saved
-in the `FFmpeg cache directory`_ specified in the **Preferences** window.
+For every second of the media file the frames are extracted by BORIS with the embedded ffmpeg program.
 
+Two modes are available:
+
+* the frames are saved in the `FFmpeg cache directory`_ specified in the **Preferences** window.
+
+* the frames are stored in memory.
+
+
+See **File** > **Preferences** > **frame-by-frame mode**

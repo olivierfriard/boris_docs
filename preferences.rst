@@ -25,10 +25,13 @@ General preferences
     This option allows the user to choose the format for displaying time in the project. Please note that time is internally always saved
     in seconds with a precision of 3 decimal digits
 
+
 **Fast forward/backward speed (seconds)**
     This option allows the user to customize the amount of time for "jumping" forward or backward in media.
 
+
 .. _Time offset for media reposition:
+
 
 **Time offset for media reposition (seconds)**
     This value indicates the time offset for repositioning the media after double-click on a row event of the *Events* table.
@@ -123,25 +126,6 @@ Frame-by-frame mode
    :width: 60%
 
 
-.. _frame resizing:
-
-
-
-Resize frame
-............................................................................................................................................
-
-In case of high resolution video (for example 4K 1920x1080) the extracted frames can be resized before visualization to improve the speed.
-Select the width in pixel for the extracted frames.
-The aspect ratio will be maintained. 0 will indicate no frame resizing.
-
-
-
-Frame bitmap format
-............................................................................................................................................
-
-A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
-The extracted frames will be saved in the directory defined in previous tab (FFmpeg cache directory).
-
 
 Cache size
 ............................................................................................................................................
@@ -156,10 +140,44 @@ Note for high resolution video this operation can be long.
 
 
 
+.. _frame resizing:
+
+
+
+Resize frame
+........................................................................................................................
+
+In case of high resolution video (for example 4K 1920x1080) the extracted frames can be resized before visualization to improve the speed.
+Select the width in pixel for the extracted frames.
+The aspect ratio will be maintained. 0 will indicate no frame resizing.
+
+
+
+Frame bitmap format
+........................................................................................................................
+
+A bitmap format can be selected between JPG (JPEG low quality image) and PNG (Portable Network Graphic - high quality image).
+The extracted frames will be saved in the directory defined in previous tab (FFmpeg cache directory).
+
+
+Save frames in memory
+........................................................................................................................
+
+The frames are stored in memory (RAM). A memory amount should be specified in **Maximum amount of memory**.
+The frames stored in memory can be deleted by checking the **Reset frames memory** box.
+
+
+Save frames on disk
+........................................................................................................................
+
+The frames are saved on the disk on the directory specified in the **FFmpeg framework** tab.
+
+
+
 
 
 Spectrogram
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 .. image:: images/preferences4.png
    :alt: Preferences Spectrogram tab

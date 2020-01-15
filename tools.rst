@@ -1,8 +1,17 @@
 .. Tools
 
 
+
+
+Lock the dockwidgets
+------------------------------------------------------------------------------------------------------------------------
+
+The dockwidgets (except the player dockwidgets) can be locked on the main window (See **Tools** > **Lock dockwidgets**).
+
+
+
 Focus a video area
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 It is possible to focus an area of the video. Click on the center of the area you want to focus.
 The video will be displayed at its native resolution (not shrinked) and centered on the clicked point.
@@ -29,15 +38,15 @@ See the mouse cursor on the screenshot above.
    :alt: A high resolution video with a focused area
    :width: 80%
 
-Now the video is displayed with its real resolution allowing to see details. Another click on the video will restore the previous
-visualization without focus.
+Now the video is displayed with its real resolution allowing to see details. Another click on the video will restore
+the previous visualization without focus.
 
 
 
 
 
 Geometric measurements
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Geometric measurements can only be made in frame-by-frame mode. Distances, areas and angles can be measured.
 Click on **Tools** > **Geometric measurements** to activate the measurements. The **Measurements window** will be shown:
@@ -48,9 +57,10 @@ Click on **Tools** > **Geometric measurements** to activate the measurements. Th
 
 
 Setting the scale
-............................................................................................................................................
+........................................................................................................................
 
-For distance and area measurements you can set a scale in order to have results of measurements in a real unit (like centimeters, meters etc).
+For distance and area measurements you can set a scale in order to have results of measurements in a real unit 
+(like centimeters, meters etc).
 
 1) measure a reference object (that have a known size) on the frame (with the distance tool. See next chapter for details)
    and set the pixel distance in the **Pixel** text box.
@@ -59,9 +69,10 @@ For distance and area measurements you can set a scale in order to have results 
 
 
 Distance measurements
-............................................................................................................................................
+........................................................................................................................
 
-Select the **Distance** radio button. Click the left mouse button on the frame bitmap to set the start of the segment that will be measured.
+Select the **Distance** radio button. Click the left mouse button on the frame bitmap to set the start of the segment
+that will be measured.
 A blue circle with a cross will be drawn.
 Click the right mouse button to set the end. A red circle with a cross will be drawn.
 The distance between the two selected points will be available in the text area of the **Measurements window**.
@@ -73,7 +84,7 @@ The distance between the two selected points will be available in the text area 
 
 
 Area measurements
-............................................................................................................................................
+........................................................................................................................
 
 Select the **Area** radio button. Click the left mouse button on the frame bitmap to set the area vertices.
 Blue circles with a cross will be drawn.
@@ -82,8 +93,7 @@ The area of the drawn polygon will be available in the text area of the **Measur
 
 
 Angle measurements
-............................................................................................................................................
-
+........................................................................................................................
 Select the **Angle** radio button. Click the left mouse button on the frame bitmap to set the angle vertex.
 A red circle with a cross will be drawn.
 Click the right mouse button to set the two segments. Blue circles with a cross will be drawn.
@@ -91,7 +101,7 @@ The angle between the two drawn segments will be available in the text area of t
 
 
 Persistent measurements
-............................................................................................................................................
+........................................................................................................................
 
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all
 frames otherwise they will be deleted between frames.
@@ -102,7 +112,7 @@ frames otherwise they will be deleted between frames.
 
 
 Coding pad
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 During observation a coding pad with the available behaviors can be displayed (**Tools** > **Coding pad**).
 This **Coding pad** allows the user to code using a touch-screen or by clicking on the buttons.
@@ -114,7 +124,7 @@ When the **Coding pad** is displayed you can continue to code using the keyboard
 
 
 Subjects pad
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 A pad with all defined subjects (or filtered subjects) can be displayed during the observation (**Tools** > **Subjects pad**).
 This **Subjects pad** allows the user to select the focal subject using a touch-screen or by clicking on the buttons.
@@ -127,7 +137,7 @@ When the **Subjects pad** is displayed you can continue to select the focal subj
 
 
 Image overlay on video
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 An image can be overlayed on the video (**Tools** > **Image overlay on video** > **Add an image overlay**).
 
@@ -135,7 +145,8 @@ An image can be overlayed on the video (**Tools** > **Image overlay on video** >
    :alt: Image overlay dialog
    :width: 50%
 
-The image must be in PNG format, if the image is smaller than the video resolution the image position can be set from the top-left corner.
+The image must be in PNG format, if the image is smaller than the video resolution the image position can be set from the
+top-left corner.
 The transparency of image can be set from 0 (full transparency) to 255 (no transparency).
 
 The remove the image overlay click **Tools** > **Image overlay on video** > **Remove**
@@ -143,7 +154,7 @@ The remove the image overlay click **Tools** > **Image overlay on video** > **Re
 
 
 Converters for external data values
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Converters can be written using the Python 3 programming language.
 
@@ -245,7 +256,7 @@ Flow diagram of frequencies of transitions after behavior
 
 
 Flow diagram of number of transitions
-............................................................................................................................................
+........................................................................................................................
 
 .. image:: images/number_of_transitions.png
        :alt: Number of transitions
@@ -257,7 +268,7 @@ Flow diagram of number of transitions
 
 
 Re-encoding and resizing a video file
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 BORIS can re-encode and resize your video files in order to reduce the size of the files and have a smooth coding
@@ -272,7 +283,8 @@ You can continue to use BORIS during the re-encoding/resizing operation.
 The re-encoded/resized video files are renamed by adding the re-encoded.avi extension to the original files.
 
 
-.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable.
+.. warning:: Please note that MTS video files should be re-encoded to be used in frame-by-frame mode. Otherwise the
+             extracted frames are not reliable.
 
 
 
@@ -283,7 +295,7 @@ The re-encoded/resized video files are renamed by adding the re-encoded.avi exte
 
 
 Rotating a video file
---------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 
 BORIS can rotate your video files in order to code them using the right view.
