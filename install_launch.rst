@@ -66,10 +66,10 @@ The log files are created in the home directory of the current user:
 * /Users/USER_NAME/ for MacOS
 
 
-Mac OS
+MacOS
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS is available for Mac OS only in 64-bit version (from >= 10.8)
+BORIS is available for MacOS only in 64-bit version.
 
 
 ..

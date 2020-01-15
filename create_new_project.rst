@@ -71,13 +71,19 @@ The cells with gray background can not be directly edited. You must double-click
 Behavior types
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-2 types of behaviors can be defined. Double-click on the cell and select the type of behavior:
+**2 types** of behaviors can be defined. Double-click on the cell and select the type of behavior:
 
 
-- **Point event** behavior when the behavior has **no duration**. The behavior will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table.
+- **Point event** behavior when the behavior has **no duration**.
+    The behavior will be coded by pressing the defined keyboard key (see below)
+    or by double-clicking to the corresponding row in the Ethogram table.
 
 
-- **State event** behavior when the behavior has a **duration**. The behavior start and stop will be coded by pressing the defined keyboard key (see below) or by clicking to the corresponding row in the Ethogram table. These behaviors **must** have a start event and a stop event.
+- **State event** behavior when the behavior has a **duration**.
+    The behavior start and stop will be coded by pressing the defined keyboard key (see below)
+    or by double-clicking to the corresponding row in the Ethogram table.
+    These behaviors **must** have a start event and a stop event otherwise an **UNPAIRED events**
+    warning will be reported when you will close the observation or during an analysis
 
 
 
@@ -156,7 +162,7 @@ Modifiers can be used to add attributes to a behavior. A single behavior can hav
 reduce the number of keys and simplify the behavioral coding.
 
 
-4 types of modifiers are available: **Single selection**, **Multiple selection**, **Numeric** and
+**4 types of modifiers** are available: **Single selection**, **Multiple selection**, **Numeric** and
 **Value from external data file**:
 
 * the **Single selection** type will allow the observer to select only **one** modifier for the current behavior.

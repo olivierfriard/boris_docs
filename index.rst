@@ -14,7 +14,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS.**
 
 
-**version 7.9 RC1**
+**version 7.9.7**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -46,7 +46,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 Legal
 ============================================================================================================================================
 
-Copyright 2012-2019 Olivier Friard - Marco Gamba
+Copyright 2012-2020 Olivier Friard - Marco Gamba
 
 **BORIS** is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -304,7 +304,8 @@ For MacOS:
    :width: 100%
 
 
-
+If you fill uncomfortable with the dockwidgets you can block them on the main window by checking the **Lock dockwidgets** option
+(see **Tools** > **Lock dockwidgets**). All the dockwidgets will be docked on the main window and locked on it except the player dockwidgets.
 
 
 .. _configuration file:
