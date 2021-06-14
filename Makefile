@@ -10,4 +10,6 @@ default:
 	git push
 
 
+pdf:
+	rst2pdf index.rst -o boris_user_guide.pdf
 

@@ -24,9 +24,9 @@ This window allow adding various observation data:
 * a mandatory **Observation id** (must be unique across all observations in the open project);
 * **Date**, which will be automatically set on the current date and time, but you can alternatively set this info on your media date and time, or whatever you prefer.
 * **Description**, which can host all the relevant information about your observation, but can be also left empty.
-* **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project). See the  `independent variables`_ section for details.
+* **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project).See the  `independent variables`_ section for details.
 * **Time offset**. BORIS allow specifying a time offset that can be added or subtracted from the media timecode.
-* The **Limit observation to a time interval** option can be used to limit the observation.
+* The **Limit observation to a time interval** option can be used to limit the observation to an arbitrary time interval.
 
 
 You must then indicate if you want to make an observation based on pre-recorded media (audio / video) or a live observation.
@@ -39,9 +39,11 @@ During the live observation BORIS will show you a timer that will be used for re
 
 Choose the **Live tab** to make a live observation.
 
-.. image:: images/live_observation.png
+.. image:: images/live_observation1.png
    :alt: New live observation
    :width: 80%
+
+
 
 
 
@@ -57,7 +59,17 @@ Start from current time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want that the time starts from the current time you can check the **Start from current time** checkbox.
-The start time will be the computer current time when you will press the **Start** button.
+
+.. image:: images/live_observation2.png
+   :alt: Live observation starting from current time
+   :width: 40%
+
+If the **Day time** option is checked the start time will be the computer current time when you will press the **Start** button.
+
+If the **Epoch time** is checked the start time will be the number of seconds since the Jan 1st, 1970 (1970-01-01).
+See `Unix time <https://en.wikipedia.org/wiki/Unix_time>`_ for details.
+This option is usefull for long observations (few days) or observations that start before midnight and end after.
+
 
 
 
@@ -324,11 +336,27 @@ This option can be used to limit the observation to a time interval for live or 
    :width: 80%
 
 
+
+
+
+
+
+
+
+
 Media based observation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When the observation will start the media will be automatically positioned to the **Start time** value and the player will stop
 when the video time will reach the **Stop time** value.
+
+
+
+
+
+
+
+
 
 
 Live observation
@@ -339,16 +367,56 @@ The **Start time** of the time interval will not be applied.
 The observation will stop when the **Stop time** will be reached.
 
 
+
+
+
+
+
+
+
+
+
 Observations list
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
 
-The observations can be sorted by clicking in the desired column header (alphabetic order ascending or descending).
+The following values are displayed: the observation id, the description of observation, the coded subjects,
+the observation duration (as the difference between the last recorded event and the first one),
+the percent of exhaustivity of the coding (as the sum of the length of the coded events divided by the observation duration),
+the media file(s) or LIVE in case of live observation,
+the values of the independent variables.
+
+
 
 .. image:: images/observations_list2.png
    :alt: Observations list
    :width: 100%
+
+
+
+The observations can be sorted by clicking in the desired column header (alphabetic order ascending or descending).
+
+
+Checking the observations
+.....................................................
+
+
+The status of observation is displayed in the first column (**Observation id**).
+If the background of this column is **red** the observations has one or more UNPAIRED state events.
+These UNPAIRED observations will not be analyzed. See `Fix unpaired state events`_ for details.
+
+
+.. image:: images/observations_list_warning.png
+   :alt: Observations list with warning
+   :width: 100%
+
+
+
+
+
+Filtering the observations
+.....................................................
 
 
 The observations list can be filtered selecting a field and a condition in the drop-list boxes.
@@ -385,6 +453,9 @@ Observations with a value of **Visitors** independent variable greater than 1000
 .. image:: images/observations_list2_filtered3.png
    :alt: Observations list
    :width: 100%
+
+
+
 
 
 

@@ -371,7 +371,7 @@ This option allows to filter the events by field value.
 
 .. image:: images/filter_events.png
    :alt: Filter events
-   :width: 60%
+   :width: 40%
 
 
 Show all events
@@ -428,7 +428,6 @@ If more than one field is searched a logic AND will apply.
 
 .. image:: images/explore_project.png
    :alt: Explore project
-
 
 
 The events that were found are listed in a table. By double-clicking on the row the corresponding observation will be opened
