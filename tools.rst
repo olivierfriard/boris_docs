@@ -21,9 +21,6 @@ Another click on the video will restore the previous visualization.
 The focused area can also be zoomed (only on the first player for now).
 
 
-.. note:: This function is not yet available in frame-by-frame mode.
-
-
 
 .. image:: images/focus_video_area_1.png
    :alt: A high resolution video
@@ -59,7 +56,7 @@ Click on **Tools** > **Geometric measurements** to activate the measurements. Th
 Setting the scale
 ........................................................................................................................
 
-For distance and area measurements you can set a scale in order to have results of measurements in a real unit 
+For distance and area measurements you can set a scale in order to have results of measurements in a real unit
 (like centimeters, meters etc).
 
 1) measure a reference object (that have a known size) on the frame (with the distance tool. See next chapter for details)

@@ -25,7 +25,7 @@ the **Project file path** will show the full path to your project file.
 **Date** will automatically set on the current date and time, but you can alternatively set this info on your media date and time,
 or whatever you prefer. **Description** can host all the relevant information about your project, can be also left empty.
 **Time format** can be alternatively set to **seconds** or to **hh:mm:ss.mss**. This choice can be changed at anytime
-under **File** > **Preferences** (for MAC users, **BORIS** > **Preferences**) > **Default project time format**.
+under **File** > **Preferences** (for MacOS users, **BORIS** > **Preferences**) > **Default project time format**.
 
 
 .. image:: images/new_project.png

@@ -14,7 +14,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS.**
 
 
-**version 7.10.15**
+**version 8.0.9**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -46,7 +46,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 Legal
 ========================================================================================================================
 
-Copyright 2012-2020 Olivier Friard - Marco Gamba
+Copyright 2012-2021 Olivier Friard - Marco Gamba
 
 **BORIS** is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -186,8 +186,6 @@ Zoom
 Allow to zoom into the current video file. The available zoom values are: 1:2, 1:4, 2:1 and 1:1.
 **Fit to window** adapts the zoom value to the current window size. In case of simultaneous playing
 you can set different values of zoom in player #1 and player #2.
-
-The Zoom option is not available in frame-by-frame mode.
 
 
 .. warning:: **The Zoom function is not working on Mac**
