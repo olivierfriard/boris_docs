@@ -14,7 +14,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is a free and open-source software available for GNU/Linux, Windows and Mac OS.**
 
 
-**version 7.9.7**
+**version 7.10.15**
 
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
@@ -86,7 +86,7 @@ Open an existing project with BORIS
 
 
 .. important:: If you open a project file created with a version older than v.7 BORIS will convert your project file and
-               keep an original version of your project file. BORIS will ask you to convert the upper case behavior and 
+               keep an original version of your project file. BORIS will ask you to convert the upper case behavior and
                subject keys to lower case.
 
 
