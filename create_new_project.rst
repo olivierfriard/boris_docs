@@ -11,7 +11,7 @@ You can also activate the  `automatic backup`_ feature (see **Preferences**).
 
 
 .. Important:: It is EXTREMELY IMPORTANT to do regular backups of your project files to prevent the lost of data. Software can be reinstalled but
-    your data could quite possibly be lost for ever.
+    your data could quite possibly be lost for ever. Use an external drive or/and a cloud service.
 
 
 BORIS allows creating an unlimited number of projects but only one project can be opened at a time.
