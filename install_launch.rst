@@ -71,7 +71,7 @@ The main window of BORIS will show up. The toolbar with media player commands is
     want to run this software?` Click the `Run` button to launch BORIS.
 
 
-.. warning:: The first launch of BORIS can be long so be patient. A terminal/command prompt window will show up, it is normal.
+.. note:: The **first launch** of BORIS can be long, so be patient. A terminal/command prompt window will show up, it is normal.
     Do NOT close it!
 
 
