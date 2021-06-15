@@ -71,6 +71,12 @@ The main window of BORIS will show up. The toolbar with media player commands is
     want to run this software?` Click the `Run` button to launch BORIS.
 
 
+.. warning:: The first launch of BORIS can be long so be patient. A terminal/command prompt window will show up, it is normal.
+    Do NOT close it!
+
+
+
+
 At the first launch, BORIS will ask you to allow the automatic check for new version. Internet access is required for this feature.
 If you choose **Yes** BORIS will check for new version about every 15 days.
 This option can be changed on the **Preferences** window (See `general preferences`_)
