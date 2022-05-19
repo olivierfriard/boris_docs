@@ -6,6 +6,7 @@ default:
 	rm boris_user_guide.pdf_original
 	git add *.rst
 	git add *.png
+	git add *.jpg
 	git commit -a -m "updated at $(date)"
 	git push
 
