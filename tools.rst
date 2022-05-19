@@ -11,7 +11,9 @@ Plot events in real-time
 This function can be activated with **Tools** > **Plot event in real time**.
 
 
-
+.. image:: images/plot_events_rt.png
+   :alt: The real-time plot of events
+   :width: 15cm
 
 
 
