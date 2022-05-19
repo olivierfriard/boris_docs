@@ -251,7 +251,7 @@ For Linux:
 
 .. image:: images/dock_undock1.png
    :alt: dock/undock
-
+   :width: 100%
 
 For Microsoft-Windows:
 
@@ -300,16 +300,40 @@ The **recent projects list** is saved on the **.boris_recent_projects** file in 
 Bug reports and features request
 ------------------------------------------------------------------------------------------------------------------------
 
-Please send bug reports and features request using the BORIS GitHub repository (https://github.com/olivierfriard/BORIS)
-or by e-mail in english, french or italian (see web site http://www.boris.unito.it/pages/about.html).
+Please report any bug you will find in the latest BORIS version using the GitHub repository.
+
+Prior to report a bug please:
+
+* Check the Frequent Asked Question (FAQ) section
+* Check if the issue was not already reported (GitHub repository)
+* Delete the configuration file and try again (see `configuration file`_).
 
 
-In case of bug report please verify that you are using the **lastest version of BORIS** and indicate your operating
-system, its version and the CPU architecture (32/64 bits).
-You may also include the BORIS project that gave you an error. Any information you will provide will not be disclosed to
-any third party.
+Remember to indicate:
 
-A debugging version (for Windows 64-bit) is available if you want to collaborate to BORIS.
+* your operating system
+* the version of your operating system
+* the computer you are using (model, RAM ...)
+* the version of BORIS you are using
+* Information on the mediafile you are coding (if any) See Tools > Media file information
+
+Give all the information that will allow to reproduce the bug: a detailed procedure, a screen recording, etc.
+
+In case of crash please send me the file boris_error.log generated in your home directory just after the crash (before relaunching BORIS)::
+
+   Linux:
+   /home/YOUR_PROFILE_NAME/boris_error.log
+
+   Microsoft-Windows:
+   c:\Users\YOUR_PROFILE_NAME\boris_error.log
+
+If the bug is fixed remember to close the issue.
+
+If you find BORIS useful you can give a star to the BORIS GitHub repository.
+
+
+
+
 
 
 
@@ -317,8 +341,12 @@ A debugging version (for Windows 64-bit) is available if you want to collaborate
 
 Acknowledgement
 ========================================================================================================================
-The authors would like to acknowledge Valentina Matteucci, Laura Ozella, Giovanni Di Panfilo and all others users for
+
+The authors would like to acknowledge Valentina Matteucci and all others users that report bugs and/or request features for
 their precious help.
+
+
+
 
 
 

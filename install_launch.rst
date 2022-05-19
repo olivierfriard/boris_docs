@@ -58,6 +58,7 @@ The main window of BORIS will show up. The toolbar with media player commands is
 
 .. image:: images/main_window_empty.png
    :alt: The BORIS main window
+   :width: 15cm
 
 
 .. .. warning:: On **Mac OS** 10.9 and above, launching can be stopped according to the `Security & Privacy` settings of your computer.

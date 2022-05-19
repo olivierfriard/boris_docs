@@ -34,11 +34,18 @@ Zoom
 ------------------------------------------------------------------------------------------------------------------------
 
 Allow to zoom into the current video file. The available zoom values are: 1:2, 1:4, 2:1 and 1:1.
-**Fit to window** adapts the zoom value to the current window size. In case of simultaneous playing
-you can set different values of zoom in player #1 and player #2.
-
-
-.. warning:: **The Zoom function is not working on Mac**
+In case of simultaneous playing you can set different values of zoom for each player.
 
 
 
+
+
+Video equalizer
+------------------------------------------------------------------------------------------------------------------------
+
+
+Using this function the **brightness**, the **contrast**, the **saturation**, the **gamma** and the **Hue** can be set for each player.
+
+.. image:: images/video_equalizer.jpg
+   :alt: Video equalizer
+   :width: 15cm

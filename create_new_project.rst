@@ -30,7 +30,7 @@ under **File** > **Preferences** (for MacOS users, **BORIS** > **Preferences**) 
 
 .. image:: images/new_project.png
    :alt: New project
-   :width: 100%
+   :width: 15cm
 
 
 
@@ -49,9 +49,9 @@ Switching to the **Ethogram** tab, you can alternatively:
 * `import an ethogram from a spreadsheet`_ (Google Sheet, Microsoft-Excel, Libreoffice Calc ...)
 
 
-.. image:: images/project2_ethogram.png
+.. image:: images/ethogram1.png
    :alt: Ethogram configuration
-   :width: 100%
+   :width: 15cm
 
 
 
@@ -61,7 +61,7 @@ Set your ethogram from scratch
 ............................................................................................................................................
 
 
-Clicking on the **Add behavior** button you can add a new row in the **Ethogram** table and behavior type will be automatically set
+Clicking on the **Behavior > Add behavior** button you can add a new row in the **Ethogram** table and behavior type will be automatically set
 to **Point event**.
 
 The cells with gray background can not be directly edited. You must double-click on them and then select a value.
@@ -323,7 +323,7 @@ and by clicking on the **Check selected** button. You can also uncheck all behav
 Example of an **exclusion matrix**:
 
 .. image:: images/exclusion_matrix.png
-   :width: 100%
+   :width: 15cm
    :alt: Exclusion matrix tool
 
 
@@ -339,7 +339,7 @@ Import an ethogram from an existing project
 ............................................................................................................................................
 
 
-Behaviors within an ethogram can be imported from an existing BORIS project (.boris) using the **Import behaviours from a BORIS project** button.
+Behaviors within an ethogram can be imported from an existing BORIS project (.boris) using the **Import ethogram > from a BORIS project** button.
 BORIS will ask to select a BORIS project file and whether imported behaviors should replace or be appended to the **Ethogram** table.
 Imported behaviors will retain all the previously defined behavior parameters (namely Behavior type, Key, Code, Description, Modifiers and
 Exclusion information).
@@ -350,7 +350,7 @@ Import an ethogram from a JWatcher global definition file (.gdf)
 ............................................................................................................................................
 
 
-Behaviors can be imported from a JWatcher global definition file (.gdf) using the **Import from JWatcher** button.
+Behaviors can be imported from a JWatcher global definition file (.gdf) using the **Import ethogram > from JWatcher** button.
 BORIS will ask to select a JWatcher file (.gdf) and whether imported behaviors should replace or be appended to the **Ethogram** table.
 Behavior type and exclusion information for the behaviours imported from JWatcher have to be redefined.
 
@@ -364,7 +364,7 @@ Import an ethogram from a plain text file
 ............................................................................................................................................
 
 
-Behaviors can be imported from a plain text file using the **Import from text file** button.
+Behaviors can be imported from a plain text file using the **Import ethogram > from text file** button.
 The fields must be separated by TAB, comma (,) or semicolomn (;). All rows must contain the same number of fields.
 
 
@@ -401,9 +401,20 @@ The spreadsheet must contain one behavior by row and have to be organized as abo
 * 5th column: Behavior category (optional)
 
 Select all cells of your spreadsheet (CTRL + A), copy to clipboard (CTRL + C).
-Click the **Import from clipboard** button.
+Click the **Import ethogram > from clipboard** button.
 
 
+Access to the BORIS ethogram repository
+............................................................................................................................................
+
+This function can be activated by clicking the **Import ethogram > from clipboard** button.
+
+A list of available ethograms will open and an ethogram can be loaded in the current project.
+
+
+.. image:: images/BORIS_ethogram_repository.png
+   :width: 8cm
+   :alt: BORIS ethogram repository
 
 
 
@@ -422,11 +433,11 @@ Define the subjects
 
 
 .. image:: images/subjects_configuration.png
-   :width: 1200px
+   :width: 15cm
    :alt: Subjects definition
 
 
-BORIS allow coding behaviors for different subjects within a single observation.
+BORIS allow to code behaviors for different subjects within a single observation.
 The **Subject** table allows specifying subjects using a **Key** (e.g. the **k** on your keyboard),
 **Subject name** (e.g. "Kanzi"),
 **Description** (e.g. male, born October 28 - 1980).
@@ -434,11 +445,13 @@ The **Subject** table allows specifying subjects using a **Key** (e.g. the **k**
 In this case, pressing **n** will set "Nina" as the focal subject
 of the behavioural coding. Pressing **n** again will deselect "Nina" and set to "no focal subject".
 
+The key definition is not mandatory. In this case, you will have to select the current subject from the subjects list with a double-click.
+
 The definition of one or more subjects is not mandatory. Addition, removal and sorting of the subjects follows the same
 logic of the *Ethogram* table (see `Set your ethogram from scratch`_ for info).
 
 
-From version 7 the keys are **case-sensitive**.
+The keys are **case-sensitive**.
 
 If your project was created with a previous version of BORIS (< v.7) you can use the **Convert keys to lower case** to convert all keys to
 lower case otherwise you will have to code your observation using upper case key.
