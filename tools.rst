@@ -25,33 +25,34 @@ The dockwidgets (except the player dockwidgets) can be locked on the main window
 
 
 
-Focus a video area
-------------------------------------------------------------------------------------------------------------------------
+..
+   Focus a video area
+   ------------------------------------------------------------------------------------------------------------------------
 
-It is possible to focus an area of the video. Click on the center of the area you want to focus.
-The video will be displayed at its native resolution (not shrinked) and centered on the clicked point.
-Another click on the video will restore the previous visualization.
-
-
-The focused area can also be zoomed (only on the first player for now).
+   It is possible to focus an area of the video. Click on the center of the area you want to focus.
+   The video will be displayed at its native resolution (not shrinked) and centered on the clicked point.
+   Another click on the video will restore the previous visualization.
 
 
-
-.. image:: images/focus_video_area_1.png
-   :alt: A high resolution video
-   :width: 80%
+   The focused area can also be zoomed (only on the first player for now).
 
 
-The visualization can be focused on a particular region of the video by clicking on the video (with the left button).
-See the mouse cursor on the screenshot above.
+
+   .. image:: images/focus_video_area_1.png
+      :alt: A high resolution video
+      :width: 80%
 
 
-.. image:: images/focus_video_area_2.png
-   :alt: A high resolution video with a focused area
-   :width: 80%
+   The visualization can be focused on a particular region of the video by clicking on the video (with the left button).
+   See the mouse cursor on the screenshot above.
 
-Now the video is displayed with its real resolution allowing to see details. Another click on the video will restore
-the previous visualization without focus.
+
+   .. image:: images/focus_video_area_2.png
+      :alt: A high resolution video with a focused area
+      :width: 80%
+
+   Now the video is displayed with its real resolution allowing to see details. Another click on the video will restore
+   the previous visualization without focus.
 
 
 
