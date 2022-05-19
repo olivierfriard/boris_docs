@@ -7,7 +7,7 @@
 Time budget
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-The **Time budget analysis** can be done by behavior (including or not the modifiers) or by category of behaviors.
+The **Time budget** analysis can be done by behavior (including or not the modifiers) or by category of behaviors.
 Choose the option from the **Analysis** menu.
 
 The **Time budget** analysis can be done on one or more observations. If you select more than one observation you must then
