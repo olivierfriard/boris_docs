@@ -21,8 +21,6 @@ See the `BORIS for Linux <http://www.boris.unito.it/pages/download_linux>`_ page
 Microsoft-Windows
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS is available for 64-bits Microsoft-Windows 10.
-
 
 See the `Download BORIS for Microsoft-Windows <http://www.boris.unito.it/pages/download_win>`_ page to install BORIS for Windows.
 
@@ -33,7 +31,8 @@ Two versions are available: **BORIS Portable** and **BORIS Setup**
 MacOS
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS v.8 is not available for MacOS for now.
+BORIS v.8 is not available for MacOS.
+
 
 
 ..
