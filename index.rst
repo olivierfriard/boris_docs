@@ -3,22 +3,26 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 ************************************************************************************************************************
 
 
-.. image:: images/new_logo.500px.png
-   :width: 80%
+
 
 
 .. sections levels: = - . ~ _
 
 
-**BORIS is an easy-to-use event logging software for video/audio coding and live observations.
-BORIS is a free and open-source software available for GNU/Linux, Windows and MacOS.**
+BORIS is an easy-to-use event logging software for video/audio coding and live observations.
+BORIS is a free and open-source software available for GNU/Linux, Windows.
+
+This user guide apply to the **version 8.5** of BORIS.
 
 
-**version 8.5**
-
+Since the version 8 BORIS is based on the MPV media player (see https://mpv.io) and allow the recording of events much more precisely.
+See http://www.boris.unito.it/pages/boris_v8.html for all the improvements of v. 8.
 
 `www.boris.unito.it <http://www.boris.unito.it>`_
 
+
+.. image:: images/new_logo.500px.png
+   :width: 7cm
 
 
 .. contents::
@@ -150,48 +154,7 @@ Playback menu
 ========================================================================================================================
 
 
-
-Jump
-------------------------------------------------------------------------------------------------------------------------
-
-
-
-Jump forward
-........................................................................................................................
-
-Allow to jump forward in the current media file. See **File** > **Preferences**  for setting the jump value.
-
-
-
-
-Jump backward
-........................................................................................................................
-
-Allow to jump backward in the current media file. See **File** > **Preferences**  for setting the jump value.
-
-
-
-Jump to specific time
-........................................................................................................................
-
-Allow to go to a specific time in the current media file.
-
-
-
-
-
-Zoom
-------------------------------------------------------------------------------------------------------------------------
-
-Allow to zoom into the current video file. The available zoom values are: 1:2, 1:4, 2:1 and 1:1.
-**Fit to window** adapts the zoom value to the current window size. In case of simultaneous playing
-you can set different values of zoom in player #1 and player #2.
-
-
-.. warning:: **The Zoom function is not working on Mac**
-
-
-
+.. include:: playback_menu.rst
 
 
 
