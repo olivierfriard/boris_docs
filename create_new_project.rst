@@ -110,7 +110,7 @@ Defining categories of behaviors can be usefull for the analysis of coded events
 Click the **Behavioral categories** button and add a the categories of behaviors. Behaviors can then be included or not in a defined category.
 
 .. image:: images/behavioral_categories.png
-   :scale: 60%
+   :width: 10cm
    :alt: Categories of behaviors
 
 
@@ -385,30 +385,29 @@ to the **Ethogram** table.
 The missing information for the behaviours imported from text file have to be redefined.
 
 
+..    .. _import an ethogram from a spreadsheet:
 
-.. _import an ethogram from a spreadsheet:
+   Import an ethogram from a spreadsheet (Google Sheet, Microsoft-Excel or LibreOffice Calc...)
+   ............................................................................................................................................
 
-Import an ethogram from a spreadsheet (Google Sheet, Microsoft-Excel or LibreOffice Calc...)
-............................................................................................................................................
-
-The ethogram can be imported from a spreadsheet.
-The spreadsheet must contain one behavior by row and have to be organized as above:
+   The ethogram can be imported from a spreadsheet.
+   The spreadsheet must contain one behavior by row and have to be organized as above:
 
 
-* 1st column: Behavior type: **State event** or **Point event** (mandatory)
-* 2nd column: Key (One character - Case sensitive - Optional)
-* 3rd column: Behavior code (mandatory - must be unique)
-* 4th column: Description of behavior (optional)
-* 5th column: Behavior category (optional)
+   * 1st column: Behavior type: **State event** or **Point event** (mandatory)
+   * 2nd column: Key (One character - Case sensitive - Optional)
+   * 3rd column: Behavior code (mandatory - must be unique)
+   * 4th column: Description of behavior (optional)
+   * 5th column: Behavior category (optional)
 
-Select all cells of your spreadsheet (CTRL + A), copy to clipboard (CTRL + C).
-Click the **Import ethogram > from clipboard** button.
+   Select all cells of your spreadsheet (CTRL + A), copy to clipboard (CTRL + C).
+   Click the **Import ethogram > from clipboard** button.
 
 
 Access to the BORIS ethogram repository
 ............................................................................................................................................
 
-This function can be activated by clicking the **Import ethogram > from clipboard** button.
+This function can be activated by clicking the **Import ethogram > from the BORIS repository** button.
 
 A list of available ethograms will open and an ethogram can be loaded in the current project.
 

@@ -61,13 +61,19 @@ The dockwidgets (except the player dockwidgets) can be locked on the main window
 Geometric measurements
 ------------------------------------------------------------------------------------------------------------------------
 
-Geometric measurements can only be made in frame-by-frame mode. Distances, areas and angles can be measured.
+
+Some geometric measurements can be done: distances, areas and angles can be measured and point position recorded.
 Click on **Tools** > **Geometric measurements** to activate the measurements. The **Measurements window** will be shown:
 
 .. image:: images/measurements_window.png
    :alt: measurements window
-   :width: 60%
+   :width: 12cm
 
+
+Mark color
+........................................................................................................................
+
+Use the **Choose color of marks** button to select a color. All marks will be drawn with the selected color. 
 
 Setting the scale
 ........................................................................................................................
@@ -81,12 +87,18 @@ For distance and area measurements you can set a scale in order to have results 
 2) Set the real size of the reference object in the **Reference** text box (must be a number without unit).
 
 
+Point
+........................................................................................................................
+
+Select the **Point** radio button. Click the left mouse button on the frame bitmap to record the position of the clicked position.
+
+
 Distance measurements
 ........................................................................................................................
 
 Select the **Distance** radio button. Click the left mouse button on the frame bitmap to set the start of the segment
 that will be measured.
-A blue circle with a cross will be drawn.
+A circle with a cross will be drawn.
 Click the right mouse button to set the end. A red circle with a cross will be drawn.
 The distance between the two selected points will be available in the text area of the **Measurements window**.
 
@@ -100,7 +112,7 @@ Area measurements
 ........................................................................................................................
 
 Select the **Area** radio button. Click the left mouse button on the frame bitmap to set the area vertices.
-Blue circles with a cross will be drawn.
+Circles with a cross will be drawn.
 Click the right mouse button to close the area.
 The area of the drawn polygon will be available in the text area of the **Measurements window**.
 
@@ -109,7 +121,7 @@ Angle measurements
 ........................................................................................................................
 Select the **Angle** radio button. Click the left mouse button on the frame bitmap to set the angle vertex.
 A red circle with a cross will be drawn.
-Click the right mouse button to set the two segments. Blue circles with a cross will be drawn.
+Click the right mouse button to set the two segments. Circles with a cross will be drawn.
 The angle between the two drawn segments will be available in the text area of the **Measurements window**.
 
 
@@ -119,6 +131,7 @@ Persistent measurements
 If the **Measurements are persistent** checkbox is checked the measurement schemes will be available on all
 frames otherwise they will be deleted between frames.
 
+The marks selected on other frames will be drawn in red.
 
 
 .. _coding pad:
