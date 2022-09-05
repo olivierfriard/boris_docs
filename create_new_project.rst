@@ -46,7 +46,8 @@ Switching to the **Ethogram** tab, you can alternatively:
 * import an existing ethogram from another BORIS project;
 * import an ethogram from a JWatcher global definition file (.gdf).
 * `import an ethogram from a plain text file`_
-* `import an ethogram from a spreadsheet`_ (Google Sheet, Microsoft-Excel, Libreoffice Calc ...)
+
+.. * `import an ethogram from a spreadsheet`_ (Google Sheet, Microsoft-Excel, Libreoffice Calc ...)
 
 
 .. image:: images/ethogram1.png
