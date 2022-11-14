@@ -31,9 +31,6 @@ Two versions are available: **BORIS Portable** and **BORIS Setup**
 MacOS
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-BORIS v.8 is not available for MacOS.
-
-
 
 ..
     VirtualBox virtual appliance
@@ -44,12 +41,26 @@ BORIS v.8 is not available for MacOS.
     In this case you must first install the `VirtualBox <https://www.virtualbox.org/>`_ virtualizer from Oracle (released under GPL 2).
 
 
+As I have no access to a physical Mac computer the v.8 is not able to run under MacOS at the moment. 
+
+The Mac OS users have various possibilities to run BORIS v. 8:
+    
+* `Boot Camp Assistant <https://support.apple.com/guide/bootcamp-assistant/welcome/mac>`_ 
+
+* `Parallels® Desktop for Mac <https://www.parallels.com/products/desktop>`_
+
+* `Running GUI Linux in a virtual machine on a Mac <https://developer.apple.com/documentation/virtualization/running_gui_linux_in_a_virtual_machine_on_a_mac>`_
+
+* `Switch to another OS <https://itsfoss.com/why-use-linux/>`_
+
+
 
 
 
 
 Launch BORIS
 ============================================================================================================================================
+
 
 Start BORIS by clicking on its icon. For launching BORIS from sources see the BORIS web site.
 When launching BORIS for the first time it may take some time to show up. Please be patient!

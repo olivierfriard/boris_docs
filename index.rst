@@ -85,7 +85,7 @@ Open an existing project with BORIS
 
 
 .. important:: **Due to changes in the project format all the projects created with v. 7+ will not be suitable for
-               previous version of BORIS. The v. 7 will open projects created with previous version and convert them.
+               previous version of BORIS. The v. 7+ will open projects created with previous version and convert them.
                A copy of your old project will be kept.**
 
 
