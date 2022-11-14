@@ -39,6 +39,8 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 `BORIS GitHub repository <https://github.com/olivierfriard/BORIS>`_
 
+`Mastodon <https://fediscience.org/web/@boris>`_
+
 `BORIS twitter feed <https://twitter.com/BORIS_behav_obs>`_
 
 `BORIS YouTube channel <https://www.youtube.com/channel/UCo-Jyvzawwp0bRMEor4aLVQ>`_
