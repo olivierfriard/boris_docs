@@ -46,16 +46,16 @@ Key to the symbols:
 
 * **Take a snapshot** of current video or frame
 
-* **Switch between VLC and frame-by-frame modes**
 
+* **Move on frame back**
 
-* **Move on frame back** (enabled in frame-by-frame mode)
-
-* **Move one frame forward** (enabled in frame-by-frame mode)
+* **Move one frame forward**
 
 * **Close current observation**
 
-* **Plot events of current observation**
+* **Time budget of the current observation**
+
+* **Plot events of the current observation**
 
 * **Find in events**
 
@@ -67,13 +67,10 @@ The media can be controlled by special keyboard keys:
 * **Page Down** key: switch to the previous media
 * **Up arrow** key: jump forward in the current media
 * **Down arrow** key: jump backward in the current media
-* **Esc**: switch between VLC and frame-by-frame mode
 * **Home** key: Increase the playback speed (See `general preferences`_ to set the step value)
 * **End** key: Decrease the playback speed (See `general preferences`_ to set the step value)
 * **Backspace**: Set the playback speed to 1x
 
-
-Only for frame-by-frame mode:
 
 * **Left arrow** key: go to the previous frame
 * **Right arrow** key: go to the next frame
@@ -270,6 +267,13 @@ Some functions are available in the Events widget context menu. Righ-click on th
 
 
 
+Undo an even recording
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A wrong event can be removed from the events list using the Undo function (CTRL + Z).
+You can go back till 25 events recorded events.
+
+
 Add event
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -371,7 +375,7 @@ This option allows to filter the events by field value.
 
 .. image:: images/filter_events.png
    :alt: Filter events
-   :width: 60%
+   :width: 40%
 
 
 Show all events
@@ -430,7 +434,6 @@ If more than one field is searched a logic AND will apply.
    :alt: Explore project
 
 
-
 The events that were found are listed in a table. By double-clicking on the row the corresponding observation will be opened
 and the visualization will be scrolled to the row corresponding to the event.
 
@@ -444,12 +447,7 @@ and the visualization will be scrolled to the row corresponding to the event.
 Frame-by-frame mode
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-You can switch between the media player and the frame-by-frame mode using the dedicated button in the toolbar:
-
-
-.. image:: images/toolbar_frame-by-frame.png
-   :alt: frame-by-frame_button
-   :width: 60%
+You can switch between the media player and the frame-by-frame mode using the **arrow buttons** in the toolbar:
 
 
 In frame-by-frame mode the video will stop playing and the user will visualize the video frame by frame.
@@ -461,24 +459,14 @@ In frame-by-frame mode the video will stop playing and the user will visualize t
 You can move between frames by using the arrow keys in the toolbar (on the right) or by using keyboard special keys:
 
 
+* **Left arrow** key: go to the previous frame
+* **Right arrow** key: go to the next frame
 
-
-For the both modes (media player and frame-by-frame mode)
-............................................................................................................................................
 
 * **Page Up** key: switch to the next media
 * **Page Down** key: switch to the previous media
 * **Up arrow** key: jump forward in the current media
 * **Down arrow** key: jump backward in the current media
-* **Esc**: switch between VLC and frame-by-frame mode
-
-
-
-Only for the frame-by-frame mode
-............................................................................................................................................
-
-* **Left arrow** key: go to the previous frame
-* **Right arrow** key: go to the next frame
 
 
 If you have a numeric keypad you can use the following keys in alternative:
@@ -486,23 +474,8 @@ If you have a numeric keypad you can use the following keys in alternative:
 * The key **/** will allow you to view the previous frame
 * The key *\** will allow you to view the next frame
 
-To return in the media player mode press again the frame-by-frame button in the toolbar.
+To return in the media player mode press the **Play** button in the toolbar.
 
-
-The frame can be resized before visualization. See the `frame resizing`_ option.
-
-
-The frame viewer can be detached from the main window (See File > Preferences).
-In case on 2 simultaneous players the frame viewers will be automatically detached from the main window.
-
-
-For every second of the media file the frames are extracted by BORIS with the embedded ffmpeg program.
-
-Two modes are available:
-
-* the frames are saved in the `FFmpeg cache directory`_ specified in the **Preferences** window.
-
-* the frames are stored in memory.
 
 
 See **File** > **Preferences** > **frame-by-frame mode**

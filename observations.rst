@@ -24,9 +24,9 @@ This window allow adding various observation data:
 * a mandatory **Observation id** (must be unique across all observations in the open project);
 * **Date**, which will be automatically set on the current date and time, but you can alternatively set this info on your media date and time, or whatever you prefer.
 * **Description**, which can host all the relevant information about your observation, but can be also left empty.
-* **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project). See the  `independent variables`_ section for details.
+* **Independent variables** (e.g. to specify factors that may influence the behaviors but will not change during the observation within a project).See the  `independent variables`_ section for details.
 * **Time offset**. BORIS allow specifying a time offset that can be added or subtracted from the media timecode.
-* The **Limit observation to a time interval** option can be used to limit the observation.
+* The **Limit observation to a time interval** option can be used to limit the observation to an arbitrary time interval.
 
 
 You must then indicate if you want to make an observation based on pre-recorded media (audio / video) or a live observation.
@@ -37,11 +37,13 @@ Live observation
 
 During the live observation BORIS will show you a timer that will be used for recording time for coded events.
 
-Choose the **Live tab** to make a live observation.
+Click on the **Live observation** radio button to create a live observation.
 
-.. image:: images/live_observation.png
+.. image:: images/live_observation1.png
    :alt: New live observation
-   :width: 80%
+   :width: 16cm
+
+
 
 
 
@@ -57,7 +59,17 @@ Start from current time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want that the time starts from the current time you can check the **Start from current time** checkbox.
-The start time will be the computer current time when you will press the **Start** button.
+
+.. image:: images/live_observation2.png
+   :alt: Live observation starting from current time
+   :width: 10cm
+
+If the **Day time** option is checked the start time will be the computer current time when you will press the **Start** button.
+
+If the **Epoch time** is checked the start time will be the number of seconds since the Jan 1st, 1970 (1970-01-01).
+See `Unix time <https://en.wikipedia.org/wiki/Unix_time>`_ for details.
+This option is usefull for long observations (few days) or observations that start before midnight and end after.
+
 
 
 
@@ -69,35 +81,38 @@ Click the **Start** button to begin the live observation or **Save** to save it 
 The main window during a live observation will look like this:
 
 .. image:: images/observation_live.png
-   :width: 100%
+   :width: 16cm
 
 See the `Live observations`_ section to start coding.
 
 
 
 
-Media based observation
+Observation from media file(s)
 ............................................................................................................................................
 
 
-Click on the **Media** tab to make an observation based on one or more media files.
+Click on the **Observation from media file(s)** radio button to create an observation based on one or more media files.
 
 
 .. image:: images/media_files_tab_empty.png
    :alt: Media files tab
-   :width: 80%
+   :width: 16cm
 
-The **Media** tab contains 2 tabs: **Media files** and **Data files**.
+The **Observation from media file(s)** tab contains 2 tabs: **Media files** and **Data files**.
 
-Click the **Media files** tab and add one or more media files using the **Add media** or **Add media without path** button.
-The **Add media without path** button allow you to not store the path of your media file(s) in the BORIS project file.
-In this case the media file(s) must be in the same directory than the BORIS project file to be found. This option is useful
-if you are working with various computers on the same project file(s).
+Click the **Media files** tab and add one or more media files using the **Add media** button. You have 3 options:
 
-If you want to remove the media file paths of an entire project see `Removing path of media files`_.
+* **with absolute path**: the whole media file path will be recorded in the project
 
-The **Add all media from directory** and **Add all media from dir without path** allow to add all media files found in a directory to
-the playlist.
+* **with relative path**: the media file path will be recorded relatively to the position of the BORIS project file (the directory of the BORIS project file must be included). This option is useful if you have to have to move your BORIS project file on another computer.
+
+* **from directory with absolute path**: all the media file found in the directory will be added to the playlist (the whole media file path will be recorded in the project)
+
+* **from directory with relative path**: all the media file found in the directory will be added to the playlist (the relative media file path will be recorded in the project)
+
+.. If you want to remove the media file paths of an entire project see `Removing path of media files`_.
+
 
 
 
@@ -127,14 +142,14 @@ This means that an event occurring at time t\ :sub:`x`\  in the media file queue
 in the playlist will be scored as happening at time t\ :sub:`1`\  + t\ :sub:`x`\  (where t\ :sub:`1`\  is the duration of the first media
 file, e.g. first_video.mp4).
 
-The **Remove media** button can be used to remove all the selected media files.
+The **Remove selected media** button can be used to remove all the selected media files.
 
 
 All the media types reported at http://www.videolan.org/vlc/features.html can be played in BORIS.
 
 
 
-
+The **Use media file name as observation id** button will set the first media file name as **observation id**
 
 
 Spectrogram visualization
@@ -308,14 +323,82 @@ If you do not want to start the observation click the **Save** button. The obser
 The main window during the observation of a single media file will look like this:
 
 .. image:: images/observation_1video.png
-   :width: 100%
+   :width: 16cm
 
 
 See the `media coding`_ section to start coding.
 
 
-Limit observation to a time interval
+
+
+
+
+
+
+Observation from pictures
 ............................................................................................................................................
+
+
+
+
+Click on the **Observation from pictures** radio button to create an observation based on pictures.
+
+
+.. image:: images/picture_observation_tab_empty.png
+   :alt: Observation from pictures tab
+   :width: 16cm
+
+
+Use the **Add directory** to select a directory containing the pictures you want to code.
+You can select many directories, in this case the pictures will be browsed in the order of the directories were added.
+
+The **Use the pictures directory as observation id** button will set the directory name as **observation id**
+
+
+
+Time
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You have 3 option for the coding time:
+
+* No time: no time will be recorded. The image index (the position of image in the directory) and the image file path will be recorded.
+
+* Use the EXIF DateTimeOriginal tag: the time will be extracted from the EXIF tag of the picture file (if any).
+
+* Time lapse: this option will let you define the time interval between the pictures.
+
+
+
+
+Start the observation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Click the **Start** button to start coding. The **Observation** window will be closed and you'll be transferred to the main **BORIS** window.
+If you do not want to start the observation click the **Save** button. The observation will be saved in the `observations list`_.
+
+The main window during the coding of a picture directorywill look like this:
+
+.. image:: images/picture_observation_1.png
+   :width: 16cm
+
+
+See the `media coding`_ section to start coding.
+
+
+
+
+
+
+
+
+
+Various options
+............................................................................................................................................
+
+
+Limit observation to a time interval
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This option can be used to limit the observation to a time interval for live or media based observations.
 
@@ -324,19 +407,39 @@ This option can be used to limit the observation to a time interval for live or 
    :width: 80%
 
 
-Media based observation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-When the observation will start the media will be automatically positioned to the **Start time** value and the player will stop
-when the video time will reach the **Stop time** value.
 
 
-Live observation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The observation will start at time 0 (or the current time if the **Start from current time** option is enabled).
-The **Start time** of the time interval will not be applied.
-The observation will stop when the **Stop time** will be reached.
+
+.. Media based observation
+
+   When the observation will start the media will be automatically positioned to the **Start time** value and the player will stop
+   when the video time will reach the **Stop time** value.
+
+
+
+
+
+
+
+
+
+
+   Live observation
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   The observation will start at time 0 (or the current time if the **Start from current time** option is enabled).
+   The **Start time** of the time interval will not be applied.
+   The observation will stop when the **Stop time** will be reached.
+
+
+
+
+
+
+
+
+
 
 
 Observations list
@@ -344,11 +447,42 @@ Observations list
 
 The **Observations** > **Observations list** will show you all the observations contained in the current BORIS project.
 
-The observations can be sorted by clicking in the desired column header (alphabetic order ascending or descending).
+The following values are displayed: the observation id, the description of observation, the coded subjects,
+the observation duration (as the difference between the last recorded event and the first one),
+the percent of exhaustivity of the coding (as the sum of the length of the coded events divided by the observation duration),
+the media file(s) or LIVE in case of live observation,
+the values of the independent variables.
+
+
 
 .. image:: images/observations_list2.png
    :alt: Observations list
    :width: 100%
+
+
+
+The observations can be sorted by clicking in the desired column header (alphabetic order ascending or descending).
+
+
+Checking the observations
+.....................................................
+
+
+The status of observation is displayed in the first column (**Observation id**).
+If the background of this column is **red** the observations has one or more UNPAIRED state events.
+These UNPAIRED observations will not be analyzed. See `Fix unpaired state events`_ for details.
+
+
+.. image:: images/observations_list_warning.png
+   :alt: Observations list with warning
+   :width: 100%
+
+
+
+
+
+Filtering the observations
+.....................................................
 
 
 The observations list can be filtered selecting a field and a condition in the drop-list boxes.
@@ -385,6 +519,9 @@ Observations with a value of **Visitors** independent variable greater than 1000
 .. image:: images/observations_list2_filtered3.png
    :alt: Observations list
    :width: 100%
+
+
+
 
 
 
