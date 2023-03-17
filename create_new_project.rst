@@ -51,9 +51,13 @@ Switching to the **Ethogram** tab, you can alternatively:
 
 
 .. image:: images/ethogram1.png
-   :alt: Ethogram configuration
+   :alt: Ethogram configuration (1/2)
    :width: 15cm
 
+
+.. image:: images/ethogram2.png
+   :alt: Ethogram configuration (2/2)
+   :width: 15cm
 
 
 
@@ -141,16 +145,16 @@ In the **Code** column, you have to add a unique code for each behavior. Duplica
 BORIS will warn in red about duplicates on the bottom left of the *Ethogram* tab. The code can be an alphanumeric
 string (which must not include the pipe character **|** ).
 
-The **Category** column allow you to include the behavior to a predefined category.
+The **Category** column allow you to include the behavior to a predefined behavioral category.
 
 The **Description** of your behavior is optional. The **Description** column can be useful to add information
 about a specific behavior, its characteristics (e.g. to standardise observation between different users) or to
 refer to external information (e.g. reference to a previous ethogram).
 
-The following three columns (**Modifiers**, **Exclusion**, **Coding map**) cannot be edited from the **Ethogram** table.
+The following three columns (**Color**, **Modifiers**, **Exclusion**, **Coding map**) cannot be edited from the **Ethogram** table.
 
 
-
+The **Color** column allow to sleect a color for the behavior. This color will be used for plotting events.
 
 
 

@@ -6,25 +6,62 @@ The coded events can be exported in various formats:
 
 
 
-Export events
+Export tabular events
 ------------------------------------------------------------------------------------------------------------------------
 
-**Observations** > **Export events**
+**Observations** > **Export events** > **Tabular events**
 
-This function will export the events of selected observations in TSV, CSV, ODS, XLSX, XLS or HTML formats.
+This function exports the events of selected observations in one or many files
+Various formats are available: TSV, CSV, ODS, XLSX, XLS, HTML, Pandas dataframe and R dataframe.
+
+
 If many observations are selected BORIS will ask for a directory to save the various files.
-For the XLS and XLSX formats the events can be exported on various worsheet in a single workbook.
+For the XLS and XLSX formats the events can be exported on various worksheet in a single workbook.
 These formats are suitable for further analysis.
 
 
-.. image:: images/export_events.png
-   :alt: example of exported events in TSV format
-   :width: 60%
+Select the subjects, the behaviors and the time interval.
+    
+
+Set the time interval to the **Observed events**
 
 
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based on a modified
-             **observation id** in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened
-             to 31 characters.
+
+.. image:: images/select_subjects_behaviors_time_interval_1.png
+   :alt: Limit export to the observed events
+   :width: 10cm
+
+
+Select a **User defined** time interval.
+
+
+.. image:: images/select_subjects_behaviors_time_interval_2.png
+   :alt: Time interval is defined by the user
+   :width: 12cm
+
+
+
+Example of output of tabular events
+
+
+.. image:: images/export_tabular_events_1.png
+   :alt: example of exported events in TSV format (1/2)
+   :width: 16cm
+
+
+.. image:: images/export_tabular_events_2.png
+   :alt: example of exported events in TSV format (2/2)
+   :width: 14cm
+
+
+
+
+
+
+
+
+
+
 
 
 .. _export aggregated events:
@@ -33,16 +70,20 @@ Export aggregated events
 ------------------------------------------------------------------------------------------------------------------------
 
 
-**Observations** > **Export aggregated events**
+**Observations** > **Export events**  **Aggregated events**
 
-This function will export the events of the selected observations in the following formats:
+This function will export the events of the selected observations.
+
+Various formats are available:
 
 * **tabular format** (TSV, CSV, XLSX, XLS, ODS, HTML)
 * **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
+* **Pandas dataframe** (to be loaded in Python with the pickle module)
+* **R dataframe** (to be loaded in R with readR function)
 
-If many observations are selected you can choose to group all results in one file. If you do not want to group results
-BORIS will ask for a directory to save the various files.
+If two or more observations are selected you can choose to group all results in one file. If you do not want to group results
+BORIS will ask for a directory to save the various files (the observation id will be used as file name).
 
 
 The **State events** are paired and the duration is available.
@@ -51,68 +92,52 @@ An arbitrary time interval can be selected (check the **Limit to time interval**
 In this case the ongoing events will be started at start time and stopped at end time in the export file.
 
 
-Example of tabular export
+Example of output of aggregated events
 
-.. image:: images/export_aggregated_events.png
-   :alt: example of aggregated and exported events in TSV format
-   :width: 80%
+.. image:: images/export_aggregated_events_1.png
+   :alt: example of aggregated and exported events (1/2)
+   :width: 100%
+
+
+.. image:: images/export_aggregated_events_2.png
+   :alt: example of aggregated and exported events (2/2)
+   :width: 100%
 
 
 Example of SQL export::
 
-    CREATE TABLE events (id INTEGER PRIMARY KEY ASC, observation TEXT,
-                         date DATE, subject TEXT, behavior TEXT,
-                         modifiers TEXT, event_type TEXT, start FLOAT,
-                         stop FLOAT, comment_start TEXT,
-                         comment_stop TEXT);
 
-    INSERT INTO events (observation, date, subject, behavior, modifiers,
-     event_type, start, stop, comment_start, comment_stop ) VALUES
-    ("demo #1","2015-11-30 10:39:18","Subj #1","jump","","POINT",116.588,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subj #1","jump","","POINT",118.988,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subj #1","eat","salad","STATE",4.3,10.0,"vvv",""),
-    ("demo #1","2015-11-30 10:39:18","Subj #2","jump","","POINT",120.863,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subj #2","jump","","POINT",122.438,0,"",""),
-    ("demo #1","2015-11-30 10:39:18","Subj #2","eat","meat","STATE",26.6,113.988,"","");
-
-
-
-.. warning:: Please note that for some formats (XLS - Excel 97) the name of the sheet will be based a modified **observation id**
-             in order to not contain forbidden characters (:  \  /  ?  *  [  or  ]) and shortened to 31 characters.
+    CREATE TABLE aggregated_events (id INTEGER PRIMARY KEY ASC, observation TEXT, subject TEXT, behavior TEXT, type TEXT, modifiers TEXT, start FLOAT, stop FLOAT, 
+    comment TEXT, comment_stop TEXT, image_index_start INTEGER,image_index_stop INTEGER,image_path_start TEXT,image_path_stop TEXT);
+    INSERT INTO "aggregated_events" VALUES(1,'0001_a','Himal','Tear','STATE','Branches',0.0,30.199,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(2,'0001_a','Himal','Locomotion','STATE','Walk',30.2,32.4,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(3,'0001_a','Nautilus','Tear','STATE','Branches',0.0,32.4,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(4,'0001_b','Himal','Tear','STATE','Branches',0.0,30.199,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(5,'0001_b','Himal','Locomotion','STATE','Walk',30.2,32.4,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(6,'0001_b','Nautilus','Tear','STATE','Branches',0.0,31.4,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(7,'0002','Himal','Tear','STATE','Branches',0.0,33.898,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(8,'0002','Himal','Locomotion','STATE','',33.899,34.47,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(9,'0002','Sharky','Tear','STATE','Branches',0.0,30.688,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(10,'0002','Sharky','Locomotion','STATE','Walk',30.689,31.819,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(11,'0002','Nautilus','Tear','STATE','Branches',1.359,25.776,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(12,'0002','Nautilus','Carry objects','STATE','Branches',25.777,27.732,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(13,'0003','Nina','Locomotion','STATE','Walk',21.626,22.5,'','','NA','NA',NULL,NULL);
+    INSERT INTO "aggregated_events" VALUES(14,'0003','Nina','Manipulate','STATE','',0.0,21.625,'','','NA','NA',NULL,NULL);
 
 
 
-Export events for analysis with JWatcher
+
+
+
+
+
+Export events as behavioral sequences
 ------------------------------------------------------------------------------------------------------------------------
 
-`JWatcher <http://www.jwatcher.ucla.edu>`_  is a powerful tool for the quantitative analysis of behavior.
-
-The events coded with BORIS can be exported to be analyzed with JWatcher.
-
-Click **Observations** > **Export events** > **for analysis with JWatcher** to export the coded events.
-
-BORIS will ask for selecting a directory. After this, for each combination of selected observation and selected subject
-the following files
-will be created:
-
-* the Focal Data File (.dat)
-
-* the Focal Analysis Master File (.faf)
-
-* the Focal Master File (.fmf)
-
-
-These files can be used to analyze your observations with JWatcher.
-
-
-
-
-
-Export events as behavioral strings
-------------------------------------------------------------------------------------------------------------------------
+**Observations** > **Export events**  **as behavioral sequences**
 
 Behavioral strings can be used with the **Behatrix** program:
-`Behatrix (formerly BSA) <http://www.boris.unito.it/pages/behatrix>`_
+`Behatrix <http://www.boris.unito.it/pages/behatrix>`_
 
 Example::
 
@@ -130,8 +155,14 @@ Example::
 
 
 
+
+
 Export events as `Praat <http://www.fon.hum.uva.nl/praat/>`_ `TextGrid <http://www.fon.hum.uva.nl/praat/manual/TextGrid.html>`_
 ---------------------------------------------------------------------------------------------------------------------------------
+
+
+**Observations** > **Export events**  **as Praat TextGrid**
+
 
 Example::
 
@@ -168,10 +199,44 @@ Example::
 
 
 
-Export events as Behavioral Binary Table
+
+
+Export events for analysis with JWatcher
 ------------------------------------------------------------------------------------------------------------------------
 
-.. warning:: This function is still experimental in v. 7.8.5
+**Observations** > **Export events**  **for analysis with JWatcher**
+
+
+`JWatcher <http://www.jwatcher.ucla.edu>`_  is a powerful tool for the quantitative analysis of behavior.
+
+The events coded with BORIS can be exported to be analyzed with JWatcher.
+
+Click **Observations** > **Export events** > **for analysis with JWatcher** to export the coded events.
+
+BORIS will ask for selecting a directory. After this, for each combination of selected observation and selected subject
+the following files
+will be created:
+
+* the Focal Data File (.dat)
+
+* the Focal Analysis Master File (.faf)
+
+* the Focal Master File (.fmf)
+
+
+These files can be used to analyze your observations with JWatcher.
+
+
+
+
+
+
+
+Export events as Behaviors Binary Table
+------------------------------------------------------------------------------------------------------------------------
+
+
+**Observations** > **Export events**  **as Behaviors Binary Table**
 
 
 A time interval will be asked to the user (in seconds). The observation will be checked every n seconds and
@@ -231,20 +296,7 @@ Example for a time interval of 1 second::
     47.0    0         0        0            1
     48.0    0         0        0            1
     49.0    0         0        0            1
-    50.0    0         0        0            1
-    51.0    0         0        0            1
-    52.0    0         0        0            1
-    53.0    0         0        0            0
-    54.0    0         0        0            0
-    55.0    0         0        0            0
-    56.0    0         0        0            0
-    57.0    0         0        0            1
-    58.0    0         0        0            1
-    59.0    0         0        0            1
-    60.0    0         0        0            1
-    61.0    0         0        0            1
-    62.0    0         0        0            1
-    63.0    0         0        0            1
+
 
 
 

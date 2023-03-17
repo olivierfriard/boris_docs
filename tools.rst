@@ -13,7 +13,7 @@ This function can be activated with **Tools** > **Plot event in real time**.
 
 .. image:: images/plot_events_rt.png
    :alt: The real-time plot of events
-   :width: 15cm
+   :width: 12cm
 
 
 
@@ -67,7 +67,7 @@ Click on **Tools** > **Geometric measurements** to activate the measurements. Th
 
 .. image:: images/measurements_window.png
    :alt: measurements window
-   :width: 12cm
+   :width: 7cm
 
 
 Mark color
@@ -92,6 +92,10 @@ Point
 
 Select the **Point** radio button. Click the left mouse button on the frame bitmap to record the position of the clicked position.
 
+.. image:: images/measurements_window_2.png
+   :alt: measurements window
+   :width: 7cm
+
 
 Distance measurements
 ........................................................................................................................
@@ -105,7 +109,7 @@ The distance between the two selected points will be available in the text area 
 
 .. image:: images/distance_measurement_screenshot.png
    :alt: distance measurement screenshot
-   :width: 90%
+   :width: 15cm
 
 
 Area measurements
@@ -162,20 +166,6 @@ When the **Subjects pad** is displayed you can continue to select the focal subj
 
 
 
-Image overlay on video
-------------------------------------------------------------------------------------------------------------------------
-
-An image can be overlayed on the video (**Tools** > **Image overlay on video** > **Add an image overlay**).
-
-.. image:: images/image_overlay_dialog.png
-   :alt: Image overlay dialog
-   :width: 50%
-
-The image must be in PNG format, if the image is smaller than the video resolution the image position can be set from the
-top-left corner.
-The transparency of image can be set from 0 (full transparency) to 255 (no transparency).
-
-The remove the image overlay click **Tools** > **Image overlay on video** > **Remove**
 
 
 
@@ -337,37 +327,6 @@ You can continue to use BORIS during the rotation operation.
 The rotated video files are renamed by adding the **rotated<ANGLE>** to the original file name.
 
 
-
-
-
-
-
-
-Project server
---------------------------------------------------------------------------------------------------------------------------------------------
-
-This function allow you to communicate with the `BORIS App <https://github.com/olivierfriard/BORIS-App/releases>`_ by sending project
-and receiving onservations made with the **BORIS App**.
-For details read the `BORIS App user guide <http://boris-app.readthedocs.io/en/latest/>`_
-
-
-
-Starting the project server
-............................................................................................................................................
-
-* Open your project
-
-* Select **File** > **Project server**
-
-A window will open and show you the URL of the server that should be used on the **BORIS App**.
-The project server will serve the project for 30 minutes.
-
-
-
-Stopping the project server
-............................................................................................................................................
-
-* Select **File** > **Stop serving project**
 
 
 

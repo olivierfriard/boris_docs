@@ -12,7 +12,7 @@ Behavioral Observation Research Interactive Software (BORIS) user guide
 BORIS is an easy-to-use event logging software for video/audio coding and live observations.
 BORIS is a free and open-source software available for GNU/Linux, Windows.
 
-This user guide apply to the **version 8.7** of BORIS.
+This user guide apply to the **version 8.13** of BORIS.
 
 
 Since the version 8 BORIS is based on the MPV media player (see https://mpv.io) and allow the recording of events much more precisely.
@@ -41,6 +41,8 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 
 `Mastodon <https://fediscience.org/web/@boris>`_
 
+`Spoutible <https://spoutible.com/BORIS>`_
+
 `BORIS twitter feed <https://twitter.com/BORIS_behav_obs>`_
 
 `BORIS YouTube channel <https://www.youtube.com/channel/UCo-Jyvzawwp0bRMEor4aLVQ>`_
@@ -52,7 +54,7 @@ BORIS web site: `www.boris.unito.it <http://www.boris.unito.it>`_
 Legal
 ========================================================================================================================
 
-Copyright 2012-2022 Olivier Friard - Marco Gamba
+Copyright 2012-2023 Olivier Friard - Marco Gamba
 
 **BORIS** is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
