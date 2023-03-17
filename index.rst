@@ -88,15 +88,6 @@ Open an existing project with BORIS
 ========================================================================================================================
 
 
-.. important:: **Due to changes in the project format all the projects created with v. 7+ will not be suitable for
-               previous version of BORIS. The v. 7+ will open projects created with previous version and convert them.
-               A copy of your old project will be kept.**
-
-
-.. important:: If you open a project file created with a version older than v.7 BORIS will convert your project file and
-               keep an original version of your project file. BORIS will ask you to convert the upper case behavior and
-               subject keys to lower case.
-
 
 
 
