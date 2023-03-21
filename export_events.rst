@@ -92,11 +92,7 @@ An arbitrary time interval can be selected (check the **Limit to time interval**
 In this case the ongoing events will be started at start time and stopped at end time in the export file.
 
 
-<<<<<<< HEAD
-Example of output of aggregated events export
-=======
 Example of table export of aggregated events (TSV, CSV, XLSX, ODS, HTML)
->>>>>>> 69661720d6c9665a549add7e6ec991003b378afb
 
 .. image:: images/export_aggregated_events_1.png
    :alt: example of aggregated and exported events (1/2)
