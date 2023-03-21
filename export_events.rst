@@ -76,7 +76,7 @@ This function will export the events of the selected observations.
 
 Various formats are available:
 
-* **tabular format** (TSV, CSV, XLSX, XLS, ODS, HTML)
+* **table format** (TSV, CSV, XLSX, XLS, ODS, HTML)
 * **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
 * **Pandas dataframe** (to be loaded in Python with the `pickle module <https://docs.python.org/3/library/pickle.html>`_)
@@ -92,7 +92,11 @@ An arbitrary time interval can be selected (check the **Limit to time interval**
 In this case the ongoing events will be started at start time and stopped at end time in the export file.
 
 
+<<<<<<< HEAD
 Example of output of aggregated events export
+=======
+Example of table export of aggregated events (TSV, CSV, XLSX, ODS, HTML)
+>>>>>>> 69661720d6c9665a549add7e6ec991003b378afb
 
 .. image:: images/export_aggregated_events_1.png
    :alt: example of aggregated and exported events (1/2)
@@ -104,7 +108,7 @@ Example of output of aggregated events export
    :width: 100%
 
 
-Example of SQL export::
+Example of SQL export of aggregated events::
 
 
     CREATE TABLE aggregated_events (id INTEGER PRIMARY KEY ASC, observation TEXT, subject TEXT, behavior TEXT, type TEXT, modifiers TEXT, start FLOAT, stop FLOAT, 
