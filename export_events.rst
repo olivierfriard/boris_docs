@@ -79,8 +79,8 @@ Various formats are available:
 * **tabular format** (TSV, CSV, XLSX, XLS, ODS, HTML)
 * **SQL** format for populating a SQL database
 * **SDIS** format for analysis with the GSEQ program available at  `<http://www2.gsu.edu/~psyrab/gseq>`_
-* **Pandas dataframe** (to be loaded in Python with the pickle module)
-* **R dataframe** (to be loaded in R with readR function)
+* **Pandas dataframe** (to be loaded in Python with the `pickle module <https://docs.python.org/3/library/pickle.html>`_)
+* **R dataframe** (to be loaded in R with `readRDS function <https://rdrr.io/r/base/readRDS.html>`_)
 
 If two or more observations are selected you can choose to group all results in one file. If you do not want to group results
 BORIS will ask for a directory to save the various files (the observation id will be used as file name).
@@ -92,7 +92,7 @@ An arbitrary time interval can be selected (check the **Limit to time interval**
 In this case the ongoing events will be started at start time and stopped at end time in the export file.
 
 
-Example of output of aggregated events
+Example of output of aggregated events export
 
 .. image:: images/export_aggregated_events_1.png
    :alt: example of aggregated and exported events (1/2)
