@@ -72,7 +72,7 @@ Export aggregated events
 
 **Observations** > **Export events**  **Aggregated events**
 
-This function will export the events of the selected observations.
+This function will export the events corresponding to the selected subjects and the selected behaviors of the selected observations.
 
 Various formats are available:
 
@@ -86,10 +86,39 @@ If two or more observations are selected you can choose to group all results in 
 BORIS will ask for a directory to save the various files (the observation id will be used as file name).
 
 
-The **State events** are paired and the duration is available.
+The **State events** are paired and in this case the event duration is available.
 
 An arbitrary time interval can be selected (check the **Limit to time interval** option).
 In this case the ongoing events will be started at start time and stopped at end time in the export file.
+
+
+The following fields are available in the output:
+
+* Observation id
+* Observation date and time
+* Observation description
+* Observation type (Media file / Live / Pictures)
+* Source (for media file and pictures)
+* Total duration (in seconds, the duration of observation in base of the selected time interval)
+* Media duration(s) (in seconds, for media file observation)
+* FPS (frame / s, for video file, number of images per seconds)
+* Independent variables
+* Subject name
+* Observation duration by subject
+* Behavioral
+* Behavioral category (if any)
+* Modifiers
+* Behavior type (STATE / POINT)
+* Start (seconds)
+* Stop (seconds)
+* Duration (seconds, duration of the event for STATE events)
+* Media file name (for media file observation, media in which the event occurs)
+* Image index start (for observations from pictures, index of the image where the event starts)
+* Image index stop (for observations from pictures, index of the image where the event stops)
+* Image file path start (for observations from pictures, path of the image where the event stops)
+* Image file path stop (for observations from pictures, path of the image where the event stops)
+* Comment start
+* Comment stop
 
 
 Example of table export of aggregated events (TSV, CSV, XLSX, ODS, HTML)
