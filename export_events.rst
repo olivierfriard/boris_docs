@@ -101,13 +101,13 @@ The following fields are available in the output:
 * Source (for media file and pictures)
 * Total duration (in seconds, the duration of observation in base of the selected time interval)
 * Media duration(s) (in seconds, for media file observation)
-* FPS (frame / s, for video file, number of images per seconds)
-* Independent variables
+* FPS (frame/s, for video file, number of images per second)
+* Independent variables (one column by variable9)
 * Subject name
 * Observation duration by subject
-* Behavioral
+* Behavior
 * Behavioral category (if any)
-* Modifiers
+* Modifier(s) of behavior (one column by madifier)
 * Behavior type (STATE / POINT)
 * Start (seconds)
 * Stop (seconds)
