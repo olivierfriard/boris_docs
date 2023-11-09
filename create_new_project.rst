@@ -20,10 +20,18 @@ A video tutorial about creating a project is available at https://www.youtube.co
 
 
 To create a new project, under the menu **File** , select **New project**.
+
+
 You can determine your project name by writing in the **Project name** field in the **Information** tab. Once the project will be saved,
 the **Project file path** will show the full path to your project file.
+
+
 **Date** will automatically set on the current date and time, but you can alternatively set this info on your media date and time,
-or whatever you prefer. **Description** can host all the relevant information about your project, can be also left empty.
+or whatever you prefer. 
+
+**Description** can host all the relevant information about your project, can be also left empty.
+
+
 **Time format** can be alternatively set to **seconds** or to **hh:mm:ss.mss**. This choice can be changed at anytime
 under **File** > **Preferences** (for MacOS users, **BORIS** > **Preferences**) > **Default project time format**.
 
@@ -372,16 +380,24 @@ Import an ethogram from a plain text file
 Behaviors can be imported from a plain text file using the **Import ethogram > from text file** button.
 The fields must be separated by TAB, comma (,) or semicolomn (;). All rows must contain the same number of fields.
 
+The first row of your plain text file must contain the following labels. The order is not mandatory but respect the case:
 
-The fields will be interpreted as:
+* Behavior code
+* Behavior type
+* Description
+* Key
+* Behavioral category
+* Excluded behaviors
 
-* 1st column: Behavior type **State event** or **Point event** (mandatory)
-* 2nd column: Key (one character - case insensitive)
-* 3rd column: Behavior code (must be unique)
-* 4th column: behavior category (empty if no category)
-* 5th column: Description of behavior(optional)
 
-All fields after the 5th will be ignored.
+**Behavior code** is mandatory, the others fields can be empty.
+
+Example of a plain text ethogram definition::
+
+Behavior type,Behavior code,Key,Behavioral category,Description,Excluded behaviors
+state event,Play,p,,Play on the garden,s
+point event,Sleep,s,,Subject is sleeping,p
+
 
 
 BORIS will ask to select a plain text file (by default: \*.txt \*.csv \*.tsv) and whether imported behaviors should replace or be appended

@@ -33,16 +33,25 @@ Allow to go to a specific time in the current media file.
 Zoom level
 ------------------------------------------------------------------------------------------------------------------------
 
+Select the zoom level for each player using combinations of keys (**CTRL**):
 
+Zoom in with **CTRL** + **+**
 
-zoom in with **CTRL** + **+**
-zoom out with `CTRL` + `-`
-set no zoom with `CTRL` + `0` or by clicking the mouse right button on the video
+Zoom out with **CTRL** + **-**
 
-and move (pan) the picture in video using:
-`CTRL` + `LEFT ARROW`, `CTRL` + `RIGHT ARROW`, `CTRL` + `UP ARROW` and `CTRL` + `DOWN ARROW`, 
+Set no zoom with **CTRL** + **0** or by clicking the mouse right button on the video.
 
-If you have n observation with many media you will have to select the video by a left-click before.
+To pan the zoomed video:
+
+**CTRL** + **LEFT ARROW**
+
+**CTRL** + **RIGHT ARROW**
+
+**CTRL** + **UP ARROW**
+
+**CTRL** + **DOWN ARROW** 
+
+If you have many video, first select the video by a left-click before.
 
 
 

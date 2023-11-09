@@ -43,19 +43,7 @@ MacOS
 
 As I have no access to a physical Mac computer the v.8 is not natively able to run under MacOS at the moment. 
 
-Otherwise there are various possibilities to run BORIS v. 8 on a Mac:
-
-* `Use the BORIS Docker <https://hub.docker.com/repository/docker/olivierfriard/boris/general>`_
-
-* `Use BORIS for Windows with Boot Camp Assistant <https://support.apple.com/guide/bootcamp-assistant/welcome/mac>`_ 
-
-* `Use BORIS fro Windows or Linux with Parallels® Desktop for Mac <https://www.parallels.com/products/desktop>`_
-
-* `Running GUI Linux in a virtual machine on a Mac <https://developer.apple.com/documentation/virtualization/running_gui_linux_in_a_virtual_machine_on_a_mac>`_
-
-* `Switch to another OS <https://itsfoss.com/why-use-linux/>`_
-
-
+Otherwise there are various other possibilities to run BORIS v. 8 on a Mac See http://www.boris.unito.it/pages/download_mac
 
 
 

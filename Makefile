@@ -1,6 +1,6 @@
 # makefile for building the PDF version of BORIS user guide
 
-# while inotifywait -e close_write *.rst; do make ; done
+# while inotifywait -e close_write *.rst; do make pdf; done
 
 default:
 	rst2pdf index.rst -s serif -o boris_user_guide.pdf
