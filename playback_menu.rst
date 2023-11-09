@@ -35,7 +35,7 @@ Zoom level
 
 
 
-zoom in with `CTRL` + `+`
+zoom in with **CTRL** + **+**
 zoom out with `CTRL` + `-`
 set no zoom with `CTRL` + `0` or by clicking the mouse right button on the video
 
