@@ -33,13 +33,27 @@ Allow to go to a specific time in the current media file.
 Zoom level
 ------------------------------------------------------------------------------------------------------------------------
 
-Select the zoom level for each player. The available zoom values are: 2, 1, 0.5 and 0.25.
-In case of simultaneous playing you can set different values of zoom for each player.
 
 
-.. image:: images/zoom_level.png
-   :alt: Zoom level
-   :width: 4cm
+zoom in with `CTRL` + `+`
+zoom out with `CTRL` + `-`
+set no zoom with `CTRL` + `0` or by clicking the mouse right button on the video
+
+and move (pan) the picture in video using:
+`CTRL` + `LEFT ARROW`, `CTRL` + `RIGHT ARROW`, `CTRL` + `UP ARROW` and `CTRL` + `DOWN ARROW`, 
+
+If you have n observation with many media you will have to select the video by a left-click before.
+
+
+
+..
+   Select the zoom level for each player. The available zoom values are: 2, 1, 0.5 and 0.25.
+   In case of simultaneous playing you can set different values of zoom for each player.
+
+
+   .. image:: images/zoom_level.png
+      :alt: Zoom level
+      :width: 4cm
 
 
 
