@@ -29,7 +29,7 @@ This window allow adding various observation data:
 * The **Limit observation to a time interval** option can be used to limit the observation to an arbitrary time interval.
 
 
-You must then indicate if you want to make an observation based on pre-recorded media (audio / video) or a live observation.
+You must then indicate if you want to make an observation based on **pre-recorded media (audio / video)** or a **live observation**.
 
 
 Live observation
