@@ -1,4 +1,4 @@
 [project]
 name = "BORIS_doc"
-authors = [{name = "", email = ""}]
+authors = [{name = "Olivier Friard", email = "olivier.friard@unito.it"}]
 dynamic = ["version", "description"]
