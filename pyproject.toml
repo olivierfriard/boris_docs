@@ -1,0 +1,4 @@
+[project]
+name = "BORIS_doc"
+authors = [{name = "", email = ""}]
+dynamic = ["version", "description"]
