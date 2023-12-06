@@ -1,4 +1,6 @@
 [project]
 name = "BORIS_doc"
 authors = [{name = "Olivier Friard", email = "olivier.friard@unito.it"}]
+version = 1
+description="BORIS documentation"
 
