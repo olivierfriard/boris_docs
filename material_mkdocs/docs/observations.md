@@ -1,5 +1,5 @@
-Create a new observation
-========================
+# Create a new observation
+
 
 A video tutorial about making an observation is available at
 <https://www.youtube.com/watch?v=CKeBITCICXc>
@@ -7,34 +7,50 @@ A video tutorial about making an observation is available at
 To create a new observation you must first [Create a new project with
 BORIS]() or [Open an existing project with BORIS]().
 
-Clicking on **Observations** \> **New observation** will show the **New
+Clicking on **Observations** > **New observation** will show the **New
 observation** window.
 
-![New observation window](images/new_observation_empty.png){width="80.0%"}
+<figure markdown>
+  ![Image title](images/new_observation_empty.png){width="80.0%"}
+  <figcaption>New observation window</figcaption>
+</figure>
+
+
 
 This window allow adding various observation data:
 
 -   a mandatory **Observation id** (must be unique across all
     observations in the open project);
+
 -   **Date**, which will be automatically set on the current date and
     time, but you can alternatively set this info on your media date and
     time, or whatever you prefer.
+
 -   **Description**, which can host all the relevant information about
     your observation, but can be also left empty.
+
 -   **Independent variables** (e.g. to specify factors that may
     influence the behaviors but will not change during the observation
     within a project).See the [independent variables]() section for
     details.
+
 -   **Time offset**. BORIS allow specifying a time offset that can be
     added or subtracted from the media timecode.
+
 -   The **Limit observation to a time interval** option can be used to
     limit the observation to an arbitrary time interval.
+
 
 You must then indicate if you want to make an observation based on
 **pre-recorded media (audio / video)** or a **live observation**.
 
-Live observation
-----------------
+
+
+
+
+
+## Live observation
+
 
 During the live observation BORIS will show you a timer that will be
 used for recording time for coded events.
@@ -42,7 +58,14 @@ used for recording time for coded events.
 Click on the **Live observation** radio button to create a live
 observation.
 
-![New live observation](images/live_observation1.png){width="16cm"}
+
+<figure markdown>
+  ![Image title](images/live_observation1.png){width="80.0%"}
+  <figcaption>New live observation</figcaption>
+</figure>
+
+
+
 
 ### Scan sampling
 
@@ -55,7 +78,14 @@ indicated and all the coded events will have the same time value.
 If you want that the time starts from the current time you can check the
 **Start from current time** checkbox.
 
-![Live observation starting from current time](images/live_observation2.png){width="10cm"}
+
+
+<figure markdown>
+  ![Image title](images/live_observation2.png){width="80.0%"}
+  <figcaption>Set a live observation to start from current time</figcaption>
+</figure>
+
+
 
 If the **Day time** option is checked the start time will be the
 computer current time when you will press the **Start** button.
@@ -73,17 +103,33 @@ save it in the [Observations list](#observations-list).
 
 The main window during a live observation will look like this:
 
-![image](images/observation_live.png){width="16cm"}
+
+<figure markdown>
+  ![Image title](images/observation_live.png){width="80.0%"}
+  <figcaption>The main window during a live observation</figcaption>
+</figure>
 
 See the [Live observations]() section to start coding.
 
-Observation from media file(s)
-------------------------------
+
+
+
+
+## Observation from media file(s)
+
 
 Click on the **Observation from media file(s)** radio button to create
 an observation based on one or more media files.
 
-![Media files tab](images/media_files_tab_empty.png){width="16cm"}
+
+
+
+<figure markdown>
+  ![Image title](images/media_files_tab_empty.png){width="80.0%"}
+  <figcaption>Media files tab</figcaption>
+</figure>
+
+
 
 The **Observation from media file(s)** tab contains 2 tabs: **Media
 files** and **Data files**.
@@ -110,13 +156,28 @@ displayed in the media list: media file path, media duration, number of
 frames by second (FPS), the presence of a video stream, the presence of
 an audio stream .
 
-![Media files tab](images/media_files_tab_1.png){width="80.0%"}
+
+
+
+<figure markdown>
+  ![Image title](images/media_files_tab_1.png){width="80.0%"}
+  <figcaption>Media files tab</figcaption>
+</figure>
+
+
+
 
 The dropdown list in the first column allow you to choose a player (for
 a maximum of 8). If you want to observer more media files simultaneously
 you must use consecutive players (starting from 1). See example below:
 
-![Media files tab](images/media_files_tab_2.png){width="80.0%"}
+
+
+<figure markdown>
+  ![Image title](images/media_files_tab_2.png){width="80.0%"}
+  <figcaption>Media files tab</figcaption>
+</figure>
+
 
 If you have to synchronize 2 (or more) videos you can use the **Offset
 column** to indicate when the 2nd player should start. For example if
@@ -126,20 +187,21 @@ video starts before the first player you can set a negative value in the
 **Offset** cell
 
 If you have to play sequentially many videos you have to select the same
-player (\#1) for all video you have loaded. This means that an event
+player (#1) for all video you have loaded. This means that an event
 occurring at time t~x~ in the media file queued as second (e.g.
 second\_video.mp4) in the playlist will be scored as happening at time
 t~1~ + t~x~ (where t~1~ is the duration of the first media file, e.g.
-first\_video.mp4).
+first_video.mp4).
 
 The **Remove selected media** button can be used to remove all the
 selected media files.
 
-All the media types reported at
-<http://www.videolan.org/vlc/features.html> can be played in BORIS.
+All the media types that can be played by the MPV player can be played in BORIS.
 
 The **Use media file name as observation id** button will set the first
 media file name as **observation id**
+
+
 
 ### Spectrogram visualization
 
@@ -161,14 +223,10 @@ This option is disabled for now.
 
 ### External data files
 
-::: {.warning}
-::: {.title}
-Warning
-:::
+!!! warning "Warning"
 
-**At this time only 2 external data can be plotted with your media
-file**
-:::
+    **At this time only 2 external data can be plotted with your media file**
+
 
 You can select one or more external data files to be plotted
 synchronously with your media. Click the **Data files** tab and use the

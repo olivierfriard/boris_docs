@@ -420,9 +420,9 @@ The order is not mandatory but respect the case:
 
 Example of a plain text ethogram definition:
 
-Behavior type,Behavior code,Key,Behavioral category,Description,Excluded
-behaviors state event,Play,p,,Play on the garden,s point
-event,Sleep,s,,Subject is sleeping,p
+    Behavior type,Behavior code,Key,Behavioral category,Description,Excluded behaviors
+    state event,Play,p,,Play on the garden,s
+    point event,Sleep,s,,Subject is sleeping,p
 
 BORIS will ask to select a plain text file (by default: \*.txt \*.csv
 \*.tsv) and whether imported behaviors should replace or be appended to
