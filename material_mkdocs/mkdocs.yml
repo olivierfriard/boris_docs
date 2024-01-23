@@ -22,7 +22,8 @@ nav:
       - Installation: install.md
       - Starting: start.md
       - Create a project: create_project.md
-      - Create an observation: observations.md 
+      - Create an observation: observations.md
+      - Observations list: observations_list.md
 
 copyright: Copyright &copy; 2012 - 2024 Olivier Friard
 
