@@ -210,12 +210,24 @@ observation. Activate the **Visualize spectrogram** check box. BORIS
 will ask you to generate the spectrograms for all media files loaded in
 the first player.
 
-![spectrogram generation](images/spectro1.png){width="50.0%"}
+
+
+<figure markdown>
+  ![Image title](images/spectro1.png){width="80.0%"}
+  <figcaption>Spectrogram generation</figcaption>
+</figure>
+
+
 
 The spectrogram visualization will be synchonized to the media position
 during the observation.
 
-![spectrogram visualization](images/spectrogram.jpg)
+
+<figure markdown>
+  ![Image title](images/spectrogram.jpg){width="80.0%"}
+  <figcaption>Spectrogram visualization</figcaption>
+</figure>
+
 
 ### Close current behavior between videos
 
@@ -232,7 +244,13 @@ You can select one or more external data files to be plotted
 synchronously with your media. Click the **Data files** tab and use the
 **Add data file** button to select a data file.
 
-![External data file tab](images/external_data_file_1.png){width="100.0%"}
+
+<figure markdown>
+  ![Image title](images/external_data_file_1.png){width="80.0%"}
+  <figcaption>External data file tab</figcaption>
+</figure>
+
+
 
 The data files must be plain text files with at least **2 columns**
 separated by comma or TAB. One column must contain a timestamp that will
@@ -259,11 +277,22 @@ Input the index of the column containing the timestamp and the index of
 the column containing the value to be plotted. The two indices must be
 separated by a comma (,). Click **OK** to close the window.
 
-![Selection of columns (time, value)](images/external_data_file_columns_selection.png){width="80.0%"}
+
+<figure markdown>
+  ![Image title](images/external_data_file_columns_selection.png){width="80.0%"}
+  <figcaption>Selection of columns (time, value)</figcaption>
+</figure>
+
 
 A new row will be added in the data files table.
 
-![image](images/external_data_file_1.png){width="100.0%"}
+
+<figure markdown>
+  ![Image title](images/external_data_file_1.png){width="80.0%"}
+  <figcaption>Data file tab</figcaption>
+</figure>
+
+
 
 You can modify/complete the following parameters by directly typing in
 the table cells:
@@ -295,24 +324,40 @@ The values can come from the same file or from two different files.
 During the observation tha values you have selected in external data
 files will be plotted synchronously with your media file.
 
-![Observation with 2 values plotted from external data files: Temperature and salinity](images/observation_with_external_data.png){width="1800px"}
 
-### Converters
+<figure markdown>
+  ![Image title](images/observation_with_external_data.png){width="100.0%"}
+  <figcaption>Observation with 2 values plotted from external data files: Temperature and salinity</figcaption>
+</figure>
+
+
+#### Converters
 
 If the values in the timestamp column are not expessed in seconds (like
 12.45) but in another format (HH:MM:SS, MM:SS, ISO8601
-2018-01-18T12:31:40Z \...) you must use a converter that will convert
+2018-01-18T12:31:40Z ...) you must use a converter that will convert
 the current format in seconds.
 
-See the Converters\' tab in the project configuration: [converters
-tab]()
+See the Converters' tab in the project configuration: [converters tab]()
 
 A **double-click** on the converters cell will allow you to select a
 converter for each column to be plotted
 
-![image](images/converter_selection.png){width="40.0%"}
 
-![image](images/converter_selected.png){width="80.0%"}
+
+<figure markdown>
+  ![Image title](images/converter_selection.png){width="100.0%"}
+  <figcaption></figcaption>
+</figure>
+
+
+
+<figure markdown>
+  ![Image title](images/converter_selected.png){width="100.0%"}
+  <figcaption></figcaption>
+</figure>
+
+
 
 Use the **Show plot** button to verify if your external data can be
 plotted without problem. The **Close plot** button will close the plot
@@ -326,6 +371,10 @@ Example of a converter for inverting value:
 
     OUTPUT = - float(INPUT)
 
+
+
+
+
 ### Start the observation
 
 Click the **Start** button to start coding. The **Observation** window
@@ -337,17 +386,26 @@ list](#observations-list).
 The main window during the observation of a single media file will look
 like this:
 
-![image](images/observation_1video.png){width="16cm"}
+
+<figure markdown>
+  ![Image title](images/observation_1video.png){width="100.0%"}
+  <figcaption>The main window during the observation of one video</figcaption>
+</figure>
+
 
 See the [media coding]() section to start coding.
 
-Observation from pictures
--------------------------
+## Observation from pictures
+
 
 Click on the **Observation from pictures** radio button to create an
 observation based on pictures.
 
-![Observation from pictures tab](images/picture_observation_tab_empty.png){width="16cm"}
+
+<figure markdown>
+  ![Image title](images/picture_observation_tab_empty.png){width="80.0%"}
+  <figcaption>Observation from pictures tab</figcaption>
+</figure>
 
 Use the **Add directory** to select a directory containing the pictures
 you want to code. You can select many directories, in this case the
@@ -375,10 +433,15 @@ If you do not want to start the observation click the **Save** button.
 The observation will be saved in the [observations
 list](#observations-list).
 
-The main window during the coding of a picture directorywill look like
-this:
 
-![image](images/picture_observation_1.png){width="16cm"}
+
+
+<figure markdown>
+  ![Image title](images/picture_observation_1.png){width="80.0%"}
+  <figcaption>The main window during the coding of a picture directory</figcaption>
+</figure>
+
+
 
 See the [media coding]() section to start coding.
 
@@ -392,8 +455,9 @@ live or media based observations.
 
 ![image](images/limit_obs_time_interval.png){width="80.0%"}
 
-Observations list
-=================
+
+# Observations list
+
 
 The **Observations** \> **Observations list** will show you all the
 observations contained in the current BORIS project.
@@ -411,8 +475,11 @@ variables.
 The observations can be sorted by clicking in the desired column header
 (alphabetic order ascending or descending).
 
-Checking the observations
--------------------------
+
+
+
+## Checking the observations
+
 
 The status of observation is displayed in the first column
 (**Observation id**). If the background of this column is **red** the
@@ -422,8 +489,10 @@ details.
 
 ![Observations list with warning](images/observations_list_warning.png){width="100.0%"}
 
-Filtering the observations
---------------------------
+
+
+## Filtering the observations
+
 
 The observations list can be filtered selecting a field and a condition
 in the drop-list boxes.
@@ -450,11 +519,14 @@ than 1000:
 
 ![Observations list](images/observations_list2_filtered3.png){width="100.0%"}
 
-Delete observations
-===================
+
+
+
+## Delete observations
+
 
 The observations can be deleted from the project using the following
-procedure: **File** \> **Edit project** \> **Observation\'s tab**
+procedure: **File** > **Edit project** > **Observation\'s tab**
 
 Select all observations to remove
 
@@ -463,10 +535,11 @@ deletion.
 
 Please note that the deletion is irreversible.
 
-Import observations from a project file
-=======================================
 
-The **Observations** \> **Import observations** option allows to import
+## Import observations from a project file
+
+
+The **Observations** > **Import observations** option allows to import
 observations from a BORIS project file into the current project. Choose
 the project file and then the observations to import. BORIS will check
 if observations with same id are already existing in the current
