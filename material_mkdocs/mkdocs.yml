@@ -1,0 +1,40 @@
+site_name: BORIS documentation
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - toc.integrate
+    - toc.follow
+    - navigation.path
+    - navigation.top
+
+nav:
+  - Welcome: index.md
+  - Getting started:
+      - Installation: install.md
+      - Starting: start.md
+      - Create a project: create_project.md
+
+copyright: Copyright &copy; 2012 - 2024 Olivier Friard
+
+extra:
+  generator: false
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/olivierfriard/BORIS
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+
