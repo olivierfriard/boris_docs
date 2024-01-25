@@ -90,14 +90,14 @@ than 1000:
 
 
 The observations can be deleted from the project using the following
-procedure: **File** > **Edit project** > **Observation\'s tab**
+procedure: **File** > **Edit project** > **Observations**
 
-Select all observations to remove
+Select all the observations you want to remove.
 
 Click the **Remove selected observations** button and confirm the
 deletion.
 
-Please note that the deletion is irreversible.
+Please note that the deletion is irreversible, the deleted observations can not be restored.
 
 
 ## Import observations from a project file

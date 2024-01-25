@@ -1,4 +1,6 @@
 site_name: BORIS documentation
+site_author: Olivier Friard
+site_url: http://127.0.0.1:8000/doc/
 
 theme:
   name: material
@@ -24,6 +26,7 @@ nav:
       - Create a project: create_project.md
       - Create an observation: observations.md
       - Observations list: observations_list.md
+      - Coding: coding.md
 
 copyright: Copyright &copy; 2012 - 2024 Olivier Friard
 
@@ -39,4 +42,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - def_list
-
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
