@@ -1,0 +1,443 @@
+# Coding
+
+When looking at the BORIS main window, the window title bar shows the
+**Observation id** - **Project name** - **BORIS**. The media (the first
+in the queue) will be loaded in the media player and paused.
+
+
+## Media based coding
+
+
+### Media controls are available in the toolbar
+
+
+<figure markdown>
+  ![Image title](images/toolbar.png){ width="100%"}
+  <figcaption>BORIS toolbar</figcaption>
+</figure>
+
+<script src="https://kit.fontawesome.com/e1bb57bd57.js" crossorigin="anonymous"></script>
+
+
+
+Key to the symbols:
+
+:fontawesome-solid-list: **List of observations**
+
+
+:fontawesome-solid-play:   **Play** (become :fontawesome-solid-pause: **Pause** when media is played)
+
+<i class="fa-solid fa-backward-step fa-2x"></i>   **Rewind** reset your media at the beginning
+
+<i class="fa-solid fa-backward fa-2x"></i>   **Fast backward** jumps for n seconds backward in your media (See
+    [general preferences]() to set n)
+
+<i class="fa-solid fa-forward fa-2x"></i>   **Fast forward** jumps for n seconds forward in your media (See
+    [general preferences]() to set n)
+
+
+<i class="fa-solid  fa-2x"></i>   **Set the playback speed to 1x**
+
+<i class="fa-solid fa-circle-plus fa-2x"></i>   **Increase the playback speed** (See [general preferences]() to set the step value)
+
+<i class="fa-solid fa-circle-minus fa-2x"></i>   **Decrease the playback speed** (See [general preferences]() to set the step value)
+
+<i class="fa-solid fa-backward-fast fa-2x"></i>   **Jump to the previous media file**
+
+<i class="fa-solid fa-forward-fast fa-2x"></i>   **Jump to the next media file**
+
+:fontawesome-solid-camera:   **Take a snapshot** of current video or frame
+
+<i class="fa-solid fa-arrow-left fa-2x"></i>   **Move on frame back**
+
+<i class="fa-solid fa-arrow-right fa-2x"></i>   **Move one frame forward**
+
+:fontawesome-solid-xmark:   **Close current observation**
+
+<i class="fa-solid  fa-2x"></i>   **Real time plot of events**
+
+:fontawesome-solid-table-list:   **Time budget of the current observation**
+
+:fontawesome-solid-chart-gantt:   **Plot events of the current observation**
+
+<i class="fa-solid  fa-2x"></i>   **xxx**
+
+:fontawesome-solid-compass-drafting:   **Geometric measurements**
+
+:fontawesome-solid-magnifying-glass:    **Find in events**
+
+<i class="fa-solid  fa-2x"></i>   **Explore project**
+
+<i class="fa-solid  fa-2x"></i>   **Preferences**
+
+
+
+
+
+
+
+The media can be controlled by special keyboard keys:
+
+++page-up++   Switch to the next media
+
+++page-down++ switch to the previous media
+
+++arrow-up++  Jump forward in the current media
+
+++arrow-down++ Jump backward in the current media
+
+++home++ Increase the playback speed (See [general preferences]() to set the step value)
+
+-   **End** key: Decrease the playback speed (See [general preferences]() to set the step value)
+
+-   **Backspace**: Set the playback speed to 1x
+
+-   **Left arrow** key: go to the previous frame
+
+-   **Right arrow** key: go to the next frame
+
+## Live observations
+
+During a live observation the media control toolbar is disabled.
+
+Press the **Start live observation** button to start your observation.
+If some events are already coded BORIS will ask you for deleting them.
+
+A timer will be displayed. The events will be recorded in the events
+widget.
+
+
+
+<figure markdown>
+  ![Image title](images/observation_live.png){width="100.0%"}
+  <figcaption>Live observation</figcaption>
+</figure>
+
+
+
+## **Ethogram** table in the main window
+
+
+
+
+<figure markdown>
+  ![Image title](images/main_window_ethogram.png){width="100.0%"}
+  <figcaption>Ethogram table in main window</figcaption>
+</figure>
+
+
+
+
+The **Ethogram** widget provide the user with the list of behaviors
+defined in the **Ethogram**. It can be used to record an event by double
+clicking on the corresponding row. The **Key** column indicates the
+keyboard key assigned to each behavior (if any). Pressing a key will
+record the corresponding behavior (that will appear in the *Events*
+widget).
+
+The behaviors shown in the ethogram widget can be filtered:
+
+**Right-click** on ethogram widget \> **Filter behaviors**
+
+Check/Uncheck single behaviors or double-click on the behavioral
+category
+
+
+
+<figure markdown>
+  ![Image title](images/filter_behaviors.png){width="80.0%"}
+  <figcaption>Filter behaviors in ethogram table</figcaption>
+</figure>
+
+
+
+## **Subjects** table in the main window
+
+
+
+<figure markdown>
+  ![Image title](images/main_window_subjects.png){width="80.0%"}
+  <figcaption>Subjects list widget in main window</figcaption>
+</figure>
+
+
+
+
+The **Subjects** widget provide the user with the list of subjects
+defined in the **Subject** tab in the **Project** window. It can be used
+to add information about the focal subject on the recorded behaviors by
+double clicking on the corresponding row. When a subject is selected
+his/her name appears above the media player. The **Key** column
+indicates the keyboard key assigned to each subject (if any).
+
+The subjects shown in the subjects widget can be filtered:
+
+**Right-click** on subjects widget \> **Filter subjects**
+
+Check/Uncheck single subject
+
+![Filter subjects in subjects widget](images/filter_subjects.png){width="40.0%"}
+
+## The **media player** widgets
+
+
+
+<figure markdown>
+  ![Image title](images/observation_3video_2.png){width="100.0%"}
+  <figcaption>3 media players</figcaption>
+</figure>
+
+
+
+The media position can be set using the horizontal slide bar. Each media
+player has its own audio volume control (the vertical slide bar on the
+right side of the player).
+
+The organization of the various widget can be customized:
+
+
+
+<figure markdown>
+  ![Image title](images/undocked_widgets.png){width="100.0%"}
+  <figcaption>undocked widgets</figcaption>
+</figure>
+
+
+
+## The **Events** widget
+
+
+![Events widget](images/events_widget.png){width="60.0%"}
+
+The **Events** widget shows all the recorded behaviors (events) with the
+following parameters (organized in columns):
+
+-   **time**, the time at which the event occurred;
+-   **subject**, the focal subject (if any);
+-   **code**, the behavior code;
+-   **type**, in case of a state event indicates whether the time
+    corresponds to the start or to the stop.
+-   **modifier**, indicates the modifier(s) that was(ere) selected (if
+    any);
+-   **comment**, is an open field where the user can add notes.
+
+A tracking cursor (red triangle) will show the current event. This
+cursor can be positioned above the current event, see [tracking cursor
+position]() option in Preferences window.
+
+A double-click on a row will reposition the media player to the moment
+of the corresponding event. See [Time offset for media reposition]() in
+Preferences window to customize the time offset for media repositioning.
+
+
+## Record an event
+
+
+Once ready to begin your coding, you can start the media player using
+the **Play** button (or the **Space bar**). The behaviors can be
+recorded using the keyboard with the predefined keys, by double-clicking
+the corresponding row in the **Ethogram** table or by using the **Coding
+pad** (See [coding pad]()).
+
+![Ethogram and subjects widgets](images/ethogram_subjects_widgets.png){width="60.0%"}
+
+If the pressed key defines a single event, the corresponding event will
+be recorded in the **Events** table. In the case you have specified the
+same key for two (or more) events (e.g. key A in the figure below),
+BORIS will prompt you for the desired behavior.
+
+![Ask for modifiers](images/ask_for_code.png){width="40.0%"}
+
+In the case you have specified modifiers (one or more sets), BORIS will
+prompt you for the desired modifier(s) if any (e.g. **ball** or
+**opponent** in the figure below). You can select the correct one using
+the mouse or the keyboard ( **b** key or **o** key)
+
+![Ask for modifiers](images/ask_for_modifiers.png){width="40.0%"}
+
+If no keys are defined for the modifier selection, you can type the
+first character of the modifier and use the **Up arrow** and **Down
+arrow** keyboard keys to select the correct modifier.
+
+In the case your behavior type is a **Point event with coding map** or a
+**State event with coding map**, BORIS will show the **Coding map**
+window and will allow selecting the desired area(s). In case you click a
+part of the map in which two (or more) areas overlap, the corresponding
+codes will be recorded.
+
+A recorded event can be edited (once selected) using the
+**Observations** \> **Edit event** menu option. The resulting *Edit
+event parameters* allows modifying every parameter (e.g. time, subject,
+code, modifiers, and comment).
+
+The **Observations** \> **Add event** menu option allows adding a new
+event by specifying its time and the other parameters.
+
+### The Events widget context menu
+
+
+Some functions are available in the Events widget context menu.
+Righ-click on the Events widget.
+
+![Events widget menu](images/events_widget_menu.png){width="60.0%"}
+
+### Undo an even recording
+
+A wrong event can be removed from the events list using the Undo
+function (CTRL + Z). You can go back till 25 events recorded events.
+
+### Add event
+
+This option allows adding a new event by specifying its time and the
+other parameters.
+
+### Edit selected event(s)
+
+This option allows to edit the selected event(s). When many events are
+selected you have to choose the field to edit between **Subject**,
+**Behavior** and **Comment**. In this case the new value will apply to
+all selected events.
+
+![Edit many events](images/edit_many_events.png){width="60.0%"}
+
+### Edit time of selected event(s)
+
+This option allows to add or subtract a time value (in seconds) to all
+selected events. For subtracting a value use a negative value.
+
+![Edit time of selected events](images/edit_time_events.png){width="60.0%"}
+
+### Copy events
+
+This option allows to copy the selected events in the clipboard. The
+clipboard will contain the values of the selected events (except the
+**type** field) separated by a \<TAB\> character.
+
+Example of clipboard content:
+
+    0.0 Himal   Tear    Branches
+    0.0 Nautilus    Tear    Branches
+    30.199  Himal   Tear    Branches
+    30.2    Himal   Locomotion  Walk
+    32.4    Himal   Locomotion  Walk
+    32.4    Nautilus    Tear    Branches
+
+### Paste events
+
+This option allows to paste the clipboard content into the events
+widget. The clipboard must respect the format described in the previous
+section: 5 columns separated by \<TAB\> character.
+
+### Find in events
+
+This option allows to search for a string in the various field of
+events. Select the fields to be searched. The find/replace operation can
+be restricted to the selected events.
+
+![Find in events](images/find_in_events.png){width="60.0%"}
+
+### Find/Replace in events
+
+This option allows to search for a string and replace it by a new value
+in the various field of events. Select the fields to be searched. The
+find operation can be restricted to the selected events.
+
+![Find / replace in events](images/find_replace_in_events.png){width="60.0%"}
+
+### Filter events
+
+This option allows to filter the events by field value.
+
+![Filter events](images/filter_events.png){width="40.0%"}
+
+### Show all events
+
+This option reverts the previous one and allows to visualize all coded
+events
+
+### Check state events
+
+This option allows to check if the **state events** are **PAIRED**, if
+they have a **START** and a **STOP** occurences.
+
+### Delete selected events
+
+This option allows to delete the selected events. This operation is
+irreversible!
+
+### Delete all events
+
+This option allows to delete all then events in the current observation.
+This operation is irreversible!
+
+Fix unpaired state events
+=========================
+
+You can use the "Fix unpaired events" function to fix the **state events** without a STOP event.
+
+**Observations** > **Fix unpaired events** (keyboard shortcut: CTRL+U)
+
+The program will ask for a time at which insert the STOP events for all
+unpaired **state events**
+
+This function can be run on a set of selected observations (when no
+observation is open). In this case the STOP events will be inserted at
+the end of observation.
+
+Explore project
+===============
+
+You can search information in various fields in all observations in the
+current project (Observations \> Explore project).
+
+The searchable fields are: **subject**, **behavior**, **modifier** and
+**comment**.
+
+If more than one field is searched a logic AND will apply.
+
+![Explore project](images/explore_project.png)
+
+The events that were found are listed in a table. By double-clicking on
+the row the corresponding observation will be opened and the
+visualization will be scrolled to the row corresponding to the event.
+
+![Explore project](images/explore_project_results.png)
+
+Frame-by-frame mode
+===================
+
+You can switch between the media player and the frame-by-frame mode
+using the **arrow buttons** in the toolbar:
+
+In frame-by-frame mode the video will stop playing and the user will
+visualize the video frame by frame.
+
+::: {.warning}
+::: {.title}
+Warning
+:::
+
+Please note that MTS video files should be re-encoded to be used in
+frame-by-frame mode. Otherwise the extracted frames are not reliable.
+:::
+
+You can move between frames by using the arrow keys in the toolbar (on
+the right) or by using keyboard special keys:
+
+-   **Left arrow** key: go to the previous frame
+-   **Right arrow** key: go to the next frame
+-   **Page Up** key: switch to the next media
+-   **Page Down** key: switch to the previous media
+-   **Up arrow** key: jump forward in the current media
+-   **Down arrow** key: jump backward in the current media
+
+If you have a numeric keypad you can use the following keys in
+alternative:
+
+-   The key **/** will allow you to view the previous frame
+-   The key *\** will allow you to view the next frame
+
+To return in the media player mode press the **Play** button in the
+toolbar.
+
+See **File** \> **Preferences** \> **frame-by-frame mode**
