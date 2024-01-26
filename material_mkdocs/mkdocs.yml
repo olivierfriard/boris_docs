@@ -30,6 +30,11 @@ nav:
       - Export events: export_events.md
       - Playback menu: playback_menu.md
       - Tools: tools.md
+      - Coding map: coding_map.md
+      - Analysis: analysis.md
+      - Plot: plot.md
+      - Preferences: preferences.md
+      - Various: various.md
 
 copyright: Copyright &copy; 2012 - 2024 Olivier Friard
 

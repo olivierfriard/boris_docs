@@ -45,15 +45,15 @@ Key to the symbols:
 
 :fontawesome-solid-circle-minus:    **Decrease the playback speed** (See [general preferences]() to set the step value)
 
-<i class="fa-solid fa-backward-fast fa-2x"></i>   **Jump to the previous media file**
+:fontawesome-solid-backward-fast:   **Jump to the previous media file**
 
-<i class="fa-solid fa-forward-fast fa-2x"></i>   **Jump to the next media file**
+:fontawesome-solid-forward-fast: **Jump to the next media file**
 
 :fontawesome-solid-camera:   **Take a snapshot** of current video or frame
 
-<i class="fa-solid fa-arrow-left fa-2x"></i>   **Move on frame back**
+:fontawesome-solid-arrow-left:  **Move on frame back**
 
-<i class="fa-solid fa-arrow-right fa-2x"></i>   **Move one frame forward**
+:fontawesome-solid-arrow-right:    **Move one frame forward**
 
 :fontawesome-solid-xmark:   **Close current observation**
 
