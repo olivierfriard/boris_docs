@@ -27,20 +27,23 @@ Key to the symbols:
 
 :fontawesome-solid-play:   **Play** (become :fontawesome-solid-pause: **Pause** when media is played)
 
-<i class="fa-solid fa-backward-step fa-2x"></i>   **Rewind** reset your media at the beginning
 
-<i class="fa-solid fa-backward fa-2x"></i>   **Fast backward** jumps for n seconds backward in your media (See
-    [general preferences]() to set n)
+:fontawesome-solid-backward-step:  **Rewind** reset your media at the beginning
 
-<i class="fa-solid fa-forward fa-2x"></i>   **Fast forward** jumps for n seconds forward in your media (See
-    [general preferences]() to set n)
+
+:fontawesome-solid-backward:   **Fast backward** jumps for n seconds backward in your media (See   [general preferences]() to set n) 
+
+
+:fontawesome-solid-forward:   **Fast forward** jumps for n seconds forward in your media (See     [general preferences]() to set n)
+
+
 
 
 <i class="fa-solid  fa-2x"></i>   **Set the playback speed to 1x**
 
-<i class="fa-solid fa-circle-plus fa-2x"></i>   **Increase the playback speed** (See [general preferences]() to set the step value)
+:fontawesome-solid-circle-plus:   **Increase the playback speed** (See [general preferences]() to set the step value)
 
-<i class="fa-solid fa-circle-minus fa-2x"></i>   **Decrease the playback speed** (See [general preferences]() to set the step value)
+:fontawesome-solid-circle-minus:    **Decrease the playback speed** (See [general preferences]() to set the step value)
 
 <i class="fa-solid fa-backward-fast fa-2x"></i>   **Jump to the previous media file**
 
@@ -88,13 +91,16 @@ The media can be controlled by special keyboard keys:
 
 ++home++ Increase the playback speed (See [general preferences]() to set the step value)
 
--   **End** key: Decrease the playback speed (See [general preferences]() to set the step value)
+++end++ Decrease the playback speed (See [general preferences]() to set the step value)
 
--   **Backspace**: Set the playback speed to 1x
+++backspace++  Set the playback speed to 1x
 
--   **Left arrow** key: go to the previous frame
+++arrow-left++ Go to the previous frame
 
--   **Right arrow** key: go to the next frame
+++arrow-right++ Go to the next frame
+
+
+
 
 ## Live observations
 
@@ -174,9 +180,15 @@ The subjects shown in the subjects widget can be filtered:
 
 **Right-click** on subjects widget \> **Filter subjects**
 
-Check/Uncheck single subject
+Check/Uncheck the subjects to show/hide them on the subjects' table.
 
-![Filter subjects in subjects widget](images/filter_subjects.png){width="40.0%"}
+
+
+<figure markdown>
+  ![Image title](images/filter_subjects.png){width="80.0%"}
+  <figcaption>Filter subjects in subjects table</figcaption>
+</figure>
+
 
 ## The **media player** widgets
 
@@ -221,9 +233,7 @@ following parameters (organized in columns):
     any);
 -   **comment**, is an open field where the user can add notes.
 
-A tracking cursor (red triangle) will show the current event. This
-cursor can be positioned above the current event, see [tracking cursor
-position]() option in Preferences window.
+A tracking cursor (red triangle) will visualize the current event. This cursor can be positioned above the current event, see [tracking cursor position]() option in Preferences window.
 
 A double-click on a row will reposition the media player to the moment
 of the corresponding event. See [Time offset for media reposition]() in
@@ -239,14 +249,21 @@ recorded using the keyboard with the predefined keys, by double-clicking
 the corresponding row in the **Ethogram** table or by using the **Coding
 pad** (See [coding pad]()).
 
-![Ethogram and subjects widgets](images/ethogram_subjects_widgets.png){width="60.0%"}
+
+
+
+<figure markdown>
+  ![Image title](images/ethogram_subjects_widgets.png){width="100.0%"}
+  <figcaption>Ethogram and subjects widgets</figcaption>
+</figure>
+
 
 If the pressed key defines a single event, the corresponding event will
 be recorded in the **Events** table. In the case you have specified the
 same key for two (or more) events (e.g. key A in the figure below),
 BORIS will prompt you for the desired behavior.
 
-![Ask for modifiers](images/ask_for_code.png){width="40.0%"}
+![Ask for a behavior](images/ask_for_code.png){width="40.0%"}
 
 In the case you have specified modifiers (one or more sets), BORIS will
 prompt you for the desired modifier(s) if any (e.g. **ball** or
@@ -283,8 +300,7 @@ Righ-click on the Events widget.
 
 ### Undo an even recording
 
-A wrong event can be removed from the events list using the Undo
-function (CTRL + Z). You can go back till 25 events recorded events.
+A wrong event can be removed from the events list using the **Undo** function (++ctrl+z++). You can go back till 25 events recorded events. 
 
 ### Add event
 
@@ -307,26 +323,54 @@ selected events. For subtracting a value use a negative value.
 
 ![Edit time of selected events](images/edit_time_events.png){width="60.0%"}
 
+
 ### Copy events
 
 This option allows to copy the selected events in the clipboard. The
 clipboard will contain the values of the selected events (except the
-**type** field) separated by a \<TAB\> character.
+**type** field) separated by a **<TAB\>** character.
+The copied values are: **Time**, **Subject**, **Behavior**, **Modifier(s)**, **Frame index**
 
 Example of clipboard content:
 
-    0.0 Himal   Tear    Branches
-    0.0 Nautilus    Tear    Branches
-    30.199  Himal   Tear    Branches
-    30.2    Himal   Locomotion  Walk
-    32.4    Himal   Locomotion  Walk
-    32.4    Nautilus    Tear    Branches
+    8.253	Himal	Locomotion	Run		207
+    8.329	Nautilus	Locomotion	Run		209
+    10.400	Sharky	Swim			260
+    11.778	Himal	Locomotion	Run		295
+    12.778	Nina	Alert			320
+    13.788	Nautilus	Locomotion	Run		345
+    13.789	Nautilus	Locomotion	Walk		345
+    14.348	Himal	Locomotion	Jump		359
+    14.660	Nina	Alert			367
+    14.865	Nautilus	Locomotion	Walk		372
+    14.865	Nautilus	Locomotion	Jump		372
+    15.000	Nina	Rest			375
+    16.466	Himal	Locomotion	Jump		412
+    16.467	Himal	Alert			412
+    23.600	Nautilus	Locomotion	Jump		590
+    23.600	Nautilus	Rest			590
+    24.228	Nautilus	Rest			606
+    24.407	Himal	Alert			611
+    24.917	Himal	Locomotion	Walk		623
+    39.682	Nautilus	Locomotion	Run		992
+    40.549	Nina	Rest			1014
+    42.313	Nautilus	Locomotion	Run		1058
+    42.314	Nautilus	Rest			1058
+    44.759	Himal	Locomotion	Walk		1119
+    44.761	Himal	Allogroom			1119
+    48.219	Nautilus	Rest			1206
+    48.363	Himal	Allogroom			1209
+    48.365	Himal	Locomotion	Walk		1209
+    49.274	Himal	Locomotion	Walk		1232
+    49.274	Himal	Drink			1232
+    50.408	Himal	Drink			1261
+    50.408	Himal	Swim			1261
+    58.851	Sharky	Swim			1472
+    58.950	Himal	Swim			1474
 
 ### Paste events
 
-This option allows to paste the clipboard content into the events
-widget. The clipboard must respect the format described in the previous
-section: 5 columns separated by \<TAB\> character.
+This option allows to paste the clipboard content into the events table. The clipboard must respect the format described in the previous section: 5 columns separated by a **<TAB\>** character.
 
 ### Find in events
 
@@ -362,20 +406,23 @@ they have a **START** and a **STOP** occurences.
 
 ### Delete selected events
 
-This option allows to delete the selected events. This operation is
-irreversible!
+
+This option allows to delete the selected events. This operation is irreversible!
 
 ### Delete all events
+
+This option is not present in the context menu but only in the main menu (**Observations** \> **Delete all events**).
 
 This option allows to delete all then events in the current observation.
 This operation is irreversible!
 
-Fix unpaired state events
-=========================
+
+### Fix unpaired state events
+
 
 You can use the "Fix unpaired events" function to fix the **state events** without a STOP event.
 
-**Observations** > **Fix unpaired events** (keyboard shortcut: CTRL+U)
+**Observations** > **Fix unpaired events** (keyboard shortcut: ++ctrl+u++)
 
 The program will ask for a time at which insert the STOP events for all
 unpaired **state events**
@@ -384,16 +431,16 @@ This function can be run on a set of selected observations (when no
 observation is open). In this case the STOP events will be inserted at
 the end of observation.
 
-Explore project
-===============
+
+### Explore project
+
 
 You can search information in various fields in all observations in the
 current project (Observations \> Explore project).
 
-The searchable fields are: **subject**, **behavior**, **modifier** and
-**comment**.
+The searchable fields are: **subject**, **behavior**, **modifier** and **comment**.
 
-If more than one field is searched a logic AND will apply.
+If more than one field is searched a logic **AND** will apply.
 
 ![Explore project](images/explore_project.png)
 
@@ -403,41 +450,41 @@ visualization will be scrolled to the row corresponding to the event.
 
 ![Explore project](images/explore_project_results.png)
 
-Frame-by-frame mode
-===================
 
-You can switch between the media player and the frame-by-frame mode
-using the **arrow buttons** in the toolbar:
+### Frame-by-frame mode
+
+
+You can switch between the media player and the frame-by-frame mode using the **arrow buttons** in the toolbar:
 
 In frame-by-frame mode the video will stop playing and the user will
 visualize the video frame by frame.
 
-::: {.warning}
-::: {.title}
-Warning
-:::
 
-Please note that MTS video files should be re-encoded to be used in
-frame-by-frame mode. Otherwise the extracted frames are not reliable.
-:::
+!!! note 
+    Some video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable or it will not be possible to move backward.
+
 
 You can move between frames by using the arrow keys in the toolbar (on
 the right) or by using keyboard special keys:
 
--   **Left arrow** key: go to the previous frame
--   **Right arrow** key: go to the next frame
--   **Page Up** key: switch to the next media
--   **Page Down** key: switch to the previous media
--   **Up arrow** key: jump forward in the current media
--   **Down arrow** key: jump backward in the current media
+++arrow-left++ Go to the **previous frame**
 
-If you have a numeric keypad you can use the following keys in
-alternative:
+++arrow-right++ Go to the **next frame**
+
+++page-up++   Switch to the **next media**
+
+++page-up++  Switch to the **previous media**
+
+++arrow-up++ **Jump forward** in the current media
+
+++arrow-down++ **Jump backward** in the current media
+
+If you have a numeric keypad you can use the following keys in alternative:
 
 -   The key **/** will allow you to view the previous frame
 -   The key *\** will allow you to view the next frame
 
-To return in the media player mode press the **Play** button in the
+To return in the media player mode press the **Play** :fontawesome-solid-play: button in the
 toolbar.
 
-See **File** \> **Preferences** \> **frame-by-frame mode**
+
