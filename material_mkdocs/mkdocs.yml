@@ -27,6 +27,8 @@ nav:
       - Create an observation: observations.md
       - Observations list: observations_list.md
       - Coding: coding.md
+      - Export events: export_events.md
+      - Playback menu: playback_menu.md
 
 copyright: Copyright &copy; 2012 - 2024 Olivier Friard
 
