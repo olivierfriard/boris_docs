@@ -10,14 +10,6 @@ This function can be activated with **Tools** \> **Plot event in real time**.
 
 
 
-## Lock the dockwidgets
-
-The dockwidgets (except the player dockwidgets) can be locked on the
-main window (See **Tools** \> **Lock dockwidgets**).
-
-
-
-
 
 ## :fontawesome-solid-compass-drafting: Geometric measurements
 

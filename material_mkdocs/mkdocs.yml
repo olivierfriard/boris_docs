@@ -20,7 +20,7 @@ theme:
 
 nav:
   - Welcome: index.md
-  - Getting started:
+  - User guide:
       - Installation: install.md
       - Starting: start.md
       - Create a project: create_project.md
@@ -35,6 +35,7 @@ nav:
       - Plot: plot.md
       - Preferences: preferences.md
       - Various: various.md
+  - Community: community.md
 
 copyright: Copyright &copy; 2012 - 2024 Olivier Friard
 

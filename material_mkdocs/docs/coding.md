@@ -8,19 +8,19 @@ in the queue) will be loaded in the media player and paused.
 ## Media based coding
 
 
-### Media controls are available in the toolbar
+### The toolbar
 
 
 <figure markdown>
-  ![Image title](images/toolbar.png){ width="100%"}
-  <figcaption>BORIS toolbar</figcaption>
+  ![Image title](images/toolbar.png)
+  <figcaption>The BORIS toolbar</figcaption>
 </figure>
 
 <script src="https://kit.fontawesome.com/e1bb57bd57.js" crossorigin="anonymous"></script>
 
 
 
-Key to the symbols:
+
 
 :fontawesome-solid-list: **List of observations**
 
@@ -31,19 +31,19 @@ Key to the symbols:
 :fontawesome-solid-backward-step:  **Rewind** reset your media at the beginning
 
 
-:fontawesome-solid-backward:   **Fast backward** jumps for n seconds backward in your media (See   [general preferences]() to set n) 
+:fontawesome-solid-backward:   **Fast backward** jumps for n seconds backward in your media (See [preferences](preferences.md)) 
 
 
-:fontawesome-solid-forward:   **Fast forward** jumps for n seconds forward in your media (See     [general preferences]() to set n)
+:fontawesome-solid-forward:   **Fast forward** jumps for n seconds forward in your media (See [preferences](preferences.md)) 
 
 
 
 
-<i class="fa-solid  fa-2x"></i>   **Set the playback speed to 1x**
+<i class="fa-solid fa-circle-pause fa-rotate-90"></i>   **Set the playback speed to 1x**
 
-:fontawesome-solid-circle-plus:   **Increase the playback speed** (See [general preferences]() to set the step value)
+:fontawesome-solid-circle-plus:   **Increase the playback speed** (See [preferences](preferences.md)) 
 
-:fontawesome-solid-circle-minus:    **Decrease the playback speed** (See [general preferences]() to set the step value)
+:fontawesome-solid-circle-minus:    **Decrease the playback speed** (See [preferences](preferences.md)) 
 
 :fontawesome-solid-backward-fast:   **Jump to the previous media file**
 
@@ -63,23 +63,24 @@ Key to the symbols:
 
 :fontawesome-solid-chart-gantt:   **Plot events of the current observation**
 
-<i class="fa-solid  fa-2x"></i>   **xxx**
+:fontawesome-solid-chart-simple:   **Plot the time budget of the current observation**
 
 :fontawesome-solid-compass-drafting:   **Geometric measurements**
 
 :fontawesome-solid-magnifying-glass:    **Find in events**
 
-<i class="fa-solid  fa-2x"></i>   **Explore project**
 
-<i class="fa-solid  fa-2x"></i>   **Preferences**
+:fontawesome-solid-binoculars:   **Explore project**
 
-
-
+:fontawesome-solid-gears:   **Preferences**
 
 
 
 
-The media can be controlled by special keyboard keys:
+
+
+
+The media can also be controlled by special keyboard keys:
 
 ++page-up++   Switch to the next media
 
@@ -115,7 +116,7 @@ widget.
 
 
 <figure markdown>
-  ![Image title](images/observation_live.png){width="100.0%"}
+  ![Image title](images/live_observation.png)
   <figcaption>Live observation</figcaption>
 </figure>
 
@@ -127,7 +128,7 @@ widget.
 
 
 <figure markdown>
-  ![Image title](images/main_window_ethogram.png){width="100.0%"}
+  ![Image title](images/main_window_ethogram.png)
   <figcaption>Ethogram table in main window</figcaption>
 </figure>
 
@@ -151,7 +152,7 @@ category
 
 
 <figure markdown>
-  ![Image title](images/filter_behaviors.png){width="80.0%"}
+  ![Image title](images/filter_behaviors.png)
   <figcaption>Filter behaviors in ethogram table</figcaption>
 </figure>
 
@@ -162,8 +163,8 @@ category
 
 
 <figure markdown>
-  ![Image title](images/main_window_subjects.png){width="80.0%"}
-  <figcaption>Subjects list widget in main window</figcaption>
+  ![Image title](images/main_window_subjects.png)
+  <figcaption>The subjects table in main window</figcaption>
 </figure>
 
 
@@ -195,7 +196,7 @@ Check/Uncheck the subjects to show/hide them on the subjects' table.
 
 
 <figure markdown>
-  ![Image title](images/observation_3video_2.png){width="100.0%"}
+  ![3 media players](images/observation_3video_2.png){width="100.0%"}
   <figcaption>3 media players</figcaption>
 </figure>
 
@@ -210,8 +211,8 @@ The organization of the various widget can be customized:
 
 
 <figure markdown>
-  ![Image title](images/undocked_widgets.png){width="100.0%"}
-  <figcaption>undocked widgets</figcaption>
+  ![The widgets are undocked from the main window](images/undocked_widgets.png)
+  <figcaption>The widgets are undocked from the main window</figcaption>
 </figure>
 
 
@@ -225,12 +226,15 @@ The **Events** widget shows all the recorded behaviors (events) with the
 following parameters (organized in columns):
 
 -   **time**, the time at which the event occurred;
+
 -   **subject**, the focal subject (if any);
+
 -   **code**, the behavior code;
--   **type**, in case of a state event indicates whether the time
-    corresponds to the start or to the stop.
--   **modifier**, indicates the modifier(s) that was(ere) selected (if
-    any);
+
+-   **type**, in case of a state event indicates whether the time  corresponds to the start or to the stop.
+
+-   **modifier**, indicates the modifier(s) that was(ere) selected (if any);
+
 -   **comment**, is an open field where the user can add notes.
 
 A tracking cursor (red triangle) will visualize the current event. This cursor can be positioned above the current event, see [tracking cursor position]() option in Preferences window.
@@ -253,24 +257,40 @@ pad** (See [coding pad]()).
 
 
 <figure markdown>
-  ![Image title](images/ethogram_subjects_widgets.png){width="100.0%"}
+  ![Ethogram and subjects widgets](images/ethogram_subjects_widgets.png){width="100.0%"}
   <figcaption>Ethogram and subjects widgets</figcaption>
 </figure>
 
 
 If the pressed key defines a single event, the corresponding event will
-be recorded in the **Events** table. In the case you have specified the
-same key for two (or more) events (e.g. key A in the figure below),
+be recorded directly in the **Events** table. In the case you have specified the
+same key for two (or more) events (e.g. key **d** in the figure below),
 BORIS will prompt you for the desired behavior.
 
-![Ask for a behavior](images/ask_for_code.png){width="40.0%"}
+
+
+
+<figure markdown>
+  ![Ask for a behavior](images/ask_for_code.png)
+  <figcaption>Ask for a behavior</figcaption>
+</figure>
+
+
+
+
 
 In the case you have specified modifiers (one or more sets), BORIS will
 prompt you for the desired modifier(s) if any (e.g. **ball** or
-**opponent** in the figure below). You can select the correct one using
-the mouse or the keyboard ( **b** key or **o** key)
+**opponent** in the figure below). You can select the modifiers using
+the mouse or the keyboard (++1++, ++2++, ++3++, ++4++, ++5++ or ++6++ key)
 
-![Ask for modifiers](images/ask_for_modifiers.png){width="40.0%"}
+
+
+<figure markdown>
+  ![Ask for modifiers](images/ask_for_modifiers.png)
+  <figcaption>Ask for modifiers</figcaption>
+</figure>
+
 
 If no keys are defined for the modifier selection, you can type the
 first character of the modifier and use the **Up arrow** and **Down
@@ -296,7 +316,7 @@ event by specifying its time and the other parameters.
 Some functions are available in the Events widget context menu.
 Righ-click on the Events widget.
 
-![Events widget menu](images/events_widget_menu.png){width="60.0%"}
+![Events widget menu](images/events_widget_menu.png)
 
 ### Undo an even recording
 
@@ -304,8 +324,21 @@ A wrong event can be removed from the events list using the **Undo** function (+
 
 ### Add event
 
-This option allows adding a new event by specifying its time and the
-other parameters.
+This option allows adding a new event by specifying its time and the other parameters.
+
+
+<figure markdown>
+  ![Add new event](images/add_event.png)
+  <figcaption>Add a new event</figcaption>
+</figure>
+
+Select a time format and imput the time value.
+
+Select the **subject** from the drop-down menu or leave empty for **No focal subject**.
+
+Select the **behavior** from the drop-down menu.
+
+
 
 ### Edit selected event(s)
 

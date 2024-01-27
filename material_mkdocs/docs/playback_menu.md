@@ -4,13 +4,11 @@
 
 ### Jump forward
 
-Allow to jump forward in the current media file. See **File** \>
-**Preferences** for setting the jump value.
+Allow to jump forward in the current media file. See **File** \> **Preferences** for setting the jump value.
 
 ### Jump backward
 
-Allow to jump backward in the current media file. See **File** \>
-**Preferences** for setting the jump value.
+Allow to jump backward in the current media file. See **File** \> **Preferences** for setting the jump value.
 
 ### Jump to specific time
 
@@ -39,34 +37,64 @@ The time selection widget will pop-up:
 
 ## Zoom level
 
-Select the zoom level for each player using the keyboard:
+Click the media player you want to set the zoom level.
+
+### using the keyboard
 
 
-**Zoom in**  ++ctrl+plus++
+**Zoom in**  ++ctrl+plus++ or ++ctrl++ + Mouse wheel up 
 
-**Zoom out**  ++ctrl+minus++
+**Zoom out**  ++ctrl+minus++ or ++ctrl++ + Mouse wheel down
 
 **Reset zoom level** ++ctrl+0++ or by clicking the mouse right button on the video.
 
-To pan the zoomed video:
 
-**CTRL** + **LEFT ARROW**
 
-**CTRL** + **RIGHT ARROW**
+### Using the mouse
 
-**CTRL** + **UP ARROW**
 
-**CTRL** + **DOWN ARROW**
+**Zoom in**  Double click on left mouse button
 
-If you have many video, first select the video by a left-click before.
+**Zoom out**  Double click on right mouse button
 
+
+## Pan video
+
+Click the media player you want to pan.
+
+### Using the keyboard
+
+**Pan Left** ++ctrl+arrow-left++ 
+
+**Pan Right** ++ctrl+arrow-right++ 
+
+**Pan Down** ++ctrl+arrow-up++ 
+
+**Pan Up** ++ctrl+arrow-down++ 
+
+
+### Using the mouse
+
+**Pan Up**: **Mouse Wheel up** (VIDEO MOVES DOWN)
+
+**Pan Down**: **Mouse Wheel down** (VIDEO MOVES UP)
+
+**Pan Left**: ++shift++ + **Mouse Wheel Up** (VIDEO MOVES TO THE RIGHT)
+
+**Pan Right**: ++shift++ + **Mouse Wheel Down** (VIDEO MOVES TO THE LEFT)
+
+**Reset Pan and zoom**: ++shift++ + **Left mouse button**
+
+
+The zoom level can also be set using the menu **Playback** > **Zoom level**
 
 
 
 
 ## Rotate video
 
-Select the video rotation angle for each player. The available rotation angles are: 0, 90, 180 and 270.
+Select the video rotation angle for each player using the menu **Playback** > **Rotate video**.
+The available rotation angles are: 0, 90, 180 and 270.
 
 ![Rotate video](images/rotate_displayed_video.png)
 
@@ -75,7 +103,7 @@ Select the video rotation angle for each player. The available rotation angles a
 
 ## Display subtitles
 
-Select to display or hide the subtitles. The subtitles file must have
+Select to display or hide the subtitles using the menu **Playback** > **Display subtitles**. The subtitles file must have
 exactly the same name of the video file except for the extension and be
 placed in the same directory.
 
@@ -86,8 +114,8 @@ placed in the same directory.
 
 ## Image overlay on video
 
-Select an image overlay to be displayed on the video. If the selected
-image does not have a transparent background the transparency can be set
+Select an image overlay to be displayed on the video **Playback** > **Image overlay on video** > **Add**.
+If the selected image does not have a transparent background the transparency can be set
 from 0 (full transparency) to 255 (no transparency).
 
 The image must be in PNG format, if the image is smaller than the video
@@ -101,6 +129,8 @@ Select **\> Playback \> Image overlay on video \> Remove** to remove the image o
 
 
 ## Video equalizer
+
+**Playback** > **Video equalizer**
 
 Using this function the **brightness**, the **contrast**, the **saturation**, the **gamma** and the **Hue** can be set for each player.
 

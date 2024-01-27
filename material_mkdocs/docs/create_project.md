@@ -55,7 +55,7 @@ Switching to the **Ethogram tab**, you can alternatively:
 
 - import an ethogram from a JWatcher global definition file (.gdf).
 
-- import an ethogram from a plain text file
+- import an ethogram from a plain text file or a spreadsheet file (XLSX or ODS)
 
 
 <figure markdown>
@@ -100,7 +100,7 @@ You can switch between **State event** and **Point event** at your
 convenience with a double-click on the **Behavior type** cell. You can
 also add a **Coding map** to either a **State event** (**State event
 with coding map**) or a **Point event** (**Point event with coding
-map**; see the \"Coding map\" section for details).
+map**). See the **Coding map** section for details.
 
 An existing behavior can be duplicated using the **Clone behavior**
 button. Its code have then to be changed. On a selected behavior, click

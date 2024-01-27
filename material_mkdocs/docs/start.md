@@ -15,4 +15,12 @@ For launching BORIS from sources see the [Run BORIS from source code](https://ww
 
 The main window of BORIS will show up. All commands of the toolbar are disabled for now except the `Preferences` button.
 
-![The BORIS main window](https://boris.readthedocs.io/en/latest/_images/main_window_empty.png)
+
+<figure markdown>
+  ![Image title](images/main_window_no-project.png)
+  <figcaption>The BORIS main window</figcaption>
+</figure>
+
+
+
+
