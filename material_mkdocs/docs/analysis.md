@@ -23,8 +23,7 @@ behaviors you want to include in the time budget analysis:
 
 ![Select subject and behaviors for time budget analysis](images/time_budget_parameters2.png){width="50.0%"}
 
-All behaviors can be selected or unselected by clicking on the Category
-(bold).
+All behaviors can be selected or unselected by clicking on the Category (bold).
 
 You can choose to include or not the behavior modifiers in the Time
 budget analysis and to exclude behaviors without coded events.
@@ -40,10 +39,10 @@ The Time budget analysis can be restricted to a part of the observation:
 
 The last dialog window will allow you to subtract the duration of one or
 more behaviors from the total duration of the observation. This can help
-you if you have defined a \"out-of-sight\" code in your ethogram for
-example:
+you if you have defined a "out-of-sight" code in your ethogram for example:
 
-![subtract behavior from the total duration](images/subtract_behavior.png){width="50.0%"}
+![subtract behavior from the total duration](images/subtract_behavior.png)
+
 
 The results contain for each subject and behavior the **total nuber of
 occurrences**, the **total duration** (for the behaviors defined as
@@ -53,20 +52,19 @@ intervals duration mean**, th **standard deviation of the inter-events
 intervals duration** and the **percent of total duration of
 observation(s)**. All duration times are expressed in seconds (s).
 
-![Results of the time budget analysis](images/time_budget.png){width="100.0%"}
+![Results of the time budget analysis](images/time_budget.png)
 
 The time budget results can be saved in various formats for further
 analysis: \* Plain text files: TSV, CSV or HTML \* Spreadsheets: Open
 Document (ODS), Microsoft Excel (XLSX) and Legacy Microsoft (XLS)
 
-::: {.note}
-::: {.title}
-Note
-:::
 
-If a STATE behavior has an odd number of coded events, BORIS will report
-\"UNPAIRED\" instead of results\"
-:::
+!!! warning "Important"
+
+    If a STATE behavior has an odd number of coded events, BORIS will report **UNPAIRED** instead of results.
+
+
+
 
 
 
@@ -78,13 +76,21 @@ selected observations are organized in columns on a single page. Two
 parameters are provided for now: **number of occurrences** and **total
 duration** (for the behaviors defined as state events)
 
-![Results of the time budget analysis](images/synthetic_time_budget.png){width="100.0%"}
+![Results of the time budget analysis](images/synthetic_time_budget.png)
 
 All duration times are expressed in seconds (s).
 
-The time budget results can be saved in various formats for further
-analysis: \* Plain text files: TSV, CSV or HTML \* Spreadsheets: Open
-Document (ODS), Microsoft Excel (XLSX) and Legacy Microsoft (XLS)
+The time budget results can be saved in various formats for further analysis:
+
+- Plain text files
+    - Tab separated values (TSV)
+    - Comma separated value (CSV)
+    - HTML 
+
+- Spreadsheets:
+    - Open Document (ODS)
+    - Microsoft Excel (XLSX)
+    - Legacy Microsoft (XLS)
 
 
 
