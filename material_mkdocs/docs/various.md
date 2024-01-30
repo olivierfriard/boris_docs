@@ -72,8 +72,7 @@ window and locked on it except the player dockwidgets.
 
 
 
-## Configuration files {#configuration file}
-
+## Configuration files
 
 BORIS saves the configuration (user preferences, windows position,
 widgets position) in a configuration file. This file is named **.boris**

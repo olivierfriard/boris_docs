@@ -1,6 +1,6 @@
 site_name: BORIS documentation
 site_author: Olivier Friard
-site_url: http://127.0.0.1:8000/doc/
+site_url: http://127.0.0.1:8000
 
 theme:
   name: material
@@ -55,3 +55,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# 
+plugins:
+  - macros
+
+extra:
+  boris:
+    version: 8.23
