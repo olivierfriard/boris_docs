@@ -9,32 +9,48 @@ The coded events can be exported in various formats.
 
 
 
-**Observations** \> **Export events** \> **Tabular events**
+**Observations** > **Export events** > **Tabular events**
 
-This function exports the events of selected observations in one or many
-files.
-Various formats are available: **TSV**, **CSV**, **ODS**, **XLSX**, **XLS**, **HTML**, **Pandas dataframe** and **R dataframe**.
+This function exports the events of selected observations in one or many files.
+Various formats are available:
+
+- Plain text in tabular format
+    - **Tab Separated Values** (TSV)
+    - **Comma Separated Values** (CSV)
+    - **Hyper Text Markup language** (HTML)
+
+- Spreadsheet files
+    - **OpenDocument** (ODS)
+    - **Microsoft Excel** (XLSX, XLS)
+    
+-  **Pandas dataframe** (to be loaded in Python with the [pickle
+    module](https://docs.python.org/3/library/pickle.html))
+
+
+-   **R dataframe** (to be loaded in R with [readRDS
+    function](https://rdrr.io/r/base/readRDS.html))
+
 
 If many observations are selected BORIS will ask for a directory to save
-the various files. For the XLS and XLSX formats the events can be
-exported on various worksheet in a single workbook. These formats are
+the various files. For the spreadsheet format (XLSX and ODS) the events can be
+exported on various worksheet in a single workbook. All these formats are
 suitable for further analysis.
 
 Select the subjects, the behaviors and the time interval.
 
 Set the time interval to the **Observed events**
 
-![Limit export to the observed events](images/select_subjects_behaviors_time_interval_1.png){width="60%"}
+![Limit export to the observed events](images/select_subjects_behaviors_time_interval_1.png)
 
 Select a **User defined** time interval.
 
-![Time interval is defined by the user](images/select_subjects_behaviors_time_interval_2.png){width="100%"}
+![Time interval is defined by the user](images/select_subjects_behaviors_time_interval_2.png)
 
 Example of output of tabular events
 
-![example of exported events in TSV format (1/2)](images/export_tabular_events_1.png){width="100%"}
+![example of exported events in TSV format (1/2)](images/export_tabular_events_1.png)
 
-![example of exported events in TSV format (2/2)](images/export_tabular_events_2.png){width="100%"}
+![example of exported events in TSV format (2/2)](images/export_tabular_events_2.png)
 
 
 
@@ -43,21 +59,28 @@ Example of output of tabular events
 ## Export aggregated events
 
 
-**Observations** \> **Export events** **Aggregated events**
+**Observations** > **Export events** **Aggregated events**
 
 This function will export the events corresponding to the selected
 subjects and the selected behaviors of the selected observations.
 
 Various formats are available:
 
--   **table format** (TSV, CSV, XLSX, XLS, ODS, HTML)
+- Plain text in tabular format
+    - **Tab Separated Values** (TSV)
+    - **Comma Separated Values** (CSV)
+    - **Hyper Text Markup language** (HTML)
 
--   **SQL** format for populating a SQL database
+- Spreadsheet files
+    - **OpenDocument** (ODS)
+    - **Microsoft Excel** (XLSX, XLS)
 
--   **SDIS** format for analysis with the GSEQ program available at
+-  **SQL format** for populating a SQL database
+
+-   **SDIS format** for analysis with the GSEQ program available at
     <http://www2.gsu.edu/~psyrab/gseq>
 
--   **Pandas dataframe** (to be loaded in Python with the [pickle
+-  **Pandas dataframe** (to be loaded in Python with the [pickle
     module](https://docs.python.org/3/library/pickle.html))
 
 -   **R dataframe** (to be loaded in R with [readRDS

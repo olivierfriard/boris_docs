@@ -217,25 +217,36 @@ The organization of the various widget can be customized:
 
 
 
-## The **Events** widget
+## The events table
 
 
-![Events widget](images/events_widget.png){width="60.0%"}
 
-The **Events** widget shows all the recorded behaviors (events) with the
-following parameters (organized in columns):
 
--   **time**, the time at which the event occurred;
+The **events table** shows all the recorded behaviors (events).
 
--   **subject**, the focal subject (if any);
+The displayed parameters (organized in columns) depend of the type of the observation:
 
--   **code**, the behavior code;
 
--   **type**, in case of a state event indicates whether the time  corresponds to the start or to the stop.
+### Observation from media file
 
--   **modifier**, indicates the modifier(s) that was(ere) selected (if any);
+![Events table for a media observation](images/events_table_media.png)
 
--   **comment**, is an open field where the user can add notes.
+
+The following paramters are displayed:
+
+-   **Time**, the time at which the event occurred;
+
+-   **Frame index** the frame index corresponding to the event;
+
+-   **Subject**, the focal subject (if any);
+
+-   **Code**, the behavior code;
+
+-   **Type**, in case of a **state event** indicates whether the time  corresponds to the start or to the stop. Empty for a **point event**;
+
+-   **Modifier**, indicates the modifier(s) that was(ere) selected (if any);
+
+-   **Comment**, is an open field where the user can add notes.
 
 A tracking cursor (red triangle) will visualize the current event. This cursor can be positioned above the current event, see [tracking cursor position]() option in Preferences window.
 
@@ -244,16 +255,82 @@ of the corresponding event. See [Time offset for media reposition]() in
 Preferences window to customize the time offset for media repositioning.
 
 
-## Record an event
+### Live observation
+
+
+![Events table for a live observation](images/events_table_live.png)
+
+The following paramters are displayed:
+
+-   **Time**, the time at which the event occurred;
+
+-   **Subject**, the focal subject (if any);
+
+-   **Code**, the behavior code;
+
+-   **Type**, in case of a **state event** indicates whether the time  corresponds to the start or to the stop. Empty for a **point event**;
+
+-   **Modifier**, indicates the modifier(s) that was(ere) selected (if any);
+
+-   **Comment**, is an open field where the user can add notes.
+
+
+### Observation from pictures
+
+
+![Events table for a live observation](images/events_table_pictures.png)
+
+
+The following paramters are displayed:
+
+-   **Time**, the time at which the event occurred;
+
+-   **Subject**, the focal subject (if any);
+
+-   **Code**, the behavior code;
+
+-   **Type**, in case of a **state event** indicates whether the time  corresponds to the start or to the stop. Empty for a **point event**;
+
+-   **Modifier**, indicates the modifier(s) that was(ere) selected (if any);
+
+-   **Comment**, is an open field where the user can add notes;
+
+-   **Image index**, the image index (in the directory) corresponding to the event,
+
+-   **Image path**, the path of the image corresponding to the event (can be relative or absolute).
+
+
+To simplify the **events table** the relevant behaviors and subjects can be filtered see [Filter events](coding.md#filter-events)
+
+
+## Events
+
+
+### Recording an event
+
+An event is a unique combination of a **time**, a **subject** and a **behavior**.
+If the subject is not set it will be **No focal subject**.
 
 
 Once ready to begin your coding, you can start the media player using
-the **Play** button (or the **Space bar**). The behaviors can be
-recorded using the keyboard with the predefined keys, by double-clicking
-the corresponding row in the **Ethogram** table or by using the **Coding
-pad** (See [coding pad]()).
+the **Play** :fontawesome-solid-play: button or the **Space bar**.
+
+An **event** can be recorded by:
+
+- pressing the predefined **key** of the keyboard corresponding to the behavior to record.
+
+- double-clicking to the corresponding row in the **Ethogram** table.
+
+- using the **Coding pad** (See [coding pad](tools.md#coding-pad)).
 
 
+The **focal subject** can be selected by:
+
+-  pressing the predefined **key** of the keyboard corresponding to the subject to select.
+
+- double-clicking to the corresponding row in the **Subects** table.
+
+- using the **Subject pad** (See [subject pad](tools.md#subject-pad)).
 
 
 <figure markdown>
@@ -310,17 +387,27 @@ code, modifiers, and comment).
 The **Observations** \> **Add event** menu option allows adding a new
 event by specifying its time and the other parameters.
 
-### The Events widget context menu
 
 
-Some functions are available in the Events widget context menu.
-Righ-click on the Events widget.
 
-![Events widget menu](images/events_widget_menu.png)
+
+### The Events table context menu
+
+
+Some functions are available in the Events table context menu.
+Righ-click on the Events table and the menu will pop-up.
+
+![Events table menu](images/events_table_menu.png)
+
+The various functions available in the menu are described below.
+The same functions and others are available in the **Observations** menu.
+
 
 ### Undo an even recording
 
 A wrong event can be removed from the events list using the **Undo** function (++ctrl+z++). You can go back till 25 events recorded events. 
+
+
 
 ### Add event
 
@@ -401,9 +488,17 @@ Example of clipboard content:
     58.851	Sharky	Swim			1472
     58.950	Himal	Swim			1474
 
+
+
+
+
 ### Paste events
 
 This option allows to paste the clipboard content into the events table. The clipboard must respect the format described in the previous section: 5 columns separated by a **<TAB\>** character.
+
+
+
+
 
 ### Find in events
 
@@ -413,6 +508,10 @@ be restricted to the selected events.
 
 ![Find in events](images/find_in_events.png){width="60.0%"}
 
+
+
+
+
 ### Find/Replace in events
 
 This option allows to search for a string and replace it by a new value
@@ -421,21 +520,33 @@ find operation can be restricted to the selected events.
 
 ![Find / replace in events](images/find_replace_in_events.png){width="60.0%"}
 
+
+
+
 ### Filter events
 
-This option allows to filter the events by field value.
+This option allows to filter the events by field value (Subject and Behavior).
 
-![Filter events](images/filter_events.png){width="40.0%"}
+![Filter events](images/filter_events.png)
+
+
+
 
 ### Show all events
 
-This option reverts the previous one and allows to visualize all coded
-events
+This option reverts the previous one and allows to visualize all coded events.
+
+
+
 
 ### Check state events
 
 This option allows to check if the **state events** are **PAIRED**, if
 they have a **START** and a **STOP** occurences.
+
+
+
+
 
 ### Delete selected events
 
@@ -450,19 +561,32 @@ This option allows to delete all then events in the current observation.
 This operation is irreversible!
 
 
-### Fix unpaired state events
+### Fix unpaired state
 
 
-You can use the "Fix unpaired events" function to fix the **state events** without a STOP event.
+You can use the **Fix unpaired events** function to fix the **state events** without a STOP event.
 
 **Observations** > **Fix unpaired events** (keyboard shortcut: ++ctrl+u++)
 
-The program will ask for a time at which insert the STOP events for all
-unpaired **state events**
+The program will ask for a time at which insert the STOP events for all unpaired **state events**
 
 This function can be run on a set of selected observations (when no
 observation is open). In this case the STOP events will be inserted at
 the end of observation.
+
+
+
+### Add frame indexes
+
+
+This function can be used for the observations from a video.
+The frame index corresponding to the coded events will be added in the events table.
+
+
+### Run external program with selected events
+
+This function is not yet implemented.
+
 
 
 ### Explore project

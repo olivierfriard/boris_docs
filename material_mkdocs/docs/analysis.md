@@ -52,11 +52,34 @@ intervals duration mean**, th **standard deviation of the inter-events
 intervals duration** and the **percent of total duration of
 observation(s)**. All duration times are expressed in seconds (s).
 
-![Results of the time budget analysis](images/time_budget.png)
+
+<figure markdown>
+  ![Results of the time budget analysis](images/time_budget.png)
+  <figcaption>Results of the time budget analysis</figcaption>
+</figure>
+
+
+
 
 The time budget results can be saved in various formats for further
-analysis: \* Plain text files: TSV, CSV or HTML \* Spreadsheets: Open
-Document (ODS), Microsoft Excel (XLSX) and Legacy Microsoft (XLS)
+analysis:
+
+- Plain text in tabular format
+    - **Tab Separated Values** (TSV)
+    - **Comma Separated Values** (CSV)
+    - **Hyper Text Markup language** (HTML)
+
+- Spreadsheet files
+    - **OpenDocument** (ODS)
+    - **Microsoft Excel** (XLSX, XLS)
+    
+-  **Pandas dataframe** (to be loaded in Python with the [pickle
+    module](https://docs.python.org/3/library/pickle.html))
+
+
+-   **R dataframe** (to be loaded in R with [readRDS
+    function](https://rdrr.io/r/base/readRDS.html))
+
 
 
 !!! warning "Important"
@@ -64,9 +87,16 @@ Document (ODS), Microsoft Excel (XLSX) and Legacy Microsoft (XLS)
     If a STATE behavior has an odd number of coded events, BORIS will report **UNPAIRED** instead of results.
 
 
+## Time budget by behavioral category
+
+The **Time budget by behavioral category** is similar to the [**Time budget analysis**](analysis.md#time-budget-analysis) 
+except that the behaviors are grouped into **behavioral categories**.
 
 
-
+<figure markdown>
+  ![time_budget_by_behavioral_category](images/time_budget_by_behavioral_category.png)
+  <figcaption>Results of a time budget by behavioral categary analysis</figcaption>
+</figure>
 
 ## Synthetic time budget
 
@@ -82,37 +112,34 @@ All duration times are expressed in seconds (s).
 
 The time budget results can be saved in various formats for further analysis:
 
-- Plain text files
-    - Tab separated values (TSV)
-    - Comma separated value (CSV)
-    - HTML 
+- Plain text in tabular format
+    - **Tab Separated Values** (TSV)
+    - **Comma Separated Values** (CSV)
+    - **Hyper Text Markup language** (HTML)
 
-- Spreadsheets:
-    - Open Document (ODS)
-    - Microsoft Excel (XLSX)
-    - Legacy Microsoft (XLS)
+- Spreadsheet files
+    - **OpenDocument** (ODS)
+    - **Microsoft Excel** (XLSX, XLS)
 
 
 
 
 ## Inter-rater reliability
 
-The Cohen\'s kappa coefficient can be calculated (**Analysis** \>
-**Inter-rater reliability** \> **Cohen\'s kappa**).
+The Cohen's kappa coefficient can be calculated (**Analysis** > **Inter-rater reliability** > **Cohen\'s kappa**).
 
-[Cohen\'s kappa on
-Wikipedia](https://en.wikipedia.org/wiki/Cohen%27s_kappa)
+[Cohen's kappa on Wikipedia](https://en.wikipedia.org/wiki/Cohen%27s_kappa)
 
 After selecting 2 observations and a time window (in seconds) for the
-analysis (the default value is 10 seconds) the Cohen\'s kappa will be
+analysis (the default value is 10 seconds) the Cohen's kappa will be
 displayed in the results window.
 
-![time window](images/irr1.png){width="30.0%"}
+![IRR](images/irr1.png)
 
 
 
 
-### Implementation of IRR Cohen\'s Kappa in BORIS
+### Implementation of IRR Cohen's Kappa in BORIS
 
 If a time window of n seconds is set the 2 selected observations will be
 checked every n seconds for agreement/disagreement from the first event
@@ -120,10 +147,25 @@ to the last event of the 2 observations . In case of a point event the
 presence of a corresponding event in the other observation will be
 verified using a time window of n seconds centered on the point event.
 
-A IRR Cohen\'s Kappa analysis is available in the GSEQ program
+A IRR Cohen's Kappa analysis is available in the GSEQ program
 (<http://www2.gsu.edu/~psyrab/gseq>). For this the coded events can be
-exported as aggregated events in SDIS format. See [export aggregated
-events]()
+exported as aggregated events in SDIS format.
+See [export aggregated events](export_events.md#export-aggregated-events).
+
+
+## Similarities
+
+
+Needleman-Wunsch similarity
+
+
+
+
+## Co-occurence
+
+This function allow to determine the co-occurence of 2 behaviors.
+
+
 
 
 
@@ -137,31 +179,30 @@ To use the filter, select a subject, select a behavior and click on the
 button with the green arrow on the side of the behaviors list. The tuple
 subject/behavior will be added in the **filter text edit**. A complex
 filter query can be constructed by adding parenthesis and logical
-operator (**AND** & / **OR** \| ) for combining various subjects and
-behaviors.
+operator **&** (AND) or **|** (OR) for combining various subjects and behaviors.
+
 
 Example of a summarized output showing the occurences of Himal resting
 while Nautilus in alert:
 
-![Advanced event filter summary](images/advanced_filter_summary.png){width="80.0%"}
+![Advanced event filter summary](images/advanced_filter_summary.png)
 
 Example of a detailed output showing the overlaping intervals while
 Himal rests and Nautilus is in alert:
 
-![Advanced event filter details](images/advanced_filter_details.png){width="80.0%"}
+![Advanced event filter details](images/advanced_filter_details.png)
 
-The same subject can be used many times in the query with OR or AND (in
-case of non exclusive behaviors):
+The same subject can be used many times in the query with OR or AND (in case of non exclusive behaviors):
 
-![Advanced event filter with 4 conditions](images/advanced_filter_example0.png){width="80.0%"}
+![Advanced event filter with 4 conditions](images/advanced_filter_example0.png)
 
 An unlimited number of conditions can be used:
 
-![Advanced event filter with 4 conditions](images/advanced_filter_example1.png){width="80.0%"}
+![Advanced event filter with 4 conditions](images/advanced_filter_example1.png)
 
 Parenthesis can be used to group logical conditions into block(s):
 
-![Advanced event filter with parenthesis](images/advanced_filter_example2.png){width="80.0%"}
+![Advanced event filter with parenthesis](images/advanced_filter_example2.png)
 
 The results can be saved in a Tab Separted Values (TSV) file using the
 **Save results** button. Other formats will be added in future.
@@ -171,5 +212,4 @@ The results can be saved in a Tab Separted Values (TSV) file using the
 
 ## Latency
 
-The latency will analyze the time between one or more markers (arbitrary
-behaviors(s)) and other behaviors.
+The latency will analyze the time between one or more markers (arbitrary behaviors(s)) and other behaviors.

@@ -43,6 +43,8 @@ project, can be also left empty.
 </figure>
 
 
+
+
 ## Set an ethogram
 
 See the [Wikipedia ethogram definition](https://en.wikipedia.org/wiki/Ethogram).
@@ -67,9 +69,11 @@ Switching to the **Ethogram tab**, you can alternatively:
 </figure>
 
 
+
+
 ### Set your ethogram from scratch
 
-Clicking on the **Behavior \> Add behavior** button you can add a new
+Clicking on the **Behavior > Add behavior** button you can add a new
 row in the **Ethogram** table and behavior type will be automatically
 set to **Point event**.
 
@@ -112,16 +116,10 @@ Behavioral codes (**Code** column) can be sorted alphabetically by
 checking the **Alphabetical order** checkbox. Alternatively they can be
 sorted manually by using the **Move up** and **Move down** buttons.
 
-#### Categories of behaviors
 
-Defining categories of behaviors can be usefull for the analysis of
-coded events (for example the time budget analysis). Click the
-**Behavioral categories** button and add a the categories of behaviors.
-Behaviors can then be included or not in a defined category.
 
-<figure markdown>
-  ![Image title](images/behavioral_categories.png){ width="50%"}
-</figure>
+
+
 
 ### Set keys and codes
 
@@ -150,11 +148,9 @@ case key.
 
 In the **Code** column, you have to add a unique code for each behavior.
 Duplicated codes are not accepted and BORIS will warn in red about
-duplicates on the bottom left of the *Ethogram* tab. The code can be an
+duplicates on the bottom left of the **Ethogram** tab. The code can be an
 alphanumeric string (which must not include the pipe character **\|** ).
 
-The **Category** column allow you to include the behavior to a
-predefined behavioral category.
 
 The **Description** of your behavior is optional. The **Description**
 column can be useful to add information about a specific behavior, its
@@ -162,11 +158,45 @@ characteristics (e.g. to standardise observation between different
 users) or to refer to external information (e.g. reference to a previous
 ethogram).
 
-The following three columns (**Color**, **Modifiers**, **Exclusion**,
-**Coding map**) cannot be edited from the **Ethogram** table.
 
-The **Color** column allow to sleect a color for the behavior. This
-color will be used for plotting events.
+
+The columns with a grey background (**Behavior type**, **Color**, **Category**, **Modifiers**, **Exclusion**,
+**Modifiers coding map**) cannot be edited directly. 
+
+The **Color** column allow to select a color for the behavior. This color will be used for plotting events.
+Double-click on the cell and select the color you want to associate to the behavior.
+
+<figure markdown>
+  ![Color selection](images/select_color.png)
+  <figcaption>Select the color to associate to the behavior</figcaption>
+</figure>
+
+
+#### Categories of behaviors
+
+Defining categories of behaviors can be usefull for the analysis of
+coded events (for example the [time budget analysis](analysis.md#time-budget-by-behavioral-category)).
+
+The **Category** column allow you to include the behavior to a predefined behavioral category.
+
+Double-click on the cell and select the behavioral category for the behavior.
+
+<figure markdown>
+  ![choose_behavioral_category](images/choose_behavioral_category.png)
+  <figcaption>Choose a behavioral category for the behavior</figcaption>
+</figure>
+
+
+
+To add, remove or rename a behavioral category, click the **Behavioral categories** button.
+A color can also be associated to a behavioral category.
+
+<figure markdown>
+  ![Behavioral categories](images/behavioral_categories.png)
+  <figcaption>Behavioral categories manager</figcaption>
+</figure>
+
+
 
 ### Set the modifiers
 
@@ -214,6 +244,7 @@ Click the **Add a set of modifiers** button:
 Select the modifier type using the **Modifier type** combo box. You have
 to choose between **Single selection**, **Multiple selection**
 **Numeric** and **Value from external data file**.
+
 
 #### **Single selection** and **Multiple selection** modifiers
 
@@ -329,8 +360,7 @@ Click **OK** to save modifiers in the **Ethogram** table.
 ### Set the exclusion matrix
 
 The occurrence of an event (State or Point) can exclude the occurrence
-of a state event. This can be set using the **Behaviors exclusion
-matrix** window, which can be opened clicking on the **Exclusion
+of a state event. This can be set using the **Exclusion matrix** window, which can be opened clicking on the **Exclusion
 matrix** button. BORIS will ask for including **Point events** or not
 and a new **Exclusion matrix** window will open.
 
@@ -358,6 +388,14 @@ the following behaviors: **Allogroom**, **Breed**, **Carry objects**,
 
 During the observation, the excluding event will stop all the current
 excluded state events one millisecond before the occurence of the event.
+
+
+
+### Set the **Modifiers coding map**
+
+If the behavior is defined as a **Point event with coding map** or a **State event with codinf map** you can associate a
+**Modifiers coding map** to select the modifiers from a map.
+
 
 ### Import an ethogram from an existing project
 

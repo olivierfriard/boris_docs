@@ -3,15 +3,25 @@
 
 ## Plot events
 
-The coded events from many observations can be plotted along a time
-axis.
+The recorded events can be plotted along a time axis.
 
-**Analysis** \> **Plot** \> **Plot events**
+**Analysis** > **Plot** > **Plot events**
 
-The subjects and behaviors you want to include in the plot can be
-selected in the following window:
 
-![Time budget](images/time_budget_parameters2.png){width="60.0%"}
+Select the **observations** you want to plot.
+If more than one observation are selected BORIS will ask you for a directory where to save the plots.
+
+
+
+<figure markdown>
+  ![List of observations](images/observations_list.png)
+  <figcaption>Select the observations to plot</figcaption>
+</figure>
+
+
+The **subjects** and **behaviors** you want to include in the plot can be selected in the following window:
+
+![Time budget](images/time_budget_parameters2.png)
 
 You can choose to include or not the behavior modifiers (if any) and to
 exclude behaviors without coded events.
@@ -32,7 +42,7 @@ This function creates one plot by subject on one figure.
 
 The color of behaviors can be customized. See [plot colors]()
 
-![plot events](images/plot_events.png){width="100.0%"}
+![plot events](images/plot_events.png)
 
 
 
@@ -47,8 +57,9 @@ and behavior.
 
 **Analysis** \> **Plot** \> **Plot time budget**
 
-The subjects and behaviors you want to include in the plot can be
-selected in the following window:
+
+
+The subjects and behaviors you want to include in the plot can be selected in the following window:
 
 ![Time budget](images/time_budget_parameters2.png){width="60.0%"}
 
