@@ -13,7 +13,7 @@ you select more than one observation you must then choose for a global
 time budget analysis that will contain all selected observations or a
 time budget analysis for every single observation.
 
-![Group observations](images/time_budget_group_observations.png){width="30.0%"}
+![Group observations](images/time_budget_group_observations.png)
 
 Choose **Yes** to group all observations in one time budget analysis
 
@@ -21,7 +21,7 @@ The **Analysis** \> **Time budget** menu option shows the time budget
 for the events of the selected observations. Select the subjects and
 behaviors you want to include in the time budget analysis:
 
-![Select subject and behaviors for time budget analysis](images/time_budget_parameters2.png){width="50.0%"}
+![Select subject and behaviors for time budget analysis](images/time_budget_parameters2.png)
 
 All behaviors can be selected or unselected by clicking on the Category (bold).
 
@@ -87,6 +87,10 @@ analysis:
     If a STATE behavior has an odd number of coded events, BORIS will report **UNPAIRED** instead of results.
 
 
+
+
+
+
 ## Time budget by behavioral category
 
 The **Time budget by behavioral category** is similar to the [**Time budget analysis**](analysis.md#time-budget-analysis) 
@@ -97,6 +101,10 @@ except that the behaviors are grouped into **behavioral categories**.
   ![time_budget_by_behavioral_category](images/time_budget_by_behavioral_category.png)
   <figcaption>Results of a time budget by behavioral categary analysis</figcaption>
 </figure>
+
+
+
+
 
 ## Synthetic time budget
 
@@ -120,6 +128,45 @@ The time budget results can be saved in various formats for further analysis:
 - Spreadsheet files
     - **OpenDocument** (ODS)
     - **Microsoft Excel** (XLSX, XLS)
+
+
+
+## Synthetic time budget with time bin
+
+
+
+The **synthetic time budget with time bin** is similar to the **Synthetic time budget** but the results are divised in time bin.
+
+**Analysis** > **Synthetic time budget with time bin** 
+
+Choose a time bin size (in seconds)
+
+
+
+<figure markdown>
+  ![Choose the time bin size](images/choose_time_bin_size.png)
+  <figcaption>Time bin size of 10 seconds</figcaption>
+</figure>
+
+
+
+<figure markdown>
+  ![Synthetic time budget with time bin](images/time_budget_with_time_bin.png)
+  <figcaption>Results of a Synthetic time budget with time bin of 10 seconds</figcaption>
+</figure>
+
+
+The **time budget with time bin** results can be saved in various formats for further analysis:
+
+- Plain text in tabular format
+    - **Tab Separated Values** (TSV)
+    - **Comma Separated Values** (CSV)
+    - **Hyper Text Markup language** (HTML)
+
+- Spreadsheet files
+    - **OpenDocument** (ODS)
+    - **Microsoft Excel** (XLSX, XLS)
+
 
 
 
