@@ -39,7 +39,7 @@ The time selection widget will pop-up:
 
 Click the media player you want to set the zoom level.
 
-### using the keyboard
+### Using the keyboard
 
 
 **Zoom in**  ++ctrl+plus++ or ++ctrl++ + Mouse wheel up 
@@ -75,13 +75,13 @@ Click the media player you want to pan.
 
 ### Using the mouse
 
-**Pan Up**: **Mouse Wheel up** (VIDEO MOVES DOWN)
+**Pan Up**: **Mouse Wheel up** (the video moves down)
 
-**Pan Down**: **Mouse Wheel down** (VIDEO MOVES UP)
+**Pan Down**: **Mouse Wheel down** (the video moves up)
 
-**Pan Left**: ++shift++ + **Mouse Wheel Up** (VIDEO MOVES TO THE RIGHT)
+**Pan Left**: ++shift++ + **Mouse Wheel Up** (the video moves to the right)
 
-**Pan Right**: ++shift++ + **Mouse Wheel Down** (VIDEO MOVES TO THE LEFT)
+**Pan Right**: ++shift++ + **Mouse Wheel Down** (the video moves to the left)
 
 **Reset Pan and zoom**: ++shift++ + **Left mouse button**
 
