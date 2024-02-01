@@ -449,7 +449,7 @@ have to be redefined.
 
 
 
-### Import an ethogram from a plain text file {#import an ethogram from a plain text file}
+### Import an ethogram from a plain text file
 
 Behaviors can be imported from a plain text file using the **Import
 ethogram > from text file** button. The fields must be separated by

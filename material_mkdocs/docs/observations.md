@@ -1,11 +1,11 @@
+
+
 # Create a new observation
 
 
-A video tutorial about making an observation is available at
-<https://www.youtube.com/watch?v=CKeBITCICXc>
+A video tutorial about making an observation is available at [this link](<https://www.youtube.com/watch?v=CKeBITCICXc>).
 
-To create a new observation you must first [Create a new project with
-BORIS]() or [Open an existing project with BORIS]().
+To create a new observation you must first [Create a new project with BORIS](create_project.md#create-a-project) or [Open an existing project with BORIS]().
 
 Clicking on **Observations** > **New observation** will show the **New
 observation** window.
@@ -105,7 +105,7 @@ The main window during a live observation will look like this:
 
 
 <figure markdown>
-  ![Image title](images/observation_live.png){width="80.0%"}
+  ![Image title](images/observation_live.png)
   <figcaption>The main window during a live observation</figcaption>
 </figure>
 
