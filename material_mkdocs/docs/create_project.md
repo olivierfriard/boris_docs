@@ -536,29 +536,48 @@ ODS, HTML). See **File** \> **Edit project** \> **Ethogram tab** \>
 
 
 
-BORIS allow to code behaviors for different subjects within a single
-observation. The **Subject** table allows specifying subjects using a
-**Key** (e.g. the **k** on your keyboard), **Subject name** (e.g.
-**Kanzi**), **Description** (e.g. male, born October 28 - 1980).
+BORIS allows coding behaviors for different subjects within a single observation.
+The **Subject** table allows the specification of subjects using a **Key** 
+(e.g., the **k** on your keyboard), **Subject name** (e.g., **Kanzi**), and
+ **Description** (e.g., male, born on October 28, 1980).
 
-In this case, pressing **n** will set **Nina** as the focal subject of
-the behavioural coding. Pressing **n** again will deselect "Nina" and
-set to "No focal subject".
+
+
+With the subjects defined in the previous figure, pressing **n** will set **Nina** as the focal subject
+for behavioral coding. Pressing **n** again will deselect **Nina** and set the focal subject to **No focal subject**.
+
 
 The key definition is not mandatory. In this case, you will have to
 select the current subject from the subjects list with a double-click.
 
+The keys are **case-sensitive** and the same key can be used to select more than one subject.
+In this case a dialog will show up and will allow to select 
+
+
+<figure markdown>
+  ![Choose a subject](images/choose_subject.png)
+  <figcaption>Choose a subject</figcaption>
+</figure>
+
+
+
+
 The definition of one or more subjects is not mandatory. Addition,
 removal and sorting of the subjects follows the same logic of the
-*Ethogram* table (see [Set your ethogram from
-scratch](#set-your-ethogram-from-scratch) for info).
+**Ethogram** table (see [Set your ethogram from scratch](#set-your-ethogram-from-scratch) for info).
 
-The keys are **case-sensitive**.
 
-If your project was created with a previous version of BORIS (< v.7)
-you can use the **Convert keys to lower case** to convert all keys to
-lower case otherwise you will have to code your observation using upper
-case key.
+
+
+
+!!! note 
+
+    If your project was created with a previous version of BORIS (< v.7)
+    you can use the **Convert keys to lower case** to convert all keys to
+    lower case otherwise you will have to code your observation using upper
+    case key.
+
+
 
 The subjects can also be imported from an existing BORIS project: use
 the **Import Subjects from a BORIS project** button.
@@ -578,11 +597,11 @@ as above:
 -   2nd column: Subject name (mandatory)
 -   3rd column: Description of subject (optional)
 
-Select all cells of your spreadsheet (CTRL + A), copy to clipboard (CTRL
-+ C). Click the **Import from clipboard** button.
+Select all cells of your spreadsheet (++ctrl+a++), copy to clipboard (++ctrl+c++).
+Click the **Import from clipboard** button.
 
 
-!!! warning "Important"
+!!! Note
 
     If you open a project file created with a version older than v.7 BORIS
     will ask you to convert the upper case behavior and subject keys to
@@ -628,21 +647,7 @@ The predefined value must be contained in the set of value.
 
 
 
-
-## Observations' tab
-
-
-The **Observations** table in BORIS shows information about all the
-previous observations within a project. A selected \"Observation\" can
-be removed using the \"Remove observation\" button (you will be prompted
-for confirmation). This operation cannot be undone and deleted
-observations cannot be recovered once the project is saved. The
-**Observations** table shows four columns **id** **Date**
-**Description** **Media**.
-
-
-
-## Converters' tab
+## Converters' table
 
 
 Converters are used for plotting external data when the timestamp values
