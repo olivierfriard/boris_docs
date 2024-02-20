@@ -12,7 +12,7 @@ in the queue) will be loaded in the media player and paused.
 
 
 <figure markdown>
-  ![Image title](images/toolbar.png)
+  ![The BORIS toolbar](images/toolbar.png)
   <figcaption>The BORIS toolbar</figcaption>
 </figure>
 
@@ -248,11 +248,10 @@ The following paramters are displayed:
 
 -   **Comment**, is an open field where the user can add notes.
 
-A tracking cursor (red triangle) will visualize the current event. This cursor can be positioned above the current event, see [tracking cursor position]() option in Preferences window.
+A tracking cursor (red triangle) will visualize the current event. This cursor can be positioned above the current event, see [tracking cursor position](preferences.md#tracking-cursor-above-current-event) option in **Preferences** window.
 
 A double-click on a row will reposition the media player to the moment
-of the corresponding event. See [Time offset for media reposition]() in
-Preferences window to customize the time offset for media repositioning.
+of the corresponding event. See [Time offset for media reposition](preferences.md#time-offset-for-media-reposition-seconds) in **Preferences** window to customize the time offset for media repositioning.
 
 
 ### Live observation
@@ -434,14 +433,14 @@ selected you have to choose the field to edit between **Subject**,
 **Behavior** and **Comment**. In this case the new value will apply to
 all selected events.
 
-![Edit many events](images/edit_many_events.png){width="60.0%"}
+![Edit many events](images/edit_many_events.png)
 
 ### Edit time of selected event(s)
 
 This option allows to add or subtract a time value (in seconds) to all
 selected events. For subtracting a value use a negative value.
 
-![Edit time of selected events](images/edit_time_events.png){width="60.0%"}
+![Edit time of selected events](images/edit_time_events.png)
 
 
 ### Copy events

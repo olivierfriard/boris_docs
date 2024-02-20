@@ -4,15 +4,15 @@
 
 ### Jump forward
 
-Allow to jump forward in the current media file. See **File** \> **Preferences** for setting the jump value.
+:   Allow to jump forward in the current media file. See **File** \> **Preferences** for setting the jump value.
 
 ### Jump backward
 
-Allow to jump backward in the current media file. See **File** \> **Preferences** for setting the jump value.
+:   Allow to jump backward in the current media file. See **File** \> **Preferences** for setting the jump value.
 
 ### Jump to specific time
 
-Allow to go to a specific time in the current media file.
+:   Allow to go to a specific time in the current media file.
 
 The time selection widget will pop-up:
 

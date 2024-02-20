@@ -99,7 +99,7 @@ except that the behaviors are grouped into **behavioral categories**.
 
 <figure markdown>
   ![time_budget_by_behavioral_category](images/time_budget_by_behavioral_category.png)
-  <figcaption>Results of a time budget by behavioral categary analysis</figcaption>
+  <figcaption>Results of a time budget by behavioral category analysis</figcaption>
 </figure>
 
 
