@@ -5,3 +5,6 @@ version = "1"
 description="BORIS documentation"
 dependencies = []
 
+[tool.setuptools]
+py-modules = []
+
