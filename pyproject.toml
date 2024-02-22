@@ -1,7 +1,7 @@
 [project]
 name = "BORIS_doc"
 authors = [{name = "Olivier Friard", email = "olivier.friard@unito.it"}]
-version = 1
+version = "1"
 description="BORIS documentation"
 dependencies = [
     "mkdocs-macros-plugin>=1.0.5",
