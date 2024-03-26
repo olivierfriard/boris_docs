@@ -1,0 +1,1263 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Olivier Friard">
+      
+      
+      
+        <link rel="prev" href="../coding/">
+      
+      
+        <link rel="next" href="../playback_menu/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>Export events - BORIS documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#export-events" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BORIS documentation" class="md-header__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BORIS documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Export events
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  User guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BORIS documentation" class="md-nav__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    BORIS documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    User guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create_project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create an observation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observations list
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Export events
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Export events
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#export-events-in-tabular-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export events in tabular format
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-aggregated-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export aggregated events
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-events-as-behavioral-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export events as behavioral sequences
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-events-as-praat-textgrid" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export events as Praat TextGrid
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-events-for-analysis-with-jwatcher" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export events for analysis with JWatcher
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-events-as-behaviors-binary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export events as Behaviors Binary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract-sub-sequences-from-media-files-corresponding-to-coded-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extract sub-sequences from media files corresponding to coded events
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract-frames-corresponding-to-coded-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extract frames corresponding to coded events
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-transitions-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export transitions matrix
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Export transitions matrix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#matrix-of-frequencies-of-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Matrix of frequencies of transitions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matrix-of-frequencies-of-transitions-after-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Matrix of frequencies of transitions after behavior
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matrix-of-number-of-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Matrix of number of transitions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../playback_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playback menu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preferences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../various/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Various
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="export-events">Export events<a class="headerlink" href="#export-events" title="Permanent link">#</a></h1>
+<p>The coded events can be exported in various formats.</p>
+<h2 id="export-events-in-tabular-format">Export events in tabular format<a class="headerlink" href="#export-events-in-tabular-format" title="Permanent link">#</a></h2>
+<p><strong>Observations</strong> &gt; <strong>Export events</strong> &gt; <strong>Tabular events</strong></p>
+<p>This function exports the events of selected observations in one or many files.
+Various formats are available:</p>
+<ul>
+<li>
+<p>Plain text in tabular format</p>
+<ul>
+<li><strong>Tab Separated Values</strong> (TSV)</li>
+<li><strong>Comma Separated Values</strong> (CSV)</li>
+<li><strong>Hyper Text Markup language</strong> (HTML)</li>
+</ul>
+</li>
+<li>
+<p>Spreadsheet files</p>
+<ul>
+<li><strong>OpenDocument</strong> (ODS)</li>
+<li><strong>Microsoft Excel</strong> (XLSX, XLS)</li>
+</ul>
+</li>
+<li>
+<p><strong>Pandas dataframe</strong> (to be loaded in Python with the <a href="https://docs.python.org/3/library/pickle.html">pickle
+    module</a>)</p>
+</li>
+<li>
+<p><strong>R dataframe</strong> (to be loaded in R with <a href="https://rdrr.io/r/base/readRDS.html">readRDS
+    function</a>)</p>
+</li>
+</ul>
+<p>If many observations are selected BORIS will ask for a directory to save
+the various files. For the spreadsheet format (XLSX and ODS) the events can be
+exported on various worksheet in a single workbook. All these formats are
+suitable for further analysis.</p>
+<p>Select the subjects, the behaviors and the time interval.</p>
+<p>Set the time interval to the <strong>Observed events</strong></p>
+<p><img alt="Limit export to the observed events" src="../images/select_subjects_behaviors_time_interval_1.png" /></p>
+<p>Select a <strong>User defined</strong> time interval.</p>
+<p><img alt="Time interval is defined by the user" src="../images/select_subjects_behaviors_time_interval_2.png" /></p>
+<p>Example of output of tabular events</p>
+<p><img alt="example of exported events in TSV format (1/2)" src="../images/export_tabular_events_1.png" /></p>
+<p><img alt="example of exported events in TSV format (2/2)" src="../images/export_tabular_events_2.png" /></p>
+<h2 id="export-aggregated-events">Export aggregated events<a class="headerlink" href="#export-aggregated-events" title="Permanent link">#</a></h2>
+<p><strong>Observations</strong> &gt; <strong>Export events</strong> <strong>Aggregated events</strong></p>
+<p>This function will export the events corresponding to the selected
+subjects and the selected behaviors of the selected observations.</p>
+<p>Various formats are available:</p>
+<ul>
+<li>
+<p>Plain text in tabular format</p>
+<ul>
+<li><strong>Tab Separated Values</strong> (TSV)</li>
+<li><strong>Comma Separated Values</strong> (CSV)</li>
+<li><strong>Hyper Text Markup language</strong> (HTML)</li>
+</ul>
+</li>
+<li>
+<p>Spreadsheet files</p>
+<ul>
+<li><strong>OpenDocument</strong> (ODS)</li>
+<li><strong>Microsoft Excel</strong> (XLSX, XLS)</li>
+</ul>
+</li>
+<li>
+<p><strong>SQL format</strong> for populating a SQL database</p>
+</li>
+<li>
+<p><strong>SDIS format</strong> for analysis with the GSEQ program available at
+    <a href="http://www2.gsu.edu/~psyrab/gseq">http://www2.gsu.edu/~psyrab/gseq</a></p>
+</li>
+<li>
+<p><strong>Pandas dataframe</strong> (to be loaded in Python with the <a href="https://docs.python.org/3/library/pickle.html">pickle
+    module</a>)</p>
+</li>
+<li>
+<p><strong>R dataframe</strong> (to be loaded in R with <a href="https://rdrr.io/r/base/readRDS.html">readRDS
+    function</a>)</p>
+</li>
+</ul>
+<p>If two or more observations are selected you can choose to group all
+results in one file. If you do not want to group results BORIS will ask
+for a directory to save the various files (the observation id will be
+used as file name).</p>
+<p>The <strong>State events</strong> are paired and in this case the event duration is
+available.</p>
+<p>An arbitrary time interval can be selected (check the <strong>Limit to time
+interval</strong> option). In this case the ongoing events will be started at
+start time and stopped at end time in the export file.</p>
+<p>The following fields are available in the output:</p>
+<ul>
+<li>Observation id</li>
+<li>Observation date and time</li>
+<li>Observation description</li>
+<li>Observation type (Media file / Live / Pictures)</li>
+<li>Source (for media file and pictures)</li>
+<li>Total duration (in seconds, the duration of observation in base of
+    the selected time interval)</li>
+<li>Media duration(s) (in seconds, for media file observation)</li>
+<li>FPS (frame/s, for video file, number of images per second)</li>
+<li>Independent variables (one column by variable9)</li>
+<li>Subject name</li>
+<li>Observation duration by subject</li>
+<li>Behavior</li>
+<li>Behavioral category (if any)</li>
+<li>Modifier(s) of behavior (one column by madifier)</li>
+<li>Behavior type (STATE / POINT)</li>
+<li>Start (seconds)</li>
+<li>Stop (seconds)</li>
+<li>Duration (seconds, duration of the event for STATE events)</li>
+<li>Media file name (for media file observation, media in which the
+    event occurs)</li>
+<li>Image index start (for observations from pictures, index of the
+    image where the event starts)</li>
+<li>Image index stop (for observations from pictures, index of the image
+    where the event stops)</li>
+<li>Image file path start (for observations from pictures, path of the
+    image where the event stops)</li>
+<li>Image file path stop (for observations from pictures, path of the
+    image where the event stops)</li>
+<li>Comment start</li>
+<li>Comment stop</li>
+</ul>
+<p>Example of table export of aggregated events (TSV, CSV, XLSX, ODS, HTML)</p>
+<p><img alt="example of aggregated and exported events (1/2)" src="../images/export_aggregated_events_1.png" width="100.0%" /></p>
+<p><img alt="example of aggregated and exported events (2/2)" src="../images/export_aggregated_events_2.png" width="100.0%" /></p>
+<p>Example of SQL export of aggregated events:</p>
+<pre><code>CREATE TABLE aggregated_events (id INTEGER PRIMARY KEY ASC, observation TEXT, subject TEXT, behavior TEXT, type TEXT, modifiers TEXT, start FLOAT, stop FLOAT, 
+comment TEXT, comment_stop TEXT, image_index_start INTEGER,image_index_stop INTEGER,image_path_start TEXT,image_path_stop TEXT);
+INSERT INTO "aggregated_events" VALUES(1,'0001_a','Himal','Tear','STATE','Branches',0.0,30.199,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(2,'0001_a','Himal','Locomotion','STATE','Walk',30.2,32.4,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(3,'0001_a','Nautilus','Tear','STATE','Branches',0.0,32.4,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(4,'0001_b','Himal','Tear','STATE','Branches',0.0,30.199,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(5,'0001_b','Himal','Locomotion','STATE','Walk',30.2,32.4,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(6,'0001_b','Nautilus','Tear','STATE','Branches',0.0,31.4,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(7,'0002','Himal','Tear','STATE','Branches',0.0,33.898,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(8,'0002','Himal','Locomotion','STATE','',33.899,34.47,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(9,'0002','Sharky','Tear','STATE','Branches',0.0,30.688,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(10,'0002','Sharky','Locomotion','STATE','Walk',30.689,31.819,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(11,'0002','Nautilus','Tear','STATE','Branches',1.359,25.776,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(12,'0002','Nautilus','Carry objects','STATE','Branches',25.777,27.732,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(13,'0003','Nina','Locomotion','STATE','Walk',21.626,22.5,'','','NA','NA',NULL,NULL);
+INSERT INTO "aggregated_events" VALUES(14,'0003','Nina','Manipulate','STATE','',0.0,21.625,'','','NA','NA',NULL,NULL);
+</code></pre>
+<h2 id="export-events-as-behavioral-sequences">Export events as behavioral sequences<a class="headerlink" href="#export-events-as-behavioral-sequences" title="Permanent link">#</a></h2>
+<p><strong>Observations</strong> &gt; <strong>Export events</strong> <strong>as behavioral sequences</strong></p>
+<p>Behavioral strings can be used with the <strong>Behatrix</strong> program:
+<a href="http://www.boris.unito.it/pages/behatrix">Behatrix</a></p>
+<p>Example:</p>
+<pre><code># observation id: demo#1
+# observation description:
+# Media file name: video1.mp4, video2.mp4
+
+
+Subject #1:
+eat|jump|eat|jump
+
+Subject #2:
+eat|rest|jump|eat|jump
+</code></pre>
+<h2 id="export-events-as-praat-textgrid">Export events as <a href="http://www.fon.hum.uva.nl/praat/">Praat</a> <a href="http://www.fon.hum.uva.nl/praat/manual/TextGrid.html">TextGrid</a><a class="headerlink" href="#export-events-as-praat-textgrid" title="Permanent link">#</a></h2>
+<p><strong>Observations</strong> &gt; <strong>Export events</strong> <strong>as Praat TextGrid</strong></p>
+<p>Example:</p>
+<pre><code>File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 4.3
+xmax = 113.988
+tiers? &lt;exists&gt;
+size = 2
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "Subject #1"
+        xmin = 4.3
+        xmax = 10.0
+        intervals: size = 1
+        intervals [1]:
+            xmin = 4.3
+            xmax = 10.0
+            text = "eat"
+    item [2]:
+        class = "IntervalTier"
+        name = "Subject #2"
+        xmin = 26.6
+        xmax = 113.988
+        intervals: size = 1
+        intervals [1]:
+            xmin = 26.6
+            xmax = 113.988
+            text = "eat"
+</code></pre>
+<h2 id="export-events-for-analysis-with-jwatcher">Export events for analysis with <a href="http://www.jwatcher.ucla.edu">JWatcher</a><a class="headerlink" href="#export-events-for-analysis-with-jwatcher" title="Permanent link">#</a></h2>
+<p><strong>Observations</strong> &gt; <strong>Export events</strong> <strong>for analysis with JWatcher</strong></p>
+<p><a href="http://www.jwatcher.ucla.edu">JWatcher</a> is a powerful tool for the
+quantitative analysis of behavior.</p>
+<p>The events coded with BORIS can be exported to be analyzed with
+JWatcher.</p>
+<p>Click <strong>Observations</strong> &gt; <strong>Export events</strong> &gt; <strong>for analysis with
+JWatcher</strong> to export the coded events.</p>
+<p>BORIS will ask for selecting a directory. After this, for each
+combination of selected observation and selected subject the following
+files will be created:</p>
+<ul>
+<li>the Focal Data File (.dat)</li>
+<li>the Focal Analysis Master File (.faf)</li>
+<li>the Focal Master File (.fmf)</li>
+</ul>
+<p>These files can be used to analyze your observations with JWatcher.</p>
+<h2 id="export-events-as-behaviors-binary-table">Export events as Behaviors Binary Table<a class="headerlink" href="#export-events-as-behaviors-binary-table" title="Permanent link">#</a></h2>
+<p><strong>Observations</strong> &gt; <strong>Export events</strong> <strong>as Behaviors Binary Table</strong></p>
+<p>A time interval will be asked to the user (in seconds). The observation
+will be checked every n seconds and the presence (1, absence: 0) of the
+selected behaviors will be exported in a table for each selected
+subjects.</p>
+<p>Example for a time interval of 1 second:</p>
+<pre><code>time    Alert     Drink    Locomotion   Swim
+0.0     0         1        0            0
+1.0     0         1        0            0
+2.0     0         1        0            0
+3.0     0         1        0            0
+4.0     0         1        0            0
+5.0     0         1        0            0
+6.0     0         1        0            0
+7.0     0         1        0            0
+8.0     0         1        0            0
+9.0     1         0        0            0
+10.0    1         0        0            0
+11.0    0         0        1            0
+12.0    1         0        0            0
+13.0    1         0        0            0
+14.0    1         0        0            0
+15.0    1         0        0            0
+16.0    1         0        0            0
+17.0    1         0        0            0
+18.0    0         0        1            0
+19.0    0         0        1            0
+20.0    0         0        1            0
+21.0    0         0        1            0
+22.0    1         0        0            0
+23.0    0         0        0            0
+24.0    0         0        0            0
+25.0    0         0        0            0
+26.0    0         0        0            0
+27.0    0         0        0            0
+28.0    0         0        0            0
+29.0    0         0        0            0
+30.0    0         0        0            0
+31.0    0         0        0            0
+32.0    0         0        0            0
+33.0    0         0        0            1
+34.0    0         0        0            1
+35.0    0         0        0            1
+36.0    0         0        0            1
+37.0    0         0        0            1
+38.0    0         0        0            1
+39.0    0         0        0            1
+40.0    0         0        0            1
+41.0    0         0        0            1
+42.0    0         0        0            1
+43.0    0         0        0            1
+44.0    0         0        0            1
+45.0    0         0        0            1
+46.0    0         0        0            1
+47.0    0         0        0            1
+48.0    0         0        0            1
+49.0    0         0        0            1
+</code></pre>
+<h2 id="extract-sub-sequences-from-media-files-corresponding-to-coded-events">Extract sub-sequences from media files corresponding to coded events<a class="headerlink" href="#extract-sub-sequences-from-media-files-corresponding-to-coded-events" title="Permanent link">#</a></h2>
+<p>Sequences of media file corresponding to coded events can be extracted
+from media files:</p>
+<ol>
+<li>
+<p>Click on <strong>Observations</strong> &gt; <strong>Extract events from media files</strong>  option.</p>
+</li>
+<li>
+<p>Choose the observation(s).</p>
+</li>
+<li>
+<p>Select the events to be extracted.</p>
+</li>
+<li>
+<p>Select a destination directory that will contain the extracted
+    sequences.</p>
+</li>
+<li>
+<p>Select a time offset (in seconds, the default value is 0).</p>
+</li>
+</ol>
+<p>The time offset will be substracted from the starting time of event and
+added to the stopping time. All the extracted sequences will be saved in
+the selected directory followind the file name format:</p>
+<p>{observation id}_{player}_{subject}_{behavior}_{start time}-{stop
+time}</p>
+<h2 id="extract-frames-corresponding-to-coded-events">Extract frames corresponding to coded events<a class="headerlink" href="#extract-frames-corresponding-to-coded-events" title="Permanent link">#</a></h2>
+<p>The frames corresponding to coded events can be extracted and saved as
+images.</p>
+<ol>
+<li>
+<p>Click on <strong>Observations</strong> &gt; <strong>Extract frames from media files</strong>
+    option.</p>
+</li>
+<li>
+<p>Choose the observation(s).</p>
+</li>
+<li>
+<p>Select the events to be extracted.</p>
+</li>
+<li>
+<p>Select a destination directory that will contain the extracted
+    sequences.</p>
+</li>
+<li>
+<p>Select a time offset (in seconds, the default value is 0).</p>
+</li>
+</ol>
+<h2 id="export-transitions-matrix">Export transitions matrix<a class="headerlink" href="#export-transitions-matrix" title="Permanent link">#</a></h2>
+<p>3 transitions matrix outputs are available: The matrix of frequencies of
+transitions, the matrix of frequencies of transition after each behavior
+and the matrix of number of transitions.</p>
+<h3 id="matrix-of-frequencies-of-transitions">Matrix of frequencies of transitions<a class="headerlink" href="#matrix-of-frequencies-of-transitions" title="Permanent link">#</a></h3>
+<p>This matrix contains the frequencies of total transitions. The sum of
+all frequencies must be 1.</p>
+<p>Example of frequencies of transitions matrix:</p>
+<pre><code>eat   sleep     walk
+eat        0.0   0.286    0.143
+sleep    0.143     0.0    0.143
+walk     0.286     0.0      0.0
+</code></pre>
+<p>In this matrix you can see that the <strong>eat</strong> behavior precedes the
+<strong>sleep</strong> behavior with a frequency of <strong>0.286</strong> of the total number of
+transitions.</p>
+<h3 id="matrix-of-frequencies-of-transitions-after-behavior">Matrix of frequencies of transitions after behavior<a class="headerlink" href="#matrix-of-frequencies-of-transitions-after-behavior" title="Permanent link">#</a></h3>
+<p>This matrix contains the frequencies of transitions after each behavior.
+The sum of each row must be 1.</p>
+<p>Example:</p>
+<pre><code>eat    sleep     walk
+eat     0.0    0.667    0.333
+sleep   0.5      0.0      0.5
+walk    1.0      0.0      0.0
+</code></pre>
+<p>In this example you can see that <strong>sleep</strong> follows <strong>eat</strong> with a
+frequency of <strong>0.667</strong> and <strong>walk</strong> follows with a frequency of
+<strong>0.333</strong>.</p>
+<h3 id="matrix-of-number-of-transitions">Matrix of number of transitions<a class="headerlink" href="#matrix-of-number-of-transitions" title="Permanent link">#</a></h3>
+<p>This matrix contains the number of transitions after each behavior.</p>
+<p>Example:</p>
+<pre><code>eat   sleep   walk
+eat       0       2      1
+sleep     1       0      1
+walk      2       0      0
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../coding/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Coding">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Coding
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../playback_menu/" class="md-footer__link md-footer__link--next" aria-label="Next: Playback menu">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Playback menu
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2012 - 2024 Olivier Friard
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "toc.integrate", "toc.follow", "navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>

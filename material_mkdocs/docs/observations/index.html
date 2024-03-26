@@ -1,0 +1,1277 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Olivier Friard">
+      
+      
+      
+        <link rel="prev" href="../create_project/">
+      
+      
+        <link rel="next" href="../observations_list/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>Create an observation - BORIS documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#create-a-new-observation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BORIS documentation" class="md-header__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BORIS documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Create an observation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  User guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BORIS documentation" class="md-nav__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    BORIS documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    User guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create_project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Create an observation
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Create an observation
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#live-observation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Live observation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Live observation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scan-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scan sampling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-from-current-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start from current time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-the-observation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start the observation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observation-from-media-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observation from media file(s)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Observation from media file(s)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spectrogram-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spectrogram visualization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#close-current-behavior-between-videos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Close current behavior between videos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-data-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      External data files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="External data files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#converters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Converters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-the-observation_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start the observation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observation-from-pictures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observation from pictures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Observation from pictures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-the-observation_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start the observation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#various-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Various options
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Various options">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#limit-observation-to-a-time-interval" class="md-nav__link">
+    <span class="md-ellipsis">
+      Limit observation to a time interval
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observations list
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export_events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Export events
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../playback_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playback menu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preferences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../various/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Various
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="create-a-new-observation">Create a new observation<a class="headerlink" href="#create-a-new-observation" title="Permanent link">#</a></h1>
+<p>A video tutorial about making an observation is available at <a href="https://www.youtube.com/watch?v=CKeBITCICXc">this link</a>.</p>
+<p>To create a new observation you must first <a href="../create_project/#create-a-project">Create a new project with BORIS</a> or <a href="">Open an existing project with BORIS</a>.</p>
+<p>Clicking on <strong>Observations</strong> &gt; <strong>New observation</strong> will show the <strong>New
+observation</strong> window.</p>
+<figure>
+<p><img alt="Image title" src="../images/new_observation_empty.png" width="80.0%" />
+  </p>
+<figcaption>New observation window</figcaption>
+</figure>
+<p>This window allow adding various observation data:</p>
+<ul>
+<li>
+<p>a mandatory <strong>Observation id</strong> (must be unique across all
+    observations in the open project);</p>
+</li>
+<li>
+<p><strong>Date</strong>, which will be automatically set on the current date and
+    time, but you can alternatively set this info on your media date and
+    time, or whatever you prefer.</p>
+</li>
+<li>
+<p><strong>Description</strong>, which can host all the relevant information about
+    your observation, but can be also left empty.</p>
+</li>
+<li>
+<p><strong>Independent variables</strong> (e.g. to specify factors that may
+    influence the behaviors but will not change during the observation
+    within a project).See the <a href="">independent variables</a> section for
+    details.</p>
+</li>
+<li>
+<p><strong>Time offset</strong>. BORIS allow specifying a time offset that can be
+    added or subtracted from the media timecode.</p>
+</li>
+<li>
+<p>The <strong>Limit observation to a time interval</strong> option can be used to
+    limit the observation to an arbitrary time interval.</p>
+</li>
+</ul>
+<p>You must then indicate if you want to make an observation based on
+<strong>pre-recorded media (audio / video)</strong> or a <strong>live observation</strong>.</p>
+<h2 id="live-observation">Live observation<a class="headerlink" href="#live-observation" title="Permanent link">#</a></h2>
+<p>During the live observation BORIS will show you a timer that will be
+used for recording time for coded events.</p>
+<p>Click on the <strong>Live observation</strong> radio button to create a live
+observation.</p>
+<figure>
+<p><img alt="Image title" src="../images/live_observation1.png" width="80.0%" />
+  </p>
+<figcaption>New live observation</figcaption>
+</figure>
+<h3 id="scan-sampling">Scan sampling<a class="headerlink" href="#scan-sampling" title="Permanent link">#</a></h3>
+<p>In the above tab you can select a time for <strong>Scan sampling</strong>
+observation. In this case the timer will stop at every time offset you
+indicated and all the coded events will have the same time value.</p>
+<h3 id="start-from-current-time">Start from current time<a class="headerlink" href="#start-from-current-time" title="Permanent link">#</a></h3>
+<p>If you want that the time starts from the current time you can check the
+<strong>Start from current time</strong> checkbox.</p>
+<figure>
+<p><img alt="Image title" src="../images/live_observation2.png" width="80.0%" />
+  </p>
+<figcaption>Set a live observation to start from current time</figcaption>
+</figure>
+<p>If the <strong>Day time</strong> option is checked the start time will be the
+computer current time when you will press the <strong>Start</strong> button.</p>
+<p>If the <strong>Epoch time</strong> is checked the start time will be the number of
+seconds since the Jan 1st, 1970 (1970-01-01). See <a href="https://en.wikipedia.org/wiki/Unix_time">Unix
+time</a> for details. This option
+is usefull for long observations (few days) or observations that start
+before midnight and end after.</p>
+<h3 id="start-the-observation">Start the observation<a class="headerlink" href="#start-the-observation" title="Permanent link">#</a></h3>
+<p>Click the <strong>Start</strong> button to begin the live observation or <strong>Save</strong> to
+save it in the <a href="#observations-list">Observations list</a>.</p>
+<p>The main window during a live observation will look like this:</p>
+<figure>
+<p><img alt="Image title" src="../images/observation_live.png" />
+  </p>
+<figcaption>The main window during a live observation</figcaption>
+</figure>
+<p>See the <a href="">Live observations</a> section to start coding.</p>
+<h2 id="observation-from-media-files">Observation from media file(s)<a class="headerlink" href="#observation-from-media-files" title="Permanent link">#</a></h2>
+<p>Click on the <strong>Observation from media file(s)</strong> radio button to create
+an observation based on one or more media files.</p>
+<figure>
+<p><img alt="Image title" src="../images/media_files_tab_empty.png" width="80.0%" />
+  </p>
+<figcaption>Media files tab</figcaption>
+</figure>
+<p>The <strong>Observation from media file(s)</strong> tab contains 2 tabs: <strong>Media
+files</strong> and <strong>Data files</strong>.</p>
+<p>Click the <strong>Media files</strong> tab and add one or more media files using the
+<strong>Add media</strong> button. You have 3 options:</p>
+<ul>
+<li><strong>with absolute path</strong>: the whole media file path will be recorded
+    in the project</li>
+<li><strong>with relative path</strong>: the media file path will be recorded
+    relatively to the position of the BORIS project file (the directory
+    of the BORIS project file must be included). This option is useful
+    if you have to have to move your BORIS project file on another
+    computer.</li>
+<li><strong>from directory with absolute path</strong>: all the media file found in
+    the directory will be added to the playlist (the whole media file
+    path will be recorded in the project)</li>
+<li><strong>from directory with relative path</strong>: all the media file found in
+    the directory will be added to the playlist (the relative media file
+    path will be recorded in the project)</li>
+</ul>
+<p>Information about the selected media file will be extracted and
+displayed in the media list: media file path, media duration, number of
+frames by second (FPS), the presence of a video stream, the presence of
+an audio stream .</p>
+<figure>
+<p><img alt="Image title" src="../images/media_files_tab_1.png" width="80.0%" />
+  </p>
+<figcaption>Media files tab</figcaption>
+</figure>
+<p>The dropdown list in the first column allow you to choose a player (for
+a maximum of 8). If you want to observer more media files simultaneously
+you must use consecutive players (starting from 1). See example below:</p>
+<figure>
+<p><img alt="Image title" src="../images/media_files_tab_2.png" width="80.0%" />
+  </p>
+<figcaption>Media files tab</figcaption>
+</figure>
+<p>If you have to synchronize 2 (or more) videos you can use the <strong>Offset
+column</strong> to indicate when the 2nd player should start. For example if
+the video loaded in the second player starts 15 seconds after the first
+video you have to input <strong>15</strong> in the <strong>Offset</strong> cell. If the second
+video starts before the first player you can set a negative value in the
+<strong>Offset</strong> cell</p>
+<p>If you have to play sequentially many videos you have to select the same
+player (#1) for all video you have loaded. This means that an event
+occurring at time t~x~ in the media file queued as second (e.g.
+second_video.mp4) in the playlist will be scored as happening at time
+t~1~ + t~x~ (where t~1~ is the duration of the first media file, e.g.
+first_video.mp4).</p>
+<p>The <strong>Remove selected media</strong> button can be used to remove all the
+selected media files.</p>
+<p>All the media types that can be played by the MPV player can be played in BORIS.</p>
+<p>The <strong>Use media file name as observation id</strong> button will set the first
+media file name as <strong>observation id</strong></p>
+<h3 id="spectrogram-visualization">Spectrogram visualization<a class="headerlink" href="#spectrogram-visualization" title="Permanent link">#</a></h3>
+<p>BORIS allow you to visualize the sound spectrogram during the media
+observation. Activate the <strong>Visualize spectrogram</strong> check box. BORIS
+will ask you to generate the spectrograms for all media files loaded in
+the first player.</p>
+<figure>
+<p><img alt="Image title" src="../images/spectro1.png" width="80.0%" />
+  </p>
+<figcaption>Spectrogram generation</figcaption>
+</figure>
+<p>The spectrogram visualization will be synchonized to the media position
+during the observation.</p>
+<figure>
+<p><img alt="Image title" src="../images/spectrogram.jpg" width="80.0%" />
+  </p>
+<figcaption>Spectrogram visualization</figcaption>
+</figure>
+<h3 id="close-current-behavior-between-videos">Close current behavior between videos<a class="headerlink" href="#close-current-behavior-between-videos" title="Permanent link">#</a></h3>
+<p>This option is disabled for now.</p>
+<h3 id="external-data-files">External data files<a class="headerlink" href="#external-data-files" title="Permanent link">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>At this time only 2 external data can be plotted with your media file</strong></p>
+</div>
+<p>You can select one or more external data files to be plotted
+synchronously with your media. Click the <strong>Data files</strong> tab and use the
+<strong>Add data file</strong> button to select a data file.</p>
+<figure>
+<p><img alt="External data file table" src="../images/external_data_file_1.png" />
+  </p>
+<figcaption>External data file table</figcaption>
+</figure>
+<p>The data files must be plain text files with at least <strong>2 columns</strong>
+separated by a comma or a TAB character. One column must contain a timestamp that will
+be used to synchronize the plot with the media. The sampling rate can be variable.</p>
+<p>Example of a plain text data file with 5 columns separated by comma
+(<strong>,</strong>):</p>
+<pre><code>Display,X Pos,Y Pos,Start Time (secs),Pupil Diameter
+1,864,509,549.233,0.00295773451216519
+1,863,505,549.25,0.00281810853630304
+1,863,503,549.266,0.00287826382555068
+1,861,502,549.283,0.0030536837875843
+1,858,501,549.3,0.00308083021081984
+1,856,499,549.316,0.00306266942061484
+1,854,499,549.333,0.00305776367895305
+[...]
+</code></pre>
+<p>In the above example the 4th column contains the timestamp and the 5th
+the value to be plotted.</p>
+<p>Input the index of the column containing the timestamp and the index of
+the column containing the value to be plotted. The two indices must be
+separated by a comma (,). Click <strong>OK</strong> to close the window.</p>
+<figure>
+<p><img alt="Selection of columns (time, value)" src="../images/external_data_file_columns_selection.png" width="80.0%" />
+  </p>
+<figcaption>Selection of columns (time, value)</figcaption>
+</figure>
+<p>A new row will be added in the data files table.</p>
+<figure>
+<p><img alt="Data file table" src="../images/external_data_file_1.png" width="80.0%" />
+  </p>
+<figcaption>Data file table</figcaption>
+</figure>
+<p>You can modify/complete the following parameters by directly typing in
+the table cells:</p>
+<ul>
+<li>Columns to plot</li>
+<li>Plot title: the title of the plot</li>
+<li>Variable name</li>
+<li>Converters: Used if the timestamp is not expressed in seconds (see
+    below for details)</li>
+<li>Time interval: The time interval that will be plotted (in seconds)</li>
+<li>Start position: the start position of data for synchronisation with
+    the media (in seconds)</li>
+<li>Substract first value: if the timestamp does not start with a 0
+    value you can choose to substract the first value to all timestamp
+    values.</li>
+<li>Color: the color of the color</li>
+</ul>
+<p><strong>NOTE</strong> : if you want to record the value of the plotted variable in a
+modifier of a behavior (see <a href="../create_project/#value-from-external-data-file-modifier">Value from external data file modifier</a>)
+the modifier must have the same <strong>variable name</strong>.</p>
+<p>You can check if the data from file can be correctly plotted by using
+the <strong>Show plot</strong> button. If the data are compatible you will see a plot
+otherwise you will obtain a message with an explanation.</p>
+<p>For now only 2 values can be plotted synchronously with your media file.
+The values can come from the same file or from two different files.</p>
+<p>During the observation tha values you have selected in external data
+files will be plotted synchronously with your media file.</p>
+<figure>
+<p><img alt="Observation with 2 values plotted" src="../images/observation_with_external_data.png" width="100.0%" />
+  </p>
+<figcaption>Observation with 2 values plotted from external data files: Temperature and salinity</figcaption>
+</figure>
+<h4 id="converters">Converters<a class="headerlink" href="#converters" title="Permanent link">#</a></h4>
+<p>If the values in the timestamp column are not expessed in seconds (like
+12.45) but in another format (HH:MM:SS, MM:SS, ISO8601
+2018-01-18T12:31:40Z ...) you must use a converter that will convert
+the current format in seconds.</p>
+<p>See the <a href="../create_project/#converters-table">Converters' table</a> in the project configuration.</p>
+<p>A <strong>double-click</strong> on the converters cell will allow you to select a
+converter for each column to be plotted</p>
+<figure>
+<p><img alt="Image title" src="../images/converter_selection.png" />
+  </p>
+<figcaption></figcaption>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/converter_selected.png" />
+  </p>
+<figcaption></figcaption>
+</figure>
+<p>Use the <strong>Show plot</strong> button to verify if your external data can be
+plotted without problem. The <strong>Close plot</strong> button will close the plot
+window.</p>
+<p><img alt="image" src="../images/external_data_show_plot.png" /></p>
+<p>Converters can also be used to convert values that are not time value.</p>
+<p>Example of a converter for inverting value:</p>
+<pre><code>OUTPUT = - float(INPUT)
+</code></pre>
+<h3 id="start-the-observation_1">Start the observation<a class="headerlink" href="#start-the-observation_1" title="Permanent link">#</a></h3>
+<p>Click the <strong>Start</strong> button to start coding. The <strong>Observation</strong> window
+will be closed and you'll be transferred to the main <strong>BORIS</strong> window.
+If you do not want to start the observation click the <strong>Save</strong> button.
+The observation will be saved in the <a href="../observations_list/">observations list</a>.</p>
+<p>The main window during the observation of a single media file will look
+like this:</p>
+<figure>
+<p><img alt="The main window during the observation of one video" src="../images/observation_1video.png" />
+  </p>
+<figcaption>The main window during the observation of one video</figcaption>
+</figure>
+<p>See the <a href="">media coding</a> section to start coding.</p>
+<h2 id="observation-from-pictures">Observation from pictures<a class="headerlink" href="#observation-from-pictures" title="Permanent link">#</a></h2>
+<p>Click on the <strong>Observation from pictures</strong> radio button to create an
+observation based on pictures.</p>
+<figure>
+<p><img alt="Image title" src="../images/picture_observation_tab_empty.png" width="80.0%" />
+  </p>
+<figcaption>Observation from pictures tab</figcaption>
+</figure>
+<p>Use the <strong>Add directory</strong> to select a directory containing the pictures
+you want to code. You can select many directories, in this case the
+pictures will be browsed in the order of the directories were added.</p>
+<p>The <strong>Use the pictures directory as observation id</strong> button will set the
+directory name as <strong>observation id</strong></p>
+<h3 id="time">Time<a class="headerlink" href="#time" title="Permanent link">#</a></h3>
+<p>You have 3 option for the coding time:</p>
+<ul>
+<li>No time: no time will be recorded. The image index (the position of
+    image in the directory) and the image file path will be recorded.</li>
+<li>Use the EXIF DateTimeOriginal tag: the time will be extracted from
+    the EXIF tag of the picture file (if any).</li>
+<li>Time lapse: this option will let you define the time interval
+    between the pictures.</li>
+</ul>
+<h3 id="start-the-observation_2">Start the observation<a class="headerlink" href="#start-the-observation_2" title="Permanent link">#</a></h3>
+<p>Click the <strong>Start</strong> button to start coding. The <strong>Observation</strong> window
+will be closed and you\'ll be transferred to the main <strong>BORIS</strong> window.
+If you do not want to start the observation click the <strong>Save</strong> button.
+The observation will be saved in the <a href="#observations-list">observations
+list</a>.</p>
+<figure>
+<p><img alt="Image title" src="../images/picture_observation_1.png" width="80.0%" />
+  </p>
+<figcaption>The main window during the coding of a picture directory</figcaption>
+</figure>
+<p>See the <a href="">media coding</a> section to start coding.</p>
+<h2 id="various-options">Various options<a class="headerlink" href="#various-options" title="Permanent link">#</a></h2>
+<h3 id="limit-observation-to-a-time-interval">Limit observation to a time interval<a class="headerlink" href="#limit-observation-to-a-time-interval" title="Permanent link">#</a></h3>
+<p>This option can be used to limit the observation to a time interval for
+live or media based observations.</p>
+<p><img alt="image" src="../images/limit_obs_time_interval.png" width="80.0%" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../create_project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Create a project">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Create a project
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../observations_list/" class="md-footer__link md-footer__link--next" aria-label="Next: Observations list">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Observations list
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2012 - 2024 Olivier Friard
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "toc.integrate", "toc.follow", "navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>

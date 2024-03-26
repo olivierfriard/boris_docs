@@ -1,0 +1,1156 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Olivier Friard">
+      
+      
+      
+        <link rel="prev" href="../playback_menu/">
+      
+      
+        <link rel="next" href="../coding_map/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>Tools - BORIS documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BORIS documentation" class="md-header__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BORIS documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tools
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  User guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BORIS documentation" class="md-nav__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    BORIS documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    User guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create_project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create an observation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observations list
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export_events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Export events
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../playback_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playback menu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#plot-events-in-real-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plot events in real-time
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geometric-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+       Geometric measurements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Geometric measurements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mark-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mark color
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-the-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting the scale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#point" class="md-nav__link">
+    <span class="md-ellipsis">
+      Point
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#distance-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distance measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#area-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Area measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#angle-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Angle measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#persistent-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Persistent measurements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coding-pad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coding pad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subjects-pad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subjects pad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#converters-for-external-data-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Converters for external data values
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transitions-flow-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transitions flow diagram
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transitions flow diagram">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dot-script-graphviz-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      DOT script (Graphviz language)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flow-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flow diagram
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flow-diagram-of-frequencies-of-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flow diagram of frequencies of transitions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flow-diagram-of-frequencies-of-transitions-after-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flow diagram of frequencies of transitions after behavior
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flow-diagram-of-number-of-transitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flow diagram of number of transitions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#re-encoding-and-resizing-a-video-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Re-encoding and resizing a video file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rotating-a-video-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rotating a video file
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preferences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../various/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Various
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">#</a></h1>
+<h2 id="plot-events-in-real-time">Plot events in real-time<a class="headerlink" href="#plot-events-in-real-time" title="Permanent link">#</a></h2>
+<p>This function can be activated with <strong>Tools</strong> &gt; <strong>Plot event in real time</strong>.</p>
+<p><img alt="The real-time plot of events" src="../images/plot_events_rt.png" /></p>
+<h2 id="geometric-measurements"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M352 96c0 14.3-3.1 27.9-8.8 40.2l52.8 91.2c-23.7 25.3-54.2 44.1-88.5 53.6L256 192l-68 117.5c21.5 6.8 44.3 10.5 68.1 10.5 70.7 0 133.8-32.7 174.9-84 11.1-13.8 31.2-16 45-5s16 31.2 5 45c-52.9 65.8-134 108-225 108-35.4 0-69.4-6.4-100.7-18.1l-56.6 97.8c-4.7 8.1-11.7 14.7-20.1 18.9l-55.4 27.7c-5 2.5-10.9 2.2-15.6-.7S0 501.5 0 496v-55.4c0-8.4 2.2-16.7 6.5-24.1l60-103.7c-12.8-11.2-24.7-23.5-35.3-36.8-11.1-13.8-8.8-33.9 5-45s33.9-8.8 45 5c5.7 7.1 11.8 13.8 18.2 20.1l69.4-119.9C163.2 124 160 110.4 160 96c0-53 43-96 96-96s96 43 96 96zm21 297.9c32.6-12.8 62.5-30.8 88.9-52.9l43.7 75.5c4.2 7.3 6.5 15.6 6.5 24.1V496c0 5.5-2.9 10.7-7.6 13.6s-10.6 3.2-15.6.7l-55.4-27.7c-8.4-4.2-15.4-10.8-20.1-18.9L373 393.9zM256 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg></span> Geometric measurements<a class="headerlink" href="#geometric-measurements" title="Permanent link">#</a></h2>
+<p>Some geometric measurements can be done: <strong>distances</strong>, <strong>areas</strong> and <strong>angles</strong> can be measured and <strong>point positions</strong> recorded.</p>
+<p>Click on <strong>Tools</strong> &gt; <strong>Geometric measurements</strong> to activate the measurements. </p>
+<figure>
+<p><img alt="Image title" src="../images/geometric_measurements1.png" width="80.0%" />
+  </p>
+<figcaption>The geometric measurements window</figcaption>
+</figure>
+<h3 id="mark-color">Mark color<a class="headerlink" href="#mark-color" title="Permanent link">#</a></h3>
+<p>Use the <strong>Choose color of marks</strong> button to select a color. All marks will be drawn with the selected color.
+The color transparency can be set using the <strong>Alpha channel</strong> vale (0 for 100% transparent, 255 for a solid color).</p>
+<figure>
+<p><img alt="Image title" src="../images/select_color.png" width="80.0%" />
+  </p>
+<figcaption>The color selection window</figcaption>
+</figure>
+<h3 id="setting-the-scale">Setting the scale<a class="headerlink" href="#setting-the-scale" title="Permanent link">#</a></h3>
+<p>For distance and area measurements you can set a scale in order to have
+results of measurements in a real unit (like centimeters, meters etc).</p>
+<figure>
+<p><img alt="Image title" src="../images/geometric_measurements_scale.png" width="80.0%" />
+  </p>
+<figcaption>Setting the scale</figcaption>
+</figure>
+<ol>
+<li>
+<p>measure a reference object (that have a known size) on the frame
+    (with the distance tool. See next chapter for details) and set the
+    pixel distance in the <strong>Pixel</strong> text box.</p>
+</li>
+<li>
+<p>Set the real size of the reference object in the <strong>Reference</strong> text
+    box (must be a number without unit).</p>
+</li>
+</ol>
+<h3 id="point">Point<a class="headerlink" href="#point" title="Permanent link">#</a></h3>
+<p>Select the <strong>Point</strong> radio button. Click the left mouse button on the video/image to record the position of the clicked pixel.</p>
+<p><img alt="Recording point positions" src="../images/geometric_measurements_point.png" /></p>
+<h3 id="distance-measurements">Distance measurements<a class="headerlink" href="#distance-measurements" title="Permanent link">#</a></h3>
+<p>Select the <strong>Distance</strong> radio button. Click the left mouse button on the
+frame bitmap to set the start of the segment that will be measured. A
+circle with a cross will be drawn. Click the right mouse button to set
+the end. A red circle with a cross will be drawn. The distance between
+the two selected points will be available in the text area of the
+<strong>Measurements window</strong>.</p>
+<p><img alt="distances measurement" src="../images/geometric_measurements_polyline.png" /></p>
+<h3 id="area-measurements">Area measurements<a class="headerlink" href="#area-measurements" title="Permanent link">#</a></h3>
+<p>Select the <strong>Area</strong> radio button. Click the left mouse button on the
+frame bitmap to set the area vertices. Circles with a cross will be
+drawn. Click the right mouse button to close the area. The area of the
+drawn polygon will be available in the text area of the <strong>Measurements
+window</strong>.</p>
+<h3 id="angle-measurements">Angle measurements<a class="headerlink" href="#angle-measurements" title="Permanent link">#</a></h3>
+<p>Select the <strong>Angle</strong> radio button. Click the left mouse button on the
+frame bitmap to set the angle vertex. A red circle with a cross will be
+drawn. Click the right mouse button to set the two segments. Circles
+with a cross will be drawn. The angle between the two drawn segments
+will be available in the text area of the <strong>Measurements window</strong>.</p>
+<h3 id="persistent-measurements">Persistent measurements<a class="headerlink" href="#persistent-measurements" title="Permanent link">#</a></h3>
+<p>If the <strong>Measurements are persistent</strong> checkbox is checked the
+measurement schemes will be available on all frames otherwise they will
+be deleted between frames.</p>
+<p>The marks selected on other frames will be drawn in red.</p>
+<h2 id="coding-pad">Coding pad<a class="headerlink" href="#coding-pad" title="Permanent link">#</a></h2>
+<p>During observation a coding pad with the available behaviors can be
+displayed (<strong>Tools</strong> &gt; <strong>Coding pad</strong>). This <strong>Coding pad</strong> allows the
+user to code using a touch-screen or by clicking on the buttons. When
+the <strong>Coding pad</strong> is displayed you can continue to code using the
+keyboard or the ethogram.</p>
+<p><img alt="Coding pad" src="../images/coding_pad.png" /></p>
+<p>The button size can be increased or decreased.</p>
+<p>The button color can be set for every behavior, for every behavioral category or to no color.</p>
+<p>See the drop-down list in the upper-left corner of the Coding pad window.</p>
+<h2 id="subjects-pad">Subjects pad<a class="headerlink" href="#subjects-pad" title="Permanent link">#</a></h2>
+<p>A pad with all defined subjects (or filtered subjects) can be displayed
+during the observation (<strong>Tools</strong> &gt; <strong>Subjects pad</strong>). This <strong>Subjects
+pad</strong> allows the user to select the focal subject using a touch-screen
+or by clicking on the buttons. When the <strong>Subjects pad</strong> is displayed
+you can continue to select the focal subject using the keyboard or the
+subjects list.</p>
+<p><img alt="Subjects pad" src="../images/subject_pad.png" width="50.0%" /></p>
+<h2 id="converters-for-external-data-values">Converters for external data values<a class="headerlink" href="#converters-for-external-data-values" title="Permanent link">#</a></h2>
+<p>Converters can be written using the Python 3 programming language.</p>
+<p>The <strong>INPUT</strong> variable will be loaded with the original value of the
+external data file (for example 01:22:32).</p>
+<p>The <strong>OUPUT</strong> variable must contain the converted value in seconds (the
+dot must be used for decimal separator).</p>
+<p>Example of a code to convert HH.MM:SS format in seconds:</p>
+<pre><code>h, m, s = INPUT.split(':')
+OUTPUT = int(h) * 3600 + int(m) * 60 + int(s)
+</code></pre>
+<p>The Python function <strong>strptime()</strong> from the <strong>datetime</strong> module can be
+useful for converting time values:
+<a href="https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior">https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior</a></p>
+<p>Example of a code to a date in ISO8601 format in seconds using the strptime() function:</p>
+<pre><code>import datetime
+epoch = datetime.datetime.utcfromtimestamp(0)
+datetime_format = "%Y-%m-%dT%H:%M:%SZ"
+
+OUTPUT = (datetime.datetime.strptime(INPUT, datetime_format) - epoch).total_seconds()
+</code></pre>
+<p><strong>File</strong> &gt; <strong>Edit project</strong> &gt; <strong>Converters</strong></p>
+<p><img alt="writing/modifiying a converter" src="../images/converter_writing.png" width="100.0%" /></p>
+<h2 id="transitions-flow-diagram">Transitions flow diagram<a class="headerlink" href="#transitions-flow-diagram" title="Permanent link">#</a></h2>
+<p>BORIS can generate DOT scripts and flow diagrams from the transitions
+matrices (See Observations &gt; Create transition matrix for obtaining the
+transitions matrices).</p>
+<h3 id="dot-script-graphviz-language">DOT script (Graphviz language)<a class="headerlink" href="#dot-script-graphviz-language" title="Permanent link">#</a></h3>
+<p><strong>Tools &gt; Transitions flow diagram &gt; Create transitions DOT script</strong></p>
+<p>Choose one ore more transitions matrix files and BORIS will create the relative DOT script file(s).</p>
+<p>The DOT script files can then be used with
+<a href="http://www.graphviz.org">Graphviz</a> (Graph Visualization Software) or
+<a href="http://www.webgraphviz.com">WebGraphviz</a> (Graphviz in the Browser) to
+generate flow diagram of transitions.</p>
+<p>See <a href="https://en.wikipedia.org/wiki/DOT_(graph_description_language)">DOT (graph description
+language)</a>
+for details.</p>
+<h3 id="flow-diagram">Flow diagram<a class="headerlink" href="#flow-diagram" title="Permanent link">#</a></h3>
+<p>If <a href="http://www.graphviz.org">Graphviz</a> (Graph Visualization Software) is
+installed on your system (and the <strong>dot</strong> program available in the path)
+BORIS can generate flow diagram (PNG format) from a transitions matrix
+file.</p>
+<p><strong>Tools &gt; Transitions flow diagram &gt; Create transitions flow diagram</strong></p>
+<p>Choose one ore more transition matrix files and BORIS will create the
+relative flow diagram.</p>
+<h3 id="flow-diagram-of-frequencies-of-transitions">Flow diagram of frequencies of transitions<a class="headerlink" href="#flow-diagram-of-frequencies-of-transitions" title="Permanent link">#</a></h3>
+<figure>
+<p><img alt="Frequencies of transitions" src="../images/transitions_frequency.png" width="40.0%" />
+  </p>
+<figcaption>Frequencies of total transitions (the frequencies are plotted on the edges)</figcaption>
+</figure>
+<h3 id="flow-diagram-of-frequencies-of-transitions-after-behavior">Flow diagram of frequencies of transitions after behavior<a class="headerlink" href="#flow-diagram-of-frequencies-of-transitions-after-behavior" title="Permanent link">#</a></h3>
+<figure>
+<p><img alt="Frequencies of transitions after behavior" src="../images/transitions_frequency_after_behavior.png" width="40.0%" />
+  </p>
+<figcaption>Frequencies of transitions after behavior (the frequencies are plotted on the edges)</figcaption>
+</figure>
+<h3 id="flow-diagram-of-number-of-transitions">Flow diagram of number of transitions<a class="headerlink" href="#flow-diagram-of-number-of-transitions" title="Permanent link">#</a></h3>
+<figure>
+<p><img alt="Number of transitions" src="../images/number_of_transitions.png" width="40.0%" />
+  </p>
+<figcaption>Number of transitions (the frequencies are plotted on the edges)</figcaption>
+</figure>
+<h3 id="re-encoding-and-resizing-a-video-file">Re-encoding and resizing a video file<a class="headerlink" href="#re-encoding-and-resizing-a-video-file" title="Permanent link">#</a></h3>
+<p>BORIS can re-encode and resize your video files in order to reduce the
+size of the files and have a smooth coding (specially with two video
+files playing together). The re-encoding and resizing operations are
+done with the embedded ffmpeg program with high quality parameters
+(bitrate 2000k).</p>
+<p>Select the files you want re-encode and resize and select the horizontal
+resolution in pixels (the default is 1024). The aspect ratio will be
+maintained.</p>
+<p>You can continue to use BORIS during the re-encoding/resizing operation.</p>
+<p>The re-encoded/resized video files are renamed by adding the re-encoded.avi extension to the original files.</p>
+<h3 id="rotating-a-video-file">Rotating a video file<a class="headerlink" href="#rotating-a-video-file" title="Permanent link">#</a></h3>
+<p>BORIS can rotate your video files in order to code them using the right
+view. The rotating operation is done with the embedded ffmpeg program
+using the same quality parameters then the original video.</p>
+<p>Select the files you want rotate and select the rotation angle between: <strong>Rotate 90 clockwise</strong>, <strong>Rotate 90 counter clockwise</strong> and <strong>Rotate 180</strong>.</p>
+<p>The aspect ratio will be maintained.</p>
+<p>You can continue to use BORIS during the rotation operation.</p>
+<p>The rotated video files are renamed by adding the <strong>rotated\&lt;ANGLE&gt;</strong>
+to the original file name.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../playback_menu/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Playback menu">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Playback menu
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../coding_map/" class="md-footer__link md-footer__link--next" aria-label="Next: Coding map">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Coding map
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2012 - 2024 Olivier Friard
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "toc.integrate", "toc.follow", "navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>

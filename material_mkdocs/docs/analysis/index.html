@@ -1,0 +1,1078 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Olivier Friard">
+      
+      
+      
+        <link rel="prev" href="../coding_map/">
+      
+      
+        <link rel="next" href="../plot/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>Analysis - BORIS documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analysis-and-plot" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BORIS documentation" class="md-header__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BORIS documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Analysis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  User guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BORIS documentation" class="md-nav__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    BORIS documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    User guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create_project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create an observation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observations list
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export_events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Export events
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../playback_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playback menu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#time-budget-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time budget analysis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-budget-by-behavioral-category" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time budget by behavioral category
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synthetic-time-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synthetic time budget
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synthetic-time-budget-with-time-bin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synthetic time budget with time bin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inter-rater-reliability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inter-rater reliability
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inter-rater reliability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implementation-of-irr-cohens-kappa-in-boris" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation of IRR Cohen's Kappa in BORIS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#similarities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Similarities
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#co-occurence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Co-occurence
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-event-filtering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced event filtering
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#latency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Latency
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preferences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../various/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Various
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="analysis-and-plot">Analysis and plot<a class="headerlink" href="#analysis-and-plot" title="Permanent link">#</a></h1>
+<h2 id="time-budget-analysis">Time budget analysis<a class="headerlink" href="#time-budget-analysis" title="Permanent link">#</a></h2>
+<p>The <strong>Time budget analysis</strong> can be done by behavior (including or not
+the modifiers) or by category of behaviors. Choose the option from the
+<strong>Analysis</strong> menu.</p>
+<p>The <strong>Time budget analysis</strong> can be done on one or more observations. If
+you select more than one observation you must then choose for a global
+time budget analysis that will contain all selected observations or a
+time budget analysis for every single observation.</p>
+<p><img alt="Group observations" src="../images/time_budget_group_observations.png" /></p>
+<p>Choose <strong>Yes</strong> to group all observations in one time budget analysis</p>
+<p>The <strong>Analysis</strong> &gt; <strong>Time budget</strong> menu option shows the time budget
+for the events of the selected observations. Select the subjects and
+behaviors you want to include in the time budget analysis:</p>
+<p><img alt="Select subject and behaviors for time budget analysis" src="../images/time_budget_parameters2.png" /></p>
+<p>All behaviors can be selected or unselected by clicking on the Category (bold).</p>
+<p>You can choose to include or not the behavior modifiers in the Time
+budget analysis and to exclude behaviors without coded events.</p>
+<p>The Time budget analysis can be restricted to a part of the observation:</p>
+<ul>
+<li>Full observation(s): the analysis will be made on the full
+    observation length.</li>
+<li>Limit to time interval: use the <strong>Start time</strong> and <strong>End time</strong>
+    boxes to select starting time and ending time.</li>
+<li>Limit to observed events: the analysis will be made from the first
+    observed event to the last observed event.</li>
+</ul>
+<p>The last dialog window will allow you to subtract the duration of one or
+more behaviors from the total duration of the observation. This can help
+you if you have defined a "out-of-sight" code in your ethogram for example:</p>
+<p><img alt="subtract behavior from the total duration" src="../images/subtract_behavior.png" /></p>
+<p>The results contain for each subject and behavior the <strong>total nuber of
+occurrences</strong>, the <strong>total duration</strong> (for the behaviors defined as
+state events), The <strong>duration mean</strong> (for the behaviors defined as state
+events), the <strong>standard deviation of duration</strong>, the <strong>inter-events
+intervals duration mean</strong>, th <strong>standard deviation of the inter-events
+intervals duration</strong> and the <strong>percent of total duration of
+observation(s)</strong>. All duration times are expressed in seconds (s).</p>
+<figure>
+<p><img alt="Results of the time budget analysis" src="../images/time_budget.png" />
+  </p>
+<figcaption>Results of the time budget analysis</figcaption>
+</figure>
+<p>The time budget results can be saved in various formats for further
+analysis:</p>
+<ul>
+<li>
+<p>Plain text in tabular format</p>
+<ul>
+<li><strong>Tab Separated Values</strong> (TSV)</li>
+<li><strong>Comma Separated Values</strong> (CSV)</li>
+<li><strong>Hyper Text Markup language</strong> (HTML)</li>
+</ul>
+</li>
+<li>
+<p>Spreadsheet files</p>
+<ul>
+<li><strong>OpenDocument</strong> (ODS)</li>
+<li><strong>Microsoft Excel</strong> (XLSX, XLS)</li>
+</ul>
+</li>
+<li>
+<p><strong>Pandas dataframe</strong> (to be loaded in Python with the <a href="https://docs.python.org/3/library/pickle.html">pickle
+    module</a>)</p>
+</li>
+<li>
+<p><strong>R dataframe</strong> (to be loaded in R with <a href="https://rdrr.io/r/base/readRDS.html">readRDS
+    function</a>)</p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>If a STATE behavior has an odd number of coded events, BORIS will report <strong>UNPAIRED</strong> instead of results.</p>
+</div>
+<h2 id="time-budget-by-behavioral-category">Time budget by behavioral category<a class="headerlink" href="#time-budget-by-behavioral-category" title="Permanent link">#</a></h2>
+<p>The <strong>Time budget by behavioral category</strong> is similar to the <a href="./#time-budget-analysis"><strong>Time budget analysis</strong></a> 
+except that the behaviors are grouped into <strong>behavioral categories</strong>.</p>
+<figure>
+<p><img alt="time_budget_by_behavioral_category" src="../images/time_budget_by_behavioral_category.png" />
+  </p>
+<figcaption>Results of a time budget by behavioral category analysis</figcaption>
+</figure>
+<h2 id="synthetic-time-budget">Synthetic time budget<a class="headerlink" href="#synthetic-time-budget" title="Permanent link">#</a></h2>
+<p>The synthetic time budget is similar to time budget but with fewer
+parameters and a different organization of results. Results of all
+selected observations are organized in columns on a single page. Two
+parameters are provided for now: <strong>number of occurrences</strong> and <strong>total
+duration</strong> (for the behaviors defined as state events)</p>
+<p><img alt="Results of the time budget analysis" src="../images/synthetic_time_budget.png" /></p>
+<p>All duration times are expressed in seconds (s).</p>
+<p>The time budget results can be saved in various formats for further analysis:</p>
+<ul>
+<li>
+<p>Plain text in tabular format</p>
+<ul>
+<li><strong>Tab Separated Values</strong> (TSV)</li>
+<li><strong>Comma Separated Values</strong> (CSV)</li>
+<li><strong>Hyper Text Markup language</strong> (HTML)</li>
+</ul>
+</li>
+<li>
+<p>Spreadsheet files</p>
+<ul>
+<li><strong>OpenDocument</strong> (ODS)</li>
+<li><strong>Microsoft Excel</strong> (XLSX, XLS)</li>
+</ul>
+</li>
+</ul>
+<h2 id="synthetic-time-budget-with-time-bin">Synthetic time budget with time bin<a class="headerlink" href="#synthetic-time-budget-with-time-bin" title="Permanent link">#</a></h2>
+<p>The <strong>synthetic time budget with time bin</strong> is similar to the <strong>Synthetic time budget</strong> but the results are divised in time bin.</p>
+<p><strong>Analysis</strong> &gt; <strong>Synthetic time budget with time bin</strong> </p>
+<p>Choose a time bin size (in seconds)</p>
+<figure>
+<p><img alt="Choose the time bin size" src="../images/choose_time_bin_size.png" />
+  </p>
+<figcaption>Time bin size of 10 seconds</figcaption>
+</figure>
+<figure>
+<p><img alt="Synthetic time budget with time bin" src="../images/time_budget_with_time_bin.png" />
+  </p>
+<figcaption>Results of a Synthetic time budget with time bin of 10 seconds</figcaption>
+</figure>
+<p>The <strong>time budget with time bin</strong> results can be saved in various formats for further analysis:</p>
+<ul>
+<li>
+<p>Plain text in tabular format</p>
+<ul>
+<li><strong>Tab Separated Values</strong> (TSV)</li>
+<li><strong>Comma Separated Values</strong> (CSV)</li>
+<li><strong>Hyper Text Markup language</strong> (HTML)</li>
+</ul>
+</li>
+<li>
+<p>Spreadsheet files</p>
+<ul>
+<li><strong>OpenDocument</strong> (ODS)</li>
+<li><strong>Microsoft Excel</strong> (XLSX, XLS)</li>
+</ul>
+</li>
+</ul>
+<h2 id="inter-rater-reliability">Inter-rater reliability<a class="headerlink" href="#inter-rater-reliability" title="Permanent link">#</a></h2>
+<p>The Cohen's kappa coefficient can be calculated (<strong>Analysis</strong> &gt; <strong>Inter-rater reliability</strong> &gt; <strong>Cohen\'s kappa</strong>).</p>
+<p><a href="https://en.wikipedia.org/wiki/Cohen%27s_kappa">Cohen's kappa on Wikipedia</a></p>
+<p>After selecting 2 observations and a time window (in seconds) for the
+analysis (the default value is 10 seconds) the Cohen's kappa will be
+displayed in the results window.</p>
+<p><img alt="IRR" src="../images/irr1.png" /></p>
+<h3 id="implementation-of-irr-cohens-kappa-in-boris">Implementation of IRR Cohen's Kappa in BORIS<a class="headerlink" href="#implementation-of-irr-cohens-kappa-in-boris" title="Permanent link">#</a></h3>
+<p>If a time window of n seconds is set the 2 selected observations will be
+checked every n seconds for agreement/disagreement from the first event
+to the last event of the 2 observations . In case of a point event the
+presence of a corresponding event in the other observation will be
+verified using a time window of n seconds centered on the point event.</p>
+<p>A IRR Cohen's Kappa analysis is available in the GSEQ program
+(<a href="http://www2.gsu.edu/~psyrab/gseq">http://www2.gsu.edu/~psyrab/gseq</a>). For this the coded events can be
+exported as aggregated events in SDIS format.
+See <a href="../export_events/#export-aggregated-events">export aggregated events</a>.</p>
+<h2 id="similarities">Similarities<a class="headerlink" href="#similarities" title="Permanent link">#</a></h2>
+<p>Needleman-Wunsch similarity</p>
+<h2 id="co-occurence">Co-occurence<a class="headerlink" href="#co-occurence" title="Permanent link">#</a></h2>
+<p>This function allow to determine the co-occurence of 2 behaviors.</p>
+<h2 id="advanced-event-filtering">Advanced event filtering<a class="headerlink" href="#advanced-event-filtering" title="Permanent link">#</a></h2>
+<p>This function allows to filter events from one or more observations by
+selecting subjects, behaviors and logical operators.</p>
+<p>To use the filter, select a subject, select a behavior and click on the
+button with the green arrow on the side of the behaviors list. The tuple
+subject/behavior will be added in the <strong>filter text edit</strong>. A complex
+filter query can be constructed by adding parenthesis and logical
+operator <strong>&amp;</strong> (AND) or <strong>|</strong> (OR) for combining various subjects and behaviors.</p>
+<p>Example of a summarized output showing the occurences of Himal resting
+while Nautilus in alert:</p>
+<p><img alt="Advanced event filter summary" src="../images/advanced_filter_summary.png" /></p>
+<p>Example of a detailed output showing the overlaping intervals while
+Himal rests and Nautilus is in alert:</p>
+<p><img alt="Advanced event filter details" src="../images/advanced_filter_details.png" /></p>
+<p>The same subject can be used many times in the query with OR or AND (in case of non exclusive behaviors):</p>
+<p><img alt="Advanced event filter with 4 conditions" src="../images/advanced_filter_example0.png" /></p>
+<p>An unlimited number of conditions can be used:</p>
+<p><img alt="Advanced event filter with 4 conditions" src="../images/advanced_filter_example1.png" /></p>
+<p>Parenthesis can be used to group logical conditions into block(s):</p>
+<p><img alt="Advanced event filter with parenthesis" src="../images/advanced_filter_example2.png" /></p>
+<p>The results can be saved in a Tab Separted Values (TSV) file using the
+<strong>Save results</strong> button. Other formats will be added in future.</p>
+<h2 id="latency">Latency<a class="headerlink" href="#latency" title="Permanent link">#</a></h2>
+<p>The latency will analyze the time between one or more markers (arbitrary behaviors(s)) and other behaviors.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../coding_map/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Coding map">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Coding map
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../plot/" class="md-footer__link md-footer__link--next" aria-label="Next: Plot">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Plot
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2012 - 2024 Olivier Friard
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "toc.integrate", "toc.follow", "navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>

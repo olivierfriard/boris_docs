@@ -1,0 +1,1498 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Olivier Friard">
+      
+      
+      
+        <link rel="prev" href="../observations_list/">
+      
+      
+        <link rel="next" href="../export_events/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>Coding - BORIS documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#coding" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BORIS documentation" class="md-header__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BORIS documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Coding
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  User guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BORIS documentation" class="md-nav__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    BORIS documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    User guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create_project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create an observation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observations list
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Coding
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Coding
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#media-based-coding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Media based coding
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Media based coding">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-toolbar" class="md-nav__link">
+    <span class="md-ellipsis">
+      The toolbar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#live-observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Live observations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ethogram-table-in-the-main-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ethogram table in the main window
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subjects-table-in-the-main-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subjects table in the main window
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-media-player-widgets" class="md-nav__link">
+    <span class="md-ellipsis">
+      The media player widgets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-events-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      The events table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The events table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observation-from-media-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observation from media file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#live-observation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Live observation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#observation-from-pictures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observation from pictures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Events
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recording-an-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recording an event
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-events-table-context-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Events table context menu
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#undo-an-even-recording" class="md-nav__link">
+    <span class="md-ellipsis">
+      Undo an even recording
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add event
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-selected-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit selected event(s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-time-of-selected-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit time of selected event(s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copy events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paste-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paste events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-in-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find in events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#findreplace-in-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find/Replace in events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filter-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filter events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-all-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show all events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-state-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check state events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-selected-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Delete selected events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-all-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Delete all events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fix-unpaired-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fix unpaired state
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-frame-indexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add frame indexes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-external-program-with-selected-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run external program with selected events
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explore-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Explore project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frame-by-frame-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frame-by-frame mode
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export_events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Export events
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../playback_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playback menu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preferences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../various/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Various
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="coding">Coding<a class="headerlink" href="#coding" title="Permanent link">#</a></h1>
+<p>When looking at the BORIS main window, the window title bar shows the
+<strong>Observation id</strong> - <strong>Project name</strong> - <strong>BORIS</strong>. The media (the first
+in the queue) will be loaded in the media player and paused.</p>
+<h2 id="media-based-coding">Media based coding<a class="headerlink" href="#media-based-coding" title="Permanent link">#</a></h2>
+<h3 id="the-toolbar">The toolbar<a class="headerlink" href="#the-toolbar" title="Permanent link">#</a></h3>
+<figure>
+<p><img alt="The BORIS toolbar" src="../images/toolbar.png" />
+  </p>
+<figcaption>The BORIS toolbar</figcaption>
+</figure>
+<script src="https://kit.fontawesome.com/e1bb57bd57.js" crossorigin="anonymous"></script>
+
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M40 48c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zm152 16c-17.7 0-32 14.3-32 32s14.3 32 32 32h288c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32h288c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32h288c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24v-48c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zm24 136c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24v-48c0-13.3-10.7-24-24-24H40z"/></svg></span> <strong>List of observations</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80v352c0 17.4 9.4 33.4 24.5 41.9S58.2 482 73 473l288-176c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span>   <strong>Play</strong> (become <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48v288c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48h-32z"/></svg></span> <strong>Pause</strong> when media is played)</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M267.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4l-192 160L64 241V96c0-17.7-14.3-32-32-32S0 78.3 0 96v320c0 17.7 14.3 32 32 32s32-14.3 32-32V271l11.5 9.6 192 160z"/></svg></span>  <strong>Rewind</strong> reset your media at the beginning</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4L288 214.3v83.4l171.5 142.9zM256 352V96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4l-192 160C4.2 237.5 0 246.5 0 256s4.2 18.5 11.5 24.6l192 160c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29v-64z"/></svg></span>   <strong>Fast backward</strong> jumps for n seconds backward in your media (See <a href="../preferences/">preferences</a>) </p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4L224 214.3v83.4L52.5 440.6zM256 352V96c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4l192 160c7.3 6.1 11.5 15.1 11.5 24.6s-4.2 18.5-11.5 24.6l-192 160c-9.5 7.9-22.8 9.7-34.1 4.4S256 428.4 256 416v-64z"/></svg></span>   <strong>Fast forward</strong> jumps for n seconds forward in your media (See <a href="../preferences/">preferences</a>) </p>
+<p><i class="fa-solid fa-circle-pause fa-rotate-90"></i>   <strong>Set the playback speed to 1x</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-24-168v-64h-64c-13.3 0-24-10.7-24-24s10.7-24 24-24h64v-64c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24h-64v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg></span>   <strong>Increase the playback speed</strong> (See <a href="../preferences/">preferences</a>) </p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-72-280h144c13.3 0 24 10.7 24 24s-10.7 24-24 24H184c-13.3 0-24-10.7-24-24s10.7-24 24-24z"/></svg></span>    <strong>Decrease the playback speed</strong> (See <a href="../preferences/">preferences</a>) </p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M493.6 445c-11.2 5.3-24.5 3.6-34.1-4.4L288 297.7V416c0 12.4-7.2 23.7-18.4 29s-24.5 3.6-34.1-4.4L64 297.7V416c0 17.7-14.3 32-32 32S0 433.7 0 416V96c0-17.7 14.3-32 32-32s32 14.3 32 32v118.3L235.5 71.4c9.5-7.9 22.8-9.7 34.1-4.4S288 83.6 288 96v118.3L459.5 71.4c9.5-7.9 22.8-9.7 34.1-4.4S512 83.6 512 96v320c0 12.4-7.2 23.7-18.4 29z"/></svg></span>   <strong>Jump to the previous media file</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M18.4 445c11.2 5.3 24.5 3.6 34.1-4.4L224 297.7V416c0 12.4 7.2 23.7 18.4 29s24.5 3.6 34.1-4.4L448 297.7V416c0 17.7 14.3 32 32 32s32-14.3 32-32V96c0-17.7-14.3-32-32-32s-32 14.3-32 32v118.3L276.5 71.4c-9.5-7.9-22.8-9.7-34.1-4.4S224 83.6 224 96v118.3L52.5 71.4C43 63.5 29.7 61.7 18.4 67S0 83.6 0 96v320c0 12.4 7.2 23.7 18.4 29z"/></svg></span> <strong>Jump to the next media file</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M149.1 64.8 138.7 96H64c-35.3 0-64 28.7-64 64v256c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64h-74.7l-10.4-31.2C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"/></svg></span>   <strong>Take a snapshot</strong> of current video or frame</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H109.3l105.3-105.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>  <strong>Move on frame back</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h306.7L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></span>    <strong>Move one frame forward</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3l105.4 105.3c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256l105.3-105.4z"/></svg></span>   <strong>Close current observation</strong></p>
+<p><i class="fa-solid  fa-2x"></i>   <strong>Real time plot of events</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M0 96c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v320c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zm64 0v64h64V96H64zm384 0H192v64h256V96zM64 224v64h64v-64H64zm384 0H192v64h256v-64zM64 352v64h64v-64H64zm384 0H192v64h256v-64z"/></svg></span>   <strong>Time budget of the current observation</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M32 32c17.7 0 32 14.3 32 32v336c0 8.8 7.2 16 16 16h400c17.7 0 32 14.3 32 32s-14.3 32-32 32H80c-44.2 0-80-35.8-80-80V64c0-17.7 14.3-32 32-32zm96 96c0-17.7 14.3-32 32-32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32h-96c-17.7 0-32-14.3-32-32zm96 64h128c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32s14.3-32 32-32zm160 96h64c17.7 0 32 14.3 32 32s-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg></span>   <strong>Plot events of the current observation</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48h-32c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48v160c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48v288c0 26.5-21.5 48-48 48h-32c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z"/></svg></span>   <strong>Plot the time budget of the current observation</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M352 96c0 14.3-3.1 27.9-8.8 40.2l52.8 91.2c-23.7 25.3-54.2 44.1-88.5 53.6L256 192l-68 117.5c21.5 6.8 44.3 10.5 68.1 10.5 70.7 0 133.8-32.7 174.9-84 11.1-13.8 31.2-16 45-5s16 31.2 5 45c-52.9 65.8-134 108-225 108-35.4 0-69.4-6.4-100.7-18.1l-56.6 97.8c-4.7 8.1-11.7 14.7-20.1 18.9l-55.4 27.7c-5 2.5-10.9 2.2-15.6-.7S0 501.5 0 496v-55.4c0-8.4 2.2-16.7 6.5-24.1l60-103.7c-12.8-11.2-24.7-23.5-35.3-36.8-11.1-13.8-8.8-33.9 5-45s33.9-8.8 45 5c5.7 7.1 11.8 13.8 18.2 20.1l69.4-119.9C163.2 124 160 110.4 160 96c0-53 43-96 96-96s96 43 96 96zm21 297.9c32.6-12.8 62.5-30.8 88.9-52.9l43.7 75.5c4.2 7.3 6.5 15.6 6.5 24.1V496c0 5.5-2.9 10.7-7.6 13.6s-10.6 3.2-15.6.7l-55.4-27.7c-8.4-4.2-15.4-10.8-20.1-18.9L373 393.9zM256 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg></span>   <strong>Geometric measurements</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7l126.6 126.7c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0s208 93.1 208 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></span>    <strong>Find in events</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M128 32h32c17.7 0 32 14.3 32 32v32H96V64c0-17.7 14.3-32 32-32zm64 96v320c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32v-59.1c0-34.6 9.4-68.6 27.2-98.3C40.9 267.8 49.7 242.4 53 216l7.5-60c2-16 15.6-28 31.8-28H192zm227.8 0c16.1 0 29.8 12 31.8 28l7.4 60c3.3 26.4 12.1 51.8 25.8 74.6 17.8 29.7 27.2 63.7 27.2 98.3V448c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V128h99.8zM320 64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32v32h-96V64zm-32 64v160h-64V128h64z"/></svg></span>   <strong>Explore project</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M308.5 135.3c7.1-6.3 9.9-16.2 6.2-25-2.3-5.3-4.8-10.5-7.6-15.5l-3.1-5.4c-3-5-6.3-9.9-9.8-14.6-5.7-7.6-15.7-10.1-24.7-7.1L241.3 77c-10.7-8.8-23-16-36.2-20.9l-6.1-29c-1.9-9.3-9.1-16.7-18.5-17.8-6.6-.9-13.3-1.3-20.1-1.3h-.7c-6.8 0-13.5.4-20.1 1.2-9.4 1.1-16.6 8.6-18.5 17.8L115 56.1c-13.3 5-25.5 12.1-36.2 20.9l-28.3-9.2c-9-3-19-.5-24.7 7.1-3.5 4.7-6.8 9.6-9.9 14.6l-3 5.3c-2.8 5-5.3 10.2-7.6 15.6-3.7 8.7-.9 18.6 6.2 25l22.2 19.8c-1.1 6.7-1.7 13.7-1.7 20.8s.6 14.1 1.7 20.9l-22.2 19.8c-7.1 6.3-9.9 16.2-6.2 25 2.3 5.3 4.8 10.5 7.6 15.6l3 5.2c3 5.1 6.3 9.9 9.9 14.6 5.7 7.6 15.7 10.1 24.7 7.1l28.2-9.3c10.7 8.8 23 16 36.2 20.9l6.1 29.1c1.9 9.3 9.1 16.7 18.5 17.8 6.7.8 13.5 1.2 20.4 1.2s13.7-.4 20.4-1.2c9.4-1.1 16.6-8.6 18.5-17.8l6.1-29.1c13.3-5 25.5-12.1 36.2-20.9l28.2 9.3c9 3 19 .5 24.7-7.1 3.5-4.7 6.8-9.5 9.8-14.6l3.1-5.4c2.8-5 5.3-10.2 7.6-15.5 3.7-8.7.9-18.6-6.2-25l-22.2-19.8c1.1-6.8 1.7-13.8 1.7-20.9s-.6-14.1-1.7-20.9l22.2-19.8zM112 176a48 48 0 1 1 96 0 48 48 0 1 1-96 0zm392.7 324.5c6.3 7.1 16.2 9.9 25 6.2 5.3-2.3 10.5-4.8 15.5-7.6l5.4-3.1c5-3 9.9-6.3 14.6-9.8 7.6-5.7 10.1-15.7 7.1-24.7l-9.3-28.2c8.8-10.7 16-23 20.9-36.2L613 391c9.3-1.9 16.7-9.1 17.8-18.5.8-6.7 1.2-13.5 1.2-20.4s-.4-13.7-1.2-20.4c-1.1-9.4-8.6-16.6-17.8-18.5l-29.1-6.2c-5-13.3-12.1-25.5-20.9-36.2l9.3-28.2c3-9 .5-19-7.1-24.7-4.7-3.5-9.6-6.8-14.6-9.9l-5.3-3c-5-2.8-10.2-5.3-15.6-7.6-8.7-3.7-18.6-.9-25 6.2l-19.8 22.2c-6.8-1.1-13.8-1.7-20.9-1.7s-14.1.6-20.9 1.7l-19.8-22.2c-6.3-7.1-16.2-9.9-25-6.2-5.3 2.3-10.5 4.8-15.6 7.6l-5.2 3c-5.1 3-9.9 6.3-14.6 9.9-7.6 5.7-10.1 15.7-7.1 24.7l9.3 28.2c-8.8 10.7-16 23-20.9 36.2l-29.1 6c-9.3 1.9-16.7 9.1-17.8 18.5-.8 6.7-1.2 13.5-1.2 20.4s.4 13.7 1.2 20.4c1.1 9.4 8.6 16.6 17.8 18.5l29.1 6.1c5 13.3 12.1 25.5 20.9 36.2l-9.3 28.2c-3 9-.5 19 7.1 24.7 4.7 3.5 9.5 6.8 14.6 9.8l5.4 3.1c5 2.8 10.2 5.3 15.5 7.6 8.7 3.7 18.6.9 25-6.2l19.8-22.2c6.8 1.1 13.8 1.7 20.9 1.7s14.1-.6 20.9-1.7l19.8 22.2zM464 304a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></span>   <strong>Preferences</strong></p>
+<p>The media can also be controlled by special keyboard keys:</p>
+<p><span class="keys"><kbd class="key-page-up">Page Up</kbd></span>   Switch to the next media</p>
+<p><span class="keys"><kbd class="key-page-down">Page Down</kbd></span> switch to the previous media</p>
+<p><span class="keys"><kbd class="key-arrow-up">Up</kbd></span>  Jump forward in the current media</p>
+<p><span class="keys"><kbd class="key-arrow-down">Down</kbd></span> Jump backward in the current media</p>
+<p><span class="keys"><kbd class="key-home">Home</kbd></span> Increase the playback speed (See <a href="">general preferences</a> to set the step value)</p>
+<p><span class="keys"><kbd class="key-end">End</kbd></span> Decrease the playback speed (See <a href="">general preferences</a> to set the step value)</p>
+<p><span class="keys"><kbd class="key-backspace">Backspace</kbd></span>  Set the playback speed to 1x</p>
+<p><span class="keys"><kbd class="key-arrow-left">Left</kbd></span> Go to the previous frame</p>
+<p><span class="keys"><kbd class="key-arrow-right">Right</kbd></span> Go to the next frame</p>
+<h2 id="live-observations">Live observations<a class="headerlink" href="#live-observations" title="Permanent link">#</a></h2>
+<p>During a live observation the media control toolbar is disabled.</p>
+<p>Press the <strong>Start live observation</strong> button to start your observation.
+If some events are already coded BORIS will ask you for deleting them.</p>
+<p>A timer will be displayed. The events will be recorded in the events
+widget.</p>
+<figure>
+<p><img alt="Image title" src="../images/live_observation.png" />
+  </p>
+<figcaption>Live observation</figcaption>
+</figure>
+<h2 id="ethogram-table-in-the-main-window"><strong>Ethogram</strong> table in the main window<a class="headerlink" href="#ethogram-table-in-the-main-window" title="Permanent link">#</a></h2>
+<figure>
+<p><img alt="Image title" src="../images/main_window_ethogram.png" />
+  </p>
+<figcaption>Ethogram table in main window</figcaption>
+</figure>
+<p>The <strong>Ethogram</strong> widget provide the user with the list of behaviors
+defined in the <strong>Ethogram</strong>. It can be used to record an event by double
+clicking on the corresponding row. The <strong>Key</strong> column indicates the
+keyboard key assigned to each behavior (if any). Pressing a key will
+record the corresponding behavior (that will appear in the <em>Events</em>
+widget).</p>
+<p>The behaviors shown in the ethogram widget can be filtered:</p>
+<p><strong>Right-click</strong> on ethogram widget &gt; <strong>Filter behaviors</strong></p>
+<p>Check/Uncheck single behaviors or double-click on the behavioral
+category</p>
+<figure>
+<p><img alt="Image title" src="../images/filter_behaviors.png" />
+  </p>
+<figcaption>Filter behaviors in ethogram table</figcaption>
+</figure>
+<h2 id="subjects-table-in-the-main-window"><strong>Subjects</strong> table in the main window<a class="headerlink" href="#subjects-table-in-the-main-window" title="Permanent link">#</a></h2>
+<figure>
+<p><img alt="Image title" src="../images/main_window_subjects.png" />
+  </p>
+<figcaption>The subjects table in main window</figcaption>
+</figure>
+<p>The <strong>Subjects</strong> widget provide the user with the list of subjects
+defined in the <strong>Subject</strong> tab in the <strong>Project</strong> window. It can be used
+to add information about the focal subject on the recorded behaviors by
+double clicking on the corresponding row. When a subject is selected
+his/her name appears above the media player. The <strong>Key</strong> column
+indicates the keyboard key assigned to each subject (if any).</p>
+<p>The subjects shown in the subjects widget can be filtered:</p>
+<p><strong>Right-click</strong> on subjects widget &gt; <strong>Filter subjects</strong></p>
+<p>Check/Uncheck the subjects to show/hide them on the subjects' table.</p>
+<figure>
+<p><img alt="Image title" src="../images/filter_subjects.png" width="80.0%" />
+  </p>
+<figcaption>Filter subjects in subjects table</figcaption>
+</figure>
+<h2 id="the-media-player-widgets">The <strong>media player</strong> widgets<a class="headerlink" href="#the-media-player-widgets" title="Permanent link">#</a></h2>
+<figure>
+<p><img alt="3 media players" src="../images/observation_3video_2.png" width="100.0%" />
+  </p>
+<figcaption>3 media players</figcaption>
+</figure>
+<p>The media position can be set using the horizontal slide bar. Each media
+player has its own audio volume control (the vertical slide bar on the
+right side of the player).</p>
+<p>The organization of the various widget can be customized:</p>
+<figure>
+<p><img alt="The widgets are undocked from the main window" src="../images/undocked_widgets.png" />
+  </p>
+<figcaption>The widgets are undocked from the main window</figcaption>
+</figure>
+<h2 id="the-events-table">The events table<a class="headerlink" href="#the-events-table" title="Permanent link">#</a></h2>
+<p>The <strong>events table</strong> shows all the recorded behaviors (events).</p>
+<p>The displayed parameters (organized in columns) depend of the type of the observation:</p>
+<h3 id="observation-from-media-file">Observation from media file<a class="headerlink" href="#observation-from-media-file" title="Permanent link">#</a></h3>
+<p><img alt="Events table for a media observation" src="../images/events_table_media.png" /></p>
+<p>The following paramters are displayed:</p>
+<ul>
+<li>
+<p><strong>Time</strong>, the time at which the event occurred;</p>
+</li>
+<li>
+<p><strong>Frame index</strong> the frame index corresponding to the event;</p>
+</li>
+<li>
+<p><strong>Subject</strong>, the focal subject (if any);</p>
+</li>
+<li>
+<p><strong>Code</strong>, the behavior code;</p>
+</li>
+<li>
+<p><strong>Type</strong>, in case of a <strong>state event</strong> indicates whether the time  corresponds to the start or to the stop. Empty for a <strong>point event</strong>;</p>
+</li>
+<li>
+<p><strong>Modifier</strong>, indicates the modifier(s) that was(ere) selected (if any);</p>
+</li>
+<li>
+<p><strong>Comment</strong>, is an open field where the user can add notes.</p>
+</li>
+</ul>
+<p>A tracking cursor (red triangle) will visualize the current event. This cursor can be positioned above the current event, see <a href="../preferences/#tracking-cursor-above-current-event">tracking cursor position</a> option in <strong>Preferences</strong> window.</p>
+<p>A double-click on a row will reposition the media player to the moment
+of the corresponding event. See <a href="../preferences/#time-offset-for-media-reposition-seconds">Time offset for media reposition</a> in <strong>Preferences</strong> window to customize the time offset for media repositioning.</p>
+<h3 id="live-observation">Live observation<a class="headerlink" href="#live-observation" title="Permanent link">#</a></h3>
+<p><img alt="Events table for a live observation" src="../images/events_table_live.png" /></p>
+<p>The following paramters are displayed:</p>
+<ul>
+<li>
+<p><strong>Time</strong>, the time at which the event occurred;</p>
+</li>
+<li>
+<p><strong>Subject</strong>, the focal subject (if any);</p>
+</li>
+<li>
+<p><strong>Code</strong>, the behavior code;</p>
+</li>
+<li>
+<p><strong>Type</strong>, in case of a <strong>state event</strong> indicates whether the time  corresponds to the start or to the stop. Empty for a <strong>point event</strong>;</p>
+</li>
+<li>
+<p><strong>Modifier</strong>, indicates the modifier(s) that was(ere) selected (if any);</p>
+</li>
+<li>
+<p><strong>Comment</strong>, is an open field where the user can add notes.</p>
+</li>
+</ul>
+<h3 id="observation-from-pictures">Observation from pictures<a class="headerlink" href="#observation-from-pictures" title="Permanent link">#</a></h3>
+<p><img alt="Events table for a live observation" src="../images/events_table_pictures.png" /></p>
+<p>The following paramters are displayed:</p>
+<ul>
+<li>
+<p><strong>Time</strong>, the time at which the event occurred;</p>
+</li>
+<li>
+<p><strong>Subject</strong>, the focal subject (if any);</p>
+</li>
+<li>
+<p><strong>Code</strong>, the behavior code;</p>
+</li>
+<li>
+<p><strong>Type</strong>, in case of a <strong>state event</strong> indicates whether the time  corresponds to the start or to the stop. Empty for a <strong>point event</strong>;</p>
+</li>
+<li>
+<p><strong>Modifier</strong>, indicates the modifier(s) that was(ere) selected (if any);</p>
+</li>
+<li>
+<p><strong>Comment</strong>, is an open field where the user can add notes;</p>
+</li>
+<li>
+<p><strong>Image index</strong>, the image index (in the directory) corresponding to the event,</p>
+</li>
+<li>
+<p><strong>Image path</strong>, the path of the image corresponding to the event (can be relative or absolute).</p>
+</li>
+</ul>
+<p>To simplify the <strong>events table</strong> the relevant behaviors and subjects can be filtered see <a href="./#filter-events">Filter events</a></p>
+<h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">#</a></h2>
+<h3 id="recording-an-event">Recording an event<a class="headerlink" href="#recording-an-event" title="Permanent link">#</a></h3>
+<p>An event is a unique combination of a <strong>time</strong>, a <strong>subject</strong> and a <strong>behavior</strong>.
+If the subject is not set it will be <strong>No focal subject</strong>.</p>
+<p>Once ready to begin your coding, you can start the media player using
+the <strong>Play</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80v352c0 17.4 9.4 33.4 24.5 41.9S58.2 482 73 473l288-176c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span> button or the <strong>Space bar</strong>.</p>
+<p>An <strong>event</strong> can be recorded by:</p>
+<ul>
+<li>
+<p>pressing the predefined <strong>key</strong> of the keyboard corresponding to the behavior to record.</p>
+</li>
+<li>
+<p>double-clicking to the corresponding row in the <strong>Ethogram</strong> table.</p>
+</li>
+<li>
+<p>using the <strong>Coding pad</strong> (See <a href="../tools/#coding-pad">coding pad</a>).</p>
+</li>
+</ul>
+<p>The <strong>focal subject</strong> can be selected by:</p>
+<ul>
+<li>
+<p>pressing the predefined <strong>key</strong> of the keyboard corresponding to the subject to select.</p>
+</li>
+<li>
+<p>double-clicking to the corresponding row in the <strong>Subects</strong> table.</p>
+</li>
+<li>
+<p>using the <strong>Subject pad</strong> (See <a href="../tools/#subject-pad">subject pad</a>).</p>
+</li>
+</ul>
+<figure>
+<p><img alt="Ethogram and subjects widgets" src="../images/ethogram_subjects_widgets.png" width="100.0%" />
+  </p>
+<figcaption>Ethogram and subjects widgets</figcaption>
+</figure>
+<p>If the pressed key defines a single event, the corresponding event will
+be recorded directly in the <strong>Events</strong> table. In the case you have specified the
+same key for two (or more) events (e.g. key <strong>d</strong> in the figure below),
+BORIS will prompt you for the desired behavior.</p>
+<figure>
+<p><img alt="Ask for a behavior" src="../images/ask_for_code.png" />
+  </p>
+<figcaption>Ask for a behavior</figcaption>
+</figure>
+<p>In the case you have specified modifiers (one or more sets), BORIS will
+prompt you for the desired modifier(s) if any (e.g. <strong>ball</strong> or
+<strong>opponent</strong> in the figure below). You can select the modifiers using
+the mouse or the keyboard (<span class="keys"><kbd class="key-1">1</kbd></span>, <span class="keys"><kbd class="key-2">2</kbd></span>, <span class="keys"><kbd class="key-3">3</kbd></span>, <span class="keys"><kbd class="key-4">4</kbd></span>, <span class="keys"><kbd class="key-5">5</kbd></span> or <span class="keys"><kbd class="key-6">6</kbd></span> key)</p>
+<figure>
+<p><img alt="Ask for modifiers" src="../images/ask_for_modifiers.png" />
+  </p>
+<figcaption>Ask for modifiers</figcaption>
+</figure>
+<p>If no keys are defined for the modifier selection, you can type the
+first character of the modifier and use the <strong>Up arrow</strong> and <strong>Down
+arrow</strong> keyboard keys to select the correct modifier.</p>
+<p>In the case your behavior type is a <strong>Point event with coding map</strong> or a
+<strong>State event with coding map</strong>, BORIS will show the <strong>Coding map</strong>
+window and will allow selecting the desired area(s). In case you click a
+part of the map in which two (or more) areas overlap, the corresponding
+codes will be recorded.</p>
+<p>A recorded event can be edited (once selected) using the
+<strong>Observations</strong> &gt; <strong>Edit event</strong> menu option. The resulting <em>Edit
+event parameters</em> allows modifying every parameter (e.g. time, subject,
+code, modifiers, and comment).</p>
+<p>The <strong>Observations</strong> &gt; <strong>Add event</strong> menu option allows adding a new
+event by specifying its time and the other parameters.</p>
+<h3 id="the-events-table-context-menu">The Events table context menu<a class="headerlink" href="#the-events-table-context-menu" title="Permanent link">#</a></h3>
+<p>Some functions are available in the Events table context menu.
+Righ-click on the Events table and the menu will pop-up.</p>
+<p><img alt="Events table menu" src="../images/events_table_menu.png" /></p>
+<p>The various functions available in the menu are described below.
+The same functions and others are available in the <strong>Observations</strong> menu.</p>
+<h3 id="undo-an-even-recording">Undo an even recording<a class="headerlink" href="#undo-an-even-recording" title="Permanent link">#</a></h3>
+<p>A wrong event can be removed from the events list using the <strong>Undo</strong> function (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-z">Z</kbd></span>). You can go back till 25 events recorded events. </p>
+<h3 id="add-event">Add event<a class="headerlink" href="#add-event" title="Permanent link">#</a></h3>
+<p>This option allows adding a new event by specifying its time and the other parameters.</p>
+<figure>
+<p><img alt="Add new event" src="../images/add_event.png" />
+  </p>
+<figcaption>Add a new event</figcaption>
+</figure>
+<p>Select a time format and imput the time value.</p>
+<p>Select the <strong>subject</strong> from the drop-down menu or leave empty for <strong>No focal subject</strong>.</p>
+<p>Select the <strong>behavior</strong> from the drop-down menu.</p>
+<h3 id="edit-selected-events">Edit selected event(s)<a class="headerlink" href="#edit-selected-events" title="Permanent link">#</a></h3>
+<p>This option allows to edit the selected event(s). When many events are
+selected you have to choose the field to edit between <strong>Subject</strong>,
+<strong>Behavior</strong> and <strong>Comment</strong>. In this case the new value will apply to
+all selected events.</p>
+<p><img alt="Edit many events" src="../images/edit_many_events.png" /></p>
+<h3 id="edit-time-of-selected-events">Edit time of selected event(s)<a class="headerlink" href="#edit-time-of-selected-events" title="Permanent link">#</a></h3>
+<p>This option allows to add or subtract a time value (in seconds) to all
+selected events. For subtracting a value use a negative value.</p>
+<p><img alt="Edit time of selected events" src="../images/edit_time_events.png" /></p>
+<h3 id="copy-events">Copy events<a class="headerlink" href="#copy-events" title="Permanent link">#</a></h3>
+<p>This option allows to copy the selected events in the clipboard. The
+clipboard will contain the values of the selected events (except the
+<strong>type</strong> field) separated by a <strong>&lt;TAB&gt;</strong> character.
+The copied values are: <strong>Time</strong>, <strong>Subject</strong>, <strong>Behavior</strong>, <strong>Modifier(s)</strong>, <strong>Frame index</strong></p>
+<p>Example of clipboard content:</p>
+<pre><code>8.253   Himal   Locomotion  Run     207
+8.329   Nautilus    Locomotion  Run     209
+10.400  Sharky  Swim            260
+11.778  Himal   Locomotion  Run     295
+12.778  Nina    Alert           320
+13.788  Nautilus    Locomotion  Run     345
+13.789  Nautilus    Locomotion  Walk        345
+14.348  Himal   Locomotion  Jump        359
+14.660  Nina    Alert           367
+14.865  Nautilus    Locomotion  Walk        372
+14.865  Nautilus    Locomotion  Jump        372
+15.000  Nina    Rest            375
+16.466  Himal   Locomotion  Jump        412
+16.467  Himal   Alert           412
+23.600  Nautilus    Locomotion  Jump        590
+23.600  Nautilus    Rest            590
+24.228  Nautilus    Rest            606
+24.407  Himal   Alert           611
+24.917  Himal   Locomotion  Walk        623
+39.682  Nautilus    Locomotion  Run     992
+40.549  Nina    Rest            1014
+42.313  Nautilus    Locomotion  Run     1058
+42.314  Nautilus    Rest            1058
+44.759  Himal   Locomotion  Walk        1119
+44.761  Himal   Allogroom           1119
+48.219  Nautilus    Rest            1206
+48.363  Himal   Allogroom           1209
+48.365  Himal   Locomotion  Walk        1209
+49.274  Himal   Locomotion  Walk        1232
+49.274  Himal   Drink           1232
+50.408  Himal   Drink           1261
+50.408  Himal   Swim            1261
+58.851  Sharky  Swim            1472
+58.950  Himal   Swim            1474
+</code></pre>
+<h3 id="paste-events">Paste events<a class="headerlink" href="#paste-events" title="Permanent link">#</a></h3>
+<p>This option allows to paste the clipboard content into the events table. The clipboard must respect the format described in the previous section: 5 columns separated by a <strong>&lt;TAB&gt;</strong> character.</p>
+<h3 id="find-in-events">Find in events<a class="headerlink" href="#find-in-events" title="Permanent link">#</a></h3>
+<p>This option allows to search for a string in the various field of
+events. Select the fields to be searched. The find/replace operation can
+be restricted to the selected events.</p>
+<p><img alt="Find in events" src="../images/find_in_events.png" width="60.0%" /></p>
+<h3 id="findreplace-in-events">Find/Replace in events<a class="headerlink" href="#findreplace-in-events" title="Permanent link">#</a></h3>
+<p>This option allows to search for a string and replace it by a new value
+in the various field of events. Select the fields to be searched. The
+find operation can be restricted to the selected events.</p>
+<p><img alt="Find / replace in events" src="../images/find_replace_in_events.png" width="60.0%" /></p>
+<h3 id="filter-events">Filter events<a class="headerlink" href="#filter-events" title="Permanent link">#</a></h3>
+<p>This option allows to filter the events by field value (Subject and Behavior).</p>
+<p><img alt="Filter events" src="../images/filter_events.png" /></p>
+<h3 id="show-all-events">Show all events<a class="headerlink" href="#show-all-events" title="Permanent link">#</a></h3>
+<p>This option reverts the previous one and allows to visualize all coded events.</p>
+<h3 id="check-state-events">Check state events<a class="headerlink" href="#check-state-events" title="Permanent link">#</a></h3>
+<p>This option allows to check if the <strong>state events</strong> are <strong>PAIRED</strong>, if
+they have a <strong>START</strong> and a <strong>STOP</strong> occurences.</p>
+<h3 id="delete-selected-events">Delete selected events<a class="headerlink" href="#delete-selected-events" title="Permanent link">#</a></h3>
+<p>This option allows to delete the selected events. This operation is irreversible!</p>
+<h3 id="delete-all-events">Delete all events<a class="headerlink" href="#delete-all-events" title="Permanent link">#</a></h3>
+<p>This option is not present in the context menu but only in the main menu (<strong>Observations</strong> &gt; <strong>Delete all events</strong>).</p>
+<p>This option allows to delete all then events in the current observation.
+This operation is irreversible!</p>
+<h3 id="fix-unpaired-state">Fix unpaired state<a class="headerlink" href="#fix-unpaired-state" title="Permanent link">#</a></h3>
+<p>You can use the <strong>Fix unpaired events</strong> function to fix the <strong>state events</strong> without a STOP event.</p>
+<p><strong>Observations</strong> &gt; <strong>Fix unpaired events</strong> (keyboard shortcut: <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span>)</p>
+<p>The program will ask for a time at which insert the STOP events for all unpaired <strong>state events</strong></p>
+<p>This function can be run on a set of selected observations (when no
+observation is open). In this case the STOP events will be inserted at
+the end of observation.</p>
+<h3 id="add-frame-indexes">Add frame indexes<a class="headerlink" href="#add-frame-indexes" title="Permanent link">#</a></h3>
+<p>This function can be used for the observations from a video.
+The frame index corresponding to the coded events will be added in the events table.</p>
+<h3 id="run-external-program-with-selected-events">Run external program with selected events<a class="headerlink" href="#run-external-program-with-selected-events" title="Permanent link">#</a></h3>
+<p>This function is not yet implemented.</p>
+<h3 id="explore-project">Explore project<a class="headerlink" href="#explore-project" title="Permanent link">#</a></h3>
+<p>You can search information in various fields in all observations in the
+current project (Observations &gt; Explore project).</p>
+<p>The searchable fields are: <strong>subject</strong>, <strong>behavior</strong>, <strong>modifier</strong> and <strong>comment</strong>.</p>
+<p>If more than one field is searched a logic <strong>AND</strong> will apply.</p>
+<p><img alt="Explore project" src="../images/explore_project.png" /></p>
+<p>The events that were found are listed in a table. By double-clicking on
+the row the corresponding observation will be opened and the
+visualization will be scrolled to the row corresponding to the event.</p>
+<p><img alt="Explore project" src="../images/explore_project_results.png" /></p>
+<h3 id="frame-by-frame-mode">Frame-by-frame mode<a class="headerlink" href="#frame-by-frame-mode" title="Permanent link">#</a></h3>
+<p>You can switch between the media player and the frame-by-frame mode using the <strong>arrow buttons</strong> in the toolbar:</p>
+<p>In frame-by-frame mode the video will stop playing and the user will
+visualize the video frame by frame.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Some video files should be re-encoded to be used in frame-by-frame mode. Otherwise the extracted frames are not reliable or it will not be possible to move backward.</p>
+</div>
+<p>You can move between frames by using the arrow keys in the toolbar (on
+the right) or by using keyboard special keys:</p>
+<p><span class="keys"><kbd class="key-arrow-left">Left</kbd></span> Go to the <strong>previous frame</strong></p>
+<p><span class="keys"><kbd class="key-arrow-right">Right</kbd></span> Go to the <strong>next frame</strong></p>
+<p><span class="keys"><kbd class="key-page-up">Page Up</kbd></span>   Switch to the <strong>next media</strong></p>
+<p><span class="keys"><kbd class="key-page-up">Page Up</kbd></span>  Switch to the <strong>previous media</strong></p>
+<p><span class="keys"><kbd class="key-arrow-up">Up</kbd></span> <strong>Jump forward</strong> in the current media</p>
+<p><span class="keys"><kbd class="key-arrow-down">Down</kbd></span> <strong>Jump backward</strong> in the current media</p>
+<p>If you have a numeric keypad you can use the following keys in alternative:</p>
+<ul>
+<li>The key <strong>/</strong> will allow you to view the previous frame</li>
+<li>The key <em>*</em> will allow you to view the next frame</li>
+</ul>
+<p>To return in the media player mode press the <strong>Play</strong> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80v352c0 17.4 9.4 33.4 24.5 41.9S58.2 482 73 473l288-176c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span> button in the
+toolbar.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../observations_list/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Observations list">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Observations list
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../export_events/" class="md-footer__link md-footer__link--next" aria-label="Next: Export events">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Export events
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2012 - 2024 Olivier Friard
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "toc.integrate", "toc.follow", "navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>

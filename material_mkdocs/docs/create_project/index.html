@@ -1,0 +1,1515 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Olivier Friard">
+      
+      
+      
+        <link rel="prev" href="../start/">
+      
+      
+        <link rel="next" href="../observations/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.5">
+    
+    
+      
+        <title>Create a project - BORIS documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#create-a-project" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BORIS documentation" class="md-header__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BORIS documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Create a project
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../install/" class="md-tabs__link">
+          
+  
+  User guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../community/" class="md-tabs__link">
+        
+  
+    
+  
+  Community
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BORIS documentation" class="md-nav__button md-logo" aria-label="BORIS documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    BORIS documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    User guide
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Starting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Create a project
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Create a project
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-an-ethogram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set an ethogram
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set an ethogram">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#set-your-ethogram-from-scratch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set your ethogram from scratch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#behavior-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Behavior types
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-keys-and-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set keys and codes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set keys and codes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories-of-behaviors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categories of behaviors
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-the-modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set the modifiers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set the modifiers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#single-selection-and-multiple-selection-modifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single selection and Multiple selection modifiers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numeric-modifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Numeric modifier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#value-from-external-data-file-modifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Value from external data file modifier
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-the-exclusion-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set the exclusion matrix
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-the-modifiers-coding-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set the Modifiers coding map
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-an-ethogram-from-an-existing-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import an ethogram from an existing project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-an-ethogram-from-a-spreadsheet-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import an ethogram from a spreadsheet file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-an-ethogram-from-a-plain-text-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import an ethogram from a plain text file
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#import-an-ethogram-from-a-jwatcher-global-definition-file-gdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import an ethogram from a JWatcher global definition file (.gdf)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-to-the-boris-ethogram-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access to the BORIS ethogram repository
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#export-the-ethogram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export the ethogram
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-the-subjects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Define the subjects
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Define the subjects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#import-subject-from-a-spreadsheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Import subject from a spreadsheet
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-the-independent-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Define the Independent variables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#converters-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Converters' table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Converters' table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load-converters-from-boris-web-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      Load converters from BORIS web site
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#writing-a-converter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Writing a converter
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Create an observation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../observations_list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Observations list
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export_events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Export events
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../playback_menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playback menu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../coding_map/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preferences
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../various/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Various
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../community/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="create-a-project">Create a project<a class="headerlink" href="#create-a-project" title="Permanent link">#</a></h1>
+<p>The BORIS project file serves as a container for all project-related information, excluding media files.
+It encompasses the <strong>ethogram</strong>, <strong>independent variables</strong>, <strong>subjects' definition</strong>, <strong>behavioral coding maps</strong>, <strong>converters</strong>, and <strong>observation</strong> data.
+To save the project on your local file system, use the "<strong>File</strong>" &gt; <strong>Save Project</strong> or <strong>Save Project As ...</strong> options.</p>
+<p>Additionally, you can activate the automatic backup feature in the <a href="../preferences/">Preferences</a> section.</p>
+<div class="admonition warning">
+<p class="admonition-title">Very important</p>
+<p>It is <strong>EXTREMELY IMPORTANT</strong> to perform regular backups of your project files to prevent the loss of data. While software can be reinstalled, your data might be irretrievably lost.
+Consider using an external drive and/or a cloud service for secure backup.</p>
+</div>
+<p>BORIS allows the creation of an unlimited number of projects, but only one project can be opened at a time.</p>
+<p>A video tutorial about creating a project is available at <a href="https://www.youtube.com/watch?v=I97Dny5hFOE">this link</a>.</p>
+<p>To create a new project, under the menu <strong>File</strong> , select <strong>New project</strong>.</p>
+<p>You can determine your project name by writing in the <strong>Project name</strong>
+field in the <strong>Information</strong> tab. Once the project will be saved, the
+<strong>Project file path</strong> will show the full path to your project file.</p>
+<p><strong>Date</strong> will automatically set on the current date and time, but you
+can alternatively set this info on your media date and time, or whatever
+you prefer.</p>
+<p><strong>Description</strong> can host all the relevant information about your
+project, can be also left empty.</p>
+<p><strong>Time format</strong> can be alternatively set to <strong>seconds</strong> or to <strong>hh<img alt="🇲🇲" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f1f2-1f1f2.svg" title=":mm:" />ss.mss</strong>.
+This choice can be changed at anytime under <strong>File</strong> &gt; <strong>Preferences</strong>.</p>
+<figure>
+<p><img alt="BORIS main window" src="../images/new_project.png" />
+  </p>
+<figcaption>BORIS main window</figcaption>
+</figure>
+<h2 id="set-an-ethogram">Set an ethogram<a class="headerlink" href="#set-an-ethogram" title="Permanent link">#</a></h2>
+<p>See the <a href="https://en.wikipedia.org/wiki/Ethogram">Wikipedia ethogram definition</a>.</p>
+<p>Switching to the <strong>Ethogram tab</strong>, you can alternatively:</p>
+<ul>
+<li>
+<p>set your ethogram from scratch;</p>
+</li>
+<li>
+<p>import an existing ethogram from another BORIS project;</p>
+</li>
+<li>
+<p>import an ethogram from a JWatcher global definition file (.gdf).</p>
+</li>
+<li>
+<p>import an ethogram from a plain text file or a spreadsheet file (XLSX or ODS)</p>
+</li>
+</ul>
+<figure>
+<p><img alt="Image title" src="../images/ethogram1.png" /></p>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/ethogram2.png" /></p>
+</figure>
+<h3 id="set-your-ethogram-from-scratch">Set your ethogram from scratch<a class="headerlink" href="#set-your-ethogram-from-scratch" title="Permanent link">#</a></h3>
+<p>By clicking on the <strong>Behavior &gt; Add behavior</strong> button, you can add a new row in the <strong>Ethogram</strong> table,
+and the behavior type will be automatically set to <strong>Point event</strong>.</p>
+<p>The cells with gray background can not be directly edited.
+You must double-click on them and then select a value.</p>
+<h3 id="behavior-types">Behavior types<a class="headerlink" href="#behavior-types" title="Permanent link">#</a></h3>
+<p><strong>2 types</strong> of behaviors can be defined. Double-click on the cell and select the type of behavior:</p>
+<ul>
+<li>
+<dl>
+<dt><strong>Point event</strong> behavior when the behavior has <strong>no duration</strong>.</dt>
+<dd>
+<p>The behavior will be coded by pressing the defined keyboard key
+(see below) or by double-clicking to the corresponding row in
+the Ethogram table.</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><strong>State event</strong> behavior when the behavior has a <strong>duration</strong>.</dt>
+<dd>
+<p>The behavior start and stop will be coded by pressing the
+defined keyboard key (see below) or by double-clicking to the
+corresponding row in the Ethogram table. These behaviors
+<strong>must</strong> have a start event and a stop event otherwise an
+<strong>UNPAIRED events</strong> warning will be reported when you will close
+the observation or during an analysis.</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><strong>Point event with a coding map</strong></dt>
+<dd>
+<p>a <strong>Point event</strong> that can be coded uusing a <strong>coding map</strong>.</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt><strong>State event with a coding map</strong></dt>
+<dd>
+<p>a <strong>State event</strong> that can be coded using a <strong>coding map</strong>.</p>
+</dd>
+</dl>
+</li>
+</ul>
+<p>You can switch between the types of behavior at your convenience with a double-click on the <strong>Behavior type</strong> cell.
+You can also add a <strong>Coding map</strong> to either a <strong>State event</strong> (<strong>State event with coding map</strong>) or a <strong>Point event</strong> (<strong>Point event with coding map</strong>).
+See the <strong>Coding map</strong> section for details.</p>
+<p>An existing behavior can be duplicated using the <strong>Clone behavior</strong>
+button. Its code have then to be changed. On a selected behavior, click
+on the <strong>Remove behavior</strong> button to remove. The <strong>Remove all
+behaviors</strong> button will clear the <strong>Ethogram</strong> table. Both the
+above-mentioned operations must be confirmed when prompted.</p>
+<p>The behavior can be sorted by clicking on the Ethogram table header.
+They cannot be sorted manually.</p>
+<h3 id="set-keys-and-codes">Set keys and codes<a class="headerlink" href="#set-keys-and-codes" title="Permanent link">#</a></h3>
+<p>For each behavior you have to set a keyboard key (<strong>Key</strong> column) that
+will be then used to code the behavioral events. You can choose whether
+you want to set a unique key for each behavior or use the same key for
+more than one behavior. In the case you set the same key for more than a
+behavior, BORIS will pause your coding and ask which of the behavior you
+want to record. The keys are <strong>case-sensitive</strong>.</p>
+<p>If your project was created with an old version of BORIS (&lt; v.7)
+you can use the <strong>Convert keys to lower case</strong> to convert all keys to
+lower case otherwise you will have to code your observation using upper
+case key.</p>
+<blockquote>
+<p>If you open a project file created with a version older than v.7 BORIS will ask you to convert the upper case behavior and subject keys to lower case.</p>
+</blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p><strong>Do not use the / and * keys! They are reserved for the frame-by-frame mode.</strong></p>
+</div>
+<p>In the <strong>Code</strong> column, you have to add a unique code for each behavior.
+Duplicated codes are not accepted and BORIS will warn in red about
+duplicates on the bottom left of the <strong>Ethogram</strong> tab. The code can be an
+alphanumeric string (which must not include the pipe character <strong>|</strong> ).</p>
+<p>The <strong>Description</strong> of your behavior is optional. The <strong>Description</strong>
+column can be useful to add information about a specific behavior, its
+characteristics (e.g. to standardise observation between different
+users) or to refer to external information (e.g. reference to a previous
+ethogram).</p>
+<p>The columns with a grey background (<strong>Behavior type</strong>, <strong>Color</strong>, <strong>Category</strong>, <strong>Modifiers</strong>, <strong>Exclusion</strong>,
+<strong>Modifiers coding map</strong>) cannot be edited directly. </p>
+<p>The <strong>Color</strong> column allow to select a color for the behavior. This color will be used for plotting events.
+Double-click on the cell and select the color you want to associate to the behavior.</p>
+<figure>
+<p><img alt="Color selection" src="../images/select_color.png" />
+  </p>
+<figcaption>Select the color to associate to the behavior</figcaption>
+</figure>
+<h4 id="categories-of-behaviors">Categories of behaviors<a class="headerlink" href="#categories-of-behaviors" title="Permanent link">#</a></h4>
+<p>Defining categories of behaviors can be usefull for the analysis of
+coded events (for example the <a href="../analysis/#time-budget-by-behavioral-category">time budget analysis</a>).</p>
+<p>The <strong>Category</strong> column allow you to include the behavior to a predefined behavioral category.</p>
+<p>Double-click on the cell and select the behavioral category for the behavior.</p>
+<figure>
+<p><img alt="choose_behavioral_category" src="../images/choose_behavioral_category.png" />
+  </p>
+<figcaption>Choose a behavioral category for the behavior</figcaption>
+</figure>
+<p>To add, remove or rename a behavioral category, click the <strong>Behavioral categories</strong> button.
+A color can also be associated to a behavioral category.</p>
+<figure>
+<p><img alt="Behavioral categories" src="../images/behavioral_categories.png" />
+  </p>
+<figcaption>Behavioral categories manager</figcaption>
+</figure>
+<h3 id="set-the-modifiers">Set the modifiers<a class="headerlink" href="#set-the-modifiers" title="Permanent link">#</a></h3>
+<p>Modifiers can be used to add attributes to a behavior. A single behavior
+can have two or more modifiers attached (e.g. the behavior <strong>play</strong> may have
+<strong>solitary</strong> or <strong>social</strong> as modifiers). The use of modifiers can be
+convenient to significantly reduce the number of keys and simplify the
+behavioral coding.</p>
+<p><strong>4 types of modifiers</strong> are available: <strong>Single selection</strong>, <strong>Multiple
+selection</strong>, <strong>Numeric</strong> and <strong>Value from external data file</strong>:</p>
+<ul>
+<li>the <strong>Single selection</strong> type will allow the observer to select only
+    <strong>one</strong> modifier for the current behavior.</li>
+<li>the <strong>Multiple selection</strong> type will allow the observer to select
+    one or more modifiers for the current behavior.</li>
+<li>the <strong>Numeric</strong> type will allow the observer to input a number. For
+    example a distance of interaction.</li>
+<li>the <strong>Value from external data file</strong> type will save the value of a
+    variable from an external data file.</li>
+</ul>
+<p>In BORIS modifiers can also be added in different modifier sets (e.g.
+<strong>play</strong> <strong>social</strong> may have a modifier set (#1) for <strong>brothers</strong> and
+another (#2) for <strong>sisters</strong>). In the case of using sets of modifiers,
+you can select one/more modifier for each set.</p>
+<p>To add modifiers to a behavior, you need to double-click the
+<strong>Modifiers</strong> cell corresponding to the behavior you want to add the
+modifiers to. The following window will show up:</p>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_empty.png" width="80.0%" />
+  </p>
+<figcaption>Modifiers configuration</figcaption>
+</figure>
+<p>Click the <strong>Add a set of modifiers</strong> button:</p>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_1.png" width="80.0%" />
+  </p>
+<figcaption>Modifiers configuration</figcaption>
+</figure>
+<p>Select the modifier type using the <strong>Modifier type</strong> combo box. You have
+to choose between <strong>Single selection</strong>, <strong>Multiple selection</strong>
+<strong>Numeric</strong> and <strong>Value from external data file</strong>.</p>
+<h4 id="single-selection-and-multiple-selection-modifiers"><strong>Single selection</strong> and <strong>Multiple selection</strong> modifiers<a class="headerlink" href="#single-selection-and-multiple-selection-modifiers" title="Permanent link">#</a></h4>
+<p>Set a name for the new modifiers set by typing it in the <strong>Set name</strong>
+edit box. Setting a modifiers\' set name is not mandatory.</p>
+<p>Within a set of modifiers, you can add a modifier by writing the
+modifier in the <strong>Modifier</strong> edit box. You can choose a shortcut (one
+character - case sensitive) to this modifier (optional). Then press the
+<strong>right-arrow</strong> button to add the new modifiers to the set.</p>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_2.png" width="80.0%" />
+  </p>
+<figcaption>Modifiers configuration</figcaption>
+</figure>
+<p>To modify a modifier, select it and press the <strong>left-arrow</strong> button,
+edit the modifier and press the <strong>right-arrow</strong> button.</p>
+<p>A modifier can be removed by pressing the <strong>Remove modifier</strong> button.</p>
+<p>After adding all modifiers the window will appear like this:</p>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_single_selection.png" width="80.0%" />
+  </p>
+<figcaption>Modifiers configuration</figcaption>
+</figure>
+<p>All defined subjects can be added as modifiers using the <strong>Add subjects
+as modifiers</strong> button. This can help in case of coding the interactions
+between subjects for example.</p>
+<p>The modifiers can be loaded from a plain text file Use the <strong>Load
+modifiers from file</strong> button.</p>
+<p>The modifier position into the modifiers\' set can be manually set using
+the <strong>Move modifier up</strong> and <strong>Move modifier down</strong> buttons. The
+modifiers can be sorted alphabetically (use the <strong>Sort modifiers</strong>
+button).</p>
+<p>You can add and/or remove sets using the buttons <strong>Add set of
+modifiers</strong> and <strong>Remove set of modifiers</strong>.</p>
+<p>The position of a modifiers\' set can be customized (using the <strong>Move
+set left</strong> and <strong>Move set right</strong> buttons)</p>
+<p>Modifiers can not contain the following characters: <strong>(|),`\~!</strong></p>
+<p>Example of a <strong>multiple selection</strong> modifiers set:</p>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_multiple_selection.png" width="80.0%" />
+  </p>
+<figcaption>Modifiers configuration</figcaption>
+</figure>
+<p>Many values can be selected together.</p>
+<p>Example of 2 sets of modifiers:</p>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_2sets.png" width="80.0%" />
+  </p>
+<figcaption>Modifiers configuration</figcaption>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_2sets_2.png" width="80.0%" />
+  </p>
+<figcaption>Modifiers configuration</figcaption>
+</figure>
+<h4 id="numeric-modifier"><strong>Numeric</strong> modifier<a class="headerlink" href="#numeric-modifier" title="Permanent link">#</a></h4>
+<p>Set a name for the new set by typing it in the <strong>Set name</strong> edit box.
+Setting a modifiers' set name is not mandatory.</p>
+<p>When a <strong>Numeric</strong> modifier will trigger, BORIS will ask the observer
+for a numeric value.</p>
+<h4 id="value-from-external-data-file-modifier"><strong>Value from external data file</strong> modifier<a class="headerlink" href="#value-from-external-data-file-modifier" title="Permanent link">#</a></h4>
+<p>This modifier can be used to record the value of a variable coming from
+an external data file (defined during the creation of the observation).</p>
+<p>You have to define the variable name in the <strong>Variable name</strong> edit box.
+This is mandatory and the name of the variable <strong>must</strong> be the same than
+the variable defined in the observation.</p>
+<p>See <a href="">External data files</a></p>
+<figure>
+<p><img alt="Image title" src="../images/modifiers_value_from_external_data.png" width="80.0%" />
+  </p>
+<figcaption>modifier value from external data file</figcaption>
+</figure>
+<p>Click <strong>OK</strong> to save modifiers in the <strong>Ethogram</strong> table.</p>
+<h3 id="set-the-exclusion-matrix">Set the exclusion matrix<a class="headerlink" href="#set-the-exclusion-matrix" title="Permanent link">#</a></h3>
+<p>The occurrence of an event (State or Point) can exclude the occurrence
+of a state event. This can be set using the <strong>Exclusion matrix</strong> window, which can be opened clicking on the <strong>Exclusion
+matrix</strong> button. BORIS will ask for including <strong>Point events</strong> or not
+and a new <strong>Exclusion matrix</strong> window will open.</p>
+<p>Exclusive behavior may be selected by checking on the corresponding
+checkbox in the automatically-generated matrix. We suggest to work on
+the <strong>Exclusion matrix</strong> when all the behaviors have been added to your
+ethogram.</p>
+<p>All behaviors can be excluded by a particular behavior by selecting the
+corresponding entire row (click on the row header of the behavior) and
+by clicking on the <strong>Check selected</strong> button. You can also uncheck all
+behaviors by selecting the <strong>Uncheck selected</strong> button.</p>
+<figure>
+<p><img alt="Image title" src="../images/exclusion_matrix.png" width="100.0%" />
+  </p>
+<figcaption>Example of an exclusion matrix</figcaption>
+</figure>
+<p>For example in the previous figure, the <strong>Alert</strong> behavior will exclude
+the following behaviors: <strong>Allogroom</strong>, <strong>Breed</strong>, <strong>Carry objects</strong>,
+<strong>Chase</strong> ...</p>
+<p>During the observation, the excluding event will stop all the current
+excluded state events one millisecond before the occurence of the event.</p>
+<h3 id="set-the-modifiers-coding-map">Set the <strong>Modifiers coding map</strong><a class="headerlink" href="#set-the-modifiers-coding-map" title="Permanent link">#</a></h3>
+<p>If the behavior is defined as a <strong>Point event with coding map</strong> or a <strong>State event with codinf map</strong> you can associate a
+<strong>Modifiers coding map</strong> to select the modifiers from a map.</p>
+<h3 id="import-an-ethogram-from-an-existing-project">Import an ethogram from an existing project<a class="headerlink" href="#import-an-ethogram-from-an-existing-project" title="Permanent link">#</a></h3>
+<p>Behaviors within an ethogram can be imported from an existing BORIS
+project (.boris) using the <strong>Import ethogram &gt; from a BORIS project</strong>
+button. BORIS will ask to select a BORIS project file and whether
+imported behaviors should replace or be appended to the <strong>Ethogram</strong>
+table. Imported behaviors will retain all the previously defined
+behavior parameters (namely Behavior type, Key, Code, Description,
+Modifiers and Exclusion information).</p>
+<h3 id="import-an-ethogram-from-a-spreadsheet-file">Import an ethogram from a spreadsheet file<a class="headerlink" href="#import-an-ethogram-from-a-spreadsheet-file" title="Permanent link">#</a></h3>
+<p>Behaviors can be imported from a spreadsheet file using the <strong>Import
+ethogram &gt; from spreadsheet file (XLSX/ODS)</strong> button. </p>
+<p>The first row of your spreadsheet (header) must contain the following labels.
+The order is not mandatory:</p>
+<ul>
+<li>Behavior code</li>
+<li>Behavior type</li>
+<li>Description</li>
+<li>Key</li>
+<li>Behavioral category</li>
+<li>Excluded behaviors</li>
+</ul>
+<p><strong>Behavior code</strong> is mandatory, the others fields can be empty.</p>
+<p>Optional fields can be added:</p>
+<ul>
+<li>Color</li>
+<li>Modifiers (JSON)</li>
+</ul>
+<p>BORIS will ask to select a spreadsheet file (by default: <em>.xlsx or </em>.ods) and whether imported behaviors should replace or be appended to the <strong>Ethogram</strong> table. The missing information for the imported behaviours
+have to be redefined.</p>
+<h3 id="import-an-ethogram-from-a-plain-text-file">Import an ethogram from a plain text file<a class="headerlink" href="#import-an-ethogram-from-a-plain-text-file" title="Permanent link">#</a></h3>
+<p>Behaviors can be imported from a plain text file using the <strong>Import
+ethogram &gt; from text file</strong> button. The fields must be separated by
+TAB, comma (,) or semicolomn (;). All rows must contain the same number
+of fields.</p>
+<p>The first row of your plain text file must contain the following labels.
+The order is not mandatory but respect the case:</p>
+<ul>
+<li>Behavior code</li>
+<li>Behavior type</li>
+<li>Description</li>
+<li>Key</li>
+<li>Behavioral category</li>
+<li>Excluded behaviors</li>
+</ul>
+<p><strong>Behavior code</strong> is mandatory, the others fields can be empty.</p>
+<p>Example of a plain text ethogram definition:</p>
+<pre><code>Behavior type,Behavior code,Key,Behavioral category,Description,Excluded behaviors
+state event,Play,p,,Play on the garden,s
+point event,Sleep,s,,Subject is sleeping,p
+</code></pre>
+<p>BORIS will ask to select a plain text file (by default: *.txt *.csv
+*.tsv) and whether imported behaviors should replace or be appended to
+the <strong>Ethogram</strong> table. The missing information for the behaviours
+imported from text file have to be redefined.</p>
+<h3 id="import-an-ethogram-from-a-jwatcher-global-definition-file-gdf">Import an ethogram from a JWatcher global definition file (.gdf)<a class="headerlink" href="#import-an-ethogram-from-a-jwatcher-global-definition-file-gdf" title="Permanent link">#</a></h3>
+<p>Behaviors can be imported from a JWatcher global definition file (.gdf)
+using the <strong>Import ethogram &gt; from JWatcher</strong> button. BORIS will ask to
+select a JWatcher file (.gdf) and whether imported behaviors should
+replace or be appended to the <strong>Ethogram</strong> table. Behavior type and
+exclusion information for the behaviours imported from JWatcher have to
+be redefined.</p>
+<h3 id="access-to-the-boris-ethogram-repository">Access to the BORIS ethogram repository<a class="headerlink" href="#access-to-the-boris-ethogram-repository" title="Permanent link">#</a></h3>
+<p>This function can be activated by clicking the <strong>Import ethogram &gt; from
+the BORIS repository</strong> button.</p>
+<p>A list of available ethograms will open and an ethogram can be loaded in
+the current project.</p>
+<figure>
+<p><img alt="Image title" src="../images/BORIS_ethogram_repository.png" width="50%" />
+  </p>
+<figcaption>BORIS ethogram repository</figcaption>
+</figure>
+<h3 id="export-the-ethogram">Export the ethogram<a class="headerlink" href="#export-the-ethogram" title="Permanent link">#</a></h3>
+<p>The entire ethogram can be exported in various formats (TSV, CSV, XLSX,
+ODS, HTML). See <strong>File</strong> &gt; <strong>Edit project</strong> &gt; <strong>Ethogram tab</strong> &gt;
+<strong>Export ethogram</strong></p>
+<h2 id="define-the-subjects">Define the subjects<a class="headerlink" href="#define-the-subjects" title="Permanent link">#</a></h2>
+<figure>
+<p><img alt="Image title" src="../images/subjects_configuration.png" width="80%" />
+  </p>
+<figcaption>Subjects definition</figcaption>
+</figure>
+<p>BORIS allows coding behaviors for different subjects within a single observation.
+The <strong>Subject</strong> table allows the specification of subjects using a <strong>Key</strong> 
+(e.g., the <strong>k</strong> on your keyboard), <strong>Subject name</strong> (e.g., <strong>Kanzi</strong>), and
+ <strong>Description</strong> (e.g., male, born on October 28, 1980).</p>
+<p>With the subjects defined in the previous figure, pressing <strong>n</strong> will set <strong>Nina</strong> as the focal subject
+for behavioral coding. Pressing <strong>n</strong> again will deselect <strong>Nina</strong> and set the focal subject to <strong>No focal subject</strong>.</p>
+<p>The key definition is not mandatory. In this case, you will have to
+select the current subject from the subjects list with a double-click.</p>
+<p>The keys are <strong>case-sensitive</strong> and the same key can be used to select more than one subject.
+In this case a dialog will show up and will allow to select </p>
+<figure>
+<p><img alt="Choose a subject" src="../images/choose_subject.png" />
+  </p>
+<figcaption>Choose a subject</figcaption>
+</figure>
+<p>The definition of one or more subjects is not mandatory. Addition,
+removal and sorting of the subjects follows the same logic of the
+<strong>Ethogram</strong> table (see <a href="#set-your-ethogram-from-scratch">Set your ethogram from scratch</a> for info).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If your project was created with a previous version of BORIS (&lt; v.7)
+you can use the <strong>Convert keys to lower case</strong> to convert all keys to
+lower case otherwise you will have to code your observation using upper
+case key.</p>
+</div>
+<p>The subjects can also be imported from an existing BORIS project: use
+the <strong>Import Subjects from a BORIS project</strong> button.</p>
+<h3 id="import-subject-from-a-spreadsheet">Import subject from a spreadsheet<a class="headerlink" href="#import-subject-from-a-spreadsheet" title="Permanent link">#</a></h3>
+<p>The subjects can be imported from a spreadsheet (Google spreadsheet,
+Microsoft-Excel, LibreOffice Calc).</p>
+<p>The spreadsheet must contain one subject by row and have to be organized
+as above:</p>
+<ul>
+<li>1st column: Subject key (One character - Case sensitive - Optional)</li>
+<li>2nd column: Subject name (mandatory)</li>
+<li>3rd column: Description of subject (optional)</li>
+</ul>
+<p>Select all cells of your spreadsheet (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span>), copy to clipboard (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-c">C</kbd></span>).
+Click the <strong>Import from clipboard</strong> button.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you open a project file created with a version older than v.7 BORIS
+will ask you to convert the upper case behavior and subject keys to
+lower case.</p>
+</div>
+<h2 id="define-the-independent-variables">Define the Independent variables<a class="headerlink" href="#define-the-independent-variables" title="Permanent link">#</a></h2>
+<figure>
+<p><img alt="Image title" src="../images/independent_variables1.png" width="80%" />
+  </p>
+<figcaption>Independent variables</figcaption>
+</figure>
+<p>BORIS allows adding information about the observation using
+<strong>Independent variables</strong>. This can be used to specify factors that may
+influence the behaviors (e.g. group composition, temperature, weather
+conditions) but will not change during a single observation within a
+project. Each independent variable can be defined by a <strong>Label</strong> (e.g.
+weather), a <strong>Description</strong> (e.g. weather conditions), a <strong>Type</strong>
+(<em>text</em>, <em>numeric</em>, <em>value from set</em> or <em>timestamp</em>).</p>
+<p>The values of a set are defined in the <strong>Set of values</strong> column
+separating the available values with a comma (<strong>,</strong>). Please note that
+the first value of the set will be selected by default. It should be
+useful to define a NA value as first value of every set.</p>
+<p>The values for the independent variables will be asked when creating a
+new observation. Addition, removal and sorting of the independent
+variables follows the same logic of the <strong>Ethogram</strong> table (see <strong>Set
+your ethogram from scratch</strong> for info). The independent variables can
+also be imported from an existing BORIS project using the <strong>Import
+Variables from a BORIS project</strong>.</p>
+<figure>
+<p><img alt="Image title" src="../images/independent_variables2.png" width="80%" />
+  </p>
+<figcaption>Example of an independent variable (Weather) defined as "set of values"</figcaption>
+</figure>
+<p>The predefined value must be contained in the set of value.</p>
+<h2 id="converters-table">Converters' table<a class="headerlink" href="#converters-table" title="Permanent link">#</a></h2>
+<p>Converters are used for plotting external data when the timestamp values
+are not expressed in seconds. Converters can be written by the user,
+loaded from file or loaded from the repository of the BORIS web site
+(<a href="http://www.boris.unito.it/static/converters.json">http://www.boris.unito.it/static/converters.json</a>).</p>
+<figure>
+<p><img alt="Image title" src="../images/converter_tab_empty.png" width="80%" />
+  </p>
+<figcaption>Converters tab</figcaption>
+</figure>
+<h3 id="load-converters-from-boris-web-site">Load converters from BORIS web site<a class="headerlink" href="#load-converters-from-boris-web-site" title="Permanent link">#</a></h3>
+<p>Click <strong>Load converters from BORIS repository</strong> and select the
+converters to be added to your project.</p>
+<figure>
+<p><img alt="Image title" src="../images/converter_selection_from_repository.png" width="80%" />
+  </p>
+<figcaption>Converters selection from repository</figcaption>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/converter_tab.png" width="80%" />
+  </p>
+<figcaption>Converters tab with 2 converters defined</figcaption>
+</figure>
+<h3 id="writing-a-converter">Writing a converter<a class="headerlink" href="#writing-a-converter" title="Permanent link">#</a></h3>
+<p>See "<a href="">Converters for external data values</a>"</p>
+<p>The converters loaded in your project can be then selected for
+converting timestamp (or other values) in external data file</p>
+<p>See <a href="">Converters</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../start/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Starting">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Starting
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../observations/" class="md-footer__link md-footer__link--next" aria-label="Next: Create an observation">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Create an observation
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2012 - 2024 Olivier Friard
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "navigation.tabs", "navigation.instant", "navigation.tracking", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "toc.integrate", "toc.follow", "navigation.path", "navigation.top"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c18c5fb9.min.js"></script>
+      
+    
+  </body>
+</html>
