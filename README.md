@@ -1,4 +1,4 @@
 # BORIS user guide
 
 
-https://boris.readthedocs.io
+http://www.boris.unito.it/user_guide

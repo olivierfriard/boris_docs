@@ -235,7 +235,7 @@ This option is disabled for now.
 
 ### External data files
 
-!!! warning "Warning"
+!!! note
 
     **At this time only 2 external data can be plotted with your media file**
 
@@ -246,16 +246,15 @@ synchronously with your media. Click the **Data files** tab and use the
 
 
 <figure markdown>
-  ![Image title](images/external_data_file_1.png){width="80.0%"}
-  <figcaption>External data file tab</figcaption>
+  ![External data file table](images/external_data_file_1.png)
+  <figcaption>External data file table</figcaption>
 </figure>
 
 
 
 The data files must be plain text files with at least **2 columns**
-separated by comma or TAB. One column must contain a timestamp that will
-be used to synchronize the plot with the media. The sampling rate can be
-variable.
+separated by a comma or a TAB character. One column must contain a timestamp that will
+be used to synchronize the plot with the media. The sampling rate can be variable.
 
 Example of a plain text data file with 5 columns separated by comma
 (**,**):
@@ -279,7 +278,7 @@ separated by a comma (,). Click **OK** to close the window.
 
 
 <figure markdown>
-  ![Image title](images/external_data_file_columns_selection.png){width="80.0%"}
+  ![Selection of columns (time, value)](images/external_data_file_columns_selection.png){width="80.0%"}
   <figcaption>Selection of columns (time, value)</figcaption>
 </figure>
 
@@ -288,8 +287,8 @@ A new row will be added in the data files table.
 
 
 <figure markdown>
-  ![Image title](images/external_data_file_1.png){width="80.0%"}
-  <figcaption>Data file tab</figcaption>
+  ![Data file table](images/external_data_file_1.png){width="80.0%"}
+  <figcaption>Data file table</figcaption>
 </figure>
 
 
@@ -311,7 +310,7 @@ the table cells:
 -   Color: the color of the color
 
 **NOTE** : if you want to record the value of the plotted variable in a
-modifier of a behavior (see [Value from external data file modifier]())
+modifier of a behavior (see [Value from external data file modifier](create_project.md#value-from-external-data-file-modifier))
 the modifier must have the same **variable name**.
 
 You can check if the data from file can be correctly plotted by using
@@ -326,7 +325,7 @@ files will be plotted synchronously with your media file.
 
 
 <figure markdown>
-  ![Image title](images/observation_with_external_data.png){width="100.0%"}
+  ![Observation with 2 values plotted](images/observation_with_external_data.png){width="100.0%"}
   <figcaption>Observation with 2 values plotted from external data files: Temperature and salinity</figcaption>
 </figure>
 
@@ -338,7 +337,7 @@ If the values in the timestamp column are not expessed in seconds (like
 2018-01-18T12:31:40Z ...) you must use a converter that will convert
 the current format in seconds.
 
-See the Converters' tab in the project configuration: [converters tab]()
+See the [Converters' table](create_project.md#converters-table) in the project configuration.
 
 A **double-click** on the converters cell will allow you to select a
 converter for each column to be plotted
@@ -346,14 +345,14 @@ converter for each column to be plotted
 
 
 <figure markdown>
-  ![Image title](images/converter_selection.png){width="100.0%"}
+  ![Image title](images/converter_selection.png)
   <figcaption></figcaption>
 </figure>
 
 
 
 <figure markdown>
-  ![Image title](images/converter_selected.png){width="100.0%"}
+  ![Image title](images/converter_selected.png)
   <figcaption></figcaption>
 </figure>
 
@@ -363,7 +362,7 @@ Use the **Show plot** button to verify if your external data can be
 plotted without problem. The **Close plot** button will close the plot
 window.
 
-![image](images/external_data_show_plot.png){width="1800px"}
+![image](images/external_data_show_plot.png)
 
 Converters can also be used to convert values that are not time value.
 
@@ -378,17 +377,16 @@ Example of a converter for inverting value:
 ### Start the observation
 
 Click the **Start** button to start coding. The **Observation** window
-will be closed and you\'ll be transferred to the main **BORIS** window.
+will be closed and you'll be transferred to the main **BORIS** window.
 If you do not want to start the observation click the **Save** button.
-The observation will be saved in the [observations
-list](#observations-list).
+The observation will be saved in the [observations list](observations_list.md).
 
 The main window during the observation of a single media file will look
 like this:
 
 
 <figure markdown>
-  ![Image title](images/observation_1video.png){width="100.0%"}
+  ![The main window during the observation of one video](images/observation_1video.png)
   <figcaption>The main window during the observation of one video</figcaption>
 </figure>
 

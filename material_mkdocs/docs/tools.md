@@ -122,7 +122,7 @@ user to code using a touch-screen or by clicking on the buttons. When
 the **Coding pad** is displayed you can continue to code using the
 keyboard or the ethogram.
 
-![Coding pad](images/coding_pad.png){width="90.0%"}
+![Coding pad](images/coding_pad.png)
 
 
 The button size can be increased or decreased.
