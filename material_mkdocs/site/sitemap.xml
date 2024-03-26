@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://127.0.0.1:8000/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/about/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/analysis/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/coding/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/coding_map/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/community/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/create_project/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/export_events/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/install/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/legal/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/observations/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/observations_list/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/playback_menu/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/plot/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/preferences/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/start/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/tools/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1:8000/various/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-03-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
